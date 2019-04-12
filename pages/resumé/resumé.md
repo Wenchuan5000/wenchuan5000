@@ -4,7 +4,7 @@
 <br>
 
 
-<img src="https://i.pinimg.com/564x/b8/63/24/b863240dd022b76ac5bf200b06af4fef.jpg" width="200">
+<img width="300" src="./media/IssacNewton_big.jpg">
 
 
 # Resumé of a UI/UX Designer 📐
@@ -54,7 +54,7 @@
 
 <br>
 
-![](media/blockscapelist.jpg)
+![](media/blockscapelist.png)
 
 <p style = "max-width: 200px; font-size: 14px; color:grey">
 Although what I am looking for is position of UI/UX designer, but, still, I want to put a welcome banner that shows my personal interest. This is a detail of my mosaic made on Photoshop. It describes my full desk. The Penguin book is History by Herodotus, which is one of my favorite books. The statue is brought from a shop near the temple of Zeus, Athens. And the interface show on the iPhone X is the first markdown editor I ever used called Bear. I haven't use it to write anything for years, because it doesn't support LaTeX syntax, but still, I like the beautiful interface and the smooth UX design.
