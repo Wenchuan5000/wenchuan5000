@@ -8,7 +8,7 @@ Welcome to Wenchuan's Page
 
 [Resumé](pages/resumé/resumé.html)
 
-[Notes for Mathematical Analysis]()
+[Notes for Mathematical Analysis]
 
 [Resumé]: pages/resumé/resumé.html
 [Notes for Mathematical Analysis]: pages/MathematicalAnalysis/1-3.html
