@@ -1,912 +1,332 @@
-<!DOCTYPE html><html>
+<!DOCTYPE html>
+<html>
 
 <head>
-<meta name="viewport" content="width=device-width", initial scale=1.0>
-<title>1-3</title>
-<style>
-@font-face {
-  font-family: octicons-anchor;
-  src: url(data:font/woff;charset=utf-8;base64,d09GRgABAAAAAAYcAA0AAAAACjQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAABMAAAABwAAAAca8vGTk9TLzIAAAFMAAAARAAAAFZG1VHVY21hcAAAAZAAAAA+AAABQgAP9AdjdnQgAAAB0AAAAAQAAAAEACICiGdhc3AAAAHUAAAACAAAAAj//wADZ2x5ZgAAAdwAAADRAAABEKyikaNoZWFkAAACsAAAAC0AAAA2AtXoA2hoZWEAAALgAAAAHAAAACQHngNFaG10eAAAAvwAAAAQAAAAEAwAACJsb2NhAAADDAAAAAoAAAAKALIAVG1heHAAAAMYAAAAHwAAACABEAB2bmFtZQAAAzgAAALBAAAFu3I9x/Nwb3N0AAAF/AAAAB0AAAAvaoFvbwAAAAEAAAAAzBdyYwAAAADP2IQvAAAAAM/bz7t4nGNgZGFgnMDAysDB1Ml0hoGBoR9CM75mMGLkYGBgYmBlZsAKAtJcUxgcPsR8iGF2+O/AEMPsznAYKMwIkgMA5REMOXicY2BgYGaAYBkGRgYQsAHyGMF8FgYFIM0ChED+h5j//yEk/3KoSgZGNgYYk4GRCUgwMaACRoZhDwCs7QgGAAAAIgKIAAAAAf//AAJ4nHWMMQrCQBBF/0zWrCCIKUQsTDCL2EXMohYGSSmorScInsRGL2DOYJe0Ntp7BK+gJ1BxF1stZvjz/v8DRghQzEc4kIgKwiAppcA9LtzKLSkdNhKFY3HF4lK69ExKslx7Xa+vPRVS43G98vG1DnkDMIBUgFN0MDXflU8tbaZOUkXUH0+U27RoRpOIyCKjbMCVejwypzJJG4jIwb43rfl6wbwanocrJm9XFYfskuVC5K/TPyczNU7b84CXcbxks1Un6H6tLH9vf2LRnn8Ax7A5WQAAAHicY2BkYGAA4teL1+yI57f5ysDNwgAC529f0kOmWRiYVgEpDgYmEA8AUzEKsQAAAHicY2BkYGB2+O/AEMPCAAJAkpEBFbAAADgKAe0EAAAiAAAAAAQAAAAEAAAAAAAAKgAqACoAiAAAeJxjYGRgYGBhsGFgYgABEMkFhAwM/xn0QAIAD6YBhwB4nI1Ty07cMBS9QwKlQapQW3VXySvEqDCZGbGaHULiIQ1FKgjWMxknMfLEke2A+IJu+wntrt/QbVf9gG75jK577Lg8K1qQPCfnnnt8fX1NRC/pmjrk/zprC+8D7tBy9DHgBXoWfQ44Av8t4Bj4Z8CLtBL9CniJluPXASf0Lm4CXqFX8Q84dOLnMB17N4c7tBo1AS/Qi+hTwBH4rwHHwN8DXqQ30XXAS7QaLwSc0Gn8NuAVWou/gFmnjLrEaEh9GmDdDGgL3B4JsrRPDU2hTOiMSuJUIdKQQayiAth69r6akSSFqIJuA19TrzCIaY8sIoxyrNIrL//pw7A2iMygkX5vDj+G+kuoLdX4GlGK/8Lnlz6/h9MpmoO9rafrz7ILXEHHaAx95s9lsI7AHNMBWEZHULnfAXwG9/ZqdzLI08iuwRloXE8kfhXYAvE23+23DU3t626rbs8/8adv+9DWknsHp3E17oCf+Z48rvEQNZ78paYM38qfk3v/u3l3u3GXN2Dmvmvpf1Srwk3pB/VSsp512bA/GG5i2WJ7wu430yQ5K3nFGiOqgtmSB5pJVSizwaacmUZzZhXLlZTq8qGGFY2YcSkqbth6aW1tRmlaCFs2016m5qn36SbJrqosG4uMV4aP2PHBmB3tjtmgN2izkGQyLWprekbIntJFing32a5rKWCN/SdSoga45EJykyQ7asZvHQ8PTm6cslIpwyeyjbVltNikc2HTR7YKh9LBl9DADC0U/jLcBZDKrMhUBfQBvXRzLtFtjU9eNHKin0x5InTqb8lNpfKv1s1xHzTXRqgKzek/mb7nB8RZTCDhGEX3kK/8Q75AmUM/eLkfA+0Hi908Kx4eNsMgudg5GLdRD7a84npi+YxNr5i5KIbW5izXas7cHXIMAau1OueZhfj+cOcP3P8MNIWLyYOBuxL6DRylJ4cAAAB4nGNgYoAALjDJyIAOWMCiTIxMLDmZedkABtIBygAAAA==) format('woff');
-}
 
-body {
-  background-color: white;
-}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-.markdown-body {
-  min-width: 200px;
-  max-width: 880px;
-  /* GitHub default: 882px, MWeb GitHub default: 760px */
-  margin: 0 auto;
-  padding: 20px;
 
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  color: #333;
-  overflow: hidden;
 
-  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
-  /* Defult No Chater */
-
-  font-size: 16px;
-
-  line-height: 24px;
-  /* Default 1.6 */
-
-  word-wrap: break-word;
-}
-
-.markdown-body a {
-  background: transparent;;word-wrap: break-word; word-break: break-all;
-}
-
-.markdown-body a:active,
-.markdown-body a:hover {
-  outline: 0;
-}
-
-.markdown-body strong {
-  font-weight: bold;
-}
-
-.markdown-body h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
-.markdown-body img {
-  border: 0;
-}
-
-.markdown-body hr {
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  height: 0;
-}
-
-.markdown-body pre {
-  overflow: auto;
-}
-
-.markdown-body code,
-.markdown-body kbd,
-.markdown-body pre {
-  font-family: monospace, monospace;
-  font-size: 1em;
-}
-
-.markdown-body input {
-  color: inherit;
-  font: inherit;
-  margin: 0;
-}
-
-.markdown-body html input[disabled] {
-  cursor: default;
-}
-
-.markdown-body input {
-  line-height: normal;
-}
-
-.markdown-body input[type="checkbox"] {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 0;
-}
-
-.markdown-body table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-.markdown-body td,
-.markdown-body th {
-  padding: 0;
-}
-
-.markdown-body * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.markdown-body input {
-  font: 13px/1.4 Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-}
-
-.markdown-body a {
-  color: #4183c4;
-  text-decoration: none;
-}
-
-.markdown-body a:hover,
-.markdown-body a:focus,
-.markdown-body a:active {
-  text-decoration: underline;
-}
-
-.markdown-body hr {
-  height: 0;
-  margin: 15px 0;
-  overflow: hidden;
-  background: transparent;
-  border: 0;
-  border-bottom: 1px solid #ddd;
-}
-
-.markdown-body hr:before {
-  display: table;
-  content: "";
-}
-
-.markdown-body hr:after {
-  display: table;
-  clear: both;
-  content: "";
-}
-
-.markdown-body h1,
-.markdown-body h2,
-.markdown-body h3,
-.markdown-body h4,
-.markdown-body h5,
-.markdown-body h6 {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  line-height: 1.1;
-}
-
-.markdown-body h1 {
-  font-size: 30px;
-}
-
-.markdown-body h2 {
-  font-size: 21px;
-}
-
-.markdown-body h3 {
-  font-size: 16px;
-}
-
-.markdown-body h4 {
-  font-size: 14px;
-}
-
-.markdown-body h5 {
-  font-size: 12px;
-}
-
-.markdown-body h6 {
-  font-size: 11px;
-}
-
-.markdown-body blockquote {
-  margin: 0;
-}
-
-.markdown-body ul,
-.markdown-body ol {
-  padding: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.markdown-body ol ol,
-.markdown-body ul ol {
-  list-style-type: lower-roman;
-}
-
-.markdown-body ul ul ol,
-.markdown-body ul ol ol,
-.markdown-body ol ul ol,
-.markdown-body ol ol ol {
-  list-style-type: lower-alpha;
-}
-
-.markdown-body dd {
-  margin-left: 0;
-}
-
-.markdown-body code {
-  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
-}
-
-.markdown-body pre {
-  margin-top: 0;
-  margin-bottom: 0;
-  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
-}
-
-.markdown-body kbd {
-  background-color: #e7e7e7;
-  background-image: -webkit-linear-gradient(#fefefe, #e7e7e7);
-  background-image: linear-gradient(#fefefe, #e7e7e7);
-  background-repeat: repeat-x;
-  border-radius: 2px;
-  border: 1px solid #cfcfcf;
-  color: #000;
-  padding: 3px 5px;
-  line-height: 10px;
-  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  display: inline-block;
-}
-
-.markdown-body>*:first-child {
-  margin-top: 0 !important;
-}
-
-.markdown-body>*:last-child {
-  margin-bottom: 0 !important;
-}
-
-.markdown-body .anchor {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  display: block;
-  padding-right: 6px;
-  padding-left: 30px;
-  margin-left: -30px;
-}
-
-.markdown-body .anchor:focus {
-  outline: none;
-}
-
-.markdown-body h1,
-.markdown-body h2,
-.markdown-body h3,
-.markdown-body h4,
-.markdown-body h5,
-.markdown-body h6 {
-  position: relative;
-  margin-top: 1em;
-  margin-bottom: 16px;
-  font-weight: bold;
-  line-height: 1.4;
-}
-
-.markdown-body h1 .octicon-link,
-.markdown-body h2 .octicon-link,
-.markdown-body h3 .octicon-link,
-.markdown-body h4 .octicon-link,
-.markdown-body h5 .octicon-link,
-.markdown-body h6 .octicon-link {
-  display: none;
-  color: #000;
-  vertical-align: middle;
-}
-
-.markdown-body h1:hover .anchor,
-.markdown-body h2:hover .anchor,
-.markdown-body h3:hover .anchor,
-.markdown-body h4:hover .anchor,
-.markdown-body h5:hover .anchor,
-.markdown-body h6:hover .anchor {
-  height: 1em;
-  padding-left: 8px;
-  margin-left: -30px;
-  line-height: 1;
-  text-decoration: none;
-}
-
-.markdown-body h1:hover .anchor .octicon-link,
-.markdown-body h2:hover .anchor .octicon-link,
-.markdown-body h3:hover .anchor .octicon-link,
-.markdown-body h4:hover .anchor .octicon-link,
-.markdown-body h5:hover .anchor .octicon-link,
-.markdown-body h6:hover .anchor .octicon-link {
-  display: inline-block;
-}
-
-.markdown-body h1 {
-  padding-bottom: 0.3em;
-  font-size: 2.25em;
-  line-height: 1.2;
-  border-bottom: 1px solid #eee;
-}
-
-.markdown-body h2 {
-  padding-bottom: 0.3em;
-  font-size: 1.75em;
-  line-height: 1.225;
-  border-bottom: 1px solid #eee;
-}
-
-.markdown-body h3 {
-  font-size: 1.5em;
-  line-height: 1.43;
-}
-
-.markdown-body h4 {
-  font-size: 1.25em;
-}
-
-.markdown-body h5 {
-  font-size: 1em;
-}
-
-.markdown-body h6 {
-  font-size: 1em;
-  color: #777;
-}
-
-.markdown-body p,
-.markdown-body blockquote,
-.markdown-body ul,
-.markdown-body ol,
-.markdown-body dl,
-.markdown-body table,
-.markdown-body pre {
-  margin-top: 0;
-  margin-bottom: 16px;
-}
-
-.markdown-body hr {
-  height: 4px;
-  padding: 0;
-  margin: 16px 0;
-  background-color: #e7e7e7;
-  border: 0 none;
-}
-
-.markdown-body ul,
-.markdown-body ol {
-  padding-left: 2em;
-}
-
-.markdown-body ul ul,
-.markdown-body ul ol,
-.markdown-body ol ol,
-.markdown-body ol ul {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.markdown-body li>p {
-  margin-top: 16px;
-}
-
-.markdown-body dl {
-  padding: 0;
-}
-
-.markdown-body dl dt {
-  padding: 0;
-  margin-top: 16px;
-  font-size: 1em;
-  font-style: italic;
-  font-weight: bold;
-}
-
-.markdown-body dl dd {
-  padding: 0 16px;
-  margin-bottom: 16px;
-}
-
-.markdown-body blockquote {
-  padding: 0 15px;
-  color: #777;
-  border-left: 4px solid #ddd;
-}
-
-.markdown-body blockquote>:first-child {
-  margin-top: 0;
-}
-
-.markdown-body blockquote>:last-child {
-  margin-bottom: 0;
-}
-
-.markdown-body table {
-  display: block;
-  width: 100%;
-  overflow: auto;
-  word-break: normal;
-  word-break: keep-all;
-}
-
-.markdown-body table th {
-  font-weight: bold;
-}
-
-.markdown-body table th,
-.markdown-body table td {
-  padding: 6px 13px;
-  border: 1px solid #ddd;
-}
-
-.markdown-body table tr {
-  background-color: #fff;
-  border-top: 1px solid #ccc;
-}
-
-.markdown-body table tr:nth-child(2n) {
-  background-color: #f8f8f8;
-}
-
-.markdown-body img {
-  max-width: 100%;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.markdown-body code {
-  padding: 0;
-  padding-top: 0.2em;
-  padding-bottom: 0.2em;
-  margin: 0;
-  font-size: 85%;
-  background-color: rgba(0,0,0,0.04);
-  border-radius: 3px;
-}
-
-.markdown-body code:before,
-.markdown-body code:after {
-  letter-spacing: -0.2em;
-  content: "\00a0";
-}
-
-.markdown-body pre>code {
-  padding: 0;
-  margin: 0;
-  font-size: 100%;
-  word-break: normal;
-  white-space: pre;
-  background: transparent;
-  border: 0;
-}
-
-.markdown-body .highlight {
-  margin-bottom: 16px;
-}
-
-.markdown-body .highlight pre,
-.markdown-body pre {
-  padding: 16px;
-  overflow: auto;
-  font-size: 85%;
-  line-height: 1.45;
-  background-color: #f7f7f7;
-  border-radius: 3px;
-}
-
-.markdown-body .highlight pre {
-  margin-bottom: 0;
-  word-break: normal;
-}
-
-.markdown-body pre {
-  word-wrap: normal;
-}
-
-.markdown-body pre code {
-  display: inline;
-  max-width: initial;
-  padding: 0;
-  margin: 0;
-  overflow: initial;
-  line-height: inherit;
-  word-wrap: normal;
-  background-color: transparent;
-  border: 0;
-}
-
-.markdown-body pre code:before,
-.markdown-body pre code:after {
-  content: normal;
-}
-
-.markdown-body .highlight {
-  background: #fff;
-}
-
-.markdown-body .highlight .mf,
-.markdown-body .highlight .mh,
-.markdown-body .highlight .mi,
-.markdown-body .highlight .mo,
-.markdown-body .highlight .il,
-.markdown-body .highlight .m {
-  color: #945277;
-}
-
-.markdown-body .highlight .s,
-.markdown-body .highlight .sb,
-.markdown-body .highlight .sc,
-.markdown-body .highlight .sd,
-.markdown-body .highlight .s2,
-.markdown-body .highlight .se,
-.markdown-body .highlight .sh,
-.markdown-body .highlight .si,
-.markdown-body .highlight .sx,
-.markdown-body .highlight .s1 {
-  color: #df5000;
-}
-
-.markdown-body .highlight .kc,
-.markdown-body .highlight .kd,
-.markdown-body .highlight .kn,
-.markdown-body .highlight .kp,
-.markdown-body .highlight .kr,
-.markdown-body .highlight .kt,
-.markdown-body .highlight .k,
-.markdown-body .highlight .o {
-  font-weight: bold;
-}
-
-.markdown-body .highlight .kt {
-  color: #458;
-}
-
-.markdown-body .highlight .c,
-.markdown-body .highlight .cm,
-.markdown-body .highlight .c1 {
-  color: #998;
-  font-style: italic;
-}
-
-.markdown-body .highlight .cp,
-.markdown-body .highlight .cs {
-  color: #999;
-  font-weight: bold;
-}
-
-.markdown-body .highlight .cs {
-  font-style: italic;
-}
-
-.markdown-body .highlight .n {
-  color: #333;
-}
-
-.markdown-body .highlight .na,
-.markdown-body .highlight .nv,
-.markdown-body .highlight .vc,
-.markdown-body .highlight .vg,
-.markdown-body .highlight .vi {
-  color: #008080;
-}
-
-.markdown-body .highlight .nb {
-  color: #0086B3;
-}
-
-.markdown-body .highlight .nc {
-  color: #458;
-  font-weight: bold;
-}
-
-.markdown-body .highlight .no {
-  color: #094e99;
-}
-
-.markdown-body .highlight .ni {
-  color: #800080;
-}
-
-.markdown-body .highlight .ne {
-  color: #990000;
-  font-weight: bold;
-}
-
-.markdown-body .highlight .nf {
-  color: #945277;
-  font-weight: bold;
-}
-
-.markdown-body .highlight .nn {
-  color: #555;
-}
-
-.markdown-body .highlight .nt {
-  color: #000080;
-}
-
-.markdown-body .highlight .err {
-  color: #a61717;
-  background-color: #e3d2d2;
-}
-
-.markdown-body .highlight .gd {
-  color: #000;
-  background-color: #fdd;
-}
-
-.markdown-body .highlight .gd .x {
-  color: #000;
-  background-color: #faa;
-}
-
-.markdown-body .highlight .ge {
-  font-style: italic;
-}
-
-.markdown-body .highlight .gr {
-  color: #aa0000;
-}
-
-.markdown-body .highlight .gh {
-  color: #999;
-}
-
-.markdown-body .highlight .gi {
-  color: #000;
-  background-color: #dfd;
-}
-
-.markdown-body .highlight .gi .x {
-  color: #000;
-  background-color: #afa;
-}
-
-.markdown-body .highlight .go {
-  color: #888;
-}
-
-.markdown-body .highlight .gp {
-  color: #555;
-}
-
-.markdown-body .highlight .gs {
-  font-weight: bold;
-}
-
-.markdown-body .highlight .gu {
-  color: #800080;
-  font-weight: bold;
-}
-
-.markdown-body .highlight .gt {
-  color: #aa0000;
-}
-
-.markdown-body .highlight .ow {
-  font-weight: bold;
-}
-
-.markdown-body .highlight .w {
-  color: #bbb;
-}
-
-.markdown-body .highlight .sr {
-  color: #017936;
-}
-
-.markdown-body .highlight .ss {
-  color: #8b467f;
-}
-
-.markdown-body .highlight .bp {
-  color: #999;
-}
-
-.markdown-body .highlight .gc {
-  color: #999;
-  background-color: #EAF2F5;
-}
-
-.markdown-body .octicon {
-  font: normal normal 16px octicons-anchor;
-  line-height: 1;
-  display: inline-block;
-  text-decoration: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-.markdown-body .octicon-link:before {
-  content: '\f05c';
-}
-
-.markdown-body .task-list-item {
-  list-style-type: none;
-}
-
-.markdown-body .task-list-item+.task-list-item {
-  margin-top: 3px;
-}
-
-.markdown-body .task-list-item input {
-  float: left;
-  margin: 0.3em 0 0.25em -1.6em;
-  vertical-align: middle;
-}
-
-figcaption{text-align:center;}
-
-/* PrismJS 1.14.0
- http://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javascript */
+<style type="text/css">
 /**
- * prism.js default theme for JavaScript, CSS and HTML
- * Based on dabblet (http://dabblet.com)
- * @author Lea Verou
+ * prism.js Coy theme for JavaScript, CoffeeScript, CSS and HTML
+ * Based on https://github.com/tshedor/workshop-wp-theme (Example: http://workshop.kansan.com/category/sessions/basics or http://workshop.timshedor.com/category/sessions/basics);
+ * @author Tim  Shedor
  */
 
 code[class*="language-"],
 pre[class*="language-"] {
-    color: black;
-    background: none;
-    text-shadow: 0 1px white;
-    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-    text-align: left;
-    white-space: pre;
-    word-spacing: normal;
-    word-break: normal;
-    word-wrap: normal;
-    line-height: 1.5;
+	color: black;
+	background: none;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
 
-    -moz-tab-size: 4;
-    -o-tab-size: 4;
-    tab-size: 4;
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
 
-    -webkit-hyphens: none;
-    -moz-hyphens: none;
-    -ms-hyphens: none;
-    hyphens: none;
-}
-
-pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
-code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
-    text-shadow: none;
-    background:#b3d4fc;
-}
-
-pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
-code[class*="language-"]::selection, code[class*="language-"] ::selection {
-    text-shadow: none;
-    background: #b3d4fc;
-}
-
-@media print {
-    code[class*="language-"],
-    pre[class*="language-"] {
-        text-shadow: none;
-    }
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
 }
 
 /* Code blocks */
 pre[class*="language-"] {
-    padding: 1em;
-    margin: .5em 0;
-    overflow: auto;
+	position: relative;
+	margin: .5em 0;
+	-webkit-box-shadow: -1px 0px 0px 0px #358ccb, 0px 0px 0px 1px #dfdfdf;
+	-moz-box-shadow: -1px 0px 0px 0px #358ccb, 0px 0px 0px 1px #dfdfdf;
+	box-shadow: -1px 0px 0px 0px #358ccb, 0px 0px 0px 1px #dfdfdf;
+	border-left: 10px solid #358ccb;
+	background-color: #fdfdfd;
+	background-image: -webkit-linear-gradient(transparent 50%, rgba(69, 142, 209, 0.04) 50%);
+	background-image: -moz-linear-gradient(transparent 50%, rgba(69, 142, 209, 0.04) 50%);
+	background-image: -ms-linear-gradient(transparent 50%, rgba(69, 142, 209, 0.04) 50%);
+	background-image: -o-linear-gradient(transparent 50%, rgba(69, 142, 209, 0.04) 50%);
+	background-image: linear-gradient(transparent 50%, rgba(69, 142, 209, 0.04) 50%);
+	background-size: 3em 3em;
+	background-origin: content-box;
+	overflow: visible;
+	padding: 0;
 }
 
+code[class*="language"] {
+	max-height: inherit;
+	height: 100%;
+	padding: 0 1em;
+	display: block;
+	overflow: auto;
+}
+
+/* Margin bottom to accomodate shadow */
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-    background: #F7F7F7;
+	background-color: #fdfdfd;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-bottom: 1em;
 }
 
 /* Inline code */
 :not(pre) > code[class*="language-"] {
-    padding: .1em;
-    border-radius: .3em;
-    white-space: normal;
+	position: relative;
+	padding: .2em;
+	-webkit-border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+	-ms-border-radius: 0.3em;
+	-o-border-radius: 0.3em;
+	border-radius: 0.3em;
+	color: #c92c2c;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	display: inline;
+	white-space: normal;
+}
+
+pre[class*="language-"]:before,
+pre[class*="language-"]:after {
+	content: '';
+	z-index: -2;
+	display: block;
+	position: absolute;
+	bottom: 0.75em;
+	left: 0.18em;
+	width: 40%;
+	height: 20%;
+	max-height: 13em;
+	-webkit-box-shadow: 0px 13px 8px #979797;
+	-moz-box-shadow: 0px 13px 8px #979797;
+	box-shadow: 0px 13px 8px #979797;
+	-webkit-transform: rotate(-2deg);
+	-moz-transform: rotate(-2deg);
+	-ms-transform: rotate(-2deg);
+	-o-transform: rotate(-2deg);
+	transform: rotate(-2deg);
+}
+
+:not(pre) > code[class*="language-"]:after,
+pre[class*="language-"]:after {
+	right: 0.75em;
+	left: auto;
+	-webkit-transform: rotate(2deg);
+	-moz-transform: rotate(2deg);
+	-ms-transform: rotate(2deg);
+	-o-transform: rotate(2deg);
+	transform: rotate(2deg);
 }
 
 .token.comment,
+.token.block-comment,
 .token.prolog,
 .token.doctype,
 .token.cdata {
-    color: slategray;
+	color: #7D8B99;
 }
 
 .token.punctuation {
-    color: #999;
-}
-
-.namespace {
-    opacity: .7;
+	color: #5F6364;
 }
 
 .token.property,
 .token.tag,
 .token.boolean,
 .token.number,
+.token.function-name,
 .token.constant,
 .token.symbol,
 .token.deleted {
-    color: #905;
+	color: #c92c2c;
 }
 
 .token.selector,
 .token.attr-name,
 .token.string,
 .token.char,
+.token.function,
 .token.builtin,
 .token.inserted {
-    color: #690;
+	color: #2f9c0a;
 }
 
 .token.operator,
 .token.entity,
 .token.url,
-.language-css .token.string,
-.style .token.string {
-    color: #9a6e3a;
-    background: hsla(0, 0%, 100%, .5);
+.token.variable {
+	color: #a67f59;
+	background: rgba(255, 255, 255, 0.5);
 }
 
 .token.atrule,
 .token.attr-value,
-.token.keyword {
-    color: #07a;
-}
-
-.token.function,
+.token.keyword,
 .token.class-name {
-    color: #DD4A68;
+	color: #1990b8;
 }
 
 .token.regex,
-.token.important,
-.token.variable {
-    color: #e90;
+.token.important {
+	color: #e90;
 }
 
-.token.important,
+.language-css .token.string,
+.style .token.string {
+	color: #a67f59;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.token.important {
+	font-weight: normal;
+}
+
 .token.bold {
-    font-weight: bold;
+	font-weight: bold;
 }
 .token.italic {
-    font-style: italic;
+	font-style: italic;
 }
 
 .token.entity {
-    cursor: help;
+	cursor: help;
 }
 
+.namespace {
+	opacity: .7;
+}
 
+@media screen and (max-width: 767px) {
+	pre[class*="language-"]:before,
+	pre[class*="language-"]:after {
+		bottom: 14px;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+	}
+
+}
+
+/* Plugin styles */
+.token.tab:not(:empty):before,
+.token.cr:before,
+.token.lf:before {
+	color: #e0d7d1;
+}
+
+/* Plugin styles: Line Numbers */
 pre[class*="language-"].line-numbers {
-    position: relative;
-    padding-left: 3.8em;
-    counter-reset: linenumber;
+	padding-left: 0;
 }
 
-pre[class*="language-"].line-numbers > code {
-    position: relative;
-    white-space: inherit;
+pre[class*="language-"].line-numbers code {
+	padding-left: 3.8em;
+}
+
+pre[class*="language-"].line-numbers .line-numbers-rows {
+	left: 0;
+}
+
+/* Plugin styles: Line Highlight */
+pre[class*="language-"][data-line] {
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+}
+pre[data-line] code {
+	position: relative;
+	padding-left: 4em;
+}
+pre .line-highlight {
+	margin-top: 0;
+}
+</style>
+
+<style type="text/css">
+pre.line-numbers {
+	position: relative;
+	padding-left: 3.8em;
+	counter-reset: linenumber;
+}
+
+pre.line-numbers > code {
+	position: relative;
 }
 
 .line-numbers .line-numbers-rows {
-    position: absolute;
-    pointer-events: none;
-    top: 0;
-    font-size: 100%;
-    left: -3.8em;
-    width: 3em; /* works for line-numbers below 1000 lines */
-    letter-spacing: -1px;
-    border-right: 1px solid #999;
+	position: absolute;
+	pointer-events: none;
+	top: 0;
+	font-size: 100%;
+	left: -3.8em;
+	width: 3em; /* works for line-numbers below 1000 lines */
+	letter-spacing: -1px;
+	border-right: 1px solid #999;
 
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 
 }
 
-    .line-numbers-rows > span {
-        pointer-events: none;
-        display: block;
-        counter-increment: linenumber;
-    }
+	.line-numbers-rows > span {
+		pointer-events: none;
+		display: block;
+		counter-increment: linenumber;
+	}
 
-        .line-numbers-rows > span:before {
-            content: counter(linenumber);
-            color: #999;
-            display: block;
-            padding-right: 0.8em;
-            text-align: right;
-        }
-
+		.line-numbers-rows > span:before {
+			content: counter(linenumber);
+			color: #999;
+			display: block;
+			padding-right: 0.8em;
+			text-align: right;
+		}
 </style>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({TeX: { equationNumbers: { autoNumber: "AMS" } }});</script>
-<style> @media print{ code[class*="language-"],pre[class*="language-"]{overflow: visible; word-wrap: break-word !important;} }</style></head><body><div class="markdown-body">
-<h2 id="toc_0">Ach</h2>
+
+<style type="text/css">
+div.prism-show-language {
+	position: relative;
+}
+
+div.prism-show-language > div.prism-show-language-label {
+	color: black;
+	background-color: #CFCFCF;
+	display: inline-block;
+	position: absolute;
+	bottom: auto;
+	left: auto;
+	top: 0;
+	right: 0;
+	width: auto;
+	height: auto;
+	font-size: 0.9em;
+	border-radius: 0 0 0 5px;
+	padding: 0 0.5em;
+	text-shadow: none;
+	z-index: 1;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	-webkit-transform: none;
+	-moz-transform: none;
+	-ms-transform: none;
+	-o-transform: none;
+	transform: none;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<h2 id="toc_0">§§ 1-3. Sets and Operations on Sets. Quantifiers</h2>
 
 <p>A <em>set</em> is a collection of objects of any specified kind. Sets are usually denoted by capitals. The objects belonging to a set are called its <em>elements</em> or <em>members</em>. We write \(x\in A​\) if \(x​\) is a member of \(A​\), and \(x \notin A​\) if it is not.</p>
 
@@ -914,57 +334,34 @@ pre[class*="language-"].line-numbers > code {
 
 <p>If all members of \(A\) are also in \(B\), we call \(A\) a <em>subset</em> of \(B\) (and \(B\) a <em>superset</em> of \(A\)), and write \(A \subseteq B\) or \(B \supseteq A\). It is an axiom that <em>the sets \(A\) and \(B\) are equal \((A=B)\) if they have the same members</em>, i.e.,</p>
 
-<p>\[<br/>
-A\subseteq B \;\; and \;\; B \subseteq A.<br/>
-\]</p>
-<details>
-<p><summary><b>Note: Proof</b></summary></p>
-
-<hr/>
-
-<p>If fall all elements in \(A \subseteq B\) and \(B\subseteq A\) is true. There must be some \(x\in B-A\) and \(x \in A-B\), which means \(x\in B\) and \(x\notin B\), as well as \(x\in A\) and \(x\notin A\). This is impossible for any elements which is in and not in a set.</p>
-
-<p>\[<br/>
-\begin{aligned}<br/>
-&amp; (A \subseteq B \land B \subseteq A)(A \ne B) \\<br/>
-\iff &amp; (\exists x)(x \in B -A \land x \in A - B) \\<br/>
-\iff &amp; (\exists x)(x \in B \land x \notin A \land x\in A \land x \notin B )\\<br/>
-\implies &amp; \text{false}<br/>
-\end{aligned}<br/>
+<p>\[<br>
+A\subseteq B \;\; and \;\; B \subseteq A.<br>
 \]</p>
 
-<p><strong>Notice in this proof</strong></p>
+<blockquote>
+<p><a href="mweblib://15530823919083">Note: If all members...</a></p>
+</blockquote>
 
-<p><strong>i.</strong></p>
+<p><br></p>
 
-<p>\(A - B = \emptyset\) does not implies \(A = B\). For if \(A\) is a proper subset of \(B\) (i.e., \(A \subset B\)), \(B-A\) is not empty, but \(A-B\) causes an empty set. Because for all \(x \in A - B\) iff \(x \in A\) and \(x \notin B\), which is not possible for any \(x\) while \(x \in A\) always implies \(x \in B\). Thus, the set \(A-B = \emptyset\ne B-A\).</p>
-
-<p>So, \(A = B\) iff \(A - B = B - A = \emptyset\).</p>
-
-<p><strong>ii.</strong></p>
-
-<p>If there is a set \(A = \{x\;|\; (\forall x)(x \in X \land x \notin X) \}\), it is true, and \(A = \emptyset\), because \(\forall\) also means there can be nothing. But if there is a set \(B = \{x\;|\; (\exists x)(x \in X \land x \notin X) \}\), it is false, because \(\exists\) means there is at least one element there.</p>
-
-<hr/>
-</details><br>
 <p>If, however, \(A \subseteq B​\) but \(B \nsubseteq A​\) (i.e., \(B​\) has some elements <em>not</em> in \(A​\)), we call \(A​\) a <em>proper</em> subset of \(B​\) and write \(A \subset B​\) or \(B \supset A​\). &quot;\(\subseteq​\)&quot; is called the <em>inclusion relation</em>.</p>
 
-<p>Set equality is not affected by the <em>order</em> in which elements appear. Thus \(\{a,b\} = \{b,a\}\). Not so for <em>ordered pairs \((a,b)\)</em>.<sup>1</sup> For such pairs,</p>
+<p>Set equality is not affected by the <em>order</em> in which elements appear. Thus \(\{a,b\} = \{b,a\}\). Not so for <em>ordered pairs \((a,b)\)</em>.^1 For such pairs,</p>
 
-<p>\[<br/>
-(a,b)=(x,y) \quad \text{ iff }^2 \quad a=x \text{ and } b=y,<br/>
+<p>\[<br>
+(a,b)=(x,y) \quad \text{ iff }^2 \quad a=x \text{ and } b=y,<br>
 \]</p>
 
 <p>but not if \(a=y​\) and \(b=x​\). Similarly, for <em>ordered n-tuples</em>,</p>
 
-<p>\[<br/>
-(a_1,a_2,...,a_n) = (x_1,x_2,...,x_n) \quad \text{ iff } \quad a_k = x_k,\;\; k = 1, 2, ... , n.<br/>
+<p>\[<br>
+(a_1,a_2,...,a_n) = (x_1,x_2,...,x_n) \quad \text{ iff } \quad a_k = x_k,\;\; k = 1, 2, ... , n.<br>
 \]</p>
 
 <blockquote>
-<p><sup>1</sup> See Problem 6 for a definition.</p>
+<p>^1 See Problem 6 for a definition.</p>
 
-<p><sup>2</sup> Short of <em>if and only if</em>; also written \(\iff\).</p>
+<p>^2 Short of <em>if and only if</em>; also written \(\iff\).</p>
 
 <p><a href="mweblib://15530569190246">Note: Set equality...</a></p>
 </blockquote>
@@ -975,38 +372,38 @@ A\subseteq B \;\; and \;\; B \subseteq A.<br/>
 
 <p>\(A \cup B\) is the set of all members of \(A\) and \(B\) taken together:</p>
 
-<p>\[<br/>
-\{<br/>
-x \; | \; x \in A \text{ or } x\in B<br/>
-\}.^3<br/>
+<p>\[<br>
+\{<br>
+x \; | \; x \in A \text{ or } x\in B<br>
+\}.^3<br>
 \]</p>
 
 <blockquote>
-<p><sup>3</sup> The word &quot;or&quot; is used in the <em>inclusive</em> sense: &quot;\(P\) or \(Q\)&quot; means &quot;\(P\) or \(Q\) or <em>both</em>&quot;.</p>
+<p>^3 The word &quot;or&quot; is used in the <em>inclusive</em> sense: &quot;\(P\) or \(Q\)&quot; means &quot;\(P\) or \(Q\) or <em>both</em>&quot;.</p>
 </blockquote>
 
 <p>\(A \cap B​\) is the set of all <em>common</em> elements of \(A​\) and \(B​\):</p>
 
-<p>\[<br/>
-\{<br/>
-x \in A \; | \; x \in B<br/>
-\}.<br/>
+<p>\[<br>
+\{<br>
+x \in A \; | \; x \in B<br>
+\}.<br>
 \]</p>
 
 <p>\(A-B​\) consists of those \(x \in A​\) that are <em>not</em> in \(B​\):</p>
 
-<p>\[<br/>
-\{<br/>
-x\in A \;|\; x \notin B<br/>
-\}.<br/>
+<p>\[<br>
+\{<br>
+x\in A \;|\; x \notin B<br>
+\}.<br>
 \]</p>
 
 <p>\(A \times B​\) is the set of all <em>ordered pairs \((x,y)​\)</em>, with \(x \in A​\) and \(x \in B​\):</p>
 
-<p>\[<br/>
-\{<br/>
-(x,y) \;|\; x\in A, y\in B<br/>
-\}.<br/>
+<p>\[<br>
+\{<br>
+(x,y) \;|\; x\in A, y\in B<br>
+\}.<br>
 \]</p>
 
 <p>Similarly, \(A_1 \times A_2 \times ... \times A_n​\) is the set of all <em>ordered n-tuples \((x_1, ... , x_n)​\)</em> such that \(x_k \in A_k​\), \(k = 1,2,...,n​\). We write \(A^n​\) for \(A \times A \times ... \times A​\) (\(n​\) factors).</p>
@@ -1021,17 +418,17 @@ x\in A \;|\; x \notin B<br/>
 
 <p>Let \(A = \{1,2,3\}\), \(B=\{ 2,4 \}\). Then</p>
 
-<p>\[<br/>
-A\cup B = \{ 1,2,3,4 \},\quad A\cap B = \{2\}, \quad A-B = \{1,3\}, \\<br/>
-A \times B = \{<br/>
-(1,2), (1,4), (2,2), (2,4), (3,2), (3,4)<br/>
-\}.<br/>
+<p>\[<br>
+A\cup B = \{ 1,2,3,4 \},\quad A\cap B = \{2\}, \quad A-B = \{1,3\}, \\<br>
+A \times B = \{<br>
+(1,2), (1,4), (2,2), (2,4), (3,2), (3,4)<br>
+\}.<br>
 \]</p>
 
 <p>If \(N\) is the set of all <em>naturals</em> (positive integers), we could also write</p>
 
-<p>\[<br/>
-A = \{ x\in N \;|\; x &lt; 4\}.<br/>
+<p>\[<br>
+A = \{ x\in N \;|\; x &lt; 4\}.<br>
 \]</p>
 
 <p><strong>Theorem 1.</strong></p>
@@ -1050,39 +447,39 @@ A = \{ x\in N \;|\; x &lt; 4\}.<br/>
 
 <p>Because of (c), we may omit brackets in \(A\cup B\cup C\) and \(A\cap B\cap C\); similarly for four or more sets. More generally, we may consider whole <em>families</em> of sets, i.e., collections of may (possibly infinitely many) sets. If \(\cal{M}\) is such a family, we define its <em>union</em>, \(\bigcup \cal M\), to be the set of all elements \(x\), each belonging to <em>at least one</em> set of the family. The intersection of \(\cal M\), denoted \(\cap \cal M\), consists of those \(x\) that belong to all sets of the family <em>simultaneously</em>. In stead, we also write</p>
 
-<p>\[<br/>
-\bigcup \{ X \;|\; X \in {\cal M}\} \text{ and } \bigcap \{ X \; | \; X \in {\cal M} \}, \text{ respectively}.<br/>
+<p>\[<br>
+\bigcup \{ X \;|\; X \in {\cal M}\} \text{ and } \bigcap \{ X \; | \; X \in {\cal M} \}, \text{ respectively}.<br>
 \]</p>
 
 <p>Often we can <em>number</em> the sets of a given family:</p>
 
-<p>\[<br/>
-A_1, A_2, ..., A_n,....<br/>
+<p>\[<br>
+A_1, A_2, ..., A_n,....<br>
 \]</p>
 
 <p>More generally, we may denote all sets of a family \(\cal M\) by some letter (say, \(X\)) with indices \(i\) attached to it (the indices may, but <em>need not</em>, be numbers). The family \(\cal M\) then is denoted by \(\{X_i\}\) or \(\{ X_i \;|\; i \in I \}\), where \(i\) is a variable index ranging over a suitable set \(I\) of indices (&quot;index notation&quot;). In this case, the union and intersection of \(\cal M\) are denoted by such symbols as</p>
 
-<p>\[<br/>
-\bigcup \{ X_i \;|\; i\in I \} = \bigcup_i X_i = \bigcup X_i = \bigcup_{i\in I}X_i; \\<br/>
-\bigcap \{ X_i \;|\; i \in I \} = \bigcap_i X_i = \bigcap X_i = \bigcap_{i\in I}X_i.<br/>
+<p>\[<br>
+\bigcup \{ X_i \;|\; i\in I \} = \bigcup_i X_i = \bigcup X_i = \bigcup_{i\in I}X_i; \\<br>
+\bigcap \{ X_i \;|\; i \in I \} = \bigcap_i X_i = \bigcap X_i = \bigcap_{i\in I}X_i.<br>
 \]</p>
 
 <p>If the indices are <em>integers</em>, we may write</p>
 
-<p>\[<br/>
-{<br/>
-\bigcup_{n=1}^{m} X_n , \bigcup_{n=1}^{\infty} X_n, \bigcap_{n=k}^{m}X_n,<br/>
-} \;\; \text{etc.}<br/>
+<p>\[<br>
+{<br>
+\bigcup_{n=1}^{m} X_n , \bigcup_{n=1}^{\infty} X_n, \bigcap_{n=k}^{m}X_n,<br>
+} \;\; \text{etc.}<br>
 \]</p>
 
 <p><strong>Theorem 2</strong> (De Morgan&#39;s duality laws). <em>For any sets \(S\) and \(A_i (i\in I)\), the following are true</em>:</p>
 
-<p>\[<br/>
-\text{(i)}\;<br/>
-S-\bigcup_i A_i = \bigcap_i (S-A_i)<br/>
-;\quad<br/>
-\text{(ii)}\;<br/>
-S-\bigcap_i A_i = \bigcup_i (S-A_i)<br/>
+<p>\[<br>
+\text{(i)}\;<br>
+S-\bigcup_i A_i = \bigcap_i (S-A_i)<br>
+;\quad<br>
+\text{(ii)}\;<br>
+S-\bigcap_i A_i = \bigcup_i (S-A_i)<br>
 \]</p>
 
 <p>(If \(S\) is the entire space, we may write \(-A_i\) for \(S-A_i\), \(-\bigcup A_i\) for \(S - \bigcup A_i\), etc.)</p>
@@ -1099,52 +496,52 @@ S-\bigcap_i A_i = \bigcup_i (S-A_i)<br/>
 
 <p>The symbols &quot;\((\forall x \in A)\)&quot; and &quot;\((\exists x \in A)\)&quot; are called the <em>universal</em> and <em>existential quantifiers</em>, respectively. If confusion is ruled out, we simply write &quot;\((\forall x),\)&quot; adn &quot;\((\exists x),\)&quot; and &quot;\((\exists ! x)\)&quot; instead. For example, if we agree that \(m\), \(n\) denote naturals, then</p>
 
-<p>\[<br/>
-``(\forall n)\;(\exists m)\quad m&gt;n&quot;<br/>
+<p>\[<br>
+``(\forall n)\;(\exists m)\quad m&gt;n&quot;<br>
 \]</p>
 
 <p>means &quot;For each natural \(n\), there is a natural \(m\) such that \(m&gt;n\).&quot; We give some more examples.</p>
 
 <p>Let \({\cal M} = \{A_i \;|\; i \in I \}\) be an indexed set family. By definition, \(x \in \bigcup A_i\) meeans that \(x\) is in <em>at least one</em> of the sets \(A_i, i \in I\). In other words, <em>there is at least one index \(i\in I\) such that \(x\in A_i\)</em>; in symbols,</p>
 
-<p>\[<br/>
-(\exists i \in I) \quad x \in A.<br/>
+<p>\[<br>
+(\exists i \in I) \quad x \in A.<br>
 \]</p>
 
 <p>Thus we note that</p>
 
-<p>\[<br/>
-x\in \bigcup_{i\in I}A_i \quad \text{iff} \quad [(\exists i \in I)\; x\in A_i].<br/>
+<p>\[<br>
+x\in \bigcup_{i\in I}A_i \quad \text{iff} \quad [(\exists i \in I)\; x\in A_i].<br>
 \]</p>
 
 <p>Similarly,</p>
 
-<p>\[<br/>
-x\in \bigcap_i A_i \quad \text{iff} \quad [(\forall i \in I) \; x \in A_i ].<br/>
+<p>\[<br>
+x\in \bigcap_i A_i \quad \text{iff} \quad [(\forall i \in I) \; x \in A_i ].<br>
 \]</p>
 
 <p>Also note that \(x \notin \bigcup A_i​\) iff \(x​\) is in <em>none</em> of the \(A_i​\), i.e.,</p>
 
-<p>\[<br/>
-(\forall i) \quad x \notin A_i.<br/>
+<p>\[<br>
+(\forall i) \quad x \notin A_i.<br>
 \]</p>
 
 <p>Similarly, \(x \notin \bigcap A_i\) iff \(x\) fails to be in <em>some</em> \(A_i\), i.e.,</p>
 
-<p>\[<br/>
-(\exists i)\quad x \notin A_i . \quad \text{(Why?)}<br/>
+<p>\[<br>
+(\exists i)\quad x \notin A_i . \quad \text{(Why?)}<br>
 \]</p>
 
 <p>We now use these remarks to prove Theorem 2\(\rm (i)​\). We have to show that \(S-\bigcup A_i​\) has the same elements as \(\bigcap(S-A_i)​\), i.e., that \(x \in S - \bigcup A_i​\) iff \(x \in \bigcap(S-A_i)​\). But, by our definitions, we have</p>
 
-<p>\[<br/>
-\begin{aligned}<br/>
-x \in S - \bigcup A_i<br/>
-&amp; \iff [x\in S,\; x \notin \bigcup A_i] \\<br/>
-&amp; \iff (\forall i)\;[x \in S, \;x \notin A_i] \\<br/>
-&amp; \iff (\forall i)\; x \in S - A_i \\<br/>
-&amp; \iff x \in \bigcap(S - A_i),<br/>
-\end{aligned}<br/>
+<p>\[<br>
+\begin{aligned}<br>
+x \in S - \bigcup A_i<br>
+&amp; \iff [x\in S,\; x \notin \bigcup A_i] \\<br>
+&amp; \iff (\forall i)\;[x \in S, \;x \notin A_i] \\<br>
+&amp; \iff (\forall i)\; x \in S - A_i \\<br>
+&amp; \iff x \in \bigcap(S - A_i),<br>
+\end{aligned}<br>
 \]</p>
 
 <p>as required.</p>
@@ -1153,20 +550,20 @@ x \in S - \bigcup A_i<br/>
 
 <p>We shall now dwell on quantifiers more closely. Sometimes a formula \(P(x)\) holds not for all \(x\in A\), but only for those with an additional property \(Q(x)\). This will be written as</p>
 
-<p>\[<br/>
-(\forall x \in A \; | \; Q(x)) \quad P(x),<br/>
+<p>\[<br>
+(\forall x \in A \; | \; Q(x)) \quad P(x),<br>
 \]</p>
 
 <p>where the vertical stroke stands for &quot;such that.&quot; For example, if \(N\) is again the naturals, then the formula</p>
 
-<p>\[<br/>
-(\forall x \in N \;|\; x&gt; 3) \quad x \ge 4 \tag 1<br/>
+<p>\[<br>
+(\forall x \in N \;|\; x&gt; 3) \quad x \ge 4 \tag 1<br>
 \]</p>
 
 <p>means &quot;for each \(x \in N\)&quot; <em>such that</em> \(x &gt; 3\), it is true that \(x \ge 4.\) In other words, for natural, \(x &gt; 3 \implies x \ge 4\) (the arrow stands for &quot;implies&quot;). Thus \((1)\) can also be written as</p>
 
-<p>\[<br/>
-(\forall x \in N) \quad x&gt;3 \implies x \ge 4.<br/>
+<p>\[<br>
+(\forall x \in N) \quad x&gt;3 \implies x \ge 4.<br>
 \]</p>
 
 <p>Im mathematics, we often have to form the <em>negation</em> of a formula that starts with one or several quantifiers. It is noteworthy, then, that <em>each universal quantifier is replaced by an existential one (and vice versa)</em>, followed by the negative of the subsequent part of the formula. For example, in calculus, a real number \(p\) is called the limit of a sequence \(x_1, x_2, ..., x_n, ...\) iff the following is true:</p>
@@ -1175,66 +572,66 @@ x \in S - \bigcup A_i<br/>
 
 <p>If we agree that lower case latter (possibly with subscripts) denote real numbers, and that \(n\), \(k\) denote naturals \((n,k\in N)\), this sentence can be written as</p>
 
-<p>\[<br/>
-(\forall \varepsilon &gt; 0)\; (\exists k)\;(\forall n &gt; k)\quad |x_n - p|&lt;\varepsilon. \tag 2<br/>
+<p>\[<br>
+(\forall \varepsilon &gt; 0)\; (\exists k)\;(\forall n &gt; k)\quad |x_n - p|&lt;\varepsilon. \tag 2<br>
 \]</p>
 
 <p>Here the expressions &quot;\((\forall \varepsilon &gt; 0)\)&quot; and &quot;\((\forall n &gt; k)\)&quot; stand for &quot;\((\forall \varepsilon \;|\; \varepsilon &gt; 0)\)&quot; and &quot;\((\forall n \;|\; n&gt;k)\)&quot;, respectively (such self-explanatory abbreviations will also be used in other similar cases).</p>
 
 <p>Now, since \((2)\) states that &quot;for all \(\varepsilon &gt; 0\)&quot; something (i.e., the rest of \((2)\)) is true, the negation of \((2)\) starts with &quot;<em>there is an \(\varepsilon &gt; 0\)</em>&quot; (for which the rest of the formula fails). Thus we start with &quot;\((\exists \varepsilon &gt; 0)\)&quot;, and form the negation of what follows, and form the negation of what follows, i.e., of</p>
 
-<p>\[<br/>
-(\exists k)\;(\forall n &gt; k) \quad |x_n - p|&lt; \varepsilon.<br/>
+<p>\[<br>
+(\exists k)\;(\forall n &gt; k) \quad |x_n - p|&lt; \varepsilon.<br>
 \]</p>
 
 <p>This negation, in turn, starts with &quot;\((\forall k)\)&quot;, etc. Step by step, we finally arrive at</p>
 
-<p>\[<br/>
-(\exists \varepsilon &gt; 0)\;(\forall k)\;(\exists n &gt; k)\quad |x_n - p| \ge \varepsilon.<br/>
+<p>\[<br>
+(\exists \varepsilon &gt; 0)\;(\forall k)\;(\exists n &gt; k)\quad |x_n - p| \ge \varepsilon.<br>
 \]</p>
 
 <p>Note that here <em>the choice of \(n&gt;k\) may depend on k</em>. To stress it, we often write \(n_k\) for \(n\). Thus the negation of \((2)\) finally emerges as</p>
 
-<p>\[<br/>
-(\exists \varepsilon &gt; 0)\;(\forall k)\;(\exists n_k &gt; k)\quad |x_n - p| \ge \varepsilon. \tag 3<br/>
+<p>\[<br>
+(\exists \varepsilon &gt; 0)\;(\forall k)\;(\exists n_k &gt; k)\quad |x_n - p| \ge \varepsilon. \tag 3<br>
 \]</p>
 
 <p>The <em>order</em> in which the quantifiers follow each other is <em>essential</em>. For example, the formula</p>
 
-<p>\[<br/>
-(\forall n \in N)\;(\exists m \in N)\quad m&gt;n<br/>
+<p>\[<br>
+(\forall n \in N)\;(\exists m \in N)\quad m&gt;n<br>
 \]</p>
 
 <p>(&quot;each \(n \in N\) is exceeded by some \(m \in N\)&quot;) is true, but</p>
 
-<p>\[<br/>
-(\exists m \in N)\;(\forall n \in N)\quad m&gt;n<br/>
+<p>\[<br>
+(\exists m \in N)\;(\forall n \in N)\quad m&gt;n<br>
 \]</p>
 
 <p>is false. However, two <em>consecutive</em> universal quantifiers (or two <em>consecutive</em> existential ones) may be interchanged. We briefly write</p>
 
-<p>\[<br/>
-`` (\forall x, y \in A) &quot; \text{ for } ``(\forall x \in A) \; (\forall y \in A),&quot;<br/>
+<p>\[<br>
+`` (\forall x, y \in A) &quot; \text{ for } ``(\forall x \in A) \; (\forall y \in A),&quot;<br>
 \]</p>
 
 <p>and</p>
 
-<p>\[<br/>
-``(\exists x, y \in A)&quot; \text{ for } ``(\exists x \in A)\; (\exists y \in A),&quot;\text{ etc.}<br/>
+<p>\[<br>
+``(\exists x, y \in A)&quot; \text{ for } ``(\exists x \in A)\; (\exists y \in A),&quot;\text{ etc.}<br>
 \]</p>
 
 <p>We conclude with an important remark. The <em>universal</em> quantifier in a formula</p>
 
-<p>\[<br/>
-(\forall x \in A) \quad P(x)<br/>
+<p>\[<br>
+(\forall x \in A) \quad P(x)<br>
 \]</p>
 
 <p><em>does not</em> imply the existence of an \(x\) for which \(P(x)\) is true. It is only meant to imply that <em>there is no \(x\) in \(A\) for which \(P(x)\) fails</em>.</p>
 
 <p>The latter is true even if \(A = \emptyset\); we then say that &quot;(\forall x \in A)\; P(x)&quot; is <em>vacuously true</em>. For example, the formula \(\emptyset \subseteq B\), i.e.,</p>
 
-<p>\[<br/>
-(\forall x \in \emptyset)\quad x\in B,<br/>
+<p>\[<br>
+(\forall x \in \emptyset)\quad x\in B,<br>
 \]</p>
 
 <p><em>is always true (vacuously)</em>.</p>
@@ -1242,172 +639,170 @@ x \in S - \bigcup A_i<br/>
 <h3 id="toc_1">Problems in Set Theory</h3>
 
 <ol>
-<li><p>Prove Theorem 1 (show that \(x\) is in the left-hand set iff it is in the right-hand set). For example, for (d),<br/>
-\[<br/>
-\begin{aligned}<br/>
-x\in (A \cup B) \cap C<br/>
-&amp;\iff [x\in (A\cup B)\text{ and }x\in C]\\<br/>
-&amp;\iff [(x\in A \text{ or } x\in B), \text{ and }x\in C] \\<br/>
-&amp;\iff [(x\in A,x\in C) \text{ or } (x\in B, x\in C)].<br/>
-\end{aligned}<br/>
+<li><p>Prove Theorem 1 (show that \(x\) is in the left-hand set iff it is in the right-hand set). For example, for (d),<br>
+\[<br>
+\begin{aligned}<br>
+x\in (A \cup B) \cap C<br>
+&amp;\iff [x\in (A\cup B)\text{ and }x\in C]\\<br>
+&amp;\iff [(x\in A \text{ or } x\in B), \text{ and }x\in C] \\<br>
+&amp;\iff [(x\in A,x\in C) \text{ or } (x\in B, x\in C)].<br>
+\end{aligned}<br>
 \]</p></li>
 <li><p>Prove that</p>
+
 <p>(i) \(-(-A)=A\)</p>
+
 <p>(ii) \(A \subseteq B \text{ iff } -B \subseteq -A\)</p>
+
 <blockquote>
 <p><a href="mweblib://15528765946247">Note: Problem 2.</a></p>
 </blockquote></li>
 <li><p>Prove that</p>
-<p>\[<br/>
-A - B = A \cap (-B) = (-B) - (-A) = -[(-A) \cup B].<br/>
+
+<p>\[<br>
+A - B = A \cap (-B) = (-B) - (-A) = -[(-A) \cup B].<br>
 \]</p>
+
 <p>Also, give three expressions for \(A \cap B\) and \(A\cup B\), in terms of complements.</p>
+
 <blockquote>
 <p><a href="mweblib://15528772587156">Note: Problem 3.</a></p>
 </blockquote></li>
 <li><p>Prove the second duality law (Theorem 2(ii)).</p>
+
 <blockquote>
 <p><a href="mweblib://15528789204604">Note: Problem 4.</a></p>
 </blockquote></li>
-<li><p>Describe goemetrically the following sets on the real line:<br/>
-\[<br/>
-\begin{aligned}<br/>
-\text{(i) }&amp; \{x \;|\; x&lt;0\}; &amp;\text{(ii) }&amp; \{x\;|\; |x|&lt;1\}; \\<br/>
-\text{(iii) }&amp; \{x \;|\; |x-a|&lt;\varepsilon\}; &amp;\text{(iv) }&amp; \{x\;|\; a&lt;x\le b\};\\<br/>
-\text{(v) }&amp; \{x\;|\;|x|&lt; 0\}.<br/>
-\end{aligned}<br/>
+<li><p>Describe goemetrically the following sets on the real line:<br>
+\[<br>
+\begin{aligned}<br>
+\text{(i) }&amp; \{x \;|\; x&lt;0\}; &amp;\text{(ii) }&amp; \{x\;|\; |x|&lt;1\}; \\<br>
+\text{(iii) }&amp; \{x \;|\; |x-a|&lt;\varepsilon\}; &amp;\text{(iv) }&amp; \{x\;|\; a&lt;x\le b\};\\<br>
+\text{(v) }&amp; \{x\;|\;|x|&lt; 0\}.<br>
+\end{aligned}<br>
 \]</p>
+
 <blockquote>
 <p><a href="mweblib://15528862520330">Note: Problem 5.</a></p>
 </blockquote></li>
-<li><p>Let \((a,b)\) denote the set<br/>
-\[<br/>
-\{\{a\},\{a,b\}\}<br/>
-\]<br/>
+<li><p>Let \((a,b)\) denote the set<br>
+\[<br>
+\{\{a\},\{a,b\}\}<br>
+\]<br>
 (Kuratowski&#39;s definition of an ordered pair).</p>
-<p>(i) Which of the following statements are true?<br/>
-\[<br/>
-\begin{aligned}<br/>
-\text{(a) }&amp; a\in (a,b); &amp;\text{(b) }&amp; \{a\}\in (a,b); \\<br/>
-\text{(c) }&amp; (a,a) = \{a\}; &amp;\text{(d) }&amp; b \in (a,b); \\<br/>
-\text{(e) }&amp; \{b\} \in (a,b); &amp;\text{(f) }&amp; \{a,b\} \in (a,b).<br/>
-\end{aligned}<br/>
+
+<p>(i) Which of the following statements are true?<br>
+\[<br>
+\begin{aligned}<br>
+\text{(a) }&amp; a\in (a,b); &amp;\text{(b) }&amp; \{a\}\in (a,b); \\<br>
+\text{(c) }&amp; (a,a) = \{a\}; &amp;\text{(d) }&amp; b \in (a,b); \\<br>
+\text{(e) }&amp; \{b\} \in (a,b); &amp;\text{(f) }&amp; \{a,b\} \in (a,b).<br>
+\end{aligned}<br>
 \]</p>
+
 <p>(ii) Prove that \((a,b)=(u,v)\) <em>iff</em> \(a=u\) <em>and</em> \(b=v\).</p>
-<p>​   [Hint: Consider seperately the two cases \(a=b\) and \(a\ne b\), nothing that \(\{a,a\}=\{a\}\). Also note that \(\{a\} \ne a\).]<br/>
+
+<p>​   [Hint: Consider seperately the two cases \(a=b\) and \(a\ne b\), nothing that \(\{a,a\}=\{a\}\). Also note that \(\{a\} \ne a\).]<br>
 ​   </p>
+
 <blockquote>
 <p><a href="mweblib://15528904850197">Note: Problem 6</a></p>
 </blockquote></li>
-<li><p>Describe geometrical the following sets in the \(xy\)-plane.<br/>
-\[<br/>
-\begin{aligned}<br/>
-\text{(i)}\;\; &amp; \{(x,y) \;|\; x&lt;y\}; \\<br/>
-\text{(ii)}\;\; &amp; \{(x,y)\;|\; x^2 + y^2 &lt; 1\}; \\<br/>
-\text{(iii)}\;\; &amp; \{(x,y)\;|\; \text{max}(|x|,|y|)&lt;1\}; \\<br/>
-\text{(iv)}\;\; &amp; \{(x,y) \;|\; y&gt; x^2\}; \\<br/>
-\text{(v)}\;\;&amp; \{(x,y)\;|\; |x|+|y|&lt;4\}; \\<br/>
-\text{(vi)}\;\;&amp; \{(x,y)\;|\;(x-2)^2 + (y+5)^2\le 9\}; \\<br/>
-\text{(vii)}\;\;&amp; \{(x,y)\;|\; x = 0\}; \\<br/>
-\text{(viii)}\;\;&amp; \{(x,y) \;|\; x^2 - 2xy + y^2 &lt; 0 \}; \\<br/>
-\text{(ix)}\;\;&amp; \{(x,y) \;|\; x^2 - 2xy + y^2 = 0\}.<br/>
-\end{aligned}<br/>
+<li><p>Describe geometrical the following sets in the \(xy\)-plane.<br>
+\[<br>
+\begin{aligned}<br>
+\text{(i)}\;\; &amp; \{(x,y) \;|\; x&lt;y\}; \\<br>
+\text{(ii)}\;\; &amp; \{(x,y)\;|\; x^2 + y^2 &lt; 1\}; \\<br>
+\text{(iii)}\;\; &amp; \{(x,y)\;|\; \text{max}(|x|,|y|)&lt;1\}; \\<br>
+\text{(iv)}\;\; &amp; \{(x,y) \;|\; y&gt; x^2\}; \\<br>
+\text{(v)}\;\;&amp; \{(x,y)\;|\; |x|+|y|&lt;4\}; \\<br>
+\text{(vi)}\;\;&amp; \{(x,y)\;|\;(x-2)^2 + (y+5)^2\le 9\}; \\<br>
+\text{(vii)}\;\;&amp; \{(x,y)\;|\; x = 0\}; \\<br>
+\text{(viii)}\;\;&amp; \{(x,y) \;|\; x^2 - 2xy + y^2 &lt; 0 \}; \\<br>
+\text{(ix)}\;\;&amp; \{(x,y) \;|\; x^2 - 2xy + y^2 = 0\}.<br>
+\end{aligned}<br>
 \]</p>
+
 <blockquote>
 <p><a href="mweblib://15528923705933">Note: Problem 7</a></p>
 </blockquote></li>
-<li><p>Prove that<br/>
-\[<br/>
-\begin{aligned}<br/>
-\text{(i)}\;\;&amp; (A\cup B)\times C = (A\times C)\cup (B\times C); \\<br/>
-\text{(ii)}\;\;&amp; (A\cap B)\times (C\cap D) = (A\times C)\cap (B\times D); \\<br/>
-\text{(iii)}\;\;&amp; (X\times Y)-(X&#39;\times Y&#39;) = [(X \cap X&#39;) \times (Y-Y&#39;)]\cup [(X - X&#39;)\times Y].<br/>
-\end{aligned}<br/>
-\]<br/>
+<li><p>Prove that<br>
+\[<br>
+\begin{aligned}<br>
+\text{(i)}\;\;&amp; (A\cup B)\times C = (A\times C)\cup (B\times C); \\<br>
+\text{(ii)}\;\;&amp; (A\cap B)\times (C\cap D) = (A\times C)\cap (B\times D); \\<br>
+\text{(iii)}\;\;&amp; (X\times Y)-(X&#39;\times Y&#39;) = [(X \cap X&#39;) \times (Y-Y&#39;)]\cup [(X - X&#39;)\times Y].<br>
+\end{aligned}<br>
+\]<br>
 [Hint: In each case, whow that an <em>ordered pair \((x,y)\)</em> is in the left-hand set iff it is in the right-hand set, treating \((x,y)\) as <em>one</em> elememt of the Cartesian product.]</p>
+
 <blockquote>
 <p><a href="mweblib://15529046031142">Note: Problem 8</a></p>
 </blockquote></li>
-<li><p>Prove the <em>distributive laws</em><br/>
-\[<br/>
-\begin{aligned}<br/>
-\text{(i)}\;\;&amp; A \cap \bigcup X_i = \bigcup (A \cap X_i); \\<br/>
-\text{(ii)}\;\;&amp; A\cup \bigcap X_i = \bigcap (A \cup X_i); \\<br/>
-\text{(iii)}\;\;&amp; \left(\bigcap X_i\right)-A = \bigcap (X_i - A); \\<br/>
-\text{(iv)}\;\;&amp; \left(\bigcup X_i\right)- A = \bigcup(x_i - A); \\<br/>
-\text{(v)}\;\;&amp; \bigcap X_i \cup \bigcap Y_j = \bigcap_{i,j}(X_i \cup Y_j);^4 \\<br/>
-\text{(vi)}\;\;&amp; \bigcup X_i \cap \bigcup Y_j = \bigcup_{i,j}(X_i \cap Y_j).<br/>
-\end{aligned}<br/>
+<li><p>Prove the <em>distributive laws</em><br>
+\[<br>
+\begin{aligned}<br>
+\text{(i)}\;\;&amp; A \cap \bigcup X_i = \bigcup (A \cap X_i); \\<br>
+\text{(ii)}\;\;&amp; A\cup \bigcap X_i = \bigcap (A \cup X_i); \\<br>
+\text{(iii)}\;\;&amp; \left(\bigcap X_i\right)-A = \bigcap (X_i - A); \\<br>
+\text{(iv)}\;\;&amp; \left(\bigcup X_i\right)- A = \bigcup(x_i - A); \\<br>
+\text{(v)}\;\;&amp; \bigcap X_i \cup \bigcap Y_j = \bigcap_{i,j}(X_i \cup Y_j);^4 \\<br>
+\text{(vi)}\;\;&amp; \bigcup X_i \cap \bigcup Y_j = \bigcup_{i,j}(X_i \cap Y_j).<br>
+\end{aligned}<br>
 \]</p>
+
 <blockquote>
 <p><a href="mweblib://15529764639741">Note: Problem 9</a></p>
 </blockquote></li>
-<li><p>Prove that<br/>
-\[<br/>
-\begin{aligned}<br/>
-\text{(i)}\;\;&amp; \left(\bigcup A_i \right)\times B = \bigcup (A_i\times B); \\<br/>
-\text{(ii)}\;\;&amp; \left( \bigcap A_i \right)\times B = \bigcap(A_i \times B); \\<br/>
-\text{(iii)}\;\;&amp; \left( \bigcap_i A_i \right) \times \left(\bigcap_j B_j\right) = \bigcap_{i,j}(A_i \times B_j); \\<br/>
-\text{(iv)}\;\;&amp; \left(\bigcup_i A_i\right)\times \left( \bigcup_j B_j \right) = \bigcup_{i,j} (A_i \times B_j).<br/>
-\end{aligned}<br/>
+<li><p>Prove that<br>
+\[<br>
+\begin{aligned}<br>
+\text{(i)}\;\;&amp; \left(\bigcup A_i \right)\times B = \bigcup (A_i\times B); \\<br>
+\text{(ii)}\;\;&amp; \left( \bigcap A_i \right)\times B = \bigcap(A_i \times B); \\<br>
+\text{(iii)}\;\;&amp; \left( \bigcap_i A_i \right) \times \left(\bigcap_j B_j\right) = \bigcap_{i,j}(A_i \times B_j); \\<br>
+\text{(iv)}\;\;&amp; \left(\bigcup_i A_i\right)\times \left( \bigcup_j B_j \right) = \bigcup_{i,j} (A_i \times B_j).<br>
+\end{aligned}<br>
 \]</p>
+
 <blockquote>
 <p><a href="mweblib://15530440619799">Note: Problem 10</a></p>
 </blockquote></li>
 </ol>
 
-<h1 id="toc_2"></h1>
 
-<h1 id="toc_3"></h1>
 
-<h1 id="toc_4"></h1>
+<script type="text/javascript">
+var _self="undefined"!=typeof window?window:"undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?self:{},Prism=function(){var e=/\blang(?:uage)?-(\w+)\b/i,t=0,n=_self.Prism={util:{encode:function(e){return e instanceof a?new a(e.type,n.util.encode(e.content),e.alias):"Array"===n.util.type(e)?e.map(n.util.encode):e.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/\u00a0/g," ")},type:function(e){return Object.prototype.toString.call(e).match(/\[object (\w+)\]/)[1]},objId:function(e){return e.__id||Object.defineProperty(e,"__id",{value:++t}),e.__id},clone:function(e){var t=n.util.type(e);switch(t){case"Object":var a={};for(var r in e)e.hasOwnProperty(r)&&(a[r]=n.util.clone(e[r]));return a;case"Array":return e.map&&e.map(function(e){return n.util.clone(e)})}return e}},languages:{extend:function(e,t){var a=n.util.clone(n.languages[e]);for(var r in t)a[r]=t[r];return a},insertBefore:function(e,t,a,r){r=r||n.languages;var l=r[e];if(2==arguments.length){a=arguments[1];for(var i in a)a.hasOwnProperty(i)&&(l[i]=a[i]);return l}var o={};for(var s in l)if(l.hasOwnProperty(s)){if(s==t)for(var i in a)a.hasOwnProperty(i)&&(o[i]=a[i]);o[s]=l[s]}return n.languages.DFS(n.languages,function(t,n){n===r[e]&&t!=e&&(this[t]=o)}),r[e]=o},DFS:function(e,t,a,r){r=r||{};for(var l in e)e.hasOwnProperty(l)&&(t.call(e,l,e[l],a||l),"Object"!==n.util.type(e[l])||r[n.util.objId(e[l])]?"Array"!==n.util.type(e[l])||r[n.util.objId(e[l])]||(r[n.util.objId(e[l])]=!0,n.languages.DFS(e[l],t,l,r)):(r[n.util.objId(e[l])]=!0,n.languages.DFS(e[l],t,null,r)))}},plugins:{},highlightAll:function(e,t){var a={callback:t,selector:'code[class*="language-"], [class*="language-"] code, code[class*="lang-"], [class*="lang-"] code'};n.hooks.run("before-highlightall",a);for(var r,l=a.elements||document.querySelectorAll(a.selector),i=0;r=l[i++];)n.highlightElement(r,e===!0,a.callback)},highlightElement:function(t,a,r){for(var l,i,o=t;o&&!e.test(o.className);)o=o.parentNode;o&&(l=(o.className.match(e)||[,""])[1],i=n.languages[l]),t.className=t.className.replace(e,"").replace(/\s+/g," ")+" language-"+l,o=t.parentNode,/pre/i.test(o.nodeName)&&(o.className=o.className.replace(e,"").replace(/\s+/g," ")+" language-"+l);var s=t.textContent,u={element:t,language:l,grammar:i,code:s};if(!s||!i)return n.hooks.run("complete",u),void 0;if(n.hooks.run("before-highlight",u),a&&_self.Worker){var c=new Worker(n.filename);c.onmessage=function(e){u.highlightedCode=e.data,n.hooks.run("before-insert",u),u.element.innerHTML=u.highlightedCode,r&&r.call(u.element),n.hooks.run("after-highlight",u),n.hooks.run("complete",u)},c.postMessage(JSON.stringify({language:u.language,code:u.code,immediateClose:!0}))}else u.highlightedCode=n.highlight(u.code,u.grammar,u.language),n.hooks.run("before-insert",u),u.element.innerHTML=u.highlightedCode,r&&r.call(t),n.hooks.run("after-highlight",u),n.hooks.run("complete",u)},highlight:function(e,t,r){var l=n.tokenize(e,t);return a.stringify(n.util.encode(l),r)},tokenize:function(e,t){var a=n.Token,r=[e],l=t.rest;if(l){for(var i in l)t[i]=l[i];delete t.rest}e:for(var i in t)if(t.hasOwnProperty(i)&&t[i]){var o=t[i];o="Array"===n.util.type(o)?o:[o];for(var s=0;s<o.length;++s){var u=o[s],c=u.inside,g=!!u.lookbehind,h=!!u.greedy,f=0,d=u.alias;u=u.pattern||u;for(var p=0;p<r.length;p++){var m=r[p];if(r.length>e.length)break e;if(!(m instanceof a)){u.lastIndex=0;var y=u.exec(m),v=1;if(!y&&h&&p!=r.length-1){var b=r[p+1].matchedStr||r[p+1],k=m+b;if(p<r.length-2&&(k+=r[p+2].matchedStr||r[p+2]),u.lastIndex=0,y=u.exec(k),!y)continue;var w=y.index+(g?y[1].length:0);if(w>=m.length)continue;var _=y.index+y[0].length,P=m.length+b.length;if(v=3,P>=_){if(r[p+1].greedy)continue;v=2,k=k.slice(0,P)}m=k}if(y){g&&(f=y[1].length);var w=y.index+f,y=y[0].slice(f),_=w+y.length,S=m.slice(0,w),O=m.slice(_),j=[p,v];S&&j.push(S);var A=new a(i,c?n.tokenize(y,c):y,d,y,h);j.push(A),O&&j.push(O),Array.prototype.splice.apply(r,j)}}}}}return r},hooks:{all:{},add:function(e,t){var a=n.hooks.all;a[e]=a[e]||[],a[e].push(t)},run:function(e,t){var a=n.hooks.all[e];if(a&&a.length)for(var r,l=0;r=a[l++];)r(t)}}},a=n.Token=function(e,t,n,a,r){this.type=e,this.content=t,this.alias=n,this.matchedStr=a||null,this.greedy=!!r};if(a.stringify=function(e,t,r){if("string"==typeof e)return e;if("Array"===n.util.type(e))return e.map(function(n){return a.stringify(n,t,e)}).join("");var l={type:e.type,content:a.stringify(e.content,t,r),tag:"span",classes:["token",e.type],attributes:{},language:t,parent:r};if("comment"==l.type&&(l.attributes.spellcheck="true"),e.alias){var i="Array"===n.util.type(e.alias)?e.alias:[e.alias];Array.prototype.push.apply(l.classes,i)}n.hooks.run("wrap",l);var o="";for(var s in l.attributes)o+=(o?" ":"")+s+'="'+(l.attributes[s]||"")+'"';return"<"+l.tag+' class="'+l.classes.join(" ")+'" '+o+">"+l.content+"</"+l.tag+">"},!_self.document)return _self.addEventListener?(_self.addEventListener("message",function(e){var t=JSON.parse(e.data),a=t.language,r=t.code,l=t.immediateClose;_self.postMessage(n.highlight(r,n.languages[a],a)),l&&_self.close()},!1),_self.Prism):_self.Prism;var r=document.currentScript||[].slice.call(document.getElementsByTagName("script")).pop();return r&&(n.filename=r.src,document.addEventListener&&!r.hasAttribute("data-manual")&&document.addEventListener("DOMContentLoaded",n.highlightAll)),_self.Prism}();"undefined"!=typeof module&&module.exports&&(module.exports=Prism),"undefined"!=typeof global&&(global.Prism=Prism);
+</script>
 
-<h1 id="toc_5"></h1>
+<script type="text/javascript">
+!function(){"undefined"!=typeof self&&self.Prism&&self.document&&Prism.hooks.add("complete",function(e){if(e.code){var t=e.element.parentNode,s=/\s*\bline-numbers\b\s*/;if(t&&/pre/i.test(t.nodeName)&&(s.test(t.className)||s.test(e.element.className))&&!e.element.querySelector(".line-numbers-rows")){s.test(e.element.className)&&(e.element.className=e.element.className.replace(s,"")),s.test(t.className)||(t.className+=" line-numbers");var n,a=e.code.match(/\n(?!$)/g),l=a?a.length+1:1,m=new Array(l+1);m=m.join("<span></span>"),n=document.createElement("span"),n.className="line-numbers-rows",n.innerHTML=m,t.hasAttribute("data-start")&&(t.style.counterReset="linenumber "+(parseInt(t.getAttribute("data-start"),10)-1)),e.element.appendChild(n)}}})}();
+</script>
 
-<h1 id="toc_6"></h1>
+<script type="text/javascript">
+!function(){if("undefined"!=typeof self&&self.Prism&&self.document){var e={html:"HTML",xml:"XML",svg:"SVG",mathml:"MathML",css:"CSS",clike:"C-like",javascript:"JavaScript",abap:"ABAP",actionscript:"ActionScript",apacheconf:"Apache Configuration",apl:"APL",applescript:"AppleScript",asciidoc:"AsciiDoc",aspnet:"ASP.NET (C#)",autoit:"AutoIt",autohotkey:"AutoHotkey",basic:"BASIC",csharp:"C#",cpp:"C++",coffeescript:"CoffeeScript","css-extras":"CSS Extras",fsharp:"F#",glsl:"GLSL",http:"HTTP",inform7:"Inform 7",json:"JSON",latex:"LaTeX",lolcode:"LOLCODE",matlab:"MATLAB",mel:"MEL",nasm:"NASM",nginx:"nginx",nsis:"NSIS",objectivec:"Objective-C",ocaml:"OCaml",parigp:"PARI/GP",php:"PHP","php-extras":"PHP Extras",powershell:"PowerShell",jsx:"React JSX",rest:"reST (reStructuredText)",sas:"SAS",sass:"Sass (Sass)",scss:"Sass (Scss)",sql:"SQL",typescript:"TypeScript",vhdl:"VHDL",vim:"vim",wiki:"Wiki markup",yaml:"YAML"};Prism.hooks.add("before-highlight",function(s){var a=s.element.parentNode;if(a&&/pre/i.test(a.nodeName)){var t,i,r=a.getAttribute("data-language")||e[s.language]||s.language.substring(0,1).toUpperCase()+s.language.substring(1),l=a.previousSibling;l&&/\s*\bprism-show-language\b\s*/.test(l.className)&&l.firstChild&&/\s*\bprism-show-language-label\b\s*/.test(l.firstChild.className)?i=l.firstChild:(t=document.createElement("div"),i=document.createElement("div"),i.className="prism-show-language-label",t.className="prism-show-language",t.appendChild(i),a.parentNode.insertBefore(t,a)),i.innerHTML=r}})}}();
+</script>
 
-<h1 id="toc_7"></h1>
+<script type="text/x-mathjax-config">
+(function () {
 
-<h1 id="toc_8"></h1>
+MathJax.Hub.Config({
+	'showProcessingMessages': false,
+	'messageStyle': 'none'
+});
 
-<h1 id="toc_9"></h1>
+if (typeof MathJaxListener !== 'undefined') {
+	MathJax.Hub.Register.StartupHook('End', function () {
+		MathJaxListener.invokeCallbackForKey_('End');
+	});
+}
 
-<h1 id="toc_10"></h1>
+})();
+</script>
 
-<h1 id="toc_11"></h1>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
-<h1 id="toc_12"></h1>
 
-<h1 id="toc_13"></h1>
-
-<h1 id="toc_14"></h1>
-
-<h1 id="toc_15"></h1>
-
-<h1 id="toc_16"></h1>
-
-<h1 id="toc_17"></h1>
-
-<h1 id="toc_18"></h1>
-
-<h1 id="toc_19"></h1>
-
-<h1 id="toc_20"></h1>
-
-<h1 id="toc_21"></h1>
-
-<h1 id="toc_22"></h1>
-
-<h1 id="toc_23"></h1>
-
-<h1 id="toc_24"></h1>
-
-<h1 id="toc_25"></h1>
-
-<h1 id="toc_26"></h1>
-
-<h1 id="toc_27"></h1>
-
-</div></body>
+</body>
 
 </html>
