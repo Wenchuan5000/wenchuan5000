@@ -1,11 +1,11 @@
-img {
-  width: 100%;
-  margin: -2px;
-  padding: 0;
-}
-
 body {
   background-color: #f5f5f5;
+
+  /*
+  note:
+  well, this is important, it makes divs stretch to browser.
+  */
+  margin: 0 auto;
 }
 
 .markdownBody {
@@ -14,8 +14,10 @@ body {
   max-width: 1200px;
   min-width: 200px;
 
-  /* makes text align to middle.
-  --- */
+  /*
+  note:
+  makes text align to middle.
+  */
   margin: 0 auto;
 
   padding: 0;
