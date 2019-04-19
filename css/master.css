@@ -1,6 +1,6 @@
 body {
   background-color: #f5f5f5;
-
+  width: 100%;
   /*
   note:
   well, this is important, it makes divs stretch to browser.
