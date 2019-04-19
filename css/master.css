@@ -1,0 +1,53 @@
+img {
+  width: 100%;
+  margin: -2px;
+  padding: 0;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.markdownBody {
+
+  background-color: white;
+  max-width: 1200px;
+  min-width: 200px;
+
+  /* makes text align to middle.
+  --- */
+  margin: 0 auto;
+
+  padding: 0;
+
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  color: #333;
+}
+
+.markdownBody p,
+.markdownBody h1,
+.markdownBody h2,
+.markdownBody h3,
+.markdownBody h4,
+.markdownBody h5,
+.markdownBody h6 {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.markdownBody p {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px;
+}
+
+.markdownBody p.center {
+  color:grey;
+  text-align: center;
+}
+
+.markdownBody img {
+  max-width: 100%;
+  min-width: 200px;
+  margin: 0 auto;
+}
