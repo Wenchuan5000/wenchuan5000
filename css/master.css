@@ -79,7 +79,7 @@ body {
 .markdownBody blockquote,
 .markdownBody ol,
 .markdownBody ul {
-  margin: 0;
+  margin: 20px;
   /* max-width: var(--markdownBodyText);
   margin: 0 auto;
   padding: 20px; */
