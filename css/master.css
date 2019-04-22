@@ -88,8 +88,10 @@ body {
 .markdownBody h1 {
   font-size: 36px;
   padding-top: 48px;
-  padding-bottom: 8px;
   margin-bottom: 12px;
+
+  /* horizontal */
+  padding-bottom: 8px;
   border-bottom: 1px solid var(--wenchuan-palepale);
 }
 
@@ -97,8 +99,11 @@ body {
   font-size: 28px;
   /* margin-top: 12px; */
   padding-top: 24px;
+  margin-bottom: 12px;
+
+  /* horizontal */
   padding-bottom: 8px;
-  /* border-bottom: 1px solid var(--wenchuan-palepale); */
+  border-bottom: 1px solid var(--wenchuan-palepale);
 }
 
 .markdownBody h3 {
