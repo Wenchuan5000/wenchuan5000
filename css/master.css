@@ -1,10 +1,33 @@
+:root {
+  --wenchuan-dark: rgba(0, 0, 0, 0.8);
+  --wenchuan-grey: rgba(0, 0, 0, 0.48);
+  --wenchuan-lightgrey: rgba(0, 0, 0, 0.24);
+  --wenchuan-pale: rgba(0, 0, 0, 0.16);
+  --wenchuan-palepale: rgba(0, 0, 0, 0.08);
+  --wenchuan-blue: rgba(68,176,194,1);
+  --wenchuan-blue-pale: rgba(68,176,194,.72);
+  --wenchuan-blue-palepale: rgba(68,176,194,.44);
+}
+
+:root {
+  --markdownBodyText: 720px;
+}
+
 body {
-  background-color: #f9f9f9;
+  /* background-color: #f9f9f9; */
   /*
   note:
   well, this is important, it makes divs stretch to browser.
   */
   margin: 0 auto;
+
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  color: var(--wenchuan-dark);
+  letter-spacing: .8px;
+}
+
+.center {
+  text-align: center;
 }
 
 .blank80 {
@@ -12,70 +35,105 @@ body {
   padding-bottom: 40px;
 }
 
-.boxShadow1 {
-  box-shadow: 0px 2px 8px #ebebeb;
-}
-
 .boxOutline1 {
-  outline: 1px solid #ebebeb;
+  outline: 1px solid var(--wenchuan-palepale);
 }
 
-.boxBorder1 {
-  border: 1px solid #ebebeb;
-  border-radius: 4px;
+.articleBox {
+  background-color: white;
+  max-width: 1024px;
+  min-width: 200px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 .markdownBody {
 
-  background-color: white;
-  max-width: 1200px;
-  min-width: 200px;
-
-  /*
-  note:
-  makes text box align to middle.
-  */
-  margin: 0 auto;
-
-  padding: 0;
-
-  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
-  color: rgba(74, 74, 74, 1);
-
-  letter-spacing: .8px;
 }
 
-.markdownBody p,
 .markdownBody h1,
 .markdownBody h2,
 .markdownBody h3,
 .markdownBody h4,
 .markdownBody h5,
-.markdownBody h6 {
-  max-width: 720px;
+.markdownBody h6,
+.markdownBody p,
+.markdownBody hr,
+.markdownBody blockquote {
+  max-width: var(--markdownBodyText);
   margin: 0 auto;
+  /*
+  note:
+  makes text box align to middle.
+  */
+  padding: 20px;
+}
+
+.markdownBody h1 {
+  font-size: 36px;
+  padding-top: 48px;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--wenchuan-main);
+}
+
+.markdownBody h2 {
+  font-size: 28px;
+  /* margin-top: 12px; */
+  padding-top: 24px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--wenchuan-main);
+}
+
+.markdownBody h3 {
+  font-size: 24px;
+  /* margin-top: 12px; */
+  padding-top: 12px;
+  margin-bottom: 12px;
+}
+
+.markdownBody h4 {
+  font-size: 20px;
+  padding-top: 12px;
+  margin-bottom: 12px;
+}
+
+.markdownBody h5 {
+  font-size: 16px;
+  padding-top: 12px;
+  margin-bottom: 12px;
+}
+
+.markdownBody h6 {
+  font-size: 16px;
+  color: var(--wenchuan-grey);
+  padding-top: 12px;
+  margin-bottom: 12px;
 }
 
 .markdownBody p {
   font-size: 16px;
-  line-height: 26px;
+  line-height: 24px;
   padding-top: 8px;
   padding-bottom: 8px;
   font-weight: 300;
 }
 
-.markdownBody h1 {
-  padding-top: 16px;
-  padding-bottom: 16px;
+.markdownBody a {
+  color: var(--wenchuan-dark);
+  border-bottom: 1px dashed var(--wenchuan-lightgrey);
+  text-decoration: none;
 }
 
-.markdownBody .center {
-  text-align: center;
+.markdownBody a:hover {
+  color: var(--wenchuan-blue);
+  border-bottom: 1px dashed var(--wenchuan-blue-pale);
 }
 
-.markdownBody article {
-  margin-left: 20px;
-  margin-right: 20px;
+.markdownBody a:active {
+  color: var(--wenchuan-blue-pale);
+  border-bottom: 1px dashed var(--wenchuan-blue-palepale);
 }
 
 .markdownBody img {
@@ -86,4 +144,33 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.markdownBody hr {
+  max-width: var(--markdownBodyText);
+  height: 0px;
+  /* overflow: hidden; */
+  background: transparent;
+  border: 0;
+  border-bottom: 1px dashed var(--wenchuan-pale);
+  margin-top:24px;
+  margin-bottom: 24px;
+}
+
+.markdownBody blockquote {
+  display: block;
+  
+  font-size: 0.9em;
+  padding-right: 15px;
+  margin: 1em 0;
+  color: #819198;
+  border-left: 6px solid #dce6f0;
+  background: #f2f7fb;
+  overflow: auto;
+  overflow-scrolling: touch;
+  word-wrap: normal;
+  word-break: normal;
 }
