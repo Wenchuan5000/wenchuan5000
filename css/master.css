@@ -1,5 +1,6 @@
 :root {
   --wenchuan-dark: rgba(0, 0, 0, 0.8);
+  --wenchuan-darkgrey: rgba(0, 0, 0, 0.64);
   --wenchuan-grey: rgba(0, 0, 0, 0.48);
   --wenchuan-lightgrey: rgba(0, 0, 0, 0.24);
   --wenchuan-pale: rgba(0, 0, 0, 0.16);
@@ -146,18 +147,14 @@ body {
 
 .markdownBody a {
   color: var(--wenchuan-dark);
-  border-bottom: 1px dashed var(--wenchuan-lightgrey);
+  border-bottom: 1px dashed var(--wenchuan-pale);
   text-decoration: none;
 }
 
-.markdownBody a:hover {
-  color: var(--wenchuan-blue);
-  border-bottom: 1px dashed var(--wenchuan-blue-pale);
-}
-
-.markdownBody a:active {
-  color: var(--wenchuan-blue-pale);
-  border-bottom: 1px dashed var(--wenchuan-blue-palepale);
+.markdownBody a:hover,
+.markdownBody a:active,
+.markdownBody a:focus {
+  color: var(--wenchuan-grey);
 }
 
 .markdownBody img {
