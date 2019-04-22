@@ -17,11 +17,11 @@ body {
 }
 
 .boxOutline1 {
-  outline: 1px solid rgba(51, 51, 51, 0.08);
+  outline: 1px solid rgba(51, 51, 51, 0.04);
 }
 
 .boxBorder1 {
-  border: 1px solid rgba(51, 51, 51, 0.08);
+  border: 1px solid rgba(51, 51, 51, 0.04);
   border-radius: 4px;
 }
 
