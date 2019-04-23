@@ -1,5 +1,5 @@
 body {
-  /* background-color: #f9f9f9; */
+  background-color: var(--wenchuan-superpale);
   /*
   note:
   well, this is important, it makes divs stretch to browser.
@@ -21,7 +21,20 @@ body {
 }
 
 .boxOutline1 {
-  outline: 1px solid var(--wenchuan-palepale);
+  /* outline: 1px solid var(--wenchuan-palepale); */
+  border-radius: 4px;
+  box-shadow: 1px 1px 2px var(--wenchuan-palepale),
+  -1px 1px 2px var(--wenchuan-palepale);
+}
+
+@media screen and (max-width: 800px) {
+  .boxOutline1 {
+    outline: none;
+    box-shadow: none;
+    /* big screen */
+    /* outline: 1px solid var(--wenchuan-palepale);
+    box-shadow: 0px 2px 4px var(--wenchuan-palepale); */
+  }
 }
 
 .articleBox {
@@ -176,7 +189,7 @@ body {
 .markdownBody blockquote {
   color: var(--wenchuan-grey);
   border-left: 4px solid var(--wenchuan-pale);
-  background: var(--wenchuan-palepalepale);
+  background: var(--wenchuan-superpale);
   /* margin: 0 auto; */
   padding: 16px 16px;
   margin: 24px 0;
@@ -209,3 +222,60 @@ body {
 .markdownBody mark:hover {
   background-color: var(--wenchuan-mark-hover);
 }
+
+@media screen and (max-width: 800px) {
+  .boxOutline1 {
+    outline: none;
+    box-shadow: none;
+    /* big screen */
+    /* outline: 1px solid var(--wenchuan-palepale);
+    box-shadow: 0px 2px 4px var(--wenchuan-palepale); */
+  }
+}
+
+.markdownBody details p {
+  padding-left: 1em;
+}
+
+.markdownBody details summary {
+  font-weight: bold;
+}
+
+.markdownBody details summary:hover {
+  opacity: 0.8;
+}
+
+/* begin navigation */
+.navigation-top {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.08);
+
+  width: 100%;
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+.navigation-top li {
+  float: left;
+
+}
+
+.navigation-top a {
+  display: block;
+  color: var(--wenchuan-grey);
+  text-align: center;
+  padding: 22px 24px;
+  text-decoration: none;
+  border-bottom: 4px solid white;
+}
+
+.navigation-top a:hover {
+  color: var(--wenchuan-dark);
+  border-bottom: 4px solid var(--wenchuan-dark);
+}
+/* end navigation */

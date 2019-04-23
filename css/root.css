@@ -6,6 +6,7 @@
   --wenchuan-pale: #D6D6D6;
   --wenchuan-palepale: #EBEBEB;
   --wenchuan-palepalepale: #F5F5F5;
+  --wenchuan-superpale: #FAFAFA
 }
 
 :root {
@@ -25,6 +26,6 @@
 }
 
 :root {
-  --markdownBodyText: 720px;
-  --articleBoxMaxWidth: 1024px;
+  --markdownBodyText: 760px;
+  --articleBoxMaxWidth: 1200px;
 }
