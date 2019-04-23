@@ -3,7 +3,18 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="./css/master.css">
+    <link rel="stylesheet" href="./css/root.css">
     <title></title>
+
+    <!-- begin LaTeX -->
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <!-- end LaTeX -->
+
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
@@ -20,7 +31,12 @@
       <div class="markdownBody">
         <h1>Heading 1</h1>
 
-        <p><a href="">Johann Sebastian Bach</a> was a German composer and musician of the Baroque period. He is known for instrumental compositions such as the Art of Fugue, the Brandenburg Concertos, and the Goldberg Variations as well as for vocal music such as the St Matthew Passion and the Mass in B minor.</p>
+
+        <p><a href="">Johann Sebastian Bach</a> was a <b>German</b> composer and musician of the Baroque period. `He` is known for <del>instrumental</del> compositions such as the Art of Fugue, the Brandenburg Concertos, and the Goldberg Variations as well as for <em>vocal music</em> such as the St Matthew Passion and the Mass in B minor.</p>
+
+        <h2>Heading 2</h2>
+
+        <p><mark>Johann Sebastian Bach was a German composer and musician of the Baroque period. He is known for instrumental compositions such</mark> as the Art of Fugue, the Brandenburg Concertos, and the Goldberg Variations as well as <u>for vocal music such as the St Matthew Passion and the Mass in B minor</u>.</p>
 
         <h1>Heading 1</h1>
         <h2>Heading 2</h2>
@@ -28,13 +44,15 @@
         <h4>Heading 4</h4>
         <h5>Heading 5</h5>
         <h6>Heading 6</h6>
-        <p class="center">Johann Sebastian Bach was a German composer and musician of the Baroque period. He is known for instrumental compositions such as the Art of Fugue, the Brandenburg Concertos, and the Goldberg Variations as well as for vocal music such as the St Matthew Passion and the Mass in B minor.</p>
+        <p class="centerText">Johann Sebastian Bach was a German composer and musician of the Baroque period. He is known for instrumental compositions such as the Art of Fugue, the Brandenburg Concertos, and the Goldberg Variations as well as for vocal music such as the St Matthew Passion and the Mass in B minor.</p>
 
       </div>
 
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Funifor_Arabba_Porta_Vescovo.jpg/2880px-Funifor_Arabba_Porta_Vescovo.jpg">
 
       <div class="markdownBody">
+
+        <p class="myCaption centerText">After graduating he held several musical posts across Germany: he served as Kapellmeister (director of music) to Leopold, Prince of Anhalt-Köthen, and as Thomaskantor in Leipzig, a position of music director at the main Lutheran churches and educator at the Thomasschule. He received the title of "Royal Court Composer" from <em>Augustus III</em> in 1736.</p>
 
         <h2>Life</h2>
         <p>
@@ -48,11 +66,24 @@
         </p>
 
         <blockquote>
-          To be or not to be that is a fuckin question!
+          <p>
+            Bach was born in 1685 in <em>Eisenach</em>, in the duchy of Saxe-Eisenach, into a great musical family. His father, Johann Ambrosius Bach, was the director of the town musicians, and all of his uncles were professional musicians.
+          </p>
+          <p>
+            Bach was born in 1685 in <em>Eisenach</em>, in the duchy of Saxe-Eisenach, into a great musical family. His father, Johann Ambrosius Bach, was the director of the town musicians, and all of his uncles were professional musicians.
+          </p>
         </blockquote>
 
+        <p>\[<br/>
+        R^{-1} = \{ (x,y) \;|\; yRx \} = \{ (y,x) \;|\; xRy \}.<br/>
+        \]</p>
+
+        $$
+          f(x)
+        $$
+
         <ol>
-          <li>Mathematical Analysis
+          <li>$\pi$ Mathematical Analysis $x^2$
             <ol>
               <li>Limits</li>
               <li>Set Theory</li>
@@ -74,6 +105,8 @@
           <li>Differential Calculus</li>
           <li>Integral Calculus</li>
         </ul>
+
+        <div class="blank80"></div>
 
       </div>
       <!-- end markdownBody -->
