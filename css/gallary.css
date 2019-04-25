@@ -1,0 +1,80 @@
+/* begin cards */
+.gallary {
+  /* background-color: white; */
+  max-width: var(--articleBoxMaxWidth);
+  min-width: 200px;
+  margin: 0 auto;
+  /* separates the div */
+  overflow: scroll;
+  display: block;
+  padding: 0 20px;
+  /* padding-top: 20px; */
+  /* padding-bottom: 40px; */
+}
+
+.gallary .intro {
+  padding: 0 20px;
+  margin: 0;
+  max-width: 720px;
+  min-width: 200px;
+  margin-bottom: 32px;
+}
+
+.gallary h1 {
+  /* font-weight: normal; */
+}
+
+/* subtitle */
+.gallary h6 {
+  color: var(--wenchuan-grey);
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: normal;
+  padding-top: 28px;
+  padding-bottom: 6px;
+}
+
+/* title */
+.gallary h4 {
+  font-weight: normal;
+  color: var(--wenchuan-dark);
+  padding-top: 24px;
+  padding-bottom: 4px;
+}
+
+/* intro */
+.card p {
+  font-size: 14px;
+  line-height: 26px;
+  color: var(--wenchuan-grey);
+  padding-top: 2px;
+  padding-bottom: 4px;
+}
+
+.gallary .card {
+  width: 30%;
+  float: left;
+  margin: 32px 1.6666%;
+}
+
+.gallary .left,
+.gallary .mid,
+.gallary .right {
+  width: 30%;
+  float: left;
+  display: block;
+}
+
+.gallary img {
+  width: 100%;
+  border-radius: 2px;
+  padding: 0;
+  margin: 0;
+}
+
+.gallary img:hover {
+  border-radius: 24px 2px 2px 2px;
+  /* opacity: 0.8; */
+}
+
+/* end cards */

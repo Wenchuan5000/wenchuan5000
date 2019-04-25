@@ -1,5 +1,5 @@
 body {
-  background-color: var(--wenchuan-superpale);
+  /* background-colopaddingr: var(--wenchuan-superpale); */
   /*
   note:
   well, this is important, it makes divs stretch to browser.
@@ -46,6 +46,18 @@ body {
   /* padding-bottom: 40px; */
 }
 
+figure {
+  max-width: 100%;
+  min-width: 200px;
+  margin: 0 auto;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 20px 0;
+}
+
 .articleBox img {
   max-width: 100%;
   min-width: 200px;
@@ -55,8 +67,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 0;
 }
 
 .markdownBody {
@@ -66,107 +77,120 @@ body {
   /* padding: 0; */
 }
 
-.markdownBody h1,
-.markdownBody h2,
-.markdownBody h3,
-.markdownBody h4,
-.markdownBody h5,
-.markdownBody h6,
-.markdownBody p,
-.markdownBody hr,
-.markdownBody blockquote,
-.markdownBody ol,
-.markdownBody ul {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+hr,
+blockquote,
+ol,
+ul {
   margin: 0;
-
+  /* font-weight: 400; */
   /* max-width: var(--markdownBodyText);
   margin: 0 auto;
   padding: 20px; */
 }
 
-.markdownBody h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+
+h1 {
   font-size: 36px;
   padding-top: 48px;
-  margin-bottom: 12px;
+  padding-bottom: 12px;
 
   /* horizontal */
   /* padding-bottom: 8px; */
   /* border-bottom: 1px solid var(--wenchuan-palepale); */
 }
 
-.markdownBody h2 {
+h2 {
   font-size: 28px;
   /* margin-top: 12px; */
   padding-top: 24px;
-  margin-bottom: 12px;
+  padding-bottom: 12px;
 
   /* horizontal */
   /* padding-bottom: 8px; */
   /* border-bottom: 1px solid var(--wenchuan-palepale); */
 }
 
-.markdownBody h3 {
+h3 {
   font-size: 24px;
   /* margin-top: 12px; */
   padding-top: 12px;
-  margin-bottom: 12px;
+  padding-bottom: 12px;
 }
 
-.markdownBody h4 {
+h4 {
   font-size: 20px;
   padding-top: 12px;
-  margin-bottom: 12px;
+  padding-bottom: 12px;
 }
 
-.markdownBody h5 {
+h5 {
   font-size: 16px;
   padding-top: 12px;
-  margin-bottom: 12px;
+  padding-bottom: 12px;
 }
 
-.markdownBody h6 {
+h6 {
   font-size: 16px;
   color: var(--wenchuan-grey);
   padding-top: 12px;
-  margin-bottom: 12px;
+  padding-bottom: 12px;
 }
 
-.markdownBody p,
-.markdownBody ol,
-.markdownBody ul {
+p,
+ol,
+ul {
   font-size: 16px;
-  line-height: 28px;
+  line-height: 32px;
   padding-top: 8px;
   padding-bottom: 8px;
   /* font-weight: 400; */
 }
 
-.markdownBody a {
+.articleBox figcaption {
+  max-width: var(--markdownBodyText);
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 26px;
+  padding-top: 8px;
+  color: var(--wenchuan-grey);
+}
+
+.myCaption {
+  font-size: 14px;
+  line-height: 26px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: var(--wenchuan-grey);
+}
+
+a {
   color: var(--wenchuan-blue);
   /* border-bottom: 1px solid var(--wenchuan-pale); */
   text-decoration: none;
 }
 
-.markdownBody a:hover,
-.markdownBody a:active,
-.markdownBody a:focus {
+a:hover,
+a:active,
+a:focus {
   color: var(--wenchuan-grey);
 }
 
-.markdownBody img {
-  max-width: 100%;
-  min-width: 200px;
-  margin: 0 auto;
-
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.markdownBody hr {
+hr {
   height: 0px;
   /* overflow: hidden; */
   background: transparent;
@@ -178,15 +202,15 @@ body {
   padding: 0px;
 }
 
-.markdownBody blockquote,
-.markdownBody blockquote * {
+blockquote,
+blockquote * {
   font-size: 14px;
   line-height: 26px;
   /* font-weight: 300; */
   /* padding-right: 0px; */
 }
 
-.markdownBody blockquote {
+blockquote {
   color: var(--wenchuan-grey);
   border-left: 4px solid var(--wenchuan-pale);
   background: var(--wenchuan-superpale);
@@ -195,53 +219,39 @@ body {
   margin: 24px 0;
 }
 
-.markdownBody *.myCaption {
-  font-size: 14px;
-  line-height: 26px;
-  color: var(--wenchuan-grey);
-}
-
-.markdownBody del {
+del {
   color: var(--wenchuan-lightgrey);
 }
 
-.markdownBody del:hover {
+del:hover {
   text-decoration: none;
 }
 
-.markdownBody u {
+u {
   text-decoration: none;
   border-bottom: 1px dashed var(--wenchuan-pale);
 }
 
-.markdownBody mark {
+mark {
   background-color: var(--wenchuan-mark-normal);
   padding: 5px 0;
 }
 
-.markdownBody mark:hover {
+mark:hover {
   background-color: var(--wenchuan-mark-hover);
 }
 
-@media screen and (max-width: 800px) {
-  .boxOutline1 {
-    outline: none;
-    box-shadow: none;
-    /* big screen */
-    /* outline: 1px solid var(--wenchuan-palepale);
-    box-shadow: 0px 2px 4px var(--wenchuan-palepale); */
-  }
+
+
+details p {
+  padding-left: 1.1em;
 }
 
-.markdownBody details p {
-  padding-left: 1em;
+details summary {
+  font-weight: 500;
 }
 
-.markdownBody details summary {
-  font-weight: bold;
-}
-
-.markdownBody details summary:hover {
+details summary:hover {
   opacity: 0.8;
 }
 
@@ -269,7 +279,11 @@ body {
   display: block;
   color: var(--wenchuan-grey);
   text-align: center;
-  padding: 22px 24px;
+  /* padding: 22px 24px; */
+  padding-top: 22px;
+  padding-bottom: 18px;
+  padding-left: 24px;
+  padding-right: 24px;
   text-decoration: none;
   border-bottom: 4px solid white;
 }
