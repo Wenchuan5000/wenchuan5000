@@ -16,7 +16,7 @@ div.main {
   /* border: 1px solid rgba(0, 0, 0, 0.08); */
   background: white;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0;
   max-width: 720px;
   min-width: 200px;
 }
@@ -34,6 +34,7 @@ ol,
 ul {
   line-height: 2em;
   margin: 1em 0;
+  padding: 0 20px;
 }
 
 /* begin headings */
