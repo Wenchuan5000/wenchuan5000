@@ -86,8 +86,8 @@ P,
 blockquote,
 ul,
 ol {
-  hyphens: auto;
-  text-align: justify;
+  /* hyphens: auto; */
+  /* text-align: justify; */
 }
 
 p {
