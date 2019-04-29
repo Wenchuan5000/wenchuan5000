@@ -1,4 +1,4 @@
-/* begin cards */
+/* begin gallary */
 .gallary {
   /* background-color: white; */
   max-width: var(--articleBoxMaxWidth);
@@ -21,6 +21,7 @@
 }
 
 .gallary h1 {
+  padding-top: 80px;
   /* font-weight: normal; */
 }
 
@@ -67,14 +68,14 @@
 
 .gallary img {
   width: 100%;
+
   border-radius: 2px;
   padding: 0;
   margin: 0;
+  transition: .3s;
 }
 
 .gallary img:hover {
   border-radius: 24px 2px 2px 2px;
-  /* opacity: 0.8; */
 }
-
-/* end cards */
+/* end gallary */
