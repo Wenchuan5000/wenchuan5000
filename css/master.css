@@ -111,7 +111,7 @@ a:hover {
 blockquote {
   color: grey;
   box-sizing: border-box;
-  max-width: inherit;
+  max-width: 100%;
   margin: 2rem 20px;
   padding: 0.5rem 1em;
   background-color: #f9f9f9;
