@@ -34,7 +34,7 @@ ol,
 ul {
   line-height: 2em;
   margin: 1em 0;
-  padding: 0 2rem;
+  padding: 0 20px;
 }
 
 /* begin headings */
@@ -126,12 +126,21 @@ blockquote * {
 
 /* begin lists */
 
+ul,
+ol {
+  margin-left: 2em;
+}
+
 ul {
 
 }
 
 ol {
 
+}
+
+li {
+  /* margin: 2em */
 }
 
 /* end lists */
@@ -170,9 +179,9 @@ figure img {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  max-width: inherit;
+  max-width: 100%;
   margin-bottom: 0;
-  padding: 0 2rem;
+  padding: 0 20px;
 }
 
 @media screen and (max-width: 700px) {
