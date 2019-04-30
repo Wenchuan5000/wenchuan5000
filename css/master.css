@@ -19,6 +19,7 @@ div.main {
   padding: 0;
   max-width: 960px;
   min-width: 200px;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* begin markdown elements */
@@ -171,7 +172,6 @@ figure {
 
 figcaption * {
   font-size: 0.875rem;
-  line-height: 2em;
   margin-top: .25em;
 }
 
