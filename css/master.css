@@ -8,6 +8,8 @@ body {
   color: rgba(0,0,0,.8);
   letter-spacing: .2px;
   font-family: 'Open Sans', sans-serif;
+  line-height: 1.5em;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* begin main */
@@ -19,7 +21,7 @@ div.main {
   padding: 0;
   max-width: 960px;
   min-width: 200px;
-  -webkit-font-smoothing: antialiased;
+
 }
 
 /* begin markdown elements */
@@ -33,7 +35,6 @@ h6,
 p,
 ol,
 ul {
-  line-height: 1.5em;
   margin: 1em 0;
   padding: 0 20px;
 }
