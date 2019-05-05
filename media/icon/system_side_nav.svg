@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>system_side_nav</title>
+    <desc>Created with Sketch.</desc>
+    <g id="system_side_nav" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M8,10 L40,10 C41.1045695,10 42,10.8954305 42,12 C42,13.1045695 41.1045695,14 40,14 L8,14 C6.8954305,14 6,13.1045695 6,12 C6,10.8954305 6.8954305,10 8,10 Z M8,22 L40,22 C41.1045695,22 42,22.8954305 42,24 C42,25.1045695 41.1045695,26 40,26 L8,26 C6.8954305,26 6,25.1045695 6,24 C6,22.8954305 6.8954305,22 8,22 Z M8,34 L40,34 C41.1045695,34 42,34.8954305 42,36 C42,37.1045695 41.1045695,38 40,38 L8,38 C6.8954305,38 6,37.1045695 6,36 C6,34.8954305 6.8954305,34 8,34 Z" id="Combined-Shape" fill="#333333"></path>
+    </g>
+</svg>

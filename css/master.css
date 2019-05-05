@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
+
 html {
   font-size: 16px;
 }
@@ -7,7 +9,7 @@ body {
   margin: 0;
   color: rgba(0,0,0,.8);
   letter-spacing: .2px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
