@@ -10,6 +10,7 @@
       box-sizing: border-box;
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
+      transition: 0.3s;
     }
 
     html {
@@ -106,7 +107,7 @@
         ++++++++++++++++++++++++++++++++++++++++ */
 
         a {
-          color: #DF384F;
+          color: #df384f;
           text-decoration: none;
           transition: 0.3s;
         }
@@ -135,12 +136,24 @@
           color: #DF384F;
         }
 
+    /* ----------------------------------------
+    1.4. span elements
+    ---------------------------------------- */
+
+        /* ++++++++++++++++++++++++++++++++++++++++
+        1.4.1 brand colored text
+        ++++++++++++++++++++++++++++++++++++++++ */
+
+        .brand-text {
+            color:#df384f;
+        }
+
 /* ========================================
 2. divs
 ======================================== */
 
 div.main {
-  max-width: 1240px;
+  max-width: 1160px;
   min-width: 200px;
   margin: 0 auto;
   padding: 40px;
@@ -155,113 +168,131 @@ navigation (top)
     ---------------------------------------- */
 
     #nav {
+      background-color: white;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      transition: top 0.3s;
+      z-index: 1;
+
       display: flex;
-      flex-wrap: wrap;
-      overflow: hidden;
-      box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+      justify-content: space-between;
+      padding: 0 20px;
+      height: 72px;
       line-height: 72px;
+      box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+    }
+
+    #nav * {
+      margin: 0;
       padding: 0;
     }
 
-    #logo {
-      display: block;
-      float: left;
-      background-image: url(../media/logo.png);
-      background-size: 100%;
-      background-position: center;
-      width: 32px;
-      height: 32px;
-      border: 1px solid rgba(0, 0, 0, 0.08);
-      border-radius: 200px;
-      margin-top: 20px;
-      transition: .3s;
-    }
-
-    #logo:hover {
-      background-image: url(../media/logo2.png);
-    }
-
-    .nav-seperator-mid {
-      flex: 1 1 auto;
-    }
-
-    .nav-seperator-li {
-      flex: 0 0 40px;
-    }
-
-    .nav-seperator-begin {
-      flex: 0 0 20px;
-    }
-
-    .nav-seperator-end {
-      flex: 0 0 40px;
-    }
-
-    #title {
-      flex: 0 0 auto;
-      margin: 0 0 0 20px;
-      height: 72px;
-      /* well this is wierd, when font-size is 20px in `#title a`, it is 73px high, so I have to give an addtional setting here.  */
-    }
-
-    #title a {
-      color: #333333;
-      font-weight: 600;
-      font-size: 20px;
-      text-decoration: none;
-    }
-
-    .nav-li a {
-      font-size: 18px;
-      color: #adadad;
-      text-decoration: none;
-      transition: 0.3s;
-    }
-
-    .nav-li a:hover {
-      color: #df384f;
-    }
-
-    #nav .current {
-      animation-name: navigation-active;
-      animation-duration: 0.5s;
-      animation-fill-mode: forwards;
-    }
-
-    #nav .current a {
-      color: #df384f;
+    #nav ul li, li {
+      list-style: none;
     }
 
     /* ----------------------------------------
-    navigation responsiveness
+    navition elements
     ---------------------------------------- */
 
-    @keyframes navigation-active {
-      from {
-        box-shadow: inset 0 0px 0 #df384f;
-      }
-      to {
-        box-shadow: inset 0 -4px 0 #df384f;
-      }
-    }
+        /* ++++++++++++++++++++++++++++++++++++++++
+        nav-li left
+        ++++++++++++++++++++++++++++++++++++++++ */
+
+        #logo {
+          float: left;
+          background-image: url(../media/logo.png);
+          background-size: 100%;
+          background-position: center;
+          width: 32px;
+          height: 32px;
+          border: 1px solid rgba(0, 0, 0, 0.08);
+          background-color: #ddd;
+          border-radius: 50%;
+          margin-top: 20px;
+        }
+
+        #title {
+          margin-left: 20px;
+          color: #333333;
+          font-size: 20px;
+          font-weight: 600;
+        }
+
+        /* ++++++++++++++++++++++++++++++++++++++++
+        nav-li right
+        ++++++++++++++++++++++++++++++++++++++++ */
+
+        #nav .right ul {
+          display: flex;
+          font-size: 18px;
+        }
+
+        #nav .right ul li:not(:first-child) {
+          margin-left: 40px;
+        }
+
+        #nav .right ul li:last-child {
+          margin-right: 20px;
+        }
+
+        #nav .right ul li a{
+          color: #adadad;
+          text-decoration: none
+        }
+        #nav .right ul li a:hover{
+          color: #df384f;
+        }
+
+        #nav .right .current a {
+          color: #df384f;
+        }
+
+        /* ++++++++++++++++++++++++++++++++++++++++
+        nav-li current
+        ++++++++++++++++++++++++++++++++++++++++ */
+
+        #nav .current {
+          animation-name: nav-active;
+          animation-duration: 0.5s;
+          animation-fill-mode: forwards;
+        }
+
+        @keyframes nav-active {
+          from {
+            box-shadow: inset 0 0px 0 #df384f;
+          }
+          to {
+            box-shadow: inset 0 -4px 0 #df384f;
+          }
+        }
+
+    /* ----------------------------------------
+    nav responsiveness
+    ---------------------------------------- */
 
     @media screen and (max-width: 600px) {
       #title {
         display: none;
       }
-    }
 
     @media screen and (max-width: 520px) {
-      #logo {
+      .left {
         display: none;
       }
-      .nav-seperator-mid {
-        display: none;
+      .right, .right ul {
+        width: 100%;
       }
-      .nav-seperator-li {
-        flex: 1 1 auto;
+      .right ul {
+        display: flex;
+        justify-content: space-between;
       }
-      .nav-seperator-end {
-        flex: 0 0 20px;
+      .right ul li:not(:first-child) {
+        margin-left: 0px;
       }
+      .right ul li:last-child {
+        margin-right: 0;
+      }
+
     }
