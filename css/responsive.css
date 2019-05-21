@@ -1,0 +1,76 @@
+/* ----------------------------------------
+some fonts
+---------------------------------------- */
+
+@media screen and (max-width: 520px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+/* ----------------------------------------
+some div
+---------------------------------------- */
+
+@media screen and (max-width: 520px) {
+  div.main {
+    padding: 0 20px;
+  }
+}
+
+/* ----------------------------------------
+nav
+---------------------------------------- */
+
+@media screen and (max-width: 600px) {
+  #title {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .left {
+    display: none;
+  }
+  .right, .right ul {
+    width: 100%;
+  }
+  .right ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  .right ul li:not(:first-child) {
+    margin-left: 0px;
+  }
+
+  #nav {
+    padding: 0 20px;
+  }
+
+}
+
+/* ----------------------------------------
+card set
+---------------------------------------- */
+
+@media screen and (max-width: 920px) {
+  .card-set-1 .long {
+    flex: 1 1 100%;
+    margin: 0 0 0 0;
+  }
+
+  .card-set-1 .short {
+    flex: 1 1 100%;
+    margin: 40px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .card-set-1 .long .bg-image {
+    height: 320px;
+  }
+
+  .card-set-1 .short .bg-image {
+    height: 320px;
+  }
+}

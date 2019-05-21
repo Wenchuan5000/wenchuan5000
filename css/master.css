@@ -11,6 +11,8 @@
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
       transition: 0.3s;
+      margin: 0;
+      padding: 0;
     }
 
     html {
@@ -95,7 +97,22 @@
         h6,
         p {
           line-height: 1.5em;
-          margin: .5em 0;
+        }
+
+        /* ++++++++++++++++++++++++++++++++++++++++
+        1.2.4 default color
+        ++++++++++++++++++++++++++++++++++++++++ */
+
+        p {
+          color: #858585;
+        }
+
+        /* ++++++++++++++++++++++++++++++++++++++++
+        1.2.5 default margin
+        ++++++++++++++++++++++++++++++++++++++++ */
+
+        p {
+          margin: 0.5em 0 0 0;
         }
 
     /* ----------------------------------------
@@ -152,11 +169,21 @@
 2. divs
 ======================================== */
 
+div.begin {
+  height: 72px;
+}
+
 div.main {
-  max-width: 1160px;
+  max-width: 1240px;
   min-width: 200px;
   margin: 0 auto;
-  padding: 40px;
+  padding: 0 40px;
+}
+
+.big-div {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08)
 }
 
 /* ========================================
@@ -181,11 +208,6 @@ navigation (top)
       height: 72px;
       line-height: 72px;
       box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
-    }
-
-    #nav * {
-      margin: 0;
-      padding: 0;
     }
 
     #nav ul li, li {
@@ -218,6 +240,7 @@ navigation (top)
           color: #333333;
           font-size: 20px;
           font-weight: 600;
+          text-decoration: none;
         }
 
         /* ++++++++++++++++++++++++++++++++++++++++
@@ -264,32 +287,79 @@ navigation (top)
           }
         }
 
+/* ========================================
+card set
+======================================== */
+
     /* ----------------------------------------
-    nav responsiveness
+    card set basic
     ---------------------------------------- */
 
-    @media screen and (max-width: 600px) {
-      #title {
-        display: none;
-      }
+        .card-set-1 {
+          display: flex;
+          flex-wrap: wrap;
+        }
 
-    @media screen and (max-width: 520px) {
-      .left {
-        display: none;
-      }
-      .right, .right ul {
-        width: 100%;
-      }
-      .right ul {
-        display: flex;
-        justify-content: space-between;
-      }
-      .right ul li:not(:first-child) {
-        margin-left: 0px;
-      }
+        .card-set-1 .bg-image {
+          /* Full height */
+          /* height: 100%; */
+          /* Center and scale the image nicely */
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
 
-      #nav {
-        padding: 0 20px;
-      }
+        .card-set-1 .bg-image:hover {
+          border-radius: 16px;
+        }
 
-    }
+    /* ----------------------------------------
+    card set title
+    ---------------------------------------- */
+
+        .card-title {
+          padding-bottom: 40px;
+        }
+
+        .card-title span {
+          color: #df384f
+        }
+
+    /* ----------------------------------------
+    card set 1 left and right
+    ---------------------------------------- */
+
+        .card-set-1 .long {
+          flex: 1 1 441px;
+          margin: 0 20px 0 0;
+        }
+
+        .card-set-1 .long .bg-image {
+          height: 360px;
+        }
+
+        .card-set-1 .short {
+          flex: 0 0 360px;
+          margin: 0 0 0 20px;
+        }
+
+        .card-set-1 .short .bg-image {
+          height: 360px;
+        }
+
+        .card-set-1 .empty {
+          flex: 0 0 360px;
+          margin: 0 0 0 20px;
+        }
+
+    /* ----------------------------------------
+    card set description
+    ---------------------------------------- */
+
+        .card-set-1 .description {
+          margin: 24px 0 0 0;
+        }
+
+        .card-set-1 p {
+          margin-top: 8px;
+        }
