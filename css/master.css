@@ -177,7 +177,7 @@ navigation (top)
 
       display: flex;
       justify-content: space-between;
-      padding: 0 20px;
+      padding: 0 40px 0 20px;
       height: 72px;
       line-height: 72px;
       box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
@@ -231,10 +231,6 @@ navigation (top)
 
         #nav .right ul li:not(:first-child) {
           margin-left: 40px;
-        }
-
-        #nav .right ul li:last-child {
-          margin-right: 20px;
         }
 
         #nav .right ul li a{
@@ -291,8 +287,9 @@ navigation (top)
       .right ul li:not(:first-child) {
         margin-left: 0px;
       }
-      .right ul li:last-child {
-        margin-right: 0;
+
+      #nav {
+        padding: 0 20px;
       }
 
     }
