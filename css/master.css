@@ -1,210 +1,267 @@
-* {
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-}
+/* ========================================
+1. general settings
+======================================== */
 
-html {
-  font-size: 16px;
-}
+    /* ----------------------------------------
+    1.1. basic settings
+    ---------------------------------------- */
 
-body {
-  /* background-color: white; */
-  margin: 0;
-  color: rgba(0,0,0,.8);
-  letter-spacing: .2px;
-  font-family: 'Source Sans Pro', sans-serif;
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-}
+    * {
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+    }
 
-/* begin main */
+    html {
+      font-size: 16px;
+    }
+
+    body {
+      /* background-color: white; */
+      margin: 0;
+      color: #333333;
+      letter-spacing: .2px;
+      font-family: 'Source Sans Pro', sans-serif;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ----------------------------------------
+    1.2. body text
+    ---------------------------------------- */
+
+        /* ++++++++++++++++++++++++++++++++++++++++
+        1.2.1 font size of body text
+        ++++++++++++++++++++++++++++++++++++++++ */
+
+        h1 {
+          font-size: 3rem;
+        }
+
+        h2 {
+          font-size: 2rem;
+        }
+
+        h3 {
+          font-size: 1.5rem;
+        }
+
+        h4 {
+          font-size: 1.25rem;
+        }
+
+        h5 {
+          font-size: 1.125rem;
+        }
+
+        h6 {
+          font-size: 1rem;
+        }
+
+        p {
+          font-size: 1rem;
+        }
+
+        /* ++++++++++++++++++++++++++++++++++++++++
+        1.2.2 font weight of body text
+        ++++++++++++++++++++++++++++++++++++++++ */
+
+        h1,
+        h2,
+        h3,
+        h4 {
+          font-weight: 400;
+        }
+
+        h5,
+        h6 {
+          font-weight: 600;
+        }
+
+        p {
+          font-weight: 400;
+        }
+
+        /* ++++++++++++++++++++++++++++++++++++++++
+        1.2.3 default line height & margin of body text
+        ++++++++++++++++++++++++++++++++++++++++ */
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p {
+          line-height: 1.5em;
+          margin: .5em 0;
+        }
+
+    /* ----------------------------------------
+    1.3. link
+    ---------------------------------------- */
+
+        /* ++++++++++++++++++++++++++++++++++++++++
+        1.3.1 default link
+        ++++++++++++++++++++++++++++++++++++++++ */
+
+        a {
+          color: #DF384F;
+          text-decoration: none;
+          transition: 0.3s;
+        }
+
+        a:hover {
+          color: inherit;
+          text-decoration: underline;
+        }
+
+        /* ++++++++++++++++++++++++++++++++++++++++
+        1.3.2 link on navigation
+        ++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+        /* ++++++++++++++++++++++++++++++++++++++++
+        1.3.3 link on footer
+        ++++++++++++++++++++++++++++++++++++++++ */
+
+        #footer a {
+          color: #858585;
+          transition: 0.3s;
+        }
+
+        #footer a:hover {
+          color: #DF384F;
+        }
+
+/* ========================================
+2. divs
+======================================== */
 
 div.main {
-  /* border: 1px solid rgba(0, 0, 0, 0.08); */
-  /* background: white; */
-  margin: 0 auto;
-  padding: 0;
-  max-width: 960px;
+  max-width: 1240px;
   min-width: 200px;
-
+  margin: 0 auto;
+  padding: 40px;
 }
 
-/* begin markdown elements */
+/* ========================================
+navigation (top)
+======================================== */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ol,
-ul {
-  margin: 1em 0;
-  padding: 0 20px;
-}
+    /* ----------------------------------------
+    navition basics
+    ---------------------------------------- */
 
-/* begin headings */
+    #nav {
+      display: flex;
+      flex-wrap: wrap;
+      overflow: hidden;
+      box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+      line-height: 72px;
+      padding: 0;
+    }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 400;
-}
+    #logo {
+      display: block;
+      float: left;
+      background-image: url(../media/logo.png);
+      background-size: 100%;
+      background-position: center;
+      width: 32px;
+      height: 32px;
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      border-radius: 200px;
+      margin-top: 20px;
+      transition: .3s;
+    }
 
-h1 {
-  font-size: 2.5rem;
-}
+    #logo:hover {
+      background-image: url(../media/logo2.png);
+    }
 
-h2 {
-  font-size: 2rem;
-}
+    .nav-seperator-mid {
+      flex: 1 1 auto;
+    }
 
-h3 {
-  font-size: 1.5rem;
-}
+    .nav-seperator-li {
+      flex: 0 0 40px;
+    }
 
-h4 {
-  font-size: 1rem;
-}
+    .nav-seperator-begin {
+      flex: 0 0 20px;
+    }
 
-h5 {
-  font-size: 1rem;
-}
+    .nav-seperator-end {
+      flex: 0 0 40px;
+    }
 
-h6 {
-  font-size: 1rem;
-  color: rgba(0, 0, 0, 0.48);
-}
+    #title {
+      flex: 0 0 auto;
+      margin: 0 0 0 20px;
+      height: 72px;
+      /* well this is wierd, when font-size is 20px in `#title a`, it is 73px high, so I have to give an addtional setting here.  */
+    }
 
-/* end headings */
+    #title a {
+      color: #333333;
+      font-weight: 600;
+      font-size: 20px;
+      text-decoration: none;
+    }
 
-/* begin paragraphs */
+    .nav-li a {
+      font-size: 18px;
+      color: #adadad;
+      text-decoration: none;
+      transition: 0.3s;
+    }
 
-P,
-blockquote,
-ul,
-ol {
-  /* hyphens: auto; */
-  /* text-align: justify; */
-}
+    .nav-li a:hover {
+      color: #df384f;
+    }
 
-p {
-  font-size: 1rem;
-  margin: 1em 0;
-}
+    #nav .current {
+      animation-name: navigation-active;
+      animation-duration: 0.5s;
+      animation-fill-mode: forwards;
+    }
 
-/* begin link */
+    #nav .current a {
+      color: #df384f;
+    }
 
-a {
-  color: #1695FF;
-  text-decoration: inherit;
-}
+    /* ----------------------------------------
+    navigation responsiveness
+    ---------------------------------------- */
 
-a:hover {
-  color: inherit;
-  transition: 0.3s;
-}
+    @keyframes navigation-active {
+      from {
+        box-shadow: inset 0 0px 0 #df384f;
+      }
+      to {
+        box-shadow: inset 0 -4px 0 #df384f;
+      }
+    }
 
-/* end link */
+    @media screen and (max-width: 600px) {
+      #title {
+        display: none;
+      }
+    }
 
-/* end paragraphs */
-
-/* begin blockquotes */
-
-blockquote {
-  color: grey;
-  box-sizing: border-box;
-  max-width: 100%;
-  margin: 2rem 20px;
-  padding: 0.5rem 0;
-  background-color: #f9f9f9;
-  /* border-radius: 4px; */
-  border: 1px solid #ebebeb;
-}
-
-blockquote * {
-  font-size: 0.875rem;
-}
-
-/* end blockquotes */
-
-/* begin lists */
-
-ul,
-ol {
-  margin-left: 2em;
-}
-
-ul {
-
-}
-
-ol {
-
-}
-
-li {
-  /* margin: 2em */
-}
-
-/* end lists */
-
-/* begin horizontal rules */
-
-hr {
-
-}
-
-/* end horizontal rules */
-
-/* begin details */
-
-details {
-
-}
-
-/* end details */
-
-/* begin images */
-
-figure {
-  max-width: 100%;
-  margin: 2rem 0;
-  color: rgba(0, 0, 0, 0.48);
-}
-
-figcaption * {
-  font-size: 0.875rem;
-  margin-top: .25em;
-}
-
-figure img {
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  max-width: 100%;
-  margin-bottom: 0;
-  padding: 0 20px;
-}
-
-@media screen and (max-width: 700px) {
-  figure img {
-    padding: 0;
-  }
-}
-
-/* end images */
-
-/* end markdown elements */
-
-.boderinside {
-  outline: 1px solid rgba(0, 0, 0, 0.08);
-  outline-offset: -1px;
-}
-
-/* end main */
+    @media screen and (max-width: 520px) {
+      #logo {
+        display: none;
+      }
+      .nav-seperator-mid {
+        display: none;
+      }
+      .nav-seperator-li {
+        flex: 1 1 auto;
+      }
+      .nav-seperator-end {
+        flex: 0 0 20px;
+      }
+    }
