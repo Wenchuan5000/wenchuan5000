@@ -365,6 +365,14 @@ card set
           border-radius: 16px;
         }
 
+        .card-set-1 .card-title a {
+          color: #df384f;
+        }
+
+        .card-set-1 .card-title a:hover {
+          text-decoration: underline;
+        }
+
     /* ----------------------------------------
     card set title
     ---------------------------------------- */
