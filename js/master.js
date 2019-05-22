@@ -13,3 +13,14 @@
 // }
 
 // end hide navition
+
+function openNav() {
+  document.getElementById("sidenav").style.left = "0";
+  // document.getElementById("sidenav").style.display = "block";
+  document.getElementById("nav-mask").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("sidenav").style.left = "-300px";
+  document.getElementById("nav-mask").style.display = "none";
+}

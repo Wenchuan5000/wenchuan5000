@@ -96,3 +96,17 @@ footer
     background-color: #adadad;
   }
 }
+
+/* ----------------------------------------
+sidenav
+---------------------------------------- */
+
+@media only screen and (max-width: 1400px) {
+  #sidenav {
+    left: -300px;
+  }
+
+  #nav-switch {
+    display: block;
+  }
+}

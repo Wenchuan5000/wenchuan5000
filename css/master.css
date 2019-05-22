@@ -266,7 +266,7 @@ navigation (top)
     ---------------------------------------- */
 
     #nav {
-      z-index: 2;
+      z-index: 10;
     }
 
         /* ++++++++++++++++++++++++++++++++++++++++
@@ -337,6 +337,102 @@ navigation (top)
             box-shadow: inset 0 -4px 0 #df384f;
           }
         }
+
+/* ========================================
+sidenav
+======================================== */
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 72px;
+  box-shadow: 1px 0 0 rgba(0,0,0,0.08)
+}
+
+.sidenav .group {
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+.sidenav a {
+  line-height: 48px;
+  padding: 0 20px;
+  color: #858585;
+  display: block;
+}
+
+
+
+.sidenav a.title {
+  color: #333333;
+}
+
+.sidenav a:first-child {
+  margin-top: 28px;
+}
+
+.sidenav a:last-child {
+  margin-bottom: 28px;
+}
+
+.sidenav a:hover {
+  background-color: #f9f9f9;
+}
+
+.sidenav a:active {
+  background-color: #f5f5f5;
+}
+
+.sidenav a.current {
+  background-color: #f5f5f5;
+}
+
+.sidenav a.current:hover {
+  background-color: #f0f0f0;
+}
+
+.sidenav a.current:active {
+  background-color: #EBEBEB
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#nav-mask {
+  background-color: rgba(0,0,0,0.32);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  z-index: 1;
+  display: none;
+  cursor: pointer;
+}
+
+#nav-switch {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  right: 20px;
+  bottom: 40px;
+  background-color: #333333;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+}
+
 
 /* ========================================
 card set
