@@ -209,11 +209,20 @@ div.main {
   padding: 0 40px;
 }
 
-.big-div {
+div.big-div {
   padding-top: 100px;
   padding-bottom: 100px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   /* box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08) */
+}
+
+div.flex {
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+div.next-to-sidenav {
+  /* it's written in responsive.css */
 }
 
 /* ========================================
@@ -345,11 +354,12 @@ sidenav
   height: 100%;
   width: 250px;
   position: fixed;
+  float: left;
   z-index: 2;
   top: 0;
   left: 0;
   background-color: #fff;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   transition: 0.5s;
   padding-top: 72px;
   box-shadow: 1px 0 0 rgba(0,0,0,0.08)
@@ -400,37 +410,37 @@ sidenav
   background-color: #EBEBEB
 }
 
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-#nav-mask {
-  background-color: rgba(0,0,0,0.32);
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  overflow-x: hidden;
-  z-index: 1;
-  display: none;
-  cursor: pointer;
-}
-
-#nav-switch {
+#btn-openNav {
   width: 48px;
   height: 48px;
   position: absolute;
   right: 20px;
   bottom: 40px;
-  background-color: #333333;
   border-radius: 50%;
   cursor: pointer;
+  background-color: #333333;
+}
+
+#btn-closeNav {
+  z-index: 1;
+  position: absolute;
   display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.48);
+  cursor: pointer;
+  animation-name: display-btn-closeNav;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes display-btn-closeNav {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 
@@ -520,34 +530,35 @@ card set
 footer
 ======================================== */
 
-#footer {
+footer {
   background-color: #f9f9f9;
   font-size: 14px;
-}
-
-#footer ul {
   padding: 100px 0 121px 0;
 }
 
-#footer li {
+footer ul {
+
+}
+
+footer li {
   float: left;
   position: relative;
 }
 
-#footer li a {
+footer li a {
   color: #adadad;
 }
 
-#footer li a:hover {
+footer li a:hover {
   color: #858585;
 }
 
-#footer li:not(:first-child) {
+footer li:not(:first-child) {
   padding-left: 14px;
   margin-left: 12px;
 }
 
-#footer li:not(:first-child):before {
+footer li:not(:first-child):before {
   position: absolute;
   top: 50%;
   margin-top: -1px;

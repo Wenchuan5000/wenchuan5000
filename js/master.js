@@ -14,13 +14,14 @@
 
 // end hide navition
 
-function openNav() {
-  document.getElementById("sidenav").style.left = "0";
-  // document.getElementById("sidenav").style.display = "block";
-  document.getElementById("nav-mask").style.display = "block";
+function closeNav() {
+  document.getElementById("sidenav2").style.left = "-300px";
+  document.getElementById("btn-openNav").style.opacity = "1";
+  document.getElementById("btn-closeNav").style.display = "none";
 }
 
-function closeNav() {
-  document.getElementById("sidenav").style.left = "-300px";
-  document.getElementById("nav-mask").style.display = "none";
+function openNav() {
+  document.getElementById("sidenav2").style.left = "0";
+  document.getElementById("btn-openNav").style.opacity = "0.9";
+  document.getElementById("btn-closeNav").style.display = "block";
 }

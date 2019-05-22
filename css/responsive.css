@@ -16,6 +16,15 @@ some div
   div.main {
     padding: 0 20px;
   }
+
+  div.big-div {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+
+  footer {
+    padding: 56px 0;
+  }
 }
 
 /* ----------------------------------------
@@ -104,9 +113,34 @@ sidenav
 @media only screen and (max-width: 1400px) {
   #sidenav {
     left: -300px;
+    /* display: none; */
   }
 
-  #nav-switch {
+  #sidenav2 {
+    left: -300px;
     display: block;
+  }
+
+  #btn-openNav {
+    display: block;
+  }
+
+  .next-to-sidenav {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (min-width: 1401px) {
+  #sidenav2 {
+    left: -300px;
+    display: none;
+  }
+
+  #btn-openNav {
+    display: none;
+  }
+
+  .next-to-sidenav {
+    padding-left: 260px;
   }
 }

@@ -14,50 +14,123 @@
   </head>
   <body>
 
-    <header id="nav">
-      <div class="left">
-        <a href="1-1_home.html">
-          <div id="logo"></div>
-          <span id="title">Wenchuan</span>
-        </a>
+    <span>
+      <header id="nav">
+        <div class="left">
+          <a href="1-1_home.html">
+            <div id="logo"></div>
+            <span id="title">Wenchuan</span>
+          </a>
+        </div>
+
+        <div class="right">
+          <ul>
+            <li><a href="1-1_home.html">Home</a></li>
+            <li class="current"><a href="1-2_gallery.html">Gallery</a></li>
+            <li><a href="1-3_about.html">About</a></li>
+            <li><a href="1-4_contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <!-- begin sidenav -->
+      <div id="sidenav" class="sidenav">
+        <div class="group">
+          <a class="title current" href="#">UI/UX design</a>
+          <a href="#">Web design</a>
+          <a href="#">App/web on mobile</a>
+        </div>
+        <div class="group">
+          <a class="title" href="#">Visual design</a>
+          <a href="#">Isometric stuffs</a>
+          <a href="#">Flattened stuffs</a>
+          <a href="#">Other</a>
+        </div>
+        <div class="group">
+          <a class="title" href="#">Illustration</a>
+          <a href="#">Mosaic O mosaic</a>
+          <a href="#">Technical drawings</a>
+          <a href="#">Sketch book</a>
+        </div>
+      </div>
+      <!-- end sidenav -->
+
+      <!-- begin sidenav2 -->
+      <div id="sidenav2" class="sidenav">
+        <div class="group">
+          <a class="title current" href="#">UI/UX design</a>
+          <a href="#">Web design</a>
+          <a href="#">App/web on mobile</a>
+        </div>
+        <div class="group">
+          <a class="title" href="#">Visual design</a>
+          <a href="#">Isometric stuffs</a>
+          <a href="#">Flattened stuffs</a>
+          <a href="#">Other</a>
+        </div>
+        <div class="group">
+          <a class="title" href="#">Illustration</a>
+          <a href="#">Mosaic O mosaic</a>
+          <a href="#">Technical drawings</a>
+          <a href="#">Sketch book</a>
+        </div>
       </div>
 
-      <div class="right">
-        <ul>
-          <li><a href="1-1_home.html">Home</a></li>
-          <li class="current"><a href="1-2_gallery.html">Gallery</a></li>
-          <li><a href="1-3_about.html">About</a></li>
-          <li><a href="1-4_contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </header>
+      <div id="btn-closeNav" onclick="closeNav()"></div>
 
-    <!-- begin sidenav -->
-    <div id="sidenav" class="sidenav">
-      <div class="group">
-        <a class="title current" href="#">UI/UX design</a>
-        <a href="#">Web design</a>
-        <a href="#">App/web on mobile</a>
-      </div>
-      <div class="group">
-        <a class="title" href="#">Visual design</a>
-        <a href="#">Isometric stuffs</a>
-        <a href="#">Flattened stuffs</a>
-        <a href="#">Other</a>
-      </div>
-      <div class="group">
-        <a class="title" href="#">Illustration</a>
-        <a href="#">Mosaic O mosaic</a>
-        <a href="#">Technical drawings</a>
-        <a href="#">Sketch book</a>
-      </div>
+      <div id="btn-openNav" onclick="openNav()"></div>
+      <!-- end sidenav2 --></span>
+
+
+    <div class="begin"></div>
+
+    <div class="big-div next-to-sidenav">
+
+        <!-- begin main div -->
+        <div class="main">
+
+          <!-- begin card set 1 -->
+          <div class="card-set-1">
+
+            <!-- begin card title-->
+            <div class="card-title long">
+              <h1>Welcome to <span>my world</span>!</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tortor urna, imperdiet eu dolor sit amet, efficitur scelerisque tortor. Morbi gravida quis justo sit amet efficitur.</p>
+            </div>
+            <!-- end card title-->
+
+            <div class="empty"></div>
+
+            <!-- begin long card -->
+            <a href="#" class="long">
+
+              <div class="bg-image" style="background-image: url('#')">
+              </div>
+              <div class="description">
+                <h4>The design of this site</h4>
+                <p>Pellentesque eget augue orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque gravida eu est sed venenatis. Sed purus quam, interdum eget sapien vel, porttitor accumsan augue.</p>
+              </div>
+            </a>
+            <!-- end long card -->
+
+            <!-- begin short card-->
+            <a href="#" class="short">
+              <div class="bg-image" style="background-image: url('#')">
+              </div>
+              <div class="description">
+                <h4>About me</h4>
+                <p>Quisque eget est eget arcu eleifend tincidunt quis sit amet dolor.</p>
+              </div>
+            </a>
+            <!-- end short card -->
+
+          </div>
+          <!-- end card set 1 -->
+
+        </div>
+        <!-- end main div -->
+
     </div>
-
-    <div id="nav-switch" onclick="openNav()"></div>
-
-    <div id="nav-mask" onclick="closeNav()"></div>
-
-    <!-- end sidenav -->
 
 
   </body>
