@@ -1,29 +1,45 @@
 /* ----------------------------------------
+some margin and padding
+---------------------------------------- */
+
+@media screen and (max-width: 920px) {
+  div.main {
+    padding: 0 20px;
+  }
+
+  div.big-div {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  footer {
+    padding: 60px 0;
+  }
+
+  .card-head {
+    padding-bottom: 60px;
+  }
+
+  .no-cards {
+    padding-bottom: 0px;
+  }
+
+  .card-set-1 .tri {
+    margin-block-end: 60px;
+  }
+
+  div.main2 {
+    margin-bottom: -60px;
+  }
+}
+
+/* ----------------------------------------
 some fonts
 ---------------------------------------- */
 
 @media screen and (max-width: 520px) {
   h1 {
     font-size: 2rem;
-  }
-}
-
-/* ----------------------------------------
-some div
----------------------------------------- */
-
-@media screen and (max-width: 520px) {
-  div.main {
-    padding: 0 20px;
-  }
-
-  div.big-div {
-    padding-top: 56px;
-    padding-bottom: 56px;
-  }
-
-  footer {
-    padding: 56px 0;
   }
 }
 
@@ -63,6 +79,15 @@ card set
 ---------------------------------------- */
 
 @media screen and (max-width: 920px) {
+
+  div.main2 {
+    padding: 0 10px;
+  }
+
+  .card-set-1 .tri {
+    padding: 0 10px;
+  }
+
   .card-set-1 .long {
     flex: 1 1 100%;
     margin: 0 0 0 0;
@@ -72,15 +97,25 @@ card set
     flex: 1 1 100%;
     margin: 40px 0 0 0;
   }
+
+  .card-set-1 .tri {
+    flex: 1 1 50%;
+  }
 }
 
 @media screen and (max-width: 720px) {
-  .card-set-1 .long .bg-image {
+  .card-set-1 .long .bg-img {
     height: 320px;
   }
 
-  .card-set-1 .short .bg-image {
+  .card-set-1 .short .bg-img {
     height: 320px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .card-set-1 .tri {
+    flex: 1 1 100%;
   }
 }
 
