@@ -2,23 +2,23 @@
 some margin and padding
 ---------------------------------------- */
 
-@media screen and (max-width: 920px) {
+ @media screen and (max-width: 920px) {
   div.main {
     padding: 0 20px;
   }
 
   div.big-div {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 
   footer {
     padding: 60px 0;
   }
 
-  .card-head {
+  /* .card-head {
     padding-bottom: 60px;
-  }
+  } */
 
   .no-cards {
     padding-bottom: 0px;
@@ -33,6 +33,13 @@ some margin and padding
   }
 }
 
+@media screen and (max-width:520px) {
+  div.big-div {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
 /* ----------------------------------------
 some fonts
 ---------------------------------------- */
@@ -40,6 +47,10 @@ some fonts
 @media screen and (max-width: 520px) {
   h1 {
     font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
   }
 }
 
