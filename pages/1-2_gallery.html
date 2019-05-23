@@ -14,26 +14,28 @@
   </head>
   <body>
 
-    <!-- begin universal symbols -->
-    <span>
-      <header id="nav">
-        <div class="left">
-          <a href="1-1_home.html">
-            <div id="logo"></div>
-            <span id="title">Wenchuan</span>
-          </a>
-        </div>
+    <!-- begin nav -->
+    <header id="nav">
+      <div class="left">
+        <a href="1-1_home.html">
+          <div id="logo"></div>
+          <span id="title">Wenchuan</span>
+        </a>
+      </div>
 
-        <div class="right">
-          <ul>
-            <li><a href="1-1_home.html">Home</a></li>
-            <li class="current"><a href="1-2_gallery.html">Gallery</a></li>
-            <li><a href="1-3_about.html">About</a></li>
-            <li><a href="1-4_contact.html">Contact</a></li>
-          </ul>
-        </div>
-      </header>
+      <div class="right">
+        <ul>
+          <li><a href="1-1_home.html">Home</a></li>
+          <li class="current"><a href="1-2_gallery.html">Gallery</a></li>
+          <li><a href="1-3_about.html">About</a></li>
+          <li><a href="1-4_contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- end nav -->
 
+    <!-- begin two sidenavs -->
+    <span id="two-sidenavs">
       <!-- begin sidenav -->
       <div id="sidenav" class="sidenav">
         <div class="group">
@@ -53,7 +55,6 @@
           <a href="#">Technical drawings</a>
           <a href="#">Sketch book</a>
         </div>
-        <div class="empty-group"></div>
       </div>
       <!-- end sidenav -->
 
@@ -76,8 +77,6 @@
           <a href="#">Technical drawings</a>
           <a href="#">Sketch book</a>
         </div>
-
-        <div class="empty-group"></div>
       </div>
 
       <div id="btn-closeNav" onclick="closeNav()"></div>
@@ -85,15 +84,15 @@
       <div id="btn-openNav" onclick="openNav()"></div>
       <!-- end sidenav2 -->
     </span>
-    <!-- end universal symbols -->
+    <!-- end two sidenavs -->
 
-    <div id="content">
+    <!-- begin content -->
+    <span id="content">
 
       <div class="begin"></div>
 
-
       <!-- begin gallery title -->
-      <div class="big-div next-to-sidenav">
+      <div class="big-div next-to-sidenav" style="background-color: #f9f9f9;">
 
             <!-- begin card set 1 -->
             <div class="card-set-1 main">
@@ -233,7 +232,8 @@
         </div>
       </footer>
 
-    </div>
+    </span>
+    <!-- end content -->
 
   </body>
 </html>
