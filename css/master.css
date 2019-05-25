@@ -528,11 +528,11 @@ card set 1
 
     .myRedText {
       color: #df384f;
-      text-shadow: 0.1em 0.1em 0 rgba(223, 56, 79, 0.2);
+      /* text-shadow: 0.1em 0.1em 0 rgba(223, 56, 79, 0.2); */
     }
 
     .myRedText:hover {
-      text-shadow: 0.2em 0.2em 0 rgba(223, 56, 79, 0.2);
+      /* text-shadow: 0.2em 0.2em 0 rgba(223, 56, 79, 0.2); */
     }
 
     .card-head a {
