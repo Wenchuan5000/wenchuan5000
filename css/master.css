@@ -2,50 +2,6 @@
 general settings
 ======================================== */
 
-    html, body, div, span, applet, object, iframe,
-    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-    a, abbr, acronym, address, big, cite, code,
-    del, dfn, em, img, ins, kbd, q, s, samp,
-    small, strike, strong, sub, sup, tt, var,
-    b, u, i, center,
-    dl, dt, dd, ol, ul, li,
-    fieldset, form, label, legend,
-    table, caption, tbody, tfoot, thead, tr, th, td,
-    article, aside, canvas, details, embed,
-    figure, figcaption, footer, header, hgroup,
-    menu, nav, output, ruby, section, summary,
-    time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    }
-    /* HTML5 display-role reset for older browsers */
-    article, aside, details, figcaption, figure,
-    footer, header, hgroup, menu, nav, section {
-    display: block;
-    }
-    body {
-    line-height: 1;
-    }
-    ol, ul {
-    list-style: none;
-    }
-    blockquote, q {
-    quotes: none;
-    }
-    blockquote:before, blockquote:after,
-    q:before, q:after {
-    content: '';
-    content: none;
-    }
-    table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    }
-
     /* ----------------------------------------
     basic settings
     ---------------------------------------- */
@@ -57,6 +13,7 @@ general settings
       transition: 0.3s;
       margin: 0;
       padding: 0;
+      text-decoration: none
     }
 
     html {
@@ -64,13 +21,22 @@ general settings
     }
 
     body {
-      /* background-color: white; */
+      background-color: white;
       margin: 0;
       color: #333333;
       letter-spacing: .2px;
       font-family: 'Source Sans Pro', sans-serif;
       line-height: 1.5;
       -webkit-font-smoothing: antialiased;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    ::selection {
+      /* color:white; */
+      background: rgba(0, 0, 0, 0.08);
     }
 
     /* ----------------------------------------
@@ -178,6 +144,25 @@ general settings
       transition: 0.3s;
     }
 
+    article a {
+      color: #333333;
+      text-decoration: underline;
+    }
+
+    article a:hover {
+      text-decoration: none;
+    }
+
+    /* ----------------------------------------
+    code
+    ---------------------------------------- */
+
+    code {
+      background: #ebebeb;
+      font-family: monospace;
+      padding: 0 0.2rem;
+    }
+
 /* ========================================
 divs
 ======================================== */
@@ -208,23 +193,94 @@ divs
       /* it's written in responsive.css */
     }
 
+    .no-border-bottom {
+      border-bottom: none;
+    }
+
 
     /* ----------------------------------------
     md div
     ---------------------------------------- */
 
-        /* ++++++++++++++++++++++++++++++++++++++++
-        md link
-        ++++++++++++++++++++++++++++++++++++++++ */
+      .md .short-md {
+        /* line-height: 2; */
+        max-width: 760px;
+        min-width: 200px;
+        /* margin: 0 auto; */
+      }
 
-        .md a {
-          color: #333333;
-          text-decoration: underline;
-        }
+      .md h1,
+      .md h2,
+      .md h3,
+      .md h4,
+      .md h5,
+      .md h6 {
+        margin-bottom: 0.5em;
+      }
 
-        .md a:hover {
-          text-decoration: none;
-        }
+      .md h2,
+      .md h3,
+      .md h4,
+      .md h5,
+      .md h6 {
+        margin-top: 2em;
+      }
+
+      .md p,
+      .md ul,
+      .md ol {
+        color: #5C5C5C;
+        margin-top: 1em;
+      }
+
+      .md a {
+        color: #df384f;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      .md a:hover {
+        text-decoration: underline;
+      }
+
+      .md b:hover {
+        color: #333333;
+      }
+
+      .md u {
+        border-bottom: 1px dashed #D6D6D6;
+      }
+
+      .md u:hover {
+        color: #333333;
+        border-bottom-color: #c2c2c2;
+      }
+
+      .md blockquote {
+        background-color: #f5f5f5;
+        border-left: 4px solid #d6d6d6;
+        margin: 1rem 0;
+        padding: 8px 20px 16px 20px;
+        opacity: 0.8;
+      }
+
+      .md blockquote * {
+        font-size: 0.875rem;
+      }
+
+      .md mark {
+        background-color: #df384f;
+        color: white;
+      }
+
+      .md ul li {
+        list-style: initial;
+      }
+
+      .md li {
+        margin-left: 1.5em;
+      }
+
 
 /* ========================================
 navigation (top)
@@ -248,10 +304,6 @@ navigation (top)
       height: 72px;
       line-height: 72px;
       box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
-    }
-
-    li {
-      list-style: none;
     }
 
     /* ----------------------------------------
@@ -474,8 +526,13 @@ card set 1
       padding-bottom: 0px;
     }
 
-    .card-head span {
+    .myRedText {
       color: #df384f;
+      text-shadow: 0.1em 0.1em 0 rgba(223, 56, 79, 0.2);
+    }
+
+    .myRedText:hover {
+      text-shadow: 0.2em 0.2em 0 rgba(223, 56, 79, 0.2);
     }
 
     .card-head a {
@@ -517,7 +574,7 @@ card set 1
     card set 1 trisection card
     ---------------------------------------- */
 
-    div.main2 {
+    .main2 {
       max-width: 1240px;
       min-width: 200px;
       margin: 0 auto;
