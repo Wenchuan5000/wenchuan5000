@@ -46,9 +46,8 @@ some fonts
 
 @media screen and (max-width: 520px) {
   h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
-
   h2 {
     font-size: 1.75rem;
   }
@@ -68,14 +67,13 @@ nav
   .left {
     display: none;
   }
-  .right, .right ul {
+
+  .right {
     width: 100%;
-  }
-  .right ul {
     display: flex;
     justify-content: space-between;
   }
-  .right ul li:not(:first-child) {
+  .right a:not(:first-child) {
     margin-left: 0px;
   }
 
@@ -156,15 +154,19 @@ footer
 sidenav
 ---------------------------------------- */
 
+@media only screen and (min-width: 1401px) {
+  #btn-openNav {
+    display: none;
+  }
+
+  .next-to-sidenav {
+    padding-left: 260px;
+  }
+}
+
 @media only screen and (max-width: 1400px) {
   #sidenav {
     left: -300px;
-    /* display: none; */
-  }
-
-  #sidenav2 {
-    left: -300px;
-    display: block;
   }
 
   #btn-openNav {
@@ -176,17 +178,12 @@ sidenav
   }
 }
 
-@media only screen and (min-width: 1401px) {
-  #sidenav2 {
-    left: -300px;
-    display: none;
+@media only screen and (max-width: 600px) {
+  #sidenav {
+    z-index: 200;
   }
 
-  #btn-openNav {
-    display: none;
-  }
-
-  .next-to-sidenav {
-    padding-left: 260px;
+  #btn-closeNav {
+    z-index: 150;
   }
 }

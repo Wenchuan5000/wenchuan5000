@@ -28,6 +28,7 @@ function openNav() {
 
 function forceOpenNav() {
   document.getElementById("sidenav").style.left = "0";
+  document.getElementById("btn-closeNav").style.display = "none";
 }
 
 
@@ -46,6 +47,5 @@ function scrollFunction() {
     document.getElementById("nav").style.boxShadow = "0 2px 4px rgba(0, 0, 0, 0.06)";
   } else {
     document.getElementById("nav").style.boxShadow = "0 1px 0px rgba(0, 0, 0, 0.08)";
-    // document.getElementById("logo").style.fontSize = "35px";
   }
 }

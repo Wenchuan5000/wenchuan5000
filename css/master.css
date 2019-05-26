@@ -215,7 +215,7 @@ divs
       .md h4,
       .md h5,
       .md h6 {
-        margin-bottom: 0.5em;
+        margin-bottom: 1rem;
       }
 
       .md h2,
@@ -223,7 +223,7 @@ divs
       .md h4,
       .md h5,
       .md h6 {
-        margin-top: 2em;
+        margin-top: 4rem;
       }
 
       .md p,
@@ -295,8 +295,7 @@ navigation (top)
       position: fixed;
       width: 100%;
       top: 0;
-      z-index: 1;
-      z-index: 10;
+      z-index: 100;
       display: flex;
       justify-content: space-between;
       padding: 0 40px 0 20px;
@@ -340,24 +339,24 @@ navigation (top)
         nav-li right
         ++++++++++++++++++++++++++++++++++++++++ */
 
-        #nav .right ul {
+        #nav .right {
           display: flex;
           font-size: 18px;
         }
 
-        #nav .right ul li:not(:first-child) {
+        #nav .right a:not(:first-child) {
           margin-left: 40px;
         }
 
-        #nav .right ul li a{
+        #nav .right a {
           color: #adadad;
           text-decoration: none
         }
-        #nav .right ul li a:hover{
+        #nav .right a:hover {
           color: #df384f;
         }
 
-        #nav .right .current a {
+        #nav .right .current {
           color: #df384f;
         }
 
@@ -388,7 +387,7 @@ sidenav
   width: 250px;
   position: fixed;
   float: left;
-  z-index: 2;
+  z-index: 20;
   top: 0;
   left: 0;
   background-color: #fff;
@@ -396,16 +395,42 @@ sidenav
   /* overflow-y: scroll; */
   transition: 0.5s;
   -webkit-transition: 0.5s;
-  padding-top: 72px;
+  /* padding-top: 72px; */
   box-shadow: 1px 0 0 rgba(0,0,0,0.08)
 }
-
 
 .sidenav .group {
   padding: 32px 0;
 }
 
+.sidenav .head {
+  padding: 0;
+  height: 72px;
+}
+
+#logoAlias {
+  float: left;
+  background-image: url(../media/logo.png);
+  background-size: 100%;
+  background-position: center;
+  width: 32px;
+  height: 32px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background-color: #ddd;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+#titleAlias {
+  line-height: 72px;
+  margin-left: 20px;
+  color: #333333;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
 .sidenav .group:not(:last-child) {
+  /* box-shadow: inset 0 -1px 0 rgba(0,0,0,0.08); */
   border-bottom: 1px solid rgba(0,0,0,0.08);
 }
 
@@ -459,7 +484,7 @@ sidenav
 }
 
 #btn-closeNav {
-  z-index: 1;
+  z-index: 10;
   position: fixed;
   display: none;
   width: 100%;
