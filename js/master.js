@@ -38,3 +38,14 @@ window.addEventListener("resize", function() {
         window.onresize = forceOpenNav;
     }
 });
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("nav").style.boxShadow = "0 2px 4px rgba(0, 0, 0, 0.06)";
+  } else {
+    document.getElementById("nav").style.boxShadow = "0 1px 0px rgba(0, 0, 0, 0.08)";
+    // document.getElementById("logo").style.fontSize = "35px";
+  }
+}
