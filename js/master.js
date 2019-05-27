@@ -21,11 +21,13 @@ function closeNav() {
 }
 
 function openNav() {
+  document.getElementById("sidenav").scrollTop = 0;
   document.getElementById("sidenav").style.left = "0";
   document.getElementById("btn-closeNav").style.display = "block";
 }
 
 function forceOpenNav() {
+  document.getElementById("sidenav").scrollTop = 0;
   document.getElementById("sidenav").style.left = "0";
   document.getElementById("btn-closeNav").style.display = "none";
 }

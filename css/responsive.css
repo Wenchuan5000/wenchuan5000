@@ -20,14 +20,6 @@ some margin and padding
     padding-bottom: 60px;
   } */
 
-  .no-cards {
-    padding-bottom: 0px;
-  }
-
-  .card-set-1 .tri {
-    margin-block-end: 60px;
-  }
-
   .main2 {
     margin-bottom: -60px;
   }
@@ -83,7 +75,61 @@ nav
 }
 
 /* ----------------------------------------
-card set
+card head
+---------------------------------------- */
+
+@media screen and (max-width: 920px) {
+  .card-head {
+    max-width: 100%;
+  }
+
+  .no-cards {
+    padding-bottom: 0px;
+  }
+}
+
+/* ----------------------------------------
+card set long short
+---------------------------------------- */
+
+@media screen and (max-width: 920px) {
+  .card-set-1 .long {
+    flex: 1 1 40%;
+    margin: 0 0 0 0;
+  }
+
+  .card-set-1 .short {
+    flex: 1 1 40%;
+    margin: 0 0 0 20px;
+  }
+
+  .card-set-1 .long .bg-img,
+  .card-set-1 .short .bg-img {
+    height: 320px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .card-set-1 .long {
+    flex: 1 1 100%;
+  }
+
+  .card-set-1 .short {
+    flex: 1 1 100%;
+    margin-top: 60px;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .card-set-1 .long .bg-img,
+  .card-set-1 .short .bg-img {
+    height: 240px;
+  }
+}
+
+/* ----------------------------------------
+card set trisection
 ---------------------------------------- */
 
 @media screen and (max-width: 920px) {
@@ -96,28 +142,12 @@ card set
     padding: 0 10px;
   }
 
-  .card-set-1 .long {
-    flex: 1 1 100%;
-    margin: 0 0 0 0;
-  }
-
-  .card-set-1 .short {
-    flex: 1 1 100%;
-    margin: 60px 0 0 0;
-  }
-
   .card-set-1 .tri {
     flex: 1 1 50%;
   }
-}
 
-@media screen and (max-width: 720px) {
-  .card-set-1 .long .bg-img {
-    height: 320px;
-  }
-
-  .card-set-1 .short .bg-img {
-    height: 320px;
+  .card-set-1 .tri {
+    margin-block-end: 60px;
   }
 }
 
