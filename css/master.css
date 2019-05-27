@@ -150,7 +150,7 @@ general settings
     }
 
     article a:hover {
-      text-decoration: none;
+      /* text-decoration: none; */
     }
 
     /* ----------------------------------------
@@ -185,7 +185,7 @@ divs
     .big-div {
       padding-top: 100px;
       padding-bottom: 100px;
-      border-bottom: 1px dashed rgba(0, 0, 0, 0.08);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
       /* box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08) */
     }
 
@@ -433,7 +433,7 @@ sidenav
 
 .sidenav .group:not(:last-child) {
   /* box-shadow: inset 0 -1px 0 rgba(0,0,0,0.08); */
-  border-bottom: 1px dashed rgba(0,0,0,0.08);
+  border-bottom: 1px solid rgba(0,0,0,0.08);
 }
 
 .sidenav .group:last-child {

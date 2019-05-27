@@ -138,11 +138,11 @@ card set trisection
     padding: 0 10px;
   }
 
-  .card-set-1 .tri {
+  .card-set-1 .tri, .empty-tri {
     padding: 0 10px;
   }
 
-  .card-set-1 .tri {
+  .card-set-1 .tri, .empty-tri {
     flex: 1 1 50%;
   }
 
