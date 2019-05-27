@@ -1,18 +1,19 @@
+// begin nav
 
-// begin hide navition
+window.onscroll = function() {scrollFunction()};
 
-// var prevScrollpos = window.pageYOffset;
-// window.onscroll = function() {
-// var currentScrollPos = window.pageYOffset;
-//   if (prevScrollpos > currentScrollPos) {
-//     document.getElementById("nav").style.top = "0";
-//   } else {
-//     document.getElementById("nav").style.top = "-100px";
-//   }
-//   prevScrollpos = currentScrollPos;
-// }
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("nav").style.boxShadow = "0 2px 4px rgba(0, 0, 0, 0.06)";
+  } else {
+    document.getElementById("nav").style.boxShadow = "0 1px 0px rgba(0, 0, 0, 0.08)";
+  }
+}
 
-// end hide navition
+// end nav
+
+
+// begin sidenav
 
 function closeNav() {
   document.getElementById("sidenav").style.left = "-300px";
@@ -37,15 +38,4 @@ window.addEventListener("resize", function() {
   }
 });
 
-
-
-
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.getElementById("nav").style.boxShadow = "0 2px 4px rgba(0, 0, 0, 0.06)";
-  } else {
-    document.getElementById("nav").style.boxShadow = "0 1px 0px rgba(0, 0, 0, 0.08)";
-  }
-}
+// end sidenav
