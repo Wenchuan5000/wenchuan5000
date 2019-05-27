@@ -29,15 +29,16 @@ function forceOpenNav() {
   document.getElementById("btn-closeNav").style.display = "none";
 }
 
-
 window.addEventListener("resize", function() {
-    if (window.matchMedia("(max-width: 1400px)").matches) {
-        window.onresize = closeNav;
-    } else {
-        console.log('match');
-        window.onresize = forceOpenNav;
-    }
+  if (window.matchMedia("(max-width: 1400px)").matches) {
+    closeNav()
+  } else {
+    forceOpenNav()
+  }
 });
+
+
+
 
 window.onscroll = function() {scrollFunction()};
 
