@@ -390,6 +390,7 @@ sidenav
   z-index: 20;
   top: 0;
   left: 0;
+  margin-left: 0;
   background-color: #fff;
   overflow-x: hidden;
   /* overflow-y: scroll; */
