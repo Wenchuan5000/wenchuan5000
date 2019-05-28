@@ -510,6 +510,43 @@ sidenav
   }
 }
 
+    /* ----------------------------------------
+    sub group
+    ---------------------------------------- */
+
+    .sidenav .sub-group a:first-child {
+      color: #333333;
+    }
+
+    .sidenav .sub-group .selector {
+      background-color: rgba(0, 0, 0, 0.08);
+      float: left;
+      width: 2px;
+      height: 48px;
+      margin-right: 20px;
+    }
+
+    .sidenav .sub-group a:last-child .selector {
+      background-color: rgba(0, 0, 0, 0.08);
+      float: left;
+      width: 2px;
+      height: 36px;
+      margin-right: 20px;
+    }
+
+    .sidenav .sub-group .selector div {
+      background-color: #333333;
+      float: left;
+      width: 2px;
+      height: 24px;
+      margin-top: 12px;
+      margin-right: 20px;
+      opacity: 1;
+    }
+
+    .sidenav .sub-group .selector div:hover {
+      opacity: 1;
+    }
 
 /* ========================================
 card set 1

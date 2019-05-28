@@ -41,20 +41,27 @@
         </a>
       </div>
       <div class="group">
+        <a href="#">Welcome</a>
         <a class="title current" href="#">UI/UX design</a>
-        <a href="#">Web design</a>
-        <a href="#">App/web on mobile</a>
-      </div>
-      <div class="group">
-        <a class="title" href="#">Visual design</a>
-        <a href="#">Isometric stuffs</a>
-        <a href="#">Flattened stuffs</a>
-        <a href="#">Other</a>
-      </div>
-      <div class="group">
-        <a class="title" href="#">Illustration</a>
-        <a href="#">Mosaic O mosaic</a>
-        <a href="#">Technical drawings</a>
+
+        <!-- begin sub group -->
+        <div class="sub-group">
+          <a id="sub-group-li-0" href="#begin">
+            <div class="selector"><div id="selector"></div></div>
+            Introduction
+          </a>
+          <a id="sub-group-li-1" href="#bigDiv1">
+            <div class="selector"></div>
+            Web design
+          </a>
+          <a id="sub-group-li-2" href="#bigDiv2">
+            <div class="selector"></div>
+            App/h5 on mobile
+          </a>
+        </div>
+        <!-- end sub group -->
+
+        <a href="#">Visual design</a>
         <a href="#">Sketch book</a>
       </div>
     </div><div id="btn-closeNav" onclick="closeNav()"></div><div id="btn-openNav" onclick="openNav()"></div>
@@ -63,7 +70,7 @@
     <!-- begin content -->
     <span id="content">
 
-      <div class="begin"></div>
+      <div class="begin" id="begin"></div>
 
       <!-- begin gallery title -->
       <div class="big-div next-to-sidenav">
@@ -73,7 +80,7 @@
 
               <!-- begin card title-->
               <div class="card-head no-cards">
-                <h1>Gallery</h1>
+                <h1>UI/UX design</h1>
                 <p>Pellentesque eget augue orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque gravida eu est sed venenatis. Sed purus quam, interdum eget sapien vel, porttitor accumsan augue. Duis dui ante, imperdiet sed orci id, viverra euismod sem. Donec et elit eget nisl vulputate cursus. Pellentesque pellentesque hendrerit sapien in bibendum.</p>
               </div>
               <!-- end card title-->
@@ -84,14 +91,14 @@
       </div>
       <!-- end gallery title -->
 
-      <!-- begin something I'm proud of -->
-      <div class="big-div next-to-sidenav">
+      <!-- begin Web design -->
+      <div class="big-div next-to-sidenav" id="bigDiv1">
 
         <!-- begin card title-->
         <div class="card-set-1 main">
 
           <div class="card-head">
-            <h2>Something I'm proud of</h2>
+            <h2>Web design</h2>
             <p>Cras dictum turpis nec velit blandit, eu pretium nisl vehicula. Sed consequat quam eu tincidunt ultricies. Ut in augue pharetra, luctus enim sit amet, viverra eros. </p>
           </div>
 
@@ -102,7 +109,7 @@
         <div class="card-set-1 main2">
 
           <a class="tri" href="#">
-              <img src="../media/albums/eqianka/cover.svg">
+              <img src="../media/test_cover.png">
               <div class="description">
                 <h4>Wenchuan5000.github.io</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -110,7 +117,7 @@
           </a>
 
           <a class="tri" href="#">
-              <img src="../media/albums/ggb/cover.png">
+              <img src="../media/test_cover.png">
               <div class="description">
                 <h4>GeoGebra Books</h4>
                 <p>Nulla vel mattis justo. Donec mattis pulvinar dui quis condimentum.</p>
@@ -120,7 +127,7 @@
           <a class="tri" href="#">
               <img src="../media/test_cover.png">
               <div class="description">
-                <h4>Taploop</h4>
+                <h4>Taploop Editor</h4>
                 <p>Sed aliquet quam sit amet lectus elementum, id commodo tortor scelerisque.</p>
               </div>
           </a>
@@ -128,7 +135,7 @@
           <a class="tri" href="#">
               <img src="../media/test_cover.png">
               <div class="description">
-                <h4>Hello world</h4>
+                <h4>E.qianka.com</h4>
                 <p>Sed egestas libero eros, non posuere tellus interdum sed.</p>
               </div>
           </a>
@@ -136,16 +143,57 @@
           <a class="tri" href="#">
               <img src="../media/test_cover.png">
               <div class="description">
-                <h4>ONE · 一个</h4>
+                <h4>My first website on wix</h4>
                 <p>Nullam dapibus hendrerit sollicitudin. Cras a erat ac orci sodales mollis.</p>
+              </div>
+          </a>
+
+          <a class="empty-tri"></a>
+
+        </div>
+        <!-- end cards -->
+
+      </div>
+      <!-- end Web design -->
+
+      <!-- begin mobile design -->
+      <div class="big-div next-to-sidenav" id="bigDiv2">
+
+        <!-- begin card title-->
+        <div class="card-set-1 main">
+
+          <div class="card-head">
+            <h2>App/h5 on mobile</h2>
+            <p>Cras dictum turpis nec velit blandit, eu pretium nisl vehicula. Sed consequat quam eu tincidunt ultricies. Ut in augue pharetra, luctus enim sit amet, viverra eros. </p>
+          </div>
+
+        </div>
+        <!-- end card title-->
+
+        <!-- begin cards -->
+        <div class="card-set-1 main2">
+
+          <a class="tri" href="#">
+              <img src="../media/test_cover.png">
+              <div class="description">
+                <h4>ONE · 一个</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>
           </a>
 
           <a class="tri" href="#">
               <img src="../media/test_cover.png">
               <div class="description">
-                <h4>Mosaic O Mosaic</h4>
-                <p>Fusce arcu turpis, ullamcorper ac pellentesque at, ultrices nec ipsum.</p>
+                <h4>Taploop</h4>
+                <p>Nulla vel mattis justo. Donec mattis pulvinar dui quis condimentum.</p>
+              </div>
+          </a>
+
+          <a class="tri" href="#">
+              <img src="../media/test_cover.png">
+              <div class="description">
+                <h4>Bilu</h4>
+                <p>Sed aliquet quam sit amet lectus elementum, id commodo tortor scelerisque.</p>
               </div>
           </a>
 
@@ -153,10 +201,10 @@
         <!-- end cards -->
 
       </div>
-      <!-- end something I'm proud of -->
+      <!-- end mobile design -->
 
       <!-- begin up next -->
-      <div class="big-div next-to-sidenav">
+      <div class="big-div next-to-sidenav" id="bigDiv3">
 
         <!-- begin card title -->
         <div class="card-set-1 main">
@@ -177,7 +225,7 @@
           <a class="tri" href="#">
               <img src="../media/test_cover.png">
               <div class="description">
-                <h4>Wenchuan5000.github.io</h4>
+                <h4>Visual design</h4>
                 <p>urabitur et elementum tortor. Proin vulputate nulla nunc, eu commodo sem tincidunt nec.</p>
               </div>
           </a>
@@ -206,6 +254,10 @@
 
     </span>
     <!-- end content -->
+
+    <script type="text/javascript">
+
+    </script>
 
   </body>
 </html>
