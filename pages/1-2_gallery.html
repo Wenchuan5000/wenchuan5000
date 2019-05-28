@@ -41,20 +41,23 @@
         </a>
       </div>
       <div class="group">
-        <a class="title current" href="#">UI/UX design</a>
-        <a href="#">Web design</a>
-        <a href="#">App/web on mobile</a>
-      </div>
-      <div class="group">
-        <a class="title" href="#">Visual design</a>
-        <a href="#">Isometric stuffs</a>
-        <a href="#">Flattened stuffs</a>
-        <a href="#">Other</a>
-      </div>
-      <div class="group">
-        <a class="title" href="#">Illustration</a>
-        <a href="#">Mosaic O mosaic</a>
-        <a href="#">Technical drawings</a>
+        <a class="current" href="#">Welcome</a>
+
+        <!-- begin sub group -->
+        <div class="sub-group">
+          <a id="sub-group-li-0" href="#begin">
+            <div class="selector"><div id="selector"></div></div>
+            <span>Introduction</span>
+          </a>
+          <a id="sub-group-li-1" href="#bigDiv1">
+            <div class="selector"></div>
+            Featured
+          </a>
+        </div>
+        <!-- end sub group -->
+
+        <a href="#">UI/UX design</a>
+        <a href="#">Visual design</a>
         <a href="#">Sketch book</a>
       </div>
     </div><div id="btn-closeNav" onclick="closeNav()"></div><div id="btn-openNav" onclick="openNav()"></div>
@@ -63,7 +66,7 @@
     <!-- begin content -->
     <span id="content">
 
-      <div class="begin"></div>
+      <div class="begin" id="begin"></div>
 
       <!-- begin gallery title -->
       <div class="big-div next-to-sidenav">
@@ -73,7 +76,7 @@
 
               <!-- begin card title-->
               <div class="card-head no-cards">
-                <h1>Gallery</h1>
+                <h1>Welcome to my gallery!</h1>
                 <p>Pellentesque eget augue orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque gravida eu est sed venenatis. Sed purus quam, interdum eget sapien vel, porttitor accumsan augue. Duis dui ante, imperdiet sed orci id, viverra euismod sem. Donec et elit eget nisl vulputate cursus. Pellentesque pellentesque hendrerit sapien in bibendum.</p>
               </div>
               <!-- end card title-->
@@ -85,7 +88,7 @@
       <!-- end gallery title -->
 
       <!-- begin something I'm proud of -->
-      <div class="big-div next-to-sidenav">
+      <div class="big-div next-to-sidenav" id="bigDiv1">
 
         <!-- begin card title-->
         <div class="card-set-1 main">
@@ -191,6 +194,8 @@
 
       </div>
       <!-- end up next -->
+
+      <div id="bigDiv2"></div>
 
       <footer id="footer" class="next-to-sidenav">
         <div class="main">

@@ -87,7 +87,13 @@ function scrollSidenav1() {
 
   if (window.pageYOffset >= current & window.pageYOffset < next) {
 
-    document.getElementById("selector").style.marginTop = "60px";
+    var firstLi = document.getElementById("sub-group-li-0");
+    var currentLi = document.getElementById("sub-group-li-1");
+    var offSetFirstLi = firstLi.offsetTop;
+    var offsetCurrentLi = currentLi.offsetTop;
+    var delta = 12 + offsetCurrentLi - offSetFirstLi + "px";
+    document.getElementById("selector").style.marginTop = delta;
+
     document.getElementById("sub-group-li-1").style.color = "#333333";
 
   } else {
@@ -104,7 +110,13 @@ function scrollSidenav2() {
 
   if (window.pageYOffset >= current & window.pageYOffset < next) {
 
-    document.getElementById("selector").style.marginTop = "108px";
+    var firstLi = document.getElementById("sub-group-li-0");
+    var currentLi = document.getElementById("sub-group-li-2");
+    var offSetFirstLi = firstLi.offsetTop;
+    var offsetCurrentLi = currentLi.offsetTop;
+    var delta = 12 + offsetCurrentLi - offSetFirstLi + "px";
+    document.getElementById("selector").style.marginTop = delta;
+
     document.getElementById("sub-group-li-2").style.color = "#333333";
 
   } else {
@@ -121,11 +133,40 @@ function scrollSidenav3() {
 
   if (window.pageYOffset >= current & window.pageYOffset < next) {
 
-    document.getElementById("selector").style.marginTop = "156px";
+    var firstLi = document.getElementById("sub-group-li-0");
+    var currentLi = document.getElementById("sub-group-li-3");
+    var offSetFirstLi = firstLi.offsetTop;
+    var offsetCurrentLi = currentLi.offsetTop;
+    var delta = 12 + offsetCurrentLi - offSetFirstLi + "px";
+    document.getElementById("selector").style.marginTop = delta;
+
     document.getElementById("sub-group-li-3").style.color = "#333333";
 
   } else {
     document.getElementById("sub-group-li-3").style.color = "#858585";
+  }
+}
+
+function scrollSidenav4() {
+  var beginDiv = document.getElementById("bigDiv4");
+  var nextDiv = document.getElementById("bigDiv5");
+
+  var current = beginDiv.offsetTop;
+  var next = nextDiv.offsetTop;
+
+  if (window.pageYOffset >= current & window.pageYOffset < next) {
+
+    var firstLi = document.getElementById("sub-group-li-0");
+    var currentLi = document.getElementById("sub-group-li-4");
+    var offSetFirstLi = firstLi.offsetTop;
+    var offsetCurrentLi = currentLi.offsetTop;
+    var delta = 12 + offsetCurrentLi - offSetFirstLi + "px";
+    document.getElementById("selector").style.marginTop = delta;
+
+    document.getElementById("sub-group-li-4").style.color = "#333333";
+
+  } else {
+    document.getElementById("sub-group-li-4").style.color = "#858585";
   }
 }
 
@@ -138,7 +179,13 @@ function scrollSidenav5() {
 
   if (window.pageYOffset >= current & window.pageYOffset < next) {
 
-    document.getElementById("selector").style.marginTop = "252px";
+    var firstLi = document.getElementById("sub-group-li-0");
+    var currentLi = document.getElementById("sub-group-li-5");
+    var offSetFirstLi = firstLi.offsetTop;
+    var offsetCurrentLi = currentLi.offsetTop;
+    var delta = 12 + offsetCurrentLi - offSetFirstLi + "px";
+    document.getElementById("selector").style.marginTop = delta;
+
     document.getElementById("sub-group-li-5").style.color = "#333333";
 
   } else {
@@ -155,7 +202,13 @@ function scrollSidenav6() {
 
   if (window.pageYOffset >= current & window.pageYOffset < next) {
 
-    document.getElementById("selector").style.marginTop = "300px";
+    var firstLi = document.getElementById("sub-group-li-0");
+    var currentLi = document.getElementById("sub-group-li-6");
+    var offSetFirstLi = firstLi.offsetTop;
+    var offsetCurrentLi = currentLi.offsetTop;
+    var delta = 12 + offsetCurrentLi - offSetFirstLi + "px";
+    document.getElementById("selector").style.marginTop = delta;
+
     document.getElementById("sub-group-li-6").style.color = "#333333";
 
   } else {
@@ -172,7 +225,13 @@ function scrollSidenav7() {
 
   if (window.pageYOffset >= current & window.pageYOffset < next) {
 
-    document.getElementById("selector").style.marginTop = "348px";
+    var firstLi = document.getElementById("sub-group-li-0");
+    var currentLi = document.getElementById("sub-group-li-7");
+    var offSetFirstLi = firstLi.offsetTop;
+    var offsetCurrentLi = currentLi.offsetTop;
+    var delta = 12 + offsetCurrentLi - offSetFirstLi + "px";
+    document.getElementById("selector").style.marginTop = delta;
+
     document.getElementById("sub-group-li-7").style.color = "#333333";
 
   } else {
@@ -189,7 +248,13 @@ function scrollSidenav8() {
 
   if (window.pageYOffset >= current & window.pageYOffset < next) {
 
-    document.getElementById("selector").style.marginTop = "396px";
+    var firstLi = document.getElementById("sub-group-li-0");
+    var currentLi = document.getElementById("sub-group-li-8");
+    var offSetFirstLi = firstLi.offsetTop;
+    var offsetCurrentLi = currentLi.offsetTop;
+    var delta = 12 + offsetCurrentLi - offSetFirstLi + "px";
+    document.getElementById("selector").style.marginTop = delta;
+
     document.getElementById("sub-group-li-8").style.color = "#333333";
 
   } else {
@@ -206,7 +271,13 @@ function scrollSidenav9() {
 
   if (window.pageYOffset >= current & window.pageYOffset < next) {
 
-    document.getElementById("selector").style.marginTop = "444px";
+    var firstLi = document.getElementById("sub-group-li-0");
+    var currentLi = document.getElementById("sub-group-li-9");
+    var offSetFirstLi = firstLi.offsetTop;
+    var offsetCurrentLi = currentLi.offsetTop;
+    var delta = 12 + offsetCurrentLi - offSetFirstLi + "px";
+    document.getElementById("selector").style.marginTop = delta;
+
     document.getElementById("sub-group-li-9").style.color = "#333333";
 
   } else {

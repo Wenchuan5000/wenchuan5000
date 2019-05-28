@@ -454,14 +454,15 @@ sidenav
 }
 
 .sidenav a:hover {
-  background-color: #f9f9f9;
+  background-color: rgba(0, 0, 0, 0.02);
 }
 
 .sidenav a:active {
-  background-color: #f5f5f5;
+  background-color: rgba(0, 0, 0, 0.04);
 }
 
 .sidenav a.current {
+  color: #333333;
   background-color: #f5f5f5;
 }
 
@@ -470,7 +471,7 @@ sidenav
 }
 
 .sidenav a.current:active {
-  background-color: #EBEBEB
+  background-color: #EBEBEB;
 }
 
 #btn-openNav {
@@ -514,12 +515,61 @@ sidenav
     sub group
     ---------------------------------------- */
 
+    .sub-group {
+      height: auto;
+    }
+
+    .sub-group a {
+      opacity: 0;
+      animation: openSubGroup 0.8s forwards;
+    }
+
+    .sub-group a:nth-child(1) {
+      animation-delay: 0.025s
+    }
+
+    .sub-group a:nth-child(2) {
+      animation-delay: 0.05s
+    }
+
+    .sub-group a:nth-child(3) {
+      animation-delay: 0.075s
+    }
+
+    .sub-group a:nth-child(4) {
+      animation-delay: 0.1s
+    }
+
+    .sub-group a:nth-child(5) {
+      animation-delay: 0.125s
+    }
+
+    .sub-group a:nth-child(6) {
+      animation-delay: 0.15s
+    }
+
+    .sub-group a:nth-child(7) {
+      animation-delay: 0.175s
+    }
+
+    .sub-group a:nth-child(8) {
+      animation-delay: 0.2s
+    }
+
+    .sub-group a:nth-child(9) {
+      animation-delay: 0.225s
+    }
+
+    .sub-group a:nth-child(10) {
+      animation-delay: 0.25s
+    }
+
     .sidenav .sub-group a:first-child {
       color: #333333;
     }
 
     .sidenav .sub-group .selector {
-      background-color: rgba(0, 0, 0, 0.08);
+      background-color: rgba(0, 0, 0, 0.06);
       float: left;
       width: 2px;
       height: 48px;
@@ -527,11 +577,7 @@ sidenav
     }
 
     .sidenav .sub-group a:last-child .selector {
-      background-color: rgba(0, 0, 0, 0.08);
-      float: left;
-      width: 2px;
       height: 36px;
-      margin-right: 20px;
     }
 
     .sidenav .sub-group .selector div {
@@ -546,6 +592,15 @@ sidenav
 
     .sidenav .sub-group .selector div:hover {
       opacity: 1;
+    }
+
+    @keyframes openSubGroup {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
     }
 
 /* ========================================
@@ -567,7 +622,7 @@ card set 1
       background-color: white;
       background-position: center;
       background-repeat: no-repeat;
-      background-size: 100%;
+      background-size: cover;
       outline: 1px solid rgba(0, 0, 0, 0.08);
       outline-offset: -1px;
     }
