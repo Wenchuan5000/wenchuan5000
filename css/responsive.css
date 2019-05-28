@@ -183,7 +183,7 @@ footer
 sidenav
 ---------------------------------------- */
 
-@media only screen and (min-width: 1401px) {
+@media only screen and (min-width: 1201px) {
   #btn-openNav {
     display: none;
   }
@@ -193,7 +193,7 @@ sidenav
   }
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1200px) {
   #sidenav {
     left: -300px;
   }

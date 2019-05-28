@@ -45,7 +45,7 @@ function forceOpenNav() {
 }
 
 window.addEventListener("resize", function() {
-  if (window.matchMedia("(max-width: 1400px)").matches) {
+  if (window.matchMedia("(max-width: 1200px)").matches) {
     closeNav()
   } else {
     forceOpenNav()
