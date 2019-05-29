@@ -14,11 +14,12 @@ general settings
       /* -webkit-transition: 0.3s; */
       margin: 0;
       padding: 0;
-      text-decoration: none
+      text-decoration: none;
     }
 
     html {
       font-size: 16px;
+      scroll-behavior: smooth;
     }
 
     body {
@@ -206,7 +207,14 @@ divs
         /* line-height: 2; */
         max-width: 760px;
         min-width: 200px;
-        /* margin: 0 auto; */
+      }
+
+      .center .short-md {
+        margin: 0 auto;
+      }
+
+      .center figcaption {
+        text-align: center;
       }
 
       .md h1,
@@ -236,7 +244,6 @@ divs
       .md a {
         color: #df384f;
         text-decoration: none;
-        font-weight: 600;
       }
 
       .md a:hover {
@@ -281,6 +288,26 @@ divs
         margin-left: 1.5em;
       }
 
+      .md figure {
+        margin: 60px 0;
+        font-size: 0.875rem;
+        color: #858585;
+      }
+
+      .md figure *:nth-child(2) {
+        margin-top: 20px;
+      }
+
+      .md figure *:nth-child(3) {
+        margin-top: 20px;
+      }
+
+      .id {
+        position: absolute;
+        padding-top: 72px;
+        margin-top: -72px;
+        /* visibility: hidden; */
+      }
 
 /* ========================================
 navigation (top)
@@ -291,7 +318,7 @@ navigation (top)
     ---------------------------------------- */
 
     #nav {
-      background-color: white;
+      background-color: #f9f9f9;
       position: fixed;
       width: 100%;
       top: 0;
@@ -317,7 +344,7 @@ navigation (top)
         #logo {
           float: left;
           background-image: url(../media/logo.png);
-          background-size: 100%;
+          background-size: cover;
           background-position: center;
           width: 32px;
           height: 32px;
@@ -519,65 +546,53 @@ sidenav
       height: auto;
     }
 
-    .sub-group a {
+    .sub-group .item {
       opacity: 0;
-      animation: openSubGroup 0.8s forwards;
+      animation: openSubGroup 0.5s forwards;
     }
 
-    .sub-group a:nth-child(1) {
-      animation-delay: 0.025s
-    }
-
-    .sub-group a:nth-child(2) {
-      animation-delay: 0.05s
-    }
-
-    .sub-group a:nth-child(3) {
-      animation-delay: 0.075s
-    }
-
-    .sub-group a:nth-child(4) {
-      animation-delay: 0.1s
-    }
-
-    .sub-group a:nth-child(5) {
-      animation-delay: 0.125s
-    }
-
-    .sub-group a:nth-child(6) {
-      animation-delay: 0.15s
-    }
-
-    .sub-group a:nth-child(7) {
-      animation-delay: 0.175s
-    }
-
-    .sub-group a:nth-child(8) {
-      animation-delay: 0.2s
-    }
-
-    .sub-group a:nth-child(9) {
-      animation-delay: 0.225s
-    }
-
-    .sub-group a:nth-child(10) {
-      animation-delay: 0.25s
-    }
-
-    .sidenav .sub-group a:first-child {
+    #sub-group-li-0 {
       color: #333333;
+    }
+
+    .sub-group .item {
+      display: flex;
+      flex-wrap: wrap;
     }
 
     .sidenav .sub-group .selector {
       background-color: rgba(0, 0, 0, 0.06);
-      float: left;
+      /* float: left; */
       width: 2px;
-      height: 48px;
+      /* flex: 0 0 2px; */
+      /* height: 48px; */
       margin-right: 20px;
     }
 
+    #selector {
+      width: 2px;
+      height: 24px;
+      background-color: #333333;
+      margin-left: 20px;
+      margin-top: 12px;
+      float:left;
+      position: absolute;
+
+      opacity: 0;
+      animation-name: display-btn-closeNav;
+      animation-duration: 0.5s;
+      animation-fill-mode: forwards;
+      animation-delay: 0.3s;
+    }
+
+    .sidenav .sub-group .chapter {
+      flex: 1 1 20px;
+      line-height: 24px;
+      margin: 12px 0;
+    }
+
     .sidenav .sub-group a:last-child .selector {
-      height: 36px;
+      margin-bottom: 12px;
     }
 
     .sidenav .sub-group .selector div {
@@ -602,6 +617,8 @@ sidenav
         opacity: 1;
       }
     }
+
+
 
 /* ========================================
 card set 1

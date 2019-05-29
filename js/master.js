@@ -1,5 +1,18 @@
 // begin nav
 
+window.onload = function() {
+  scrollSidenav0(),
+  scrollSidenav1(),
+  scrollSidenav2(),
+  scrollSidenav3(),
+  scrollSidenav4(),
+  scrollSidenav5(),
+  scrollSidenav6(),
+  scrollSidenav7(),
+  scrollSidenav8(),
+  scrollSidenav9()
+}
+
 window.onscroll = function() {
   scrollFunction(),
   scrollSidenav0(),
@@ -16,7 +29,7 @@ window.onscroll = function() {
 
 function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.getElementById("nav").style.boxShadow = "0 2px 4px rgba(0, 0, 0, 0.06)";
+    document.getElementById("nav").style.boxShadow = "0 1px 3px rgba(0, 0, 0, 0.12)";
   } else {
     document.getElementById("nav").style.boxShadow = "0 1px 0px rgba(0, 0, 0, 0.08)";
   }
@@ -55,10 +68,6 @@ window.addEventListener("resize", function() {
 // end sidenav
 
 
-
-
-
-
 // sidenav ...
 
 function scrollSidenav0() {
@@ -72,6 +81,10 @@ function scrollSidenav0() {
 
     document.getElementById("selector").style.marginTop = "12px";
     document.getElementById("sub-group-li-0").style.color = "#333333";
+
+    var currentLi = document.getElementById("sub-group-li-0");
+    var h = currentLi.offsetHeight + "px";
+    document.getElementById("selector").style.height = h;
 
   } else {
     document.getElementById("sub-group-li-0").style.color = "#858585";
@@ -93,6 +106,9 @@ function scrollSidenav1() {
     var offsetCurrentLi = currentLi.offsetTop;
     var delta = 12 + offsetCurrentLi - offSetFirstLi + "px";
     document.getElementById("selector").style.marginTop = delta;
+
+    var h = currentLi.offsetHeight + "px";
+    document.getElementById("selector").style.height = h;
 
     document.getElementById("sub-group-li-1").style.color = "#333333";
 
@@ -117,6 +133,9 @@ function scrollSidenav2() {
     var delta = 12 + offsetCurrentLi - offSetFirstLi + "px";
     document.getElementById("selector").style.marginTop = delta;
 
+    var h = currentLi.offsetHeight + "px";
+    document.getElementById("selector").style.height = h;
+
     document.getElementById("sub-group-li-2").style.color = "#333333";
 
   } else {
@@ -139,6 +158,9 @@ function scrollSidenav3() {
     var offsetCurrentLi = currentLi.offsetTop;
     var delta = 12 + offsetCurrentLi - offSetFirstLi + "px";
     document.getElementById("selector").style.marginTop = delta;
+
+    var h = currentLi.offsetHeight + "px";
+    document.getElementById("selector").style.height = h;
 
     document.getElementById("sub-group-li-3").style.color = "#333333";
 
@@ -163,6 +185,9 @@ function scrollSidenav4() {
     var delta = 12 + offsetCurrentLi - offSetFirstLi + "px";
     document.getElementById("selector").style.marginTop = delta;
 
+    var h = currentLi.offsetHeight + "px";
+    document.getElementById("selector").style.height = h;
+
     document.getElementById("sub-group-li-4").style.color = "#333333";
 
   } else {
@@ -185,6 +210,9 @@ function scrollSidenav5() {
     var offsetCurrentLi = currentLi.offsetTop;
     var delta = 12 + offsetCurrentLi - offSetFirstLi + "px";
     document.getElementById("selector").style.marginTop = delta;
+
+    var h = currentLi.offsetHeight + "px";
+    document.getElementById("selector").style.height = h;
 
     document.getElementById("sub-group-li-5").style.color = "#333333";
 
@@ -209,6 +237,9 @@ function scrollSidenav6() {
     var delta = 12 + offsetCurrentLi - offSetFirstLi + "px";
     document.getElementById("selector").style.marginTop = delta;
 
+    var h = currentLi.offsetHeight + "px";
+    document.getElementById("selector").style.height = h;
+
     document.getElementById("sub-group-li-6").style.color = "#333333";
 
   } else {
@@ -231,6 +262,9 @@ function scrollSidenav7() {
     var offsetCurrentLi = currentLi.offsetTop;
     var delta = 12 + offsetCurrentLi - offSetFirstLi + "px";
     document.getElementById("selector").style.marginTop = delta;
+
+    var h = currentLi.offsetHeight + "px";
+    document.getElementById("selector").style.height = h;
 
     document.getElementById("sub-group-li-7").style.color = "#333333";
 
@@ -255,6 +289,9 @@ function scrollSidenav8() {
     var delta = 12 + offsetCurrentLi - offSetFirstLi + "px";
     document.getElementById("selector").style.marginTop = delta;
 
+    var h = currentLi.offsetHeight + "px";
+    document.getElementById("selector").style.height = h;
+
     document.getElementById("sub-group-li-8").style.color = "#333333";
 
   } else {
@@ -277,6 +314,9 @@ function scrollSidenav9() {
     var offsetCurrentLi = currentLi.offsetTop;
     var delta = 12 + offsetCurrentLi - offSetFirstLi + "px";
     document.getElementById("selector").style.marginTop = delta;
+
+    var h = currentLi.offsetHeight + "px";
+    document.getElementById("selector").style.height = h;
 
     document.getElementById("sub-group-li-9").style.color = "#333333";
 
