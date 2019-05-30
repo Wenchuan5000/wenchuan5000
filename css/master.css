@@ -326,7 +326,7 @@ divs
         background-color: #f9f9f9;
         font-family: monospace;
         padding: 0.2em 0.4em;
-        border: 1px solid rgba(0, 0, 0, 0.08);
+        border: 1px solid #ebebeb;
         border-radius: 4px;
       }
 
