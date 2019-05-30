@@ -25,7 +25,7 @@ window.onscroll = function() {
   scrollSidenav7(),
   scrollSidenav8(),
   scrollSidenav9()
-};
+}
 
 function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
@@ -63,7 +63,7 @@ window.addEventListener("resize", function() {
   } else {
     forceOpenNav()
   }
-});
+})
 
 // end sidenav
 
