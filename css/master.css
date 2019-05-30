@@ -154,16 +154,6 @@ general settings
       /* text-decoration: none; */
     }
 
-    /* ----------------------------------------
-    code
-    ---------------------------------------- */
-
-    code {
-      background: #ebebeb;
-      font-family: monospace;
-      padding: 0 0.2rem;
-    }
-
 /* ========================================
 divs
 ======================================== */
@@ -290,15 +280,37 @@ divs
 
       .md figure {
         margin: 60px 0;
+      }
+
+      .md figure * {
         font-size: 0.875rem;
         color: #858585;
       }
 
-      .md figure *:nth-child(2) {
-        margin-top: 20px;
+      .md img {
+        width: 100%;
+        background-color: white;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        outline: 1px solid rgba(0, 0, 0, 0.08);
+        outline-offset: -1px;
       }
 
-      .md figure *:nth-child(3) {
+      .md img.dashed-border {
+        outline-style: dashed;
+      }
+
+      .md img.dashed-border:hover {
+        box-shadow: none;
+      }
+
+      .md figcaption {
+        max-width: 760px;
+        min-width: 200px;
+      }
+
+      .md figure *:not(:first-child) {
         margin-top: 20px;
       }
 
@@ -307,6 +319,15 @@ divs
         padding-top: 72px;
         margin-top: -72px;
         /* visibility: hidden; */
+      }
+
+      .md code {
+        color: #858585;
+        background-color: #f9f9f9;
+        font-family: monospace;
+        padding: 0.2em 0.4em;
+        border: 1px solid rgba(0, 0, 0, 0.08);
+        border-radius: 4px;
       }
 
 /* ========================================
@@ -649,11 +670,11 @@ card set 1
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     }
 
-    .card-set-1 .bg-img:active,
+    /* .card-set-1 .bg-img:active,
     .card-set-1 img:active {
       opacity: 0.9;
       box-shadow: none;
-    }
+    } */
 
     .card-set-1 img {
       width: 100%;

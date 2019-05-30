@@ -70,17 +70,17 @@
             <div class="selector"></div>
             <div id="sub-group-li-5" class="chapter">Chapter editor</div>
           </a>
-          <a class="item" href="#bigDiv5">
-            <div class="selector"></div>
-            <div id="sub-group-li-5" class="chapter">Text editor</div>
-          </a>
           <a class="item" href="#bigDiv6">
             <div class="selector"></div>
-            <div id="sub-group-li-6" class="chapter">The example of a filled book</div>
+            <div id="sub-group-li-6" class="chapter">Page editor (Activity editor)</div>
           </a>
           <a class="item" href="#bigDiv7">
             <div class="selector"></div>
-            <div id="sub-group-li-7" class="chapter">Book reader</div>
+            <div id="sub-group-li-7" class="chapter">The example of a filled book</div>
+          </a>
+          <a class="item" href="#bigDiv8">
+            <div class="selector"></div>
+            <div id="sub-group-li-8" class="chapter">Book reader</div>
           </a>
         </div>
         <!-- end sub group -->
@@ -94,7 +94,7 @@
     <span id="content">
       <!-- begin article -->
       <article class="big-div next-to-sidenav">
-        <div class="card-set-1 main md">
+        <div class="main md">
 
           <!-- begin md -->
           <div class="short-md">
@@ -114,27 +114,341 @@
 
           <figure>
             <!-- <figcaption>The home page</figcaption> -->
-            <img src="../media/albums/geogebra-books/1.png" alt="">
+            <img src="../media/albums/geogebra-books/1-0.png" alt="">
             <figcaption>The home page</figcaption>
           </figure>
 
-        <div class="short-md">
+          <div class="short-md">
+            <p>By any means, GeoGebra Classic 6 and some other GeoGebra tools is much more powerful than most of online tools for hobbies, and it can deal with much more complicated problems than Desmos can. But, maybe because of the complexity, GeoGebra also has a lot of problems I've found since the first time I use it. Firstly, it is unstable on outputs. Secondly, its UX is a nightmare, compared to some other tools like Sketch whom I am using every. Thirdly, the UX of math books and activities is also not as good as it should be, on both ends of reading and editing.</p>
+          </div>
 
-          <p>By any means, GeoGebra Classic 6 and some other GeoGebra tools is much more powerful than most of online tools for hobbies, and it can deal with much more complicated problems than Desmos can. But, maybe because of the complexity, GeoGebra also has a lot of problems I've found since the first time I use it. Firstly, it is unstable on outputs. Secondly, its UX is a nightmare, compared to some other tools like Sketch whom I am using every. Thirdly, the UX of math books and activities is also not as good as it should be, on both ends of reading and editing.</p>
+          <figure>
+            <img src="../media/albums/geogebra-books/2-0.png" alt="">
+            <figcaption>An example I did on GeoGebra Classic 6 (Solar System of Copernicus)</figcaption>
+          </figure>
+
+          <div class="short-md">
+            <p>Well, to deal with the first problem, I need many new knowledges far beyond what I've known yet. The problem No.2 is a problem of UX, but to solve it, rebuilding might be necessary -- I am still expecting to send my suggestion to them, but maybe it's not time yet.</p>
+          </div>
+
+          <figure>
+            <img src="../media/albums/geogebra-books/3-0.png" alt="">
+            <figcaption>An example page of a book in reading mode.</figcaption>
+          </figure>
+
+          <div class="short-md">
+            <p>I think, what I can do for GeoGebra yet is the problem No.3, the UI/UX on GeoGebra Books. Because as an UI/UX designer, I believe I am familiar with different types of editors, including rich text editors like Pages, markdown editors like MWeb, fake-markdown editors like Notion, and coding tools like Atom, etc., and am much more familiar with these, and with how a math-writer needs compared to most of designers. By the way, I am thinking about a better way to write/read math books every day, because I love math. That is why I think I should try under a math tool I am already somehow familiar with.</p>
+          </div>
+
+          <figure>
+            <img src="../media/albums/geogebra-books/4-0.png" alt="">
+            <figcaption>The table of contents in a chapter in reading mode</figcaption>
+          </figure>
+
+          <div class="short-md">
+            <p>In my GeoGebra Books, the first thing I want to do, is to change the rich text editing mode into a simpler mode. I decided to design based on Markdown + LaTeX syntax, mainly because it is the "language" I most familiar with, and is light and easy enough to handle with for math-writes.</p>
+          </div>
+
+          <span class="id" id="bigDiv2"></span>
+
+          <div class="short-md">
+            <h2>Main page</h2>
+            <p>Before introduce further details, I want to show you some design of the outside pages.</p>
+          </div>
+
+          <figure>
+            <img src="../media/albums/geogebra-books/5-0.png" alt="">
+            <figcaption>The home page</figcaption>
+          </figure>
+
+          <div class="short-md">
+            <p>This is the home page of my GeoGebra Books. It is in the topic of calculus now. I made some changes on the head box of page. I added an introduction of calculus, and a link to wikipedia. The scrollable tree in the right of the head box shows the branches of calculus.</p>
+          </div>
+
+          <figure>
+            <img src="../media/albums/geogebra-books/6-0.png" alt="">
+            <figcaption>The "You" page</figcaption>
+          </figure>
+
+          <div class="short-md">
+            <p>In "You" page, the bio is putted outside. And I also made some changes for the table of files. Now, you can toggle between books, activities, timeline and groups quick enough. And I also divided the book by written your self and by others, to let you more conveniently search the book you want to continuo editing.</p>
+          </div>
+
+          <figure>
+            <img src="../media/albums/geogebra-books/7-0.png" alt="">
+            <figcaption>The list view in "You" page</figcaption>
+          </figure>
+
+          <div class="short-md">
+            <p>I also designed a list view for the table of files. You can reorder the files by names of the books, authors, visibility, and the time you last uploaded.</p>
+          </div>
+
+          <figure>
+            <img src="../media/albums/geogebra-books/7-1.png" alt="">
+            <figcaption>The table of activities is different from that of books in style. The further details of the design will be introduced in next chapter.</figcaption>
+          </figure>
+
+          <div class="short-md">
+            <p>I also designed a list view for the table of files. You can reorder the files by names of the books, authors, visibility, and the time you last uploaded.</p>
+          </div>
+
+          <figure>
+            <img src="../media/albums/geogebra-books/8-0.png" alt="">
+            <figcaption>The social page</figcaption>
+          </figure>
+
+          <div class="short-md">
+            <p>And, of course, you need social page. Despite of the design, I just made a small change here. I add a brief file for the people, because you can't just follow a person back just because of the picture and the name.</p>
+          </div>
+
+          <span class="id" id="bigDiv3"></span>
+
+          <div class="short-md">
+            <h2>Style and components</h2>
+            <p>Because the first version of this display was designed for Behance, so, allow me to give a short introduction of design first, as an UI/UX designer.</p>
+
+            <h3>Some used icons</h3>
+            <p>I didn't design too many icons for this project, because some button with icon use emojis. These are those icon I must design by myself.</p>
+
+            <figure>
+              <img src="../media/albums/geogebra-books/9-0.png" alt="">
+              <figcaption>Some used icons</figcaption>
+            </figure>
+
+            <h3>Some components</h3>
+
+            <figure>
+              <img src="../media/albums/geogebra-books/10-0.png" alt="">
+              <figcaption>The card of a book</figcaption>
+            </figure>
+
+            <figure>
+              <img src="../media/albums/geogebra-books/11-0.png" alt="">
+              <figcaption>The card of an activity</figcaption>
+            </figure>
+
+            <p>The styles are distinguished between the card of books and that of activities, as the real GeoGebra didn't do that yet.</p>
+
+            <figure>
+              <img class="dashed-border" src="../media/albums/geogebra-books/12-0.png" alt="">
+              <figcaption>The statues of normal, hover, and click of the cards are also distinguished. And one you hover a card, the button "···" will be displayed.</figcaption>
+            </figure>
+
+            <figure>
+              <img src="../media/albums/geogebra-books/13-0.png" alt="">
+              <figcaption>The basic text-button</figcaption>
+            </figure>
+
+            <figure>
+              <img src="../media/albums/geogebra-books/14-0.png" alt="">
+              <figcaption>Statues of the button</figcaption>
+            </figure>
+
+            <figure>
+              <img class="dashed-border" src="../media/albums/geogebra-books/15-0.png" alt="">
+              <figcaption>This figure shows the statue-change of a size-changeable image when you are editing inside the GeoGebra book editor.</figcaption>
+            </figure>
+
+            <figure>
+              <img src="../media/albums/geogebra-books/16-0.png" alt="">
+              <figcaption>The different statue of name card in social page</figcaption>
+            </figure>
+          </div>
+
+          <br>
+
+          <span class="id" id="bigDiv4"></span>
+
+          <div class="short-md">
+            <h2>How to create a new book</h2>
+
+            <h3>Markdown + LaTeX</h3>
+
+            <p>Now, let's forget the design, and talk about how my GeoGebra Book works. Basically, I used a very popular editing style now days, which is based on Markdown + LaTeX, and can be live-previewed.</p>
+
+            <p>This is designed for people like me hate to use mouse click too much for just one simple equation. If the real GeoGebra is likely to use this style of editing, I believe I can write a whole math book in GeoGebra -- I am serious!</p>
+
+            <p>But GeoGebra Books is not just another markdown editor, it is for science! So, here we go.</p>
+
+            <h3>Create a new book</h3>
+          </div>
+
+          <figure>
+            <img src="../media/albums/geogebra-books/17-0.png" alt="">
+            <figcaption>Untitled book: empty</figcaption>
+          </figure>
+
+          <div class="short-md">
+            <p>By clicking the big button "+ New Activity" on activity table on chapters' page, an untitled empty page (activity) is opened. Now you can write what you want to write.</p>
+          </div>
+
+          <figure>
+            <img src="../media/albums/geogebra-books/18-0.png" alt="">
+            <figcaption>Titled book: editing introduction</figcaption>
+          </figure>
+
+          <div class="short-md">
+            <p>As you can see, the elements which are allowed to use in introduction includes basic markdown elements and LaTeX formula.</p>
+          </div>
+
+          <figure>
+            <img src="../media/albums/geogebra-books/19-0.png" alt="">
+            <figcaption>Titled book: trying to uploading book cover</figcaption>
+          </figure>
+
+          <div class="short-md">
+            <p>You can upload your book cover in three ways: upload an image, embed an URL, or you can just pick from the gallery, which contains some inaccurate but universally usable covers.</p>
+          </div>
+
+          <figure>
+            <img src="../media/albums/geogebra-books/20-0.png" alt="">
+            <figcaption>Titled book: inserting image url for book cover</figcaption>
+          </figure>
+
+          <div class="short-md">
+            <p>For example, let's link a image URL.</p>
+          </div>
+
+          <figure>
+            <img src="../media/albums/geogebra-books/21-0.png" alt="">
+            <figcaption>Titled book: image uploaded</figcaption>
+          </figure>
+
+          <figure>
+            <img src="../media/albums/geogebra-books/22-0.png" alt="">
+            <figcaption>Settings of the book</figcaption>
+          </figure>
+
+          <div class="short-md">
+            <p>By clicking the "setting" column on side-nav, you can edit further details of you book.</p>
+          </div>
+
+          <span class="id" id="bigDiv5"></span>
+
+          <div class="short-md">
+            <h2>Chapter editor</h2>
+            <p>Chapter editor is also an essential function in GeoGebra Books and my GeoGebra Books. I made some change here. In my "version", chapter editor looks very familiar with page editor (activity editor). Such that the introduction of the chapter can be easily edited on the current page.</p>
+          </div>
+
+          <figure>
+            <img src="../media/albums/geogebra-books/23-0.png" alt="">
+            <figcaption>Untitled chapter: empty</figcaption>
+          </figure>
+
+          <div class="short-md">
+            <p>By clicking the button "+ New Chapter" on side-nav, a default untitled chapter is opened.</p>
+          </div>
+
+          <figure>
+            <img src="../media/albums/geogebra-books/24-0.png" alt="">
+            <figcaption>Titled chapter: with no activities</figcaption>
+          </figure>
+
+          <div class="short-md">
+            <p>On the editing area, there are three parts: chapter title (default string: Untitled Chapter), introduction (default: empty), activities table (default: empty).</p>
+          </div>
+
+          <span class="id" id="bigDiv6"></span>
+
+          <div class="short-md">
+            <h2>Page editor (activity editor)</h2>
+          </div>
+
+          <figure>
+            <img src="../media/albums/geogebra-books/25-0.png" alt="">
+            <figcaption>Untitled activity: empty</figcaption>
+          </figure>
+
+          <div class="short-md">
+            <p>By clicking the big button "+ New Activity" on activity table on chapters' page, an untitled empty page (activity) is opened. Now you can write what you want to write.</p>
+          </div>
+
+          <figure>
+            <img src="../media/albums/geogebra-books/26-0.png" alt="">
+            <figcaption>Titled activity: editing LaTeX formula</figcaption>
+          </figure>
+
+          <div class="short-md">
+            <p>By using Markdown + LaTeX, you can free from the mouse-clicks, and easy write formula within a pair of <code>$</code> for inline formula and within a pair of <code>$$</code> for math block.</p>
+          </div>
+
+          <figure>
+            <img src="../media/albums/geogebra-books/27-0.png" alt="">
+            <figcaption>Titled activity: inserting elements</figcaption>
+          </figure>
+
+          <div class="short-md">
+            <p>And just like what you can do in Notion, by clicking the "+" icon, or press the hot key <code>Command</code> + <code>/</code> to activate a dropdown.</p>
+          </div>
+
+          <figure>
+            <img src="../media/albums/geogebra-books/28-0.png" alt="">
+            <figcaption>Titled activity: loading elements</figcaption>
+          </figure>
+
+          <div class="short-md">
+            <p>In this dropdown, you can select the traditional elements in GeoGebra. And first thing first, the GeoGebra Applet.</p>
+
+            <p>For example, if you choose to create a new applet, the browser will automatically send you to a new tab of GeoGebra Classic 6, and there leaves a blank embed applet in the previous page, to ready to receive the data from GeoGebra Classic 6.</p>
+          </div>
+
+
+
+
+
 
         </div>
 
-        <figure>
-          <!-- <figcaption>The home page</figcaption> -->
-          <img src="../media/albums/geogebra-books/2.png" alt="">
-          <figcaption>The home page</figcaption>
-        </figure>
+        <!-- <span class="id" id="bigDiv1"></span> -->
+        <!-- <span class="id" id="bigDiv2"></span> -->
+        <!-- <span class="id" id="bigDiv3"></span> -->
+        <!-- <span class="id" id="bigDiv4"></span> -->
+        <!-- <span class="id" id="bigDiv5"></span> -->
+        <!-- <span class="id" id="bigDiv6"></span> -->
+        <span class="id" id="bigDiv7"></span>
+        <span class="id" id="bigDiv8"></span>
+        <span class="id" id="bigDiv9"></span>
 
 
-        <span id="bigDiv2"></span>
-
-        </div>
       </article>
+
+      <!-- begin up next -->
+      <div class="big-div next-to-sidenav">
+
+        <!-- begin card title -->
+        <div class="card-set-1 main">
+
+          <!-- begin card title-->
+          <div class="card-head long">
+            <h2>Up next</h2>
+          </div>
+          <div class="empty"></div>
+          <!-- end card title-->
+
+        </div>
+        <!-- end card title -->
+
+        <!-- begin next card -->
+        <div class="card-set-1 main2">
+
+          <a class="tri" href="2-2_in-gallery_visual-design.html">
+              <img src="../media/test_cover.png">
+              <div class="description">
+                <h4>Visual design</h4>
+                <p>urabitur et elementum tortor. Proin vulputate nulla nunc, eu commodo sem tincidunt nec.</p>
+              </div>
+          </a>
+
+          <div class="empty-tri"></div>
+
+          <div class="empty-tri"></div>
+
+        </div>
+        <!-- end next card -->
+
+      </div>
+      <!-- end up next -->
+
       <!-- end article -->
     </span>
     <!-- end content -->
