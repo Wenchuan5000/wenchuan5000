@@ -44,35 +44,35 @@
           </a>
           <a class="item" href="#bigDiv1">
             <div class="selector"></div>
-            <div id="sub-group-li-1" class="chapter">Why did this?</div>
+            <div id="sub-group-li-1" class="chapter">What is Taploop Editor designed for?</div>
           </a>
           <a class="item" href="#bigDiv2">
             <div class="selector"></div>
-            <div id="sub-group-li-2" class="chapter">Main pages</div>
+            <div id="sub-group-li-2" class="chapter">Interface</div>
           </a>
           <a class="item" href="#bigDiv3">
             <div class="selector"></div>
-            <div id="sub-group-li-3" class="chapter">Style and some components</div>
+            <div id="sub-group-li-3" class="chapter">Basic style</div>
           </a>
           <a class="item" href="#bigDiv4">
             <div class="selector"></div>
-            <div id="sub-group-li-4" class="chapter">How to create a new book</div>
+            <div id="sub-group-li-4" class="chapter">Hover style</div>
           </a>
           <a class="item" href="#bigDiv5">
             <div class="selector"></div>
-            <div id="sub-group-li-5" class="chapter">Chapter editor</div>
+            <div id="sub-group-li-5" class="chapter">Font</div>
           </a>
           <a class="item" href="#bigDiv6">
             <div class="selector"></div>
-            <div id="sub-group-li-6" class="chapter">Page editor (Activity editor)</div>
+            <div id="sub-group-li-6" class="chapter">Writing mode</div>
           </a>
           <a class="item" href="#bigDiv7">
             <div class="selector"></div>
-            <div id="sub-group-li-7" class="chapter">The example of a filled book</div>
+            <div id="sub-group-li-7" class="chapter">Source code mode</div>
           </a>
           <a class="item" href="#bigDiv8">
             <div class="selector"></div>
-            <div id="sub-group-li-8" class="chapter">Book reader</div>
+            <div id="sub-group-li-8" class="chapter">LaTeX surport</div>
           </a>
         </div>
         <!-- end sub group -->
@@ -162,6 +162,8 @@
 
           </div>
 
+          <span class="id" id="bigDiv4"></span>
+
           <div class="short-md">
             <h2>Hover style</h2>
             <p>Because some hovable components has their own big icon, the z-index of "hover-grey" is designed between the icon and the text. Notice that the "hover grey" here is not background-color, because I want the color of the text changes a little bit while user hover the components.</p>
@@ -179,6 +181,8 @@
             <style media="screen">
               #z-hover {
                 width: 320px;
+                outline: 1px solid rgba(0, 0, 0, 0.06);
+                outline-offset: -1px;
               }
 
               #z-hover:hover {
@@ -186,9 +190,119 @@
               }
             </style>
 
-            <p>Here I made a demo by very basic html and CSS. It is quite similar to the hover style I wanted, but still there is a little difference: In the demo, when you hover the column, the "hover grey" dose not actually "cover" the text, so the <span style="color:#4EC5CF">blue "#"</span> here dose not change at all. But in my <a href="../files/">Taploop Editor.sketch</a> file, you will see the </p>
+            <p>Here I made a demo by very basic html and CSS. It is quite similar to the hover style I wanted, but still there is a little difference: In the demo, when you hover the column, the "hover grey" dose not actually "cover" the text, so the <span style="color:#4EC5CF">blue "#"</span> here dose not change at all. But in my <a target="_blank" href="https://github.com/Wenchuan5000/wenchuan5000.github.io/tree/master/files/taploop_editor">Taploop Editor.sketch</a> file, you will see the text is covered by a grey div. Well, it dosen't matter to most of people I guess...</p>
 
           </div>
+
+          <span class="id" id="bigDiv5"></span>
+
+          <div class="short-md">
+            <h2>Font</h2>
+            <p>I don't want articles in Taploop look too complicated because of the complicated formats, so I didn't give a full set for the size from heading 1 to heading 6. Here, the main title is indepenent from the headings. And any heading smaller than heading 2 (for example you input <code>###</code> or <code>######</code>) will be saved as its own format, but will be displayed as heading 2.</p>
+
+            <div id="tapFont">
+              <div class="left">
+                <p style="font-size: 36px;">36px</p>
+                <p style="font-size: 32px;">32px</p>
+                <p style="font-size: 24px;">24px</p>
+                <p style="font-size: 16px;">16px</p>
+                <p style="font-size: 14px;">14px</p>
+              </div>
+              <div class="left">
+                <p style="font-size: 36px;">👉</p>
+                <p style="font-size: 32px;">👉</p>
+                <p style="font-size: 24px;">👉</p>
+                <p style="font-size: 16px;">👉</p>
+                <p style="font-size: 14px;">👉</p>
+              </div>
+              <div class="right">
+                <p style="font-size: 36px;">大标题 Main Title</p>
+                <p style="font-size: 32px;">标题一 Heading 1</p>
+                <p style="font-size: 24px;">标题二 Heading 2</p>
+                <p style="font-size: 16px;">正文 body</p>
+                <p style="font-size: 14px;">注释 caption</p>
+              </div>
+            </div>
+
+            <style media="screen">
+              #tapFont {
+                display: flex;
+                flex-wrap: wrap;
+              }
+              #tapFont p {
+                color: #333333;
+                margin: 40px 40px 0 0;
+              }
+              #tapFont p:last-child {
+                color: #9E9E9E;
+              }
+            </style>
+
+          </div>
+
+          <span class="id" id="bigDiv6"></span>
+
+          <div class="short-md">
+            <h2>Writing mode</h2>
+            <p>Basicly, Taploop Editor is a live-preview markdown editor. Compared to tranditional markdown editor, as I have been told by our engineers, it is much harder to develop. And personally, I prefer to use some traditional markdown editor like MWeb or Atom. But, well, I have no choices, because I wanted people to write something first, but not be scared by syntax -- although it's easy...</p>
+
+            <figure>
+              <img src="../media/albums/taploop-editor/6-0.png" alt="img">
+              <figcaption>Live-preview</figcaption>
+            </figure>
+
+            <figure>
+              <img src="../media/albums/taploop-editor/7-0.png" alt="img">
+              <figcaption>Dropdown for elements</figcaption>
+            </figure>
+
+            <p>Yeah, you might be familiar with this dropdown already. It is acctually followed the dropdown in Notion. To be honest, I tried several other plans for designing for this funtion, but, yet, I have no better idea but this. So, as an UI designer, I just changed some details. One is, I put the syntax hint right below the name of the elememts. I hope people can get familiar with markdown while using this editor, since the syntax is extremely easy to learn.</p>
+
+            <figure>
+              <img src="../media/albums/taploop-editor/8-0.png" alt="img">
+              <figcaption>Format toggle</figcaption>
+            </figure>
+            <br>
+          </div>
+
+          <span class="id" id="bigDiv7"></span>
+
+          <div class="short-md">
+            <h2>Source code mode</h2>
+            <p>In sourse code mode, the markdown tag will be highlighted in the brand-color. Formats in source code mode won't be full-displayed, which means, the size will be the same. I designed as this because I want people know clearly about which mode he/she is using right now, and still, using minimal style change,  to distinguish the different formats.</p>
+
+            <figure>
+              <img src="../media/albums/taploop-editor/9-0.png" alt="img">
+              <figcaption>Source code mode</figcaption>
+            </figure>
+
+            <figure>
+              <img src="../media/albums/taploop-editor/10-0.png" alt="img">
+              <figcaption>Code block in source code mode</figcaption>
+            </figure>
+          </div>
+
+          <span class="id" id="bigDiv8"></span>
+
+          <div class="short-md">
+            <h2>LaTeX surport</h2>
+            <p>LaTeX support is a small episode in Taploop editor, but I like to much, so I think I should show you how to write a math equation in Taploop Editor.</p>
+
+            <figure>
+              <img src="../media/albums/taploop-editor/11-0.png" alt="img">
+              <figcaption>Inline math</figcaption>
+            </figure>
+
+            <p>I know, math equation can be useless for a game platform, I know... But, let's go ahead to block equation, shall we?</p>
+
+            <figure>
+              <img src="../media/albums/taploop-editor/12-0.png" alt="img">
+              <figcaption>Block equation</figcaption>
+            </figure>
+          </div>
+
+          <p>Mmm... That is what I am talking about, a markdown editor with my favorite function!</p>
+
 
         </div>
         <!-- end main md -->
@@ -196,11 +310,11 @@
         <!-- <span class="id" id="bigDiv1"></span> -->
         <!-- <span class="id" id="bigDiv2"></span> -->
         <!-- <span class="id" id="bigDiv3"></span> -->
-        <span class="id" id="bigDiv4"></span>
-        <span class="id" id="bigDiv5"></span>
-        <span class="id" id="bigDiv6"></span>
-        <span class="id" id="bigDiv7"></span>
-        <span class="id" id="bigDiv8"></span>
+        <!-- <span class="id" id="bigDiv4"></span> -->
+        <!-- <span class="id" id="bigDiv5"></span> -->
+        <!-- <span class="id" id="bigDiv6"></span> -->
+        <!-- <span class="id" id="bigDiv7"></span> -->
+        <!-- <span class="id" id="bigDiv8"></span> -->
         <span class="id" id="bigDiv9"></span>
 
 

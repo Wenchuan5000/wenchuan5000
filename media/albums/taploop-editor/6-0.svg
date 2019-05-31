@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="760px" height="556px" viewBox="0 0 760 556" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>6-0</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-7" transform="translate(-320.000000, -302.000000)">
+            <g id="6-0" transform="translate(320.000000, 302.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="760" height="556"></rect>
+                <text id="In-live-preview-mode" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="16" font-weight="normal" line-spacing="32" letter-spacing="0.200000003" fill="#333333">
+                    <tspan x="80" y="148">In live-preview mode mode, you will be able to write in markdown syntax, derectly in </tspan>
+                    <tspan x="80" y="180">the live preview. It means you don't need to care about your source code when you are </tspan>
+                    <tspan x="80" y="212">just writing. It is inspired by another editor I like, called Typora. But still, there are some </tspan>
+                    <tspan x="80" y="244">difference between Taploop-editor and Typora. You will see.</tspan>
+                </text>
+                <text id="The-line-above-is-em" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="16" font-weight="normal" line-spacing="32" letter-spacing="0.200000003" fill="#333333">
+                    <tspan x="80" y="324">The line above is empty yet, you can press `command/control` and `/` together, or </tspan>
+                    <tspan x="80" y="356">just click the "+" icon to add some new elements.</tspan>
+                </text>
+                <text id="Every-function-desig" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="16" font-weight="normal" line-spacing="32" letter-spacing="0.200000003" fill="#333333">
+                    <tspan x="80" y="396">Every function designed fot Taploop Editor has a clickable button to be activated, but, I </tspan>
+                    <tspan x="80" y="428">still don't want to encourage user to use them, that's why I put the hint of short cuts </tspan>
+                    <tspan x="80" y="460">here. Writing without using the mouse, that is what I actually want.</tspan>
+                </text>
+                <text id="Live-preview-mode" font-family="PingFangSC-Regular, PingFang SC" font-size="32" font-weight="normal" line-spacing="48" fill="#212121">
+                    <tspan x="80" y="110">Live-preview mode</tspan>
+                </text>
+                <g id="Group-3" transform="translate(40.000000, 268.000000)">
+                    <text id="我们先-hover-这一行试试" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="16" font-weight="normal" line-spacing="32" letter-spacing="0.200000003" fill="#ADADAD">
+                        <tspan x="40" y="16">Press "Command + /" to add elements</tspan>
+                    </text>
+                    <rect id="Rectangle" fill="#4EC5CF" x="40" y="0" width="2" height="32"></rect>
+                    <g id="icon/32" fill="#E0E0E0">
+                        <g id="icon/32/➕/normal">
+                            <path d="M16,26 C10.4771525,26 6,21.5228475 6,16 C6,10.4771525 10.4771525,6 16,6 C21.5228475,6 26,10.4771525 26,16 C26,21.5228475 21.5228475,26 16,26 Z M15,15 L11,15 C10.4477153,15 10,15.4477153 10,16 C10,16.5522847 10.4477153,17 11,17 L15,17 L15,21 C15,21.5522847 15.4477153,22 16,22 C16.5522847,22 17,21.5522847 17,21 L17,17 L21,17 C21.5522847,17 22,16.5522847 22,16 C22,15.4477153 21.5522847,15 21,15 L17,15 L17,11 C17,10.4477153 16.5522847,10 16,10 C15.4477153,10 15,10.4477153 15,11 L15,15 Z" id="Combined-Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
