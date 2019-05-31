@@ -50,26 +50,26 @@ nav
 ---------------------------------------- */
 
 @media screen and (max-width: 600px) {
-  #title {
+  #nav #title {
     display: none;
   }
 }
 
 @media screen and (max-width: 520px) {
-  .left {
+  #nav .left {
     display: none;
   }
 
-  .right {
+  #nav .right {
     width: 100%;
     display: flex;
     justify-content: space-between;
   }
-  .right a:not(:first-child) {
+  #nav .right a:not(:first-child) {
     margin-left: 0px;
   }
 
-  #nav {
+  #nav #nav {
     padding: 0 20px;
   }
 }

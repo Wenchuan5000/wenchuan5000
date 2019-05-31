@@ -293,16 +293,15 @@ divs
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        outline: 1px solid rgba(0, 0, 0, 0.08);
-        outline-offset: -1px;
+        border: 1px solid rgba(0, 0, 0, 0.08);
+        border-radius: 8px;
+        box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.08);
       }
 
       .md img.dashed-border {
-        outline-style: dashed;
-      }
-
-      .md img.dashed-border:hover {
         box-shadow: none;
+        border-style: dashed;
+        border-radius: 0;
       }
 
       .md figcaption {
@@ -356,7 +355,6 @@ navigation (top)
     /* ----------------------------------------
     navition elements
     ---------------------------------------- */
-
 
         /* ++++++++++++++++++++++++++++++++++++++++
         nav-li left
@@ -427,6 +425,42 @@ navigation (top)
             box-shadow: inset 0 -4px 0 #df384f;
           }
         }
+
+    /* ----------------------------------------
+    navition in content
+    ---------------------------------------- */
+
+    #nav .back {
+      display: flex;
+      float: left;
+      background-image: url(../media/icon/system/leftarrow.svg);
+      background-size: cover;
+      background-position: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      margin-top: 20px;
+    }
+
+    #nav .back:hover {
+      background-color: rgba(0, 0, 0, 0.04);
+    }
+
+    #nav .mid {
+      /* display: flex; */
+      font-weight: 600;
+      line-height: 72px;
+      margin: 0;
+      color: #858585;
+    }
+
+    #nav .empty {
+      display: flex;
+      width: 32px;
+      height: 32px;
+      margin-right: -20px;
+    }
+
 
 /* ========================================
 sidenav
@@ -832,6 +866,9 @@ other components
     }
 
     .file-container {
+      display: flex;
+      flex-wrap: wrap;
+      /* justify-content: flex-start; */
       background-color: white;
       border: 1px solid rgba(0, 0, 0, 0.08);
       width: 100%;
@@ -841,7 +878,6 @@ other components
     }
 
     .file-container .cover {
-      float: left;
       background-color: #f5f5f5;
       height: 48px;
       width: 48px;
@@ -858,6 +894,16 @@ other components
 
     .file-container .info {
       float: left;
+      flex: 1 1 20px;
+      /* max-width: 200px; */
+      min-width: 20px;
+    }
+
+    .file-container .info p {
+      width: 100%;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
     }
 
     .file-container .info p:first-child {
@@ -872,15 +918,15 @@ other components
     }
 
     .file-container img {
-      background: none;
-      display: flex;
       float: right;
+      background: none;
       width: 48px;
       height: 48px;
       padding: 12px;
       margin: 20px;
       outline: none;
       border-radius: 50%;
+      box-shadow: none;
     }
 
     .file-container img:hover {
