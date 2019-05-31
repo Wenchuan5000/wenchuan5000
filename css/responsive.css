@@ -1,4 +1,4 @@
-@media screen and (max-width: 11200px) {
+@media screen and (max-width: 1200px) {
   .short-md {
     margin: 0 auto;
   }
@@ -80,8 +80,12 @@ nav
     margin-left: 0px;
   }
 
-  #nav #nav {
+  #nav {
     padding: 0 20px;
+
+    height: 64px;
+    line-height: 64px;
+
   }
 }
 
