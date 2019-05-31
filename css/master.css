@@ -293,14 +293,13 @@ divs
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        border: 1px solid rgba(0, 0, 0, 0.08);
-        box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.08);
+        outline: 1px solid rgba(0, 0, 0, 0.08);
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.08);
       }
 
       .md img.dashed-border {
         box-shadow: none;
-        border-style: dashed;
-        border-radius: 0;
+        outline-style: dashed;
       }
 
       .md figcaption {
