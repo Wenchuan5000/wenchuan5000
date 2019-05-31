@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Wenchuan :: Taploop Editor</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="../css/master.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="icon" href="../media/site-logo.png" type="image/gif" sizes="16x16">
+
+    <script src="../js/master.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+    <!-- begin nav -->
+    <header id="nav">
+      <a class="back" href="2-2_in-gallery_uiux.html"></a>
+      <div class="mid">
+        Taploop Editor
+      </div>
+      <div class="empty"></div>
+    </header>
+    <!-- end nav -->
+
+    <!-- begin sidenav -->
+    <div id="sidenav" class="sidenav">
+      <div class="group head">
+        <a href="1-1_home.html">
+          <div id="logoAlias"></div>
+          <span id="titleAlias">Wenchuan</span>
+        </a>
+      </div>
+      <div class="group">
+        <a class="title" href="#">Taploop Editor</a>
+        <!-- begin sub group -->
+        <div class="sub-group">
+          <div id="selector"></div>
+          <a class="item" href="#begin">
+            <div class="selector"></div>
+            <div id="sub-group-li-0" class="chapter">Introduction</div>
+          </a>
+          <a class="item" href="#bigDiv1">
+            <div class="selector"></div>
+            <div id="sub-group-li-1" class="chapter">Why did this?</div>
+          </a>
+          <a class="item" href="#bigDiv2">
+            <div class="selector"></div>
+            <div id="sub-group-li-2" class="chapter">Main pages</div>
+          </a>
+          <a class="item" href="#bigDiv3">
+            <div class="selector"></div>
+            <div id="sub-group-li-3" class="chapter">Style and some components</div>
+          </a>
+          <a class="item" href="#bigDiv4">
+            <div class="selector"></div>
+            <div id="sub-group-li-4" class="chapter">How to create a new book</div>
+          </a>
+          <a class="item" href="#bigDiv5">
+            <div class="selector"></div>
+            <div id="sub-group-li-5" class="chapter">Chapter editor</div>
+          </a>
+          <a class="item" href="#bigDiv6">
+            <div class="selector"></div>
+            <div id="sub-group-li-6" class="chapter">Page editor (Activity editor)</div>
+          </a>
+          <a class="item" href="#bigDiv7">
+            <div class="selector"></div>
+            <div id="sub-group-li-7" class="chapter">The example of a filled book</div>
+          </a>
+          <a class="item" href="#bigDiv8">
+            <div class="selector"></div>
+            <div id="sub-group-li-8" class="chapter">Book reader</div>
+          </a>
+        </div>
+        <!-- end sub group -->
+      </div>
+    </div><div id="btn-closeNav" onclick="closeNav()"></div><div id="btn-openNav" onclick="openNav()"></div>
+    <!-- end sidenav -->
+
+    <div class="begin" id="begin"></div>
+
+    <!-- begin content -->
+    <span id="content">
+      <!-- begin article -->
+      <article class="big-div next-to-sidenav">
+        <!-- begin main md -->
+        <div class="main md">
+
+          <!-- begin md -->
+          <div class="short-md">
+
+            <h1>Taploop Editor</h1>
+
+            <p>This is a sub-project of <a href="3-2-1_app_taploop.html">Taploop</a>, a platform sharing the experience of games, and this is its editor, based on markdown syntax with live-preview.</p>
+
+            <span class="id" id="bigDiv1"></span>
+
+            <h2>What is Taploop Editor designed for?</h2>
+
+            <p>Taploop is something like "Let's Play", but, in the form of writing, just like Medium. The goal we want to do this, is to find some games really good on its art, script, or music, etc.. This kind of games, take Pillars of the Earth for example, does not seems so fascinating on "Let's Play" living show, but they do deserve literary reviews written by players. And I believe, game is already another form of stage art, just like opera, drama, and movie.</p>
+
+          </div>
+          <!-- end md -->
+
+          <figure>
+            <img src="../media/albums/taploop-editor/1-0.png" alt="png">
+            <figcaption>Taploop Editor</figcaption>
+          </figure>
+
+          <br>
+
+          <span class="id" id="bigDiv2"></span>
+
+          <div class="short-md">
+
+            <h2>Interface</h2>
+
+            <p>The main page of Taploop Editor is consisted of 3 parts: nav-list, side-nav, and edit space, in which side-nav is divided into 2 parts: default folders list, and file list.</p>
+
+          </div>
+
+          <figure>
+            <img src="../media/albums/taploop-editor/2-0.png" alt="png">
+            <figcaption>Basic grid of the page</figcaption>
+          </figure>
+
+          <div class="short-md">
+            <p>The two file management panels will be folded if the device-width is down to 1280px. In this case it can be open by click/tap the "﹤" icon.</p>
+
+            <figure>
+              <img src="../media/albums/taploop-editor/3-0.png" alt="png">
+              <figcaption>The activated sidenav (window-size ﹤ 1280px)</figcaption>
+            </figure>
+
+            <br>
+
+          </div>
+
+          <span class="id" id="bigDiv3"></span>
+          <div class="short-md">
+            <h2>Basic style</h2>
+            <p>The style of this little component actually dominates the whole project. from buttons to dropdowns.</p>
+
+            <figure>
+              <img class="noShadow" src="../media/albums/taploop-editor/4-1.png" alt="png" style="
+                width: 120px;
+                outline: none;
+              ">
+            </figure>
+
+            <figure>
+              <img class="noShadow" src="../media/albums/taploop-editor/4-0.svg" alt="png">
+            </figure>
+
+          </div>
+
+          <div class="short-md">
+            <p>By the way, I like to outter borders, because it cause no illusions when the box is floating upon other elements, or upon its own shadow.</p>
+
+          </div>
+
+          <div class="short-md">
+            <h2>Hover style</h2>
+            <p>Because some hovable components has their own big icon, the z-index of "hover-grey" is designed between the icon and the text. Notice that the "hover grey" here is not background-color, because I want the color of the text changes a little bit while user hover the components.</p>
+
+            <figure>
+              <img class="dashed-border" src="../media/albums/taploop-editor/5-0.svg" alt="png">
+              <figcaption>The hover of dropdown column</figcaption>
+            </figure>
+
+            <figure>
+              <img id="z-hover" class="noBorder" src="../media/albums/taploop-editor/z-hover.svg" alt="png">
+              <figcaption>Demo of a hoverable dowpdown column</figcaption>
+            </figure>
+
+            <style media="screen">
+              #z-hover {
+                width: 320px;
+              }
+
+              #z-hover:hover {
+                background-color: rgba(0, 0, 0, 0.04);
+              }
+            </style>
+
+            <p>Here I made a demo by very basic html and CSS. It is quite similar to the hover style I wanted, but still there is a little difference: In the demo, when you hover the column, the "hover grey" dose not actually "cover" the text, so the <span style="color:#4EC5CF">blue "#"</span> here dose not change at all. But in my <a href="../files/">Taploop Editor.sketch</a> file, you will see the </p>
+
+          </div>
+
+        </div>
+        <!-- end main md -->
+
+        <!-- <span class="id" id="bigDiv1"></span> -->
+        <!-- <span class="id" id="bigDiv2"></span> -->
+        <!-- <span class="id" id="bigDiv3"></span> -->
+        <span class="id" id="bigDiv4"></span>
+        <span class="id" id="bigDiv5"></span>
+        <span class="id" id="bigDiv6"></span>
+        <span class="id" id="bigDiv7"></span>
+        <span class="id" id="bigDiv8"></span>
+        <span class="id" id="bigDiv9"></span>
+
+
+      </article>
+
+      <!-- begin up next -->
+      <div class="big-div next-to-sidenav">
+
+        <!-- begin card title -->
+        <div class="card-set-1 main">
+
+          <!-- begin card title-->
+          <div class="card-head long">
+            <h2>Up next</h2>
+          </div>
+          <div class="empty"></div>
+          <!-- end card title-->
+
+        </div>
+        <!-- end card title -->
+
+        <!-- begin next card -->
+        <div class="card-set-1 main2">
+
+          <a class="tri" href="2-2_in-gallery_visual-design.html">
+              <img src="../media/test_cover.png" alt="Visual design">
+              <div class="description">
+                <h4>Visual design</h4>
+                <p>urabitur et elementum tortor. Proin vulputate nulla nunc, eu commodo sem tincidunt nec.</p>
+              </div>
+          </a>
+
+          <div class="empty-tri"></div>
+
+          <div class="empty-tri"></div>
+
+        </div>
+        <!-- end next card -->
+
+      </div>
+      <!-- end up next -->
+
+      <!-- end article -->
+    </span>
+    <!-- end content -->
+
+    <footer id="footer" class="next-to-sidenav">
+      <div class="main">
+        <ul>
+          <li><a href="https://github.com/Wenchuan5000/wenchuan5000.github.io/tree/master/blog">Blog</a></li>
+          <li><a href="https://github.com/Wenchuan5000">GitHub</a></li>
+          <li><a href="https://www.behance.net/wenchuan">Behance</a></li>
+          <li><a href="https://dribbble.com/Bach5000">Dribbble</a></li>
+          <li><a href="https://www.instagram.com/wenchuan_the_zhao_ah/">Instagram</a></li>
+        </ul>
+      </div>
+    </footer>
+
+  </body>
+</html>

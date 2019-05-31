@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="760px" height="249px" viewBox="0 0 760 249" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>5-0</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 160 80 120 160 160 80 200"></polygon>
+        <filter x="-18.3%" y="-27.6%" width="136.5%" height="170.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="6" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="1" dy="1" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-5" transform="translate(-320.000000, -258.000000)">
+            <g id="5-0" transform="translate(320.000000, 258.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="760" height="248"></rect>
+                <g id="Group-9" transform="translate(138.000000, 20.000000)">
+                    <g id="Group" transform="translate(162.000000, 7.000000)">
+                        <g id="Path">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <path stroke-opacity="0.08" stroke="#000000" stroke-width="1" d="M-1.11803399,160 L80,119.440983 L161.118034,160 L80,200.559017 L-1.11803399,160 Z" fill="#FFFFFF" fill-rule="evenodd"></path>
+                        </g>
+                        <polygon id="Path-Copy-3" fill-opacity="0.08" fill="#000000" points="0 120 80 80 160 120 80 160"></polygon>
+                        <polygon id="Path-Copy" fill-opacity="0.08" fill="#000000" points="0 80 80 40 160 80 80 120"></polygon>
+                        <polygon id="Path-Copy-2" fill="#9E9E9E" points="0 40 80 0 160 40 80 80"></polygon>
+                        <path d="M27.1554175,36.4222912 L72.8445825,13.5777088 C77.3490223,11.3254888 82.6509777,11.3254888 87.1554175,13.5777088 L132.844582,36.4222912 C134.820496,37.4102482 135.621394,39.8129404 134.633437,41.7888544 C134.246382,42.562964 133.618692,43.190654 132.844582,43.5777088 L87.1554175,66.4222912 C82.6509777,68.6745112 77.3490223,68.6745112 72.8445825,66.4222912 L27.1554175,43.5777088 C25.1795035,42.5897518 24.3786062,40.1870596 25.3665631,38.2111456 C25.753618,37.437036 26.3813079,36.809346 27.1554175,36.4222912 Z" id="Path-Copy-2" stroke="#FFFFFF" fill="#FFFFFF" opacity="0.378022693" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                    <g id="Group-8">
+                        <polyline id="Path-3" stroke="#4EC5CF" opacity="0.6" stroke-linecap="round" stroke-linejoin="round" points="322 47 394 47 394 27"></polyline>
+                        <polyline id="Path-3-Copy-2" stroke="#4EC5CF" stroke-linecap="round" stroke-linejoin="round" transform="translate(126.000000, 77.000000) scale(-1, 1) translate(-126.000000, -77.000000) " points="90 87 162 87 162 67"></polyline>
+                        <polyline id="Path-3-Copy" stroke="#4EC5CF" opacity="0.6" stroke-linecap="round" stroke-linejoin="round" points="322 127 394 127 394 107"></polyline>
+                        <polyline id="Path-3-Copy-3" stroke="#4EC5CF" opacity="0.6" stroke-linecap="round" stroke-linejoin="round" transform="translate(126.000000, 157.000000) scale(-1, 1) translate(-126.000000, -157.000000) " points="90 167 162 167 162 147"></polyline>
+                        <circle id="Oval" stroke-opacity="0.2" stroke="#4EC5CF" stroke-width="4" fill="#4EC5CF" stroke-linecap="round" stroke-linejoin="round" cx="162" cy="167" r="6"></circle>
+                        <circle id="Oval-Copy" stroke-opacity="0.2" stroke="#4EC5CF" stroke-width="4" fill="#4EC5CF" stroke-linecap="round" stroke-linejoin="round" cx="322" cy="127" r="6"></circle>
+                        <circle id="Oval-Copy-2" stroke-opacity="0.2" stroke="#4EC5CF" stroke-width="4" fill="#4EC5CF" stroke-linecap="round" stroke-linejoin="round" cx="162" cy="87" r="6"></circle>
+                        <circle id="Oval-Copy-3" stroke-opacity="0.2" stroke="#4EC5CF" stroke-width="4" fill="#4EC5CF" stroke-linecap="round" stroke-linejoin="round" cx="322" cy="47" r="6"></circle>
+                        <text id="icon" opacity="0.6" font-family="Menlo-Regular, Menlo" font-size="16" font-weight="normal" fill="#4EC5CF">
+                            <tspan x="384" y="15">icon</tspan>
+                        </text>
+                        <text id="hover" font-family="Menlo-Bold, Menlo" font-size="16" font-weight="bold" fill="#4EC5CF">
+                            <tspan x="51.8359375" y="55">hover</tspan>
+                        </text>
+                        <text id="text" opacity="0.6" font-family="Menlo-Regular, Menlo" font-size="16" font-weight="normal" fill="#4EC5CF">
+                            <tspan x="384" y="95">text</tspan>
+                        </text>
+                        <text id="background" opacity="0.6" font-family="Menlo-Regular, Menlo" font-size="16" font-weight="normal" fill="#4EC5CF">
+                            <tspan x="3.671875" y="135">background</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

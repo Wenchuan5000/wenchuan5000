@@ -287,7 +287,7 @@ divs
         color: #858585;
       }
 
-      .md img {
+      .md figure img {
         width: 100%;
         background-color: white;
         background-position: center;
@@ -297,9 +297,18 @@ divs
         box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.08);
       }
 
-      .md img.dashed-border {
+      .md figure img.dashed-border {
         box-shadow: none;
         outline-style: dashed;
+      }
+
+      .md figure img.noBorder {
+        outline: none;
+        box-shadow: none;
+      }
+
+      .md figure img.noShadow {
+        box-shadow: none;
       }
 
       .md figcaption {
@@ -425,7 +434,7 @@ navigation (top)
         }
 
     /* ----------------------------------------
-    navition in content
+    navigation in content
     ---------------------------------------- */
 
     #nav .back {
@@ -449,7 +458,7 @@ navigation (top)
       font-weight: 600;
       line-height: 72px;
       margin: 0;
-      color: #858585;
+      /* color: #858585; */
     }
 
     #nav .empty {
@@ -922,6 +931,7 @@ other components
       height: 48px;
       padding: 12px;
       margin: 20px;
+      border: none;
       outline: none;
       border-radius: 50%;
       box-shadow: none;

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="760px" height="400px" viewBox="0 0 760 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>4-0</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="760" height="400"></rect>
+        <rect id="path-3" x="0" y="0" width="952" height="480" rx="32"></rect>
+        <filter x="-23.5%" y="-36.7%" width="147.1%" height="193.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="8" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="48" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="64" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="8" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="8" dy="8" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="16" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-4" transform="translate(-320.000000, -410.000000)">
+            <g id="4-0" transform="translate(320.000000, 410.000000)">
+                <g id="Group-6-Copy">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+                    <g mask="url(#mask-2)" id="Mask">
+                        <g transform="translate(160.000000, 120.000000)">
+                            <g>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                                <rect stroke-opacity="0.08" stroke="#000000" stroke-width="8" fill="#FFFFFF" fill-rule="evenodd" x="-4" y="-4" width="960" height="488" rx="32"></rect>
+                            </g>
+                            <text font-family="RobotoMono-Regular, Roboto Mono" font-size="128" font-weight="normal" line-spacing="128">
+                                <tspan x="306" y="304" fill="#E0E0E0">Mask</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+                <polyline id="Path-3-Copy" stroke="#DDDDDD" stroke-linecap="round" stroke-linejoin="round" transform="translate(335.000000, 102.500000) scale(-1, -1) translate(-335.000000, -102.500000) " points="299 115 371 115 371 90"></polyline>
+                <polyline id="Path-3-Copy-4" stroke="#DDDDDD" stroke-linecap="round" stroke-linejoin="round" transform="translate(204.000000, 163.000000) scale(-1, 1) translate(-204.000000, -163.000000) " points="168 201 240 201 240 125"></polyline>
+                <polyline id="Path-3-Copy-5" stroke="#DDDDDD" stroke-linecap="round" stroke-linejoin="round" transform="translate(100.000000, 161.000000) scale(-1, 1) translate(-100.000000, -161.000000) " points="64 261 136 261 136 61"></polyline>
+                <circle id="Oval-Copy" stroke-opacity="0.2" stroke="#000000" stroke-width="8" fill-opacity="0.8" fill="#000000" stroke-linecap="round" stroke-linejoin="round" cx="299" cy="116" r="12"></circle>
+                <circle id="Oval-Copy-4" stroke-opacity="0.2" stroke="#000000" stroke-width="8" fill-opacity="0.8" fill="#000000" stroke-linecap="round" stroke-linejoin="round" cx="168" cy="132" r="12"></circle>
+                <circle id="Oval-Copy-5" stroke-opacity="0.2" stroke="#000000" stroke-width="8" fill-opacity="0.8" fill="#000000" stroke-linecap="round" stroke-linejoin="round" cx="136" cy="261" r="12"></circle>
+                <text id="border:-1px-solid-rg" font-family="RobotoMono-Regular, Roboto Mono" font-size="14" font-weight="normal" fill="#000000" fill-opacity="0.4">
+                    <tspan x="380" y="95">border: 1px solid rgba(0, 0, 0, 0.08);</tspan>
+                </text>
+                <text id="-webkit-border-radiu" font-family="RobotoMono-Regular, Roboto Mono" font-size="14" font-weight="normal" fill="#000000" fill-opacity="0.4">
+                    <tspan x="248" y="205">-webkit-border-radius: 10px;</tspan>
+                </text>
+                <text id="box-shadow:-1px-1px" font-family="RobotoMono-Regular, Roboto Mono" font-size="14" font-weight="normal" fill="#000000" fill-opacity="0.4">
+                    <tspan x="32" y="51">box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), 0 6px 16px #rgba(0, 0, 0, 0.08);</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
