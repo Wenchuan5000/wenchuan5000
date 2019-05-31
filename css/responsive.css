@@ -1,3 +1,14 @@
+@media screen and (max-width: 1200px) {
+  .short-md {
+    margin: 0 auto;
+  }
+
+  figcaption {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
 /* ----------------------------------------
 some margin and padding
 ---------------------------------------- */

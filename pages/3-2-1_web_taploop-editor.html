@@ -145,13 +145,6 @@
             <p>The style of this little component actually dominates the whole project. from buttons to dropdowns.</p>
 
             <figure>
-              <img class="noShadow" src="../media/albums/taploop-editor/4-1.png" alt="png" style="
-                width: 120px;
-                outline: none;
-              ">
-            </figure>
-
-            <figure>
               <img class="noShadow" src="../media/albums/taploop-editor/4-0.svg" alt="png">
             </figure>
 
@@ -173,10 +166,11 @@
               <figcaption>The hover of dropdown column</figcaption>
             </figure>
 
-            <figure>
-              <img id="z-hover" class="noBorder" src="../media/albums/taploop-editor/z-hover.svg" alt="png">
-              <figcaption>Demo of a hoverable dowpdown column</figcaption>
-            </figure>
+            <div align="center">
+              <figure>
+                <img id="z-hover" class="noBorder" src="../media/albums/taploop-editor/z-hover.svg" alt="png">
+              </figure>
+            </div>
 
             <style media="screen">
               #z-hover {
@@ -372,6 +366,14 @@
         </ul>
       </div>
     </footer>
+
+    <style media="screen">
+      @media screen and (max-width: 560px) {
+        #tapFont .left {
+          display: none;
+        }
+      }
+    </style>
 
   </body>
 </html>
