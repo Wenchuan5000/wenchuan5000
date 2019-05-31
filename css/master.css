@@ -455,6 +455,7 @@ navigation (top)
 
     #nav .mid {
       /* display: flex; */
+      text-align: center;
       font-weight: 600;
       line-height: 72px;
       margin: 0;
@@ -462,10 +463,9 @@ navigation (top)
     }
 
     #nav .empty {
-      display: flex;
+      /* display: flex; */
       width: 32px;
       height: 32px;
-      margin-right: -20px;
     }
 
 

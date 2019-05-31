@@ -80,12 +80,21 @@ nav
     margin-left: 0px;
   }
 
+  /* height */
+
   #nav {
     padding: 0 20px;
 
     height: 64px;
     line-height: 64px;
+  }
 
+  #nav .back {
+    margin-top: 16px;
+  }
+
+  #nav .mid {
+    line-height: 64px;
   }
 }
 
