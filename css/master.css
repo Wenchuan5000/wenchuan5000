@@ -213,7 +213,7 @@ divs
       .md h4,
       .md h5,
       .md h6 {
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
       }
 
       .md h2,
@@ -228,7 +228,8 @@ divs
       .md ul,
       .md ol {
         color: #5C5C5C;
-        margin-top: 1em;
+        /* color: #333333; */
+        margin-top: 0.5em;
       }
 
       .md a {
