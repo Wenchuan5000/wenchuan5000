@@ -467,7 +467,7 @@ navigation (top)
     }
 
     #nav .empty {
-      /* display: flex; */
+      display: none;
       width: 32px;
       height: 32px;
     }

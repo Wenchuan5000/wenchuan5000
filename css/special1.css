@@ -41,3 +41,37 @@
   margin-top: 88px;
   margin-bottom: 80px;
 }
+
+.md-tri {
+  margin-top: 80px;
+  margin-bottom: 160px;
+}
+
+.md-tri * {
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+.md-tri figcaption {
+  text-align: center;
+  font-size: 14px;
+  color: #858585;
+  margin-top: 20px;
+}
+
+.md-tri *:hover {
+  box-shadow: none;
+}
+
+.night {
+  background-color: #333333;
+}
+
+.night .md hr {
+  border-color: white;
+}
+
+.night .short-md * {
+  color: white;
+}
