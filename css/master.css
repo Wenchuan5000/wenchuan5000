@@ -229,6 +229,7 @@ divs
       .md h5,
       .md h6 {
         margin-top: 4rem;
+        /* padding-top: -3rem; */
       }
 
       .md p,

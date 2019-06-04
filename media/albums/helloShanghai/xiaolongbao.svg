@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="168px" height="124px" viewBox="0 0 168 124" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>xiaolongbao</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,32 L0,0 L128,0 L128,32 C128,49.673112 99.346224,64 64,64 C28.653776,64 0,49.673112 0,32 Z" id="path-1"></path>
+        <ellipse id="path-3" cx="72" cy="48" rx="64" ry="32"></ellipse>
+        <path d="M0,30 L0,22 L2.15693089,22 C9.15889203,9.31525197 32.4037523,0 60,0 C87.5962477,0 110.841108,9.31525197 117.843069,22 L120,22 L120,30 C120,46.5685425 93.137085,60 60,60 C26.862915,60 0,46.5685425 0,30 Z" id="path-4"></path>
+        <ellipse id="path-6" cx="72" cy="40" rx="60" ry="30"></ellipse>
+        <ellipse id="path-7" cx="56" cy="28" rx="56" ry="28"></ellipse>
+        <ellipse id="path-9" cx="56" cy="28" rx="56" ry="28"></ellipse>
+        <path d="M14,0 C14,2.66666667 12.6666667,4.66666667 10,6 C6,8 4,14 4,16 C4,18 6,22 16,22 C26,22 28,18 28,16 C28,15.0690113 26,8 24,6 C21.3333333,3.33333333 18,1.33333333 14,0 Z" id="path-11"></path>
+        <path d="M14,0 C14,2.66666667 12.6666667,4.66666667 10,6 C6,8 4,14 4,16 C4,18 6,22 16,22 C26,22 28,18 28,16 C28,15.0690113 26,8 24,6 C21.3333333,3.33333333 18,1.33333333 14,0 Z" id="path-13"></path>
+        <path d="M14,0 C14,2.66666667 12.6666667,4.66666667 10,6 C6,8 4,14 4,16 C4,18 6,22 16,22 C26,22 28,18 28,16 C28,15.0690113 26,8 24,6 C21.3333333,3.33333333 18,1.33333333 14,0 Z" id="path-15"></path>
+        <path d="M14,0 C14,2.66666667 12.6666667,4.66666667 10,6 C6,8 4,14 4,16 C4,18 6,22 16,22 C26,22 28,18 28,16 C28,15.0690113 26,8 24,6 C21.3333333,3.33333333 18,1.33333333 14,0 Z" id="path-17"></path>
+        <path d="M14,0 C14,2.66666667 12.6666667,4.66666667 10,6 C6,8 4,14 4,16 C4,18 6,22 16,22 C26,22 28,18 28,16 C28,15.0690113 26,8 24,6 C21.3333333,3.33333333 18,1.33333333 14,0 Z" id="path-19"></path>
+        <path d="M14,0 C14,2.66666667 12.6666667,4.66666667 10,6 C6,8 4,14 4,16 C4,18 6,22 16,22 C26,22 28,18 28,16 C28,15.0690113 26,8 24,6 C21.3333333,3.33333333 18,1.33333333 14,0 Z" id="path-21"></path>
+        <path d="M0,0 L112,56" id="path-23"></path>
+        <path d="M64,32 L112,56" id="path-24"></path>
+        <path d="M0,0 L112,56" id="path-25"></path>
+        <path d="M64,32 L112,56" id="path-26"></path>
+    </defs>
+    <g id="xiaolongbao" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#A2D8FF" x="-6" y="-5" width="181" height="135"></rect>
+        <g id="小笼包" transform="translate(12.000000, 4.000000)">
+            <ellipse id="Oval-3" stroke="#666666" fill="#666666" opacity="0.2" stroke-linecap="round" stroke-linejoin="round" cx="72" cy="80" rx="72" ry="36"></ellipse>
+            <path d="M136,48 L136,80 C136,97.673112 107.346224,112 72,112 C36.653776,112 8,97.673112 8,80 L8,48 C8,43.8431892 9.58517176,39.8714967 12.469756,36.2278022 C16.1801908,21.4398819 41.4181678,10 72,10 C102.581832,10 127.819809,21.4398819 131.530244,36.2278022 C134.414828,39.8714967 136,43.8431892 136,48 Z" id="Combined-Shape" stroke="#666666" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g id="Rectangle-7" transform="translate(8.000000, 48.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" stroke="#666666" fill="#EAC89A" stroke-linecap="round" stroke-linejoin="round" xlink:href="#path-1"></use>
+                <path d="M6,22 C6,23.3333333 7.33333333,24.6666667 10,26" id="Path-125" stroke="#666666" stroke-width="2" opacity="0.2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                <path d="M6,36 C6,37.3333333 7.33333333,38.6666667 10,40" id="Path-125-Copy" stroke="#666666" stroke-width="2" opacity="0.2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                <path d="M0,16 C0,33.673112 28.653776,48 64,48 C99.346224,48 128,33.673112 128,16" id="Oval-3" stroke="#666666" opacity="0.2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                <rect id="Rectangle-8" stroke="#666666" fill="#C79C74" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" x="48" y="42" width="4" height="12" rx="2"></rect>
+                <rect stroke="#666666" fill="#666666" opacity="0.2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" x="64" y="0" width="64" height="64"></rect>
+                <path d="M110,20 L110,56" id="Path-127" stroke="#666666" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                <path d="M102,32 L102,38" id="Path-132" stroke="#666666" stroke-width="2" opacity="0.2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                <path d="M102,46 L102,52" id="Path-132-Copy" stroke="#666666" stroke-width="2" opacity="0.2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+            </g>
+            <g id="Oval-3" stroke-linecap="round" stroke-linejoin="round">
+                <use fill="#EAC89A" xlink:href="#path-3"></use>
+                <use stroke="#666666" stroke-width="1" fill-opacity="0.4" fill="#FFFFFF" xlink:href="#path-3"></use>
+            </g>
+            <g id="Rectangle-7" transform="translate(12.000000, 18.000000)">
+                <mask id="mask-5" fill="white">
+                    <use xlink:href="#path-4"></use>
+                </mask>
+                <use id="Mask" stroke="#666666" fill="#EAC89A" stroke-linecap="round" stroke-linejoin="round" xlink:href="#path-4"></use>
+                <rect stroke="#666666" fill="#666666" opacity="0.2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-5)" x="60" y="10" width="60" height="58"></rect>
+                <path d="M20,42 L20,54" id="Path-126" stroke="#666666" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-5)"></path>
+            </g>
+            <g id="Oval-3-Copy" stroke-linecap="round" stroke-linejoin="round">
+                <use fill="#EAC89A" xlink:href="#path-6"></use>
+                <use stroke="#666666" stroke-width="1" fill-opacity="0.4" fill="#FFFFFF" xlink:href="#path-6"></use>
+            </g>
+            <g id="Oval-3-Copy" transform="translate(16.000000, 12.000000)">
+                <mask id="mask-8" fill="white">
+                    <use xlink:href="#path-7"></use>
+                </mask>
+                <use id="Mask" stroke="#666666" fill="#EAC89A" stroke-linecap="round" stroke-linejoin="round" xlink:href="#path-7"></use>
+                <rect id="Rectangle-7" stroke="#666666" fill="#666666" opacity="0.2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-8)" x="56" y="-2" width="56" height="58"></rect>
+                <g id="Group-30" mask="url(#mask-8)">
+                    <g transform="translate(0.000000, 16.000000)" id="Rectangle-5">
+                        <g>
+                            <mask id="mask-10" fill="white">
+                                <use xlink:href="#path-9"></use>
+                            </mask>
+                            <use id="Mask" stroke="#666666" fill="#666666" stroke-linecap="round" stroke-linejoin="round" xlink:href="#path-9"></use>
+                            <path d="M0,4 L112,4 L112,8 L0,8 L0,4 Z M0,12 L112,12 L112,16 L0,16 L0,12 Z M0,20 L112,20 L112,24 L0,24 L0,20 Z M0,28 L112,28 L112,32 L0,32 L0,28 Z M0,36 L112,36 L112,40 L0,40 L0,36 Z" id="Combined-Shape" stroke="#666666" fill="#EAC89A" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-10)"></path>
+                            <ellipse id="Mask" stroke="#666666" fill-opacity="0.8" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-10)" cx="56" cy="28" rx="56" ry="28"></ellipse>
+                        </g>
+                    </g>
+                </g>
+                <ellipse id="Mask" stroke="#666666" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-8)" cx="56" cy="28" rx="56" ry="28"></ellipse>
+                <g id="Group-32" mask="url(#mask-8)">
+                    <g transform="translate(10.000000, 8.000000)">
+                        <g id="Path-129" transform="translate(32.000000, 0.000000)">
+                            <ellipse id="Oval" stroke="#666666" fill="#666666" opacity="0.2" stroke-linecap="round" stroke-linejoin="round" cx="16" cy="16" rx="16" ry="8"></ellipse>
+                            <mask id="mask-12" fill="white">
+                                <use xlink:href="#path-11"></use>
+                            </mask>
+                            <use id="Mask" stroke="#666666" fill="#FFF1D7" stroke-linecap="round" stroke-linejoin="round" xlink:href="#path-11"></use>
+                            <path d="M14,0 C18,5.33333333 20,10 20,14 C20,20 12,20 8,18 C4,16 2,14 2,12 L0,20 L18,24 L28,18 L28,2 L14,0 Z" stroke="#666666" fill="#666666" opacity="0.2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-12)"></path>
+                            <g id="Group-31" opacity="0.2" mask="url(#mask-12)" stroke="#666666" stroke-linecap="round" stroke-linejoin="round">
+                                <g transform="translate(8.000000, 0.000000)">
+                                    <path d="M6,0 C7.33333333,2.66666667 7.33333333,4.66666667 6,6 C4,8 2,8 0,14" id="Path-128"></path>
+                                    <path d="M6,0 C7.33333333,1.33333333 8,3.33333333 8,6 C8,10 6,8 6,16" id="Path-130"></path>
+                                    <path d="M6,0 C7.33333333,0.666666667 8.66666667,2 10,4 C12,7 10,10 14,14" id="Path-131"></path>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Path-129-Copy" transform="translate(0.000000, 10.000000)">
+                            <ellipse id="Oval" stroke="#666666" fill="#666666" opacity="0.2" stroke-linecap="round" stroke-linejoin="round" cx="16" cy="16" rx="16" ry="8"></ellipse>
+                            <mask id="mask-14" fill="white">
+                                <use xlink:href="#path-13"></use>
+                            </mask>
+                            <use id="Mask" stroke="#666666" fill="#FFF1D7" stroke-linecap="round" stroke-linejoin="round" xlink:href="#path-13"></use>
+                            <path d="M14,0 C18,5.33333333 20,10 20,14 C20,20 12,20 8,18 C4,16 2,14 2,12 L0,20 L18,24 L28,18 L28,2 L14,0 Z" id="Path-129" stroke="#666666" fill="#666666" opacity="0.2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-14)"></path>
+                            <g id="Group-31" opacity="0.2" mask="url(#mask-14)" stroke="#666666" stroke-linecap="round" stroke-linejoin="round">
+                                <g transform="translate(8.000000, 0.000000)">
+                                    <path d="M6,0 C7.33333333,2.66666667 7.33333333,4.66666667 6,6 C4,8 2,8 0,14" id="Path-128"></path>
+                                    <path d="M6,0 C7.33333333,1.33333333 8,3.33333333 8,6 C8,10 6,8 6,16" id="Path-130"></path>
+                                    <path d="M6,0 C7.33333333,0.666666667 8.66666667,2 10,4 C12,7 10,10 14,14" id="Path-131"></path>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Path-129-Copy-2" transform="translate(62.000000, 10.000000)">
+                            <ellipse id="Oval" stroke="#666666" fill="#666666" opacity="0.2" stroke-linecap="round" stroke-linejoin="round" cx="16" cy="16" rx="16" ry="8"></ellipse>
+                            <mask id="mask-16" fill="white">
+                                <use xlink:href="#path-15"></use>
+                            </mask>
+                            <use id="Mask" stroke="#666666" fill="#FFF1D7" stroke-linecap="round" stroke-linejoin="round" xlink:href="#path-15"></use>
+                            <path d="M14,0 C18,5.33333333 20,10 20,14 C20,20 12,20 8,18 C4,16 2,14 2,12 L0,20 L18,24 L28,18 L28,2 L14,0 Z" id="Path-129" stroke="#666666" fill="#666666" opacity="0.2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-16)"></path>
+                            <g id="Group-31" opacity="0.2" mask="url(#mask-16)" stroke="#666666" stroke-linecap="round" stroke-linejoin="round">
+                                <g transform="translate(8.000000, 0.000000)">
+                                    <path d="M6,0 C7.33333333,2.66666667 7.33333333,4.66666667 6,6 C4,8 2,8 0,14" id="Path-128"></path>
+                                    <path d="M6,0 C7.33333333,1.33333333 8,3.33333333 8,6 C8,10 6,8 6,16" id="Path-130"></path>
+                                    <path d="M6,0 C7.33333333,0.666666667 8.66666667,2 10,4 C12,7 10,10 14,14" id="Path-131"></path>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Path-129-Copy-3" transform="translate(32.000000, 18.000000)">
+                            <ellipse id="Oval" stroke="#666666" fill="#666666" opacity="0.2" stroke-linecap="round" stroke-linejoin="round" cx="16" cy="16" rx="16" ry="8"></ellipse>
+                            <mask id="mask-18" fill="white">
+                                <use xlink:href="#path-17"></use>
+                            </mask>
+                            <use id="Mask" stroke="#666666" fill="#FFF1D7" stroke-linecap="round" stroke-linejoin="round" xlink:href="#path-17"></use>
+                            <path d="M14,0 C18,5.33333333 20,10 20,14 C20,20 12,20 8,18 C4,16 2,14 2,12 L0,20 L18,24 L28,18 L28,2 L14,0 Z" id="Path-129" stroke="#666666" fill="#666666" opacity="0.2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-18)"></path>
+                            <g id="Group-31" opacity="0.2" mask="url(#mask-18)" stroke="#666666" stroke-linecap="round" stroke-linejoin="round">
+                                <g transform="translate(8.000000, 0.000000)">
+                                    <path d="M6,0 C7.33333333,2.66666667 7.33333333,4.66666667 6,6 C4,8 2,8 0,14" id="Path-128"></path>
+                                    <path d="M6,0 C7.33333333,1.33333333 8,3.33333333 8,6 C8,10 6,8 6,16" id="Path-130"></path>
+                                    <path d="M6,0 C7.33333333,0.666666667 8.66666667,2 10,4 C12,7 10,10 14,14" id="Path-131"></path>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Path-129-Copy-5" transform="translate(58.000000, 30.000000)">
+                            <ellipse id="Oval" stroke="#666666" fill="#666666" opacity="0.2" stroke-linecap="round" stroke-linejoin="round" cx="16" cy="16" rx="16" ry="8"></ellipse>
+                            <mask id="mask-20" fill="white">
+                                <use xlink:href="#path-19"></use>
+                            </mask>
+                            <use id="Mask" stroke="#666666" fill="#FFF1D7" stroke-linecap="round" stroke-linejoin="round" xlink:href="#path-19"></use>
+                            <path d="M14,0 C18,5.33333333 20,10 20,14 C20,20 12,20 8,18 C4,16 2,14 2,12 L0,20 L18,24 L28,18 L28,2 L14,0 Z" id="Path-129" stroke="#666666" fill="#666666" opacity="0.2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-20)"></path>
+                            <g id="Group-31" opacity="0.2" mask="url(#mask-20)" stroke="#666666" stroke-linecap="round" stroke-linejoin="round">
+                                <g transform="translate(8.000000, 0.000000)">
+                                    <path d="M6,0 C7.33333333,2.66666667 7.33333333,4.66666667 6,6 C4,8 2,8 0,14" id="Path-128"></path>
+                                    <path d="M6,0 C7.33333333,1.33333333 8,3.33333333 8,6 C8,10 6,8 6,16" id="Path-130"></path>
+                                    <path d="M6,0 C7.33333333,0.666666667 8.66666667,2 10,4 C12,7 10,10 14,14" id="Path-131"></path>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Path-129-Copy-4" transform="translate(4.000000, 28.000000)">
+                            <ellipse id="Oval" stroke="#666666" fill="#666666" opacity="0.2" stroke-linecap="round" stroke-linejoin="round" cx="16" cy="16" rx="16" ry="8"></ellipse>
+                            <mask id="mask-22" fill="white">
+                                <use xlink:href="#path-21"></use>
+                            </mask>
+                            <use id="Mask" stroke="#666666" fill="#FFF1D7" stroke-linecap="round" stroke-linejoin="round" xlink:href="#path-21"></use>
+                            <path d="M14,0 C18,5.33333333 20,10 20,14 C20,20 12,20 8,18 C4,16 2,14 2,12 L0,20 L18,24 L28,18 L28,2 L14,0 Z" id="Path-129" stroke="#666666" fill="#666666" opacity="0.2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-22)"></path>
+                            <g id="Group-31" opacity="0.2" mask="url(#mask-22)" stroke="#666666" stroke-linecap="round" stroke-linejoin="round">
+                                <g transform="translate(8.000000, 0.000000)">
+                                    <path d="M6,0 C7.33333333,2.66666667 7.33333333,4.66666667 6,6 C4,8 2,8 0,14" id="Path-128"></path>
+                                    <path d="M6,0 C7.33333333,1.33333333 8,3.33333333 8,6 C8,10 6,8 6,16" id="Path-130"></path>
+                                    <path d="M6,0 C7.33333333,0.666666667 8.66666667,2 10,4 C12,7 10,10 14,14" id="Path-131"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-34" transform="translate(40.000000, 0.000000)" stroke-linecap="round" stroke-linejoin="round">
+                <g id="Path-133">
+                    <use stroke="#666666" stroke-width="4" xlink:href="#path-23"></use>
+                    <use stroke="#FFEABA" stroke-width="2" xlink:href="#path-23"></use>
+                </g>
+                <g id="Path-133">
+                    <use stroke="#666666" stroke-width="4" xlink:href="#path-24"></use>
+                    <use stroke="#E87676" stroke-width="2" xlink:href="#path-24"></use>
+                </g>
+            </g>
+            <g id="Group-34-Copy" transform="translate(32.000000, 4.000000)" stroke-linecap="round" stroke-linejoin="round">
+                <g id="Path-133">
+                    <use stroke="#666666" stroke-width="4" xlink:href="#path-25"></use>
+                    <use stroke="#FFEABA" stroke-width="2" xlink:href="#path-25"></use>
+                </g>
+                <g id="Path-133">
+                    <use stroke="#666666" stroke-width="4" xlink:href="#path-26"></use>
+                    <use stroke="#E87676" stroke-width="2" xlink:href="#path-26"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
