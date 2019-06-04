@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="54px" viewBox="0 0 82 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>6-0</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M36,32 C16.1177,32 0,24.8366 0,16 C0,7.1634 16.1177,0 36,0 C55.8823,0 72,7.1634 72,16 C72,24.8366 55.8823,32 36,32 Z" id="path-1"></path>
+        <path d="M15.2501,10.3643 C15.4572,9.2929 15.7071,8.1715 16,7 L16.1238,7 C17.108,3.0537 23.8408,0 32,0 C40.1592,0 46.892,3.0537 47.8762,7 L48,7 C48.2929,8.1715 48.5428,9.2929 48.7499,10.3643 C57.8997,13.1802 64,18.2339 64,24 C64,32.8366 49.6731,40 32,40 C14.3269,40 0,32.8366 0,24 C0,18.2339 6.1003,13.1802 15.2501,10.3643 Z" id="path-3"></path>
+        <path d="M32,32 C14.3269,32 0,24.8366 0,16 C0,7.1634 14.3269,0 32,0 C49.6731,0 64,7.1634 64,16 C64,24.8366 49.6731,32 32,32 Z" id="path-5"></path>
+        <path d="M35.6571058,0.103345463 C34.4637087,3.26378239 32.5780157,6.56266723 30,10 C24,18 32,26 34,29 C34.7673949,30.1511212 36.859903,30.9709724 40.2774861,31.4595536 C37.6372139,31.812075 34.8624991,32 32,32 C14.3269,32 0,24.8366 0,16 C0,7.1634 14.3269,0 32,0 C33.236674,0 34.4569634,0.0350755265 35.6571058,0.103345463 L35.6571058,0.103345463 Z" id="path-7"></path>
+        <path d="M24,24 C10.7452,24 0,18.6274 0,12 C0,5.3726 10.7452,0 24,0 C37.2548,0 48,5.3726 48,12 C48,18.6274 37.2548,24 24,24 Z" id="path-9"></path>
+        <path d="M20,20 C8.9543,20 0,15.5228 0,10 C0,4.4772 8.9543,0 20,0 C31.0457,0 40,4.4772 40,10 C40,15.5228 31.0457,20 20,20 Z" id="path-11"></path>
+        <path d="M16,16 C7.1634,16 0,12.4183 0,8 C0,3.5817 7.1634,0 16,0 C24.8366,0 32,3.5817 32,8 C32,12.4183 24.8366,16 16,16 Z" id="path-13"></path>
+        <path d="M2.1238,7 C3.108,3.0537 9.8408,0 18,0 C26.1592,0 32.892,3.0537 33.8762,7 L34,7 C36,15 36,20.6667 34,24 C31,29 26,32 18,32 C10,32 5,29 2,24 C0,20.6667 0,15 2,7 L2.1238,7 Z" id="path-15"></path>
+        <path d="M28.2198955,0.49214628 C29.6187967,1.5157841 30.5545308,2.71021833 30.8762,4 L31,4 C33,12 33,17.6667 31,21 C28,26 23,29 15,29 C8.4352031,29 3.89055737,26.9798488 0.813484387,23.4921249 L1,22 C4.3333,25.3333 9,27 15,27 C24,27 27,20 27,15 C27,11.6667 26.3333,8.3333 25,5 L28.2198955,0.49214628 L28.2198955,0.49214628 Z" id="path-17"></path>
+        <path d="M0.1238,7 C1.108,3.0537 7.8408,0 16,0 C24.1592,0 30.892,3.0537 31.8762,7 C31.9579137,7.32759178 32,7.6613383 32,8 C32,12.4183 24.8366,16 16,16 C7.1634,16 0,12.4183 0,8 C0,7.6613383 0.0420863221,7.32759178 0.123786554,6.99999665 L0.1238,7 Z" id="path-19"></path>
+        <path d="M2.1238,7 C3.108,3.0537 9.8408,0 18,0 C26.1592,0 32.892,3.0537 33.8762,7 L34,7 C36,15 36,20.6667 34,24 C31,29 26,32 18,32 C10,32 5,29 2,24 C0,20.6667 0,15 2,7 L2.1238,7 Z" id="path-21"></path>
+        <path d="M14,14 C6.268,14 0,10.866 0,7 C0,3.134 6.268,0 14,0 C21.732,0 28,3.134 28,7 C28,10.866 21.732,14 14,14 Z" id="path-23"></path>
+        <path d="M8.98250778,13.5370212 C3.72897483,12.528303 0,9.98189318 0,7 C0,3.134 6.268,0 14,0 C14.9904924,0 15.95696,0.0514301285 16.8893038,0.149240856 C15.0834303,0.413974961 13.4536751,1.03090748 12,2 C7.0863,5.2758 9,10.3263 9,13 C9,13.1799787 8.99416926,13.3589858 8.98250778,13.5370212 L8.98250778,13.5370212 Z" id="path-25"></path>
+        <path d="M0.919253914,4.5 C2.93209393,1.86862706 8.02959674,0 14,0 C19.9704033,0 25.0679061,1.86862706 27.0807461,4.5 C25.0679061,7.13137294 19.9704033,9 14,9 C8.02959674,9 2.93209393,7.13137294 0.919253914,4.5 L0.919253914,4.5 Z" id="path-27"></path>
+        <path d="M14,14 C6.268,14 0,10.866 0,7 C0,3.134 6.268,0 14,0 C21.732,0 28,3.134 28,7 C28,10.866 21.732,14 14,14 Z" id="path-29"></path>
+        <path d="M0.919253914,4.5 C2.93209393,1.86862706 8.02959674,0 14,0 C19.9704033,0 25.0679061,1.86862706 27.0807461,4.5 C25.0679061,7.13137294 19.9704033,9 14,9 C8.02959674,9 2.93209393,7.13137294 0.919253914,4.5 L0.919253914,4.5 Z" id="path-31"></path>
+        <path d="M14,14 C6.268,14 0,10.866 0,7 C0,3.134 6.268,0 14,0 C21.732,0 28,3.134 28,7 C28,10.866 21.732,14 14,14 Z" id="path-33"></path>
+        <path d="M0.00196066803,4.89998807 C0.10850762,2.18475053 4.54402975,0 10,0 C15.4559702,0 19.8914924,2.18475053 19.9980393,4.89998807 C17.4571464,6.1959493 13.9163732,7 10,7 C6.08362683,7 2.5428536,6.1959493 0.00196066803,4.89998807 L0.00196066803,4.89998807 Z" id="path-35"></path>
+        <path d="M0.805342875,4.50230667 C0.293194213,4.06053023 0,3.54738985 0,3 C0,1.3431 2.6863,0 6,0 C9.3137,0 12,1.3431 12,3 C12,3.54738985 11.7068058,4.06053023 11.1946571,4.50230667 C9.58844782,4.82339145 7.8354739,5 6,5 C4.1645261,5 2.41155218,4.82339145 0.805342875,4.50230667 L0.805342875,4.50230667 Z" id="path-37"></path>
+        <path d="M6,0 C8,0 10,2 9,3 C8,4 5.9259,4 5,5 C4.0741,6 5,10 6,10 C7,10 8,9 10,10 C11.3333,10.6667 11.6667,11.3333 11,12 C9.6667,12.6667 8.3333,13 7,13 C5,13 3.3333,13 2,11 C0.6667,9 -1.11022302e-16,5 1,3 C2,1 4,0 6,0 Z" id="path-39"></path>
+        <path d="M8.03259109,0.635758821 C8.3295444,1.12619017 8.36887174,1.63112826 8,2 C7,3 4.9259,3 4,4 C3.0741,5 4,9 5,9 C6,9 7,8 9,9 C10.3333,9.6667 10.6667,10.3333 10,11 C8.6667,11.6667 7.3333,12 6,12 C4,12 2.3333,12 1,10 C0.954422654,9.93163227 0.909624255,9.86092747 0.865644751,9.78804538 C1.77491854,10.5237286 2.48637029,10.7703468 3,10.5279 C4,10.0557 4,10 3,8 C2,6 2,4 4,3 C5.11221622,2.44385018 6.4564326,1.65576979 8.03259109,0.635758821 L8.03259109,0.635758821 Z" id="path-41"></path>
+        <path d="M6,0 C8,0 10,2 9,3 C8,4 5.9259,4 5,5 C4.0741,6 5,10 6,10 C7,10 8,9 10,10 C11.3333,10.6667 11.6667,11.3333 11,12 C9.6667,12.6667 8.3333,13 7,13 C5,13 3.3333,13 2,11 C0.6667,9 -1.11022302e-16,5 1,3 C2,1 4,0 6,0 Z" id="path-43"></path>
+        <path d="M6,0 C8,0 10,2 9,3 C8,4 5.9259,4 5,5 C4.0741,6 5,10 6,10 C7,10 8,9 10,10 C11.3333,10.6667 11.6667,11.3333 11,12 C9.6667,12.6667 8.3333,13 7,13 C5,13 3.3333,13 2,11 C0.6667,9 -1.11022302e-16,5 1,3" id="path-45"></path>
+    </defs>
+    <g id="6-0" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="82" height="54"></rect>
+        <g id="图形/咖啡" transform="translate(5.000000, 9.000000)">
+            <g id="Group-8763" transform="translate(0.000000, 12.000000)">
+                <g id="Group-8760">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-8759"></g>
+                    <polygon id="Fill-8758" fill-opacity="0.1" fill="#4A4A4A" mask="url(#mask-2)" points="-5 -5 77 -5 77 37 -5 37"></polygon>
+                </g>
+            </g>
+            <g id="Group-8766" transform="translate(4.000000, 0.000000)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <g id="Clip-8765"></g>
+                <polygon id="Fill-8764" fill="#EAEAEA" mask="url(#mask-4)" points="-5 -5 69 -5 69 45 -5 45"></polygon>
+            </g>
+            <g id="Group-8771" transform="translate(4.000000, 0.000000)" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M15.25005,10.36431 C15.45715,9.292909 15.70713,8.171471 16,7 L16.12379,7 C17.10798,3.053688 23.84076,0 32,0 C40.15924,0 46.89202,3.053688 47.87621,7 L48,7 C48.29287,8.171471 48.54285,9.292909 48.74995,10.36431 C57.89968,13.18017 64,18.23388 64,24 C64,32.83656 49.67311,40 32,40 C14.32689,40 0,32.83656 0,24 C0,18.23388 6.100323,13.18017 15.25005,10.36431 Z" id="Stroke-8767" stroke-width="4"></path>
+                <path d="M32,40 C49.67311,40 64,32.83656 64,24 C64,15.163444 49.67311,8 32,8 C14.32689,8 0,15.163444 0,24 C0,32.83656 14.32689,40 32,40 Z" id="Stroke-8769" stroke-width="0.5"></path>
+            </g>
+            <g id="Group-8780" transform="translate(4.000000, 8.000000)">
+                <g id="Group-8776">
+                    <mask id="mask-6" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <g id="Clip-8773"></g>
+                    <polygon id="Fill-8772" fill="#EAEAEA" mask="url(#mask-6)" points="-5 -5 69 -5 69 37 -5 37"></polygon>
+                    <path d="M32,32 C49.67311,32 64,24.83656 64,16 C64,7.163444 49.67311,0 32,0 C14.32689,0 0,7.163444 0,16 C0,24.83656 14.32689,32 32,32 Z" id="Stroke-8774" stroke="#4A4A4A" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-6)"></path>
+                    <path d="M62,16 C62,7.715729 48.56854,1 32,1" id="Stroke-8775" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-6)"></path>
+                </g>
+                <g id="Group-8779">
+                    <mask id="mask-8" fill="white">
+                        <use xlink:href="#path-7"></use>
+                    </mask>
+                    <g id="Clip-8778"></g>
+                    <polygon id="Fill-8777" fill-opacity="0.08" fill="#4A4A4A" mask="url(#mask-8)" points="-12 -10 55 -10 55 42 -12 42"></polygon>
+                </g>
+            </g>
+            <g id="Group-8783" transform="translate(12.000000, 14.000000)">
+                <mask id="mask-10" fill="white">
+                    <use xlink:href="#path-9"></use>
+                </mask>
+                <g id="Clip-8782"></g>
+                <polygon id="Fill-8781" fill="#F2F2F2" mask="url(#mask-10)" points="-5 -5 53 -5 53 29 -5 29"></polygon>
+            </g>
+            <path d="M22.277401,26.99519 C22.184928,26.9984 22.092455,27 21.999981,27 C19.999981,27 18.333315,27 16.999981,25 C15.6666481,23 14.9999815,19 15.9999815,17 C16.595618,15.80873 17.546038,14.97224 18.639919,14.49053 C18.852064,12.2751 19.305418,9.778254 19.999981,7 L20.123769,7 C21.107965,3.053688 27.84075,0 35.99998,0 C44.15922,0 50.892,3.053688 51.87619,7 L51.99998,7 C53.99998,15 53.99998,20.66667 51.99998,24 C48.99998,29 43.99998,32 35.99998,32 C29.75752,32 25.341696,30.17336 22.277401,26.99519 Z" id="Stroke-8784" stroke="#4A4A4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g id="Group-8788" transform="translate(16.000000, 16.000000)">
+                <mask id="mask-12" fill="white">
+                    <use xlink:href="#path-11"></use>
+                </mask>
+                <g id="Clip-8787"></g>
+                <polygon id="Fill-8786" fill-opacity="0.08" fill="#4A4A4A" mask="url(#mask-12)" points="-5 -5 45 -5 45 25 -5 25"></polygon>
+            </g>
+            <g id="Group-8791" transform="translate(20.000000, 18.000000)">
+                <mask id="mask-14" fill="white">
+                    <use xlink:href="#path-13"></use>
+                </mask>
+                <g id="Clip-8790"></g>
+                <polygon id="Fill-8789" fill-opacity="0.08" fill="#4A4A4A" mask="url(#mask-14)" points="-5 -5 37 -5 37 21 -5 21"></polygon>
+            </g>
+            <path d="M20.123788,7 C21.107984,3.053688 27.840765,0 36,0 C44.15924,0 50.89202,3.053688 51.87621,7 L52,7 C54,15 54,20.66667 52,24 C49,29 44,32 36,32 C28,32 23,29 20,24 C18,20.66667 18,15 20,7 L20.123788,7 Z" id="Stroke-8792" stroke="#4A4A4A" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g id="Group-8807" transform="translate(18.000000, 0.000000)">
+                <g id="Group-8797">
+                    <mask id="mask-16" fill="white">
+                        <use xlink:href="#path-15"></use>
+                    </mask>
+                    <g id="Clip-8795"></g>
+                    <polygon id="Fill-8794" fill="#EAEAEA" mask="url(#mask-16)" points="-4.5 -5 40.5 -5 40.5 37 -4.5 37"></polygon>
+                    <path d="M2.123788,7 C3.107984,3.053688 9.840765,0 18,0 C26.15924,0 32.89202,3.053688 33.87621,7 L34,7 C36,15 36,20.66667 34,24 C31,29 26,32 18,32 C10,32 5,29 2,24 C0,20.66667 0,15 2,7 L2.123788,7 Z" id="Stroke-8796" stroke="#4A4A4A" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-16)"></path>
+                </g>
+                <g id="Group-8800" transform="translate(3.000000, 3.000000)">
+                    <mask id="mask-18" fill="white">
+                        <use xlink:href="#path-17"></use>
+                    </mask>
+                    <g id="Clip-8799"></g>
+                    <polygon id="Fill-8798" fill-opacity="0.08" fill="#4A4A4A" mask="url(#mask-18)" points="-5 -7 48 -7 48 38 -5 38"></polygon>
+                </g>
+                <g id="Group-8803" transform="translate(2.000000, 0.000000)">
+                    <mask id="mask-20" fill="white">
+                        <use xlink:href="#path-19"></use>
+                    </mask>
+                    <g id="Clip-8802"></g>
+                    <polygon id="Fill-8801" fill="#FFFFFF" mask="url(#mask-20)" points="-5 -5 37 -5 37 21 -5 21"></polygon>
+                </g>
+                <g id="Group-8806">
+                    <mask id="mask-22" fill="white">
+                        <use xlink:href="#path-21"></use>
+                    </mask>
+                    <g id="Clip-8805"></g>
+                    <path d="M2.123788,7 C3.107984,3.053688 9.840765,0 18,0 C26.15924,0 32.89202,3.053688 33.87621,7 L34,7 C36,15 36,20.66667 34,24 C31,29 26,32 18,32 C10,32 5,29 2,24 C0,20.66667 0,15 2,7 L2.123788,7 Z" id="Stroke-8804" stroke="#4A4A4A" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-22)"></path>
+                </g>
+            </g>
+            <g id="Group-8832" transform="translate(22.000000, 1.000000)">
+                <g id="Group-8810">
+                    <mask id="mask-24" fill="white">
+                        <use xlink:href="#path-23"></use>
+                    </mask>
+                    <g id="Clip-8809"></g>
+                    <polygon id="Fill-8808" fill="#EAEAEA" mask="url(#mask-24)" points="-5 -5 33 -5 33 19 -5 19"></polygon>
+                </g>
+                <g id="Group-8813">
+                    <mask id="mask-26" fill="white">
+                        <use xlink:href="#path-25"></use>
+                    </mask>
+                    <g id="Clip-8812"></g>
+                    <polygon id="Fill-8811" fill-opacity="0.08" fill="#4A4A4A" mask="url(#mask-26)" points="-14 -9 24 -9 24 27 -14 27"></polygon>
+                </g>
+                <g id="Group-8816" transform="translate(0.000000, 5.000000)">
+                    <mask id="mask-28" fill="white">
+                        <use xlink:href="#path-27"></use>
+                    </mask>
+                    <g id="Clip-8815"></g>
+                    <polygon id="Fill-8814" fill="#62554A" mask="url(#mask-28)" points="-5 -5 33 -5 33 19 -5 19"></polygon>
+                </g>
+                <g id="Group-8819">
+                    <mask id="mask-30" fill="white">
+                        <use xlink:href="#path-29"></use>
+                    </mask>
+                    <g id="Clip-8818"></g>
+                    <path d="M14,19 C21.73199,19 28,15.86599 28,12 C28,8.134007 21.73199,5 14,5 C6.268014,5 0,8.134007 0,12 C0,15.86599 6.268014,19 14,19 Z" id="Stroke-8817" stroke-opacity="0.3" stroke="#86715E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-30)"></path>
+                </g>
+                <g id="Group-8822" transform="translate(0.000000, 5.000000)">
+                    <mask id="mask-32" fill="white">
+                        <use xlink:href="#path-31"></use>
+                    </mask>
+                    <g id="Clip-8821"></g>
+                    <polygon id="Fill-8820" fill="#62554A" mask="url(#mask-32)" points="-5 -5 33 -5 33 19 -5 19"></polygon>
+                </g>
+                <g id="Group-8825">
+                    <mask id="mask-34" fill="white">
+                        <use xlink:href="#path-33"></use>
+                    </mask>
+                    <g id="Clip-8824"></g>
+                    <path d="M14,19 C21.73199,19 28,15.86599 28,12 C28,8.134007 21.73199,5 14,5 C6.268014,5 0,8.134007 0,12 C0,15.86599 6.268014,19 14,19 Z" id="Stroke-8823" stroke="#86715E" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-34)"></path>
+                </g>
+                <g id="Group-8828" transform="translate(4.000000, 7.000000)">
+                    <mask id="mask-36" fill="white">
+                        <use xlink:href="#path-35"></use>
+                    </mask>
+                    <g id="Clip-8827"></g>
+                    <polygon id="Fill-8826" fill="#685A4E" mask="url(#mask-36)" points="-5 -5 25 -5 25 15 -5 15"></polygon>
+                </g>
+                <g id="Group-8831" transform="translate(8.000000, 9.000000)">
+                    <mask id="mask-38" fill="white">
+                        <use xlink:href="#path-37"></use>
+                    </mask>
+                    <g id="Clip-8830"></g>
+                    <polygon id="Fill-8829" fill="#756559" mask="url(#mask-38)" points="-5 -5 17 -5 17 11 -5 11"></polygon>
+                </g>
+            </g>
+            <g id="Group-8837" transform="translate(15.000000, 8.000000)" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5">
+                <path d="M7,0 C7,3.865993 13.268014,7 21,7 C28.73199,7 35,3.865993 35,0" id="Stroke-8833"></path>
+                <path d="M5.999981,6 C3.999981,6 1.999981,7 0.9999815,9 C-1.85e-05,11 0.6666481,15 1.999981,17 C3.333315,19 4.999981,19 6.999981,19 C8.333315,19 9.666648,18.66667 10.99998,18 C11.66665,17.33333 11.33331,16.66667 9.999981,16 C7.999981,15 6.999981,16 5.999981,16 C4.999981,16 4.074056,12 4.999981,11 C5.925907,10 7.999981,10 8.999981,9 C9.999981,8 7.999981,6 5.999981,6 Z" id="Stroke-8835"></path>
+            </g>
+            <g id="Group-8853" transform="translate(15.000000, 14.000000)">
+                <g id="Group-8841">
+                    <mask id="mask-40" fill="white">
+                        <use xlink:href="#path-39"></use>
+                    </mask>
+                    <g id="Clip-8839"></g>
+                    <polygon id="Fill-8838" fill="#EAEAEA" mask="url(#mask-40)" points="-4.4815 -5 16.3333 -5 16.3333 18 -4.4815 18"></polygon>
+                    <path d="M5.999981,0 C3.999981,0 1.999981,1 0.9999815,3 C-1.85e-05,5 0.6666481,9 1.999981,11 C3.333315,13 4.999981,13 6.999981,13 C8.333315,13 9.666648,12.66667 10.99998,12 C11.66665,11.33333 11.33331,10.66667 9.999981,10 C7.999981,9 6.999981,10 5.999981,10 C4.999981,10 4.074056,6 4.999981,5 C5.925907,4 7.999981,4 8.999981,3 C9.999981,2 7.999981,0 5.999981,0 Z" id="Stroke-8840" stroke="#4A4A4A" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-40)"></path>
+                </g>
+                <g id="Group-8852">
+                    <g id="Group-8848">
+                        <g id="Group-8844" transform="translate(1.000000, 1.000000)">
+                            <mask id="mask-42" fill="white">
+                                <use xlink:href="#path-41"></use>
+                            </mask>
+                            <g id="Clip-8843"></g>
+                            <polygon id="Fill-8842" fill-opacity="0.1" fill="#4A4A4A" mask="url(#mask-42)" points="-7 -5 20 -5 20 22 -7 22"></polygon>
+                        </g>
+                        <g id="Group-8847">
+                            <mask id="mask-44" fill="white">
+                                <use xlink:href="#path-43"></use>
+                            </mask>
+                            <g id="Clip-8846"></g>
+                            <path d="M10,1 C8,2.333333 6.333333,3.333333 5,4 C3,5 3,7 4,9 C5,11 5,11.05573 4,11.52786 C3.333333,11.84262 2.333333,11.33333 1,10 L-1,11 L0,16 L16,18 L13,7 L10,1 Z" id="Stroke-8845" stroke="#4A4A4A" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-44)"></path>
+                        </g>
+                    </g>
+                    <g id="Group-8851">
+                        <mask id="mask-46" fill="white">
+                            <use xlink:href="#path-45"></use>
+                        </mask>
+                        <g id="Clip-8850"></g>
+                        <path d="M4,2 C2.6666667,2.6666667 2,3.666667 2,5" id="Stroke-8849" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-46)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

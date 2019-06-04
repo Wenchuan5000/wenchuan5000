@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="142px" height="309px" viewBox="0 0 142 309" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>11-0</title>
+    <desc>Created with Sketch.</desc>
+    <g id="11-0" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="142" height="309"></rect>
+        <g id="Group-21" transform="translate(7.000000, 10.000000)" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+            <polygon id="Path-116" points="16 85 16 181 20 183 26 180 26 211 9 250.5 10 250 8 249 0 253 0 261 6 264 4 265 4 269 8 271 12 269 12 267 54 288 52 289 52 293 56 295 60 293 60 289 58 288 64 285 64 277 60 275 108 251 118 256 116 257 116 261 120 263 124 261 124 257 122 256 128 253 128 245 104 233 102 224 102 160 110 156 110 152 106 150 106 146 110 144 110 140 108 139 124 131 124 35 120 33 85 50.5 80 48 80 44 76 42 72 44 72 3 66 0 62 2 60 5 60 58 56 60 56 65"></polygon>
+            <polygon id="Path-139" points="26 220 12 252 12 251 26 258 26 256 22 258 14 254 26 248"></polygon>
+            <polygon id="Path-140" points="38 250 68 235 68 237 72 239 76 237 76 235 100 247 52 271 40 265 38 257"></polygon>
+            <polygon id="Path-141" points="90 202 38 228 38 242 64 229 64 221 68 219 67 220 72.5 207 77 208 68 229 70 216 90 226"></polygon>
+            <polygon id="Path-142" points="38 186 40 187 40 189 42 190 90 166 90 190 82 194 82.5 195 95 166 94 164.5 90 166 77 196.5 72 199 72 173 60 173 60 205 38 216"></polygon>
+        </g>
+        <g id="画架" transform="translate(7.000000, 10.000000)">
+            <g id="Group-7-Copy" transform="translate(64.000000, 69.000000)" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round">
+                <g id="Group-6" transform="translate(4.000000, 162.000000)">
+                    <polygon id="Path-726" fill="#979797" points="0 2 0 6 4 8 4 4"></polygon>
+                    <polygon id="Path-727" fill="#666666" points="4 4 8 2 8 6 4 8"></polygon>
+                    <polygon id="Path-728" fill="#666666" points="0 2 4 0 8 2 4 4"></polygon>
+                    <polyline id="Path-729" points="2 1 6 3 6 7"></polyline>
+                </g>
+                <g id="Group-6-Copy" transform="translate(52.000000, 186.000000)">
+                    <polygon id="Path-726" fill="#979797" points="0 2 0 6 4 8 4 4"></polygon>
+                    <polygon id="Path-727" fill="#666666" points="4 4 8 2 8 6 4 8"></polygon>
+                    <polygon id="Path-728" fill="#666666" points="0 2 4 0 8 2 4 4"></polygon>
+                    <polyline id="Path-729" points="2 1 6 3 6 7"></polyline>
+                </g>
+                <g id="Group" transform="translate(0.000000, 148.000000)">
+                    <path d="M0,4 L8,0 L64,28 L56,32 L0,4 Z" id="Path-718" fill="#E9C4A5"></path>
+                    <polygon id="Path-717" fill="#D8A67E" points="0 4 0 12 56 40 56 32"></polygon>
+                    <polygon id="Path-719" fill="#9F846E" points="64 28 64 36 56 40 56 32"></polygon>
+                </g>
+                <g id="Group-4">
+                    <g id="Group-2-Copy" transform="translate(30.000000, 153.000000)">
+                        <polygon id="Path-722-Copy" fill="#ECD68F" points="0 8 2 1 6 3 8 12"></polygon>
+                        <polygon id="Path-722" fill="#DCDCDC" points="2 1 4 0 8 2 6 3"></polygon>
+                        <polygon id="Path-723" fill="#8F75AE" points="8 2 10 11 8 12 6 3"></polygon>
+                    </g>
+                    <g id="Group-3">
+                        <polygon id="Path-720" fill="#D8A67E" points="26 159 26 3 28 2 32 4 34 7 34 163 32 164 28 162"></polygon>
+                        <polygon id="Path-721" fill="#9F846E" points="32 0 28 2 32 4 34 7 34 163 38 161 38 5 36 2"></polygon>
+                        <g id="Group-8" transform="translate(0.000000, 94.000000)">
+                            <polygon id="Path-5" fill="#D8A67E" points="27 1 0 64 2 67 29 4"></polygon>
+                            <polygon id="Path-730" fill="#E9C4A5" points="27 1 29 0 31 3 29 4"></polygon>
+                            <polygon id="Path-731" fill="#9F846E" points="31 3 4 66 2 67 29 4"></polygon>
+                        </g>
+                    </g>
+                    <g id="Group-2" transform="translate(24.000000, 156.000000)">
+                        <polygon id="Path-722-Copy" fill="#ECD68F" points="0 8 2 1 6 3 8 12"></polygon>
+                        <polygon id="Path-724" fill="#DCDCDC" points="3 4 5 5 5 7 3 6"></polygon>
+                        <polygon id="Path-722" fill="#FFF5D6" points="2 1 4 0 8 2 6 3"></polygon>
+                        <polygon id="Path-723" fill="#8F75AE" points="8 2 10 11 8 12 6 3"></polygon>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-9" transform="translate(14.000000, 226.000000)" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M0,28 L56,0 L60,2 L4,30 L0,28 Z" id="Path-732" fill="#E9C4A5"></path>
+                <polygon id="Path-733" fill="#9F846E" points="60 2 60 6 8 32 4 30"></polygon>
+            </g>
+            <g id="Group-9" transform="translate(50.000000, 244.000000)" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M0,28 L56,0 L60,2 L4,30 L0,28 Z" id="Path-732" fill="#E9C4A5"></path>
+                <polygon id="Path-733" fill="#9F846E" points="60 2 60 6 8 32 4 30"></polygon>
+            </g>
+            <g id="Group-9-Copy" transform="translate(36.000000, 190.000000)" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M0,27 L54,0 L58,2 L0,31 L0,27 Z" id="Path-732" fill="#E9C4A5"></path>
+                <polygon id="Path-733" fill="#9F846E" points="58 2 58 10 0 39 0 31"></polygon>
+            </g>
+            <g id="Group-18" transform="translate(60.000000, 115.000000)" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round">
+                <polygon id="Path-764" fill="#9F846E" points="4 92 4 4 12 0 12 88"></polygon>
+                <g id="锯齿" transform="translate(6.000000, 1.000000)">
+                    <g id="Group-19" transform="translate(0.000000, 80.000000)">
+                        <polygon id="Path-766" fill="#D8B57E" points="0 10 0 2 4 0 4 8"></polygon>
+                        <polygon id="Path-767" fill="#D8A67E" points="4 0 2 7 4 8"></polygon>
+                        <path d="M2,7 L0,8 L0,10 L4,8 L2,7 Z" id="Path-768" fill="#E9C4A5"></path>
+                    </g>
+                    <g id="Group-19-Copy" transform="translate(0.000000, 72.000000)">
+                        <polygon id="Path-766" fill="#D8B57E" points="0 10 0 2 4 0 4 8"></polygon>
+                        <polygon id="Path-767" fill="#D8A67E" points="4 0 2 7 4 8"></polygon>
+                        <path d="M2,7 L0,8 L0,10 L4,8 L2,7 Z" id="Path-768" fill="#FFF5D6"></path>
+                    </g>
+                    <g id="Group-19-Copy-2" transform="translate(0.000000, 64.000000)">
+                        <polygon id="Path-766" fill="#D8B57E" points="0 10 0 2 4 0 4 8"></polygon>
+                        <polygon id="Path-767" fill="#D8A67E" points="4 0 2 7 4 8"></polygon>
+                        <path d="M2,7 L0,8 L0,10 L4,8 L2,7 Z" id="Path-768" fill="#FFF5D6"></path>
+                    </g>
+                    <g id="Group-19-Copy-3" transform="translate(0.000000, 56.000000)">
+                        <polygon id="Path-766" fill="#D8B57E" points="0 10 0 2 4 0 4 8"></polygon>
+                        <polygon id="Path-767" fill="#D8A67E" points="4 0 2 7 4 8"></polygon>
+                        <path d="M2,7 L0,8 L0,10 L4,8 L2,7 Z" id="Path-768" fill="#FFF5D6"></path>
+                    </g>
+                    <g id="Group-19-Copy-4" transform="translate(0.000000, 48.000000)">
+                        <polygon id="Path-766" fill="#D8B57E" points="0 10 0 2 4 0 4 8"></polygon>
+                        <polygon id="Path-767" fill="#D8A67E" points="4 0 2 7 4 8"></polygon>
+                        <path d="M2,7 L0,8 L0,10 L4,8 L2,7 Z" id="Path-768" fill="#FFF5D6"></path>
+                    </g>
+                    <g id="Group-19-Copy-5" transform="translate(0.000000, 40.000000)">
+                        <polygon id="Path-766" fill="#D8B57E" points="0 10 0 2 4 0 4 8"></polygon>
+                        <polygon id="Path-767" fill="#D8A67E" points="4 0 2 7 4 8"></polygon>
+                        <path d="M2,7 L0,8 L0,10 L4,8 L2,7 Z" id="Path-768" fill="#FFF5D6"></path>
+                    </g>
+                    <g id="Group-19-Copy-6" transform="translate(0.000000, 32.000000)">
+                        <polygon id="Path-766" fill="#D8B57E" points="0 10 0 2 4 0 4 8"></polygon>
+                        <polygon id="Path-767" fill="#D8A67E" points="4 0 2 7 4 8"></polygon>
+                        <path d="M2,7 L0,8 L0,10 L4,8 L2,7 Z" id="Path-768" fill="#FFF5D6"></path>
+                    </g>
+                    <g id="Group-19-Copy-7" transform="translate(0.000000, 24.000000)">
+                        <polygon id="Path-766" fill="#D8B57E" points="0 10 0 2 4 0 4 8"></polygon>
+                        <polygon id="Path-767" fill="#D8A67E" points="4 0 2 7 4 8"></polygon>
+                        <path d="M2,7 L0,8 L0,10 L4,8 L2,7 Z" id="Path-768" fill="#FFF5D6"></path>
+                    </g>
+                    <g id="Group-19-Copy-8" transform="translate(0.000000, 16.000000)">
+                        <polygon id="Path-766" fill="#D8B57E" points="0 10 0 2 4 0 4 8"></polygon>
+                        <polygon id="Path-767" fill="#D8A67E" points="4 0 2 7 4 8"></polygon>
+                        <path d="M2,7 L0,8 L0,10 L4,8 L2,7 Z" id="Path-768" fill="#FFF5D6"></path>
+                    </g>
+                    <g id="Group-19-Copy-9" transform="translate(0.000000, 8.000000)">
+                        <polygon id="Path-766" fill="#D8B57E" points="0 10 0 2 4 0 4 8"></polygon>
+                        <polygon id="Path-767" fill="#D8A67E" points="4 0 2 7 4 8"></polygon>
+                        <path d="M2,7 L0,8 L0,10 L4,8 L2,7 Z" id="Path-768" fill="#FFF5D6"></path>
+                    </g>
+                    <g id="Group-19-Copy-10">
+                        <polygon id="Path-766" fill="#D8B57E" points="0 10 0 2 4 0 4 8"></polygon>
+                        <polygon id="Path-767" fill="#D8A67E" points="4 0 2 7 4 8"></polygon>
+                        <path d="M2,7 L0,8 L0,10 L4,8 L2,7 Z" id="Path-768" fill="#FFF5D6"></path>
+                    </g>
+                </g>
+                <polygon id="Path-765" fill="#D8A67E" points="4 92 0 90 0 6 4 4"></polygon>
+            </g>
+            <g id="Group-9-Copy-2" transform="translate(36.000000, 94.000000)" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M0,27 L54,0 L58,2 L0,31 L0,27 Z" id="Path-732" fill="#E9C4A5"></path>
+                <polygon id="Path-733" fill="#9F846E" points="58 2 58 10 0 39 0 31"></polygon>
+            </g>
+            <g id="Group-7" transform="translate(0.000000, 101.000000)" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round">
+                <g id="Group-8" transform="translate(7.000000, 90.000000)">
+                    <polygon id="Path-5" fill="#D8A67E" points="27 1 0 64 2 67 29 4"></polygon>
+                    <polygon id="Path-730" fill="#DCDCDC" points="26 1 28 0 30 3 28 4"></polygon>
+                    <polygon id="Path-731" fill="#9F846E" points="30 3 3 66 1 67 28 4"></polygon>
+                </g>
+                <g id="Group-6" transform="translate(4.000000, 162.000000)">
+                    <polygon id="Path-726" fill="#979797" points="0 2 0 6 4 8 4 4"></polygon>
+                    <polygon id="Path-727" fill="#666666" points="4 4 8 2 8 6 4 8"></polygon>
+                    <polygon id="Path-728" fill="#666666" points="0 2 4 0 8 2 4 4"></polygon>
+                    <polyline id="Path-729" points="2 1 6 3 6 7"></polyline>
+                </g>
+                <g id="Group-6-Copy" transform="translate(52.000000, 186.000000)">
+                    <polygon id="Path-726" fill="#979797" points="0 2 0 6 4 8 4 4"></polygon>
+                    <polygon id="Path-727" fill="#666666" points="4 4 8 2 8 6 4 8"></polygon>
+                    <polygon id="Path-728" fill="#666666" points="0 2 4 0 8 2 4 4"></polygon>
+                    <polyline id="Path-729" points="2 1 6 3 6 7"></polyline>
+                </g>
+                <g id="Group" transform="translate(0.000000, 148.000000)">
+                    <path d="M0,4 L8,0 L64,28 L56,32 L0,4 Z" id="Path-718" fill="#E9C4A5"></path>
+                    <polygon id="Path-717" fill="#D8A67E" points="0 4 0 12 56 40 56 32"></polygon>
+                    <polygon id="Path-719" fill="#9F846E" points="64 28 64 36 56 40 56 32"></polygon>
+                </g>
+                <g id="Group-4" transform="translate(24.000000, 0.000000)">
+                    <g id="Group-2-Copy" transform="translate(6.000000, 153.000000)">
+                        <polygon id="Path-722-Copy" fill="#ECD68F" points="0 8 2 1 6 3 8 12"></polygon>
+                        <polygon id="Path-722" fill="#DCDCDC" points="2 1 4 0 8 2 6 3"></polygon>
+                        <polygon id="Path-723" fill="#8F75AE" points="8 2 10 11 8 12 6 3"></polygon>
+                    </g>
+                    <g id="Group-3" transform="translate(2.000000, 0.000000)">
+                        <polygon id="Path-720" fill="#D8A67E" points="0 159 0 3 2 2 6 4 8 7 8 163 6 164 2 162"></polygon>
+                        <polygon id="Path-724" fill="#DCDCDC" points="3 125 5 126 5 128 3 127"></polygon>
+                        <g id="Group-5" transform="translate(0.000000, 23.000000)">
+                            <polygon id="Path-725" fill="#4A4A4A" points="3 0 3 84 5 85 5 1"></polygon>
+                            <polygon id="Path-724-Copy" fill="#ECD68F" points="0 72 4 74 4 78 0 76"></polygon>
+                            <polygon id="Path-2" fill="#FFF5D6" points="0 72 2 71 6 73 4 74"></polygon>
+                            <polygon id="Path-3" fill="#8F75AE" points="6 73 6 77 4 78 4 74"></polygon>
+                            <polygon id="Path-724-Copy-2" fill="#ECD68F" points="3 3 5 4 5 6 3 5"></polygon>
+                        </g>
+                        <polygon id="Path-721" fill="#9F846E" points="6 0 2 2 6 4 8 7 8 163 12 161 12 5 10 2"></polygon>
+                    </g>
+                    <g id="Group-2" transform="translate(0.000000, 156.000000)">
+                        <polygon id="Path-722-Copy" fill="#ECD68F" points="0 8 2 1 6 3 8 12"></polygon>
+                        <polygon id="Path-724" fill="#DCDCDC" points="3 4 5 5 5 7 3 6"></polygon>
+                        <polygon id="Path-722" fill="#FFF5D6" points="2 1 4 0 8 2 6 3"></polygon>
+                        <polygon id="Path-723" fill="#8F75AE" points="8 2 10 11 8 12 6 3"></polygon>
+                    </g>
+                </g>
+            </g>
+            <g id="移动部分" transform="translate(16.000000, 0.000000)">
+                <g id="Group-11" transform="translate(18.000000, 148.000000)" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon id="Path-738" fill="#D8A67E" points="0 34 8 38 8 42 6 41 6 39 0 36"></polygon>
+                    <polygon id="Path-739" fill="#E9C4A5" points="0 34 68 0 76 4 8 38"></polygon>
+                    <polygon id="Path-740" fill="#9F846E" points="8 42 76 8 76 4 8 38"></polygon>
+                </g>
+                <g id="Group-14" transform="translate(20.000000, 142.000000)" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round">
+                    <g id="Group-12" transform="translate(62.000000, 0.000000)">
+                        <polygon id="Path-745-Copy" fill="#D8A67E" points="0 0 0 8 6 11 6 3"></polygon>
+                        <polygon id="Path-746-Copy" fill="#9F846E" points="8 2 8 10 6 11 6 3"></polygon>
+                    </g>
+                    <polygon id="Path-741" fill="#9F846E" points="6 32 6 40 66 10 66 2"></polygon>
+                    <polygon id="Path-742" fill="#DCDCDC" points="6 40 4 39 4 31 6 32"></polygon>
+                    <polygon id="Path-743" fill="#DCDCDC" points="4 31 64 1 66 2 6 32"></polygon>
+                    <g id="Group-13" transform="translate(0.000000, 31.000000)">
+                        <polygon id="Path-745" fill="#D8A67E" points="0 0 0 8 6 11 6 3"></polygon>
+                        <polygon id="Path-746" fill="#9F846E" points="8 2 8 10 6 11 6 3"></polygon>
+                    </g>
+                </g>
+                <g id="Group-10" transform="translate(18.000000, 138.000000)" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon id="Path-736" fill="#DCDCDC" points="0 34 4 32 4 28 60 0 64 2 68 0 74 3 6 37"></polygon>
+                    <polygon id="Path-735" fill="#9F846E" points="8 40 76 6 76 2 8 36"></polygon>
+                    <polygon id="Path-737" fill="#E9C4A5" points="76 2 74 1 6 35 8 36"></polygon>
+                    <polygon id="Path-734" fill="#D8A67E" points="0 34 6 37 6 35 8 36 8 40 0 36"></polygon>
+                </g>
+                <g id="Group-17" transform="translate(44.000000, 0.000000)" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon id="Path-744" fill="#9F846E" points="4 157 4 7 6 4 10 2 12 3 12 153"></polygon>
+                    <polygon id="Path-747" fill="#D8A67E" points="4 157 0 155 0 5 2 2 6 0 10 2 6 4 4 7"></polygon>
+                </g>
+                <g id="画布" transform="translate(0.000000, 33.000000)" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon id="Path-757" fill="#F09A7D" points="4 54 44 34 68 22 108 2 108 98 4 150"></polygon>
+                    <polygon id="Path-758" fill="#DCDCDC" points="4 150 0 148 0 52 4 54"></polygon>
+                    <path d="M4,54 L0,56" id="Path-760"></path>
+                    <polygon id="Path-759" fill="#FFFFFF" points="0 52 104 0 108 2 4 54"></polygon>
+                    <path d="M2,142 L2,141" id="Path-761"></path>
+                    <path d="M2,134 L2,133" id="Path-761-Copy"></path>
+                    <path d="M2,126 L2,125" id="Path-761-Copy-2"></path>
+                    <path d="M2,118 L2,117" id="Path-761-Copy-3"></path>
+                    <path d="M2,110 L2,109" id="Path-761-Copy-4"></path>
+                    <path d="M2,102 L2,101" id="Path-761-Copy-5"></path>
+                    <path d="M2,94 L2,93" id="Path-761-Copy-6"></path>
+                    <path d="M2,86 L2,85" id="Path-761-Copy-7"></path>
+                    <path d="M2,78 L2,77" id="Path-761-Copy-8"></path>
+                    <path d="M2,70 L2,69" id="Path-761-Copy-9"></path>
+                    <path d="M2,62 L2,61" id="Path-761-Copy-10"></path>
+                    <path d="M6,51 L8,50" id="Path-762"></path>
+                    <path d="M14,47 L16,46" id="Path-762-Copy"></path>
+                    <path d="M22,43 L24,42" id="Path-762-Copy-2"></path>
+                    <path d="M30,39 L32,38" id="Path-762-Copy-3"></path>
+                    <path d="M38,35 L40,34" id="Path-762-Copy-4"></path>
+                    <path d="M46,31 L48,30" id="Path-762-Copy-5"></path>
+                    <path d="M54,27 L56,26" id="Path-762-Copy-6"></path>
+                    <path d="M62,23 L64,22" id="Path-762-Copy-7"></path>
+                    <path d="M70,19 L72,18" id="Path-762-Copy-8"></path>
+                    <path d="M78,15 L80,14" id="Path-762-Copy-9"></path>
+                    <path d="M86,11 L88,10" id="Path-762-Copy-10"></path>
+                    <path d="M94,7 L96,6" id="Path-762-Copy-11"></path>
+                    <path d="M102,3 L104,2" id="Path-762-Copy-12"></path>
+                    <path d="M4,150 L0,144" id="Path-4"></path>
+                </g>
+                <g id="vincent" transform="translate(4.000000, 37.000000)">
+                    <path d="M100,72 L100,76 L96,78 L96,74 L96,70 L100,68 L100,72 Z M100,48 L100,52 L96,54 L96,50 L96,46 L100,44 L100,48 Z M100,24 L100,28 L96,30 L96,26 L96,22 L100,20 L100,24 Z M96,86 L96,90 L92,92 L92,88 L92,84 L96,82 L96,86 Z M88,78 L88,82 L84,84 L84,80 L84,76 L88,74 L88,78 Z M96,62 L96,66 L92,68 L92,64 L92,60 L96,58 L96,62 Z M92,40 L92,36 L96,34 L96,38 L96,42 L92,44 L92,40 Z M88,54 L88,58 L84,60 L84,56 L84,52 L88,50 L88,54 Z M88,30 L88,34 L84,36 L84,32 L84,28 L88,26 L88,30 Z M96,14 L96,18 L92,20 L92,16 L92,12 L96,10 L96,14 Z M84,92 L84,96 L80,98 L80,94 L80,90 L84,88 L84,92 Z M76,84 L76,88 L72,90 L72,86 L72,82 L76,80 L76,84 Z M84,68 L84,72 L80,74 L80,70 L80,66 L84,64 L84,68 Z M80,46 L80,42 L84,40 L84,44 L84,48 L80,50 L80,46 Z M76,60 L76,64 L72,66 L72,62 L72,58 L76,56 L76,60 Z M76,36 L76,40 L72,42 L72,38 L72,34 L76,32 L76,36 Z M84,20 L84,24 L80,26 L80,22 L80,18 L84,16 L84,20 Z M72,98 L72,102 L68,104 L68,100 L68,96 L72,94 L72,98 Z M64,90 L64,94 L60,96 L60,92 L60,88 L64,86 L64,90 Z M72,74 L72,78 L68,80 L68,76 L68,72 L72,70 L72,74 Z M68,52 L68,48 L72,46 L72,50 L72,54 L68,56 L68,52 Z M64,66 L64,70 L60,72 L60,68 L60,64 L64,62 L64,66 Z M64,42 L64,46 L60,48 L60,44 L60,40 L64,38 L64,42 Z M72,26 L72,30 L68,32 L68,28 L68,24 L72,22 L72,26 Z M60,104 L60,108 L56,110 L56,106 L56,102 L60,100 L60,104 Z M52,96 L52,100 L48,102 L48,98 L48,94 L52,92 L52,96 Z M60,80 L60,84 L56,86 L56,82 L56,78 L60,76 L60,80 Z M56,58 L56,54 L60,52 L60,56 L60,60 L56,62 L56,58 Z M52,72 L52,76 L48,78 L48,74 L48,70 L52,68 L52,72 Z M52,48 L52,52 L48,54 L48,50 L48,46 L52,44 L52,48 Z M60,32 L60,36 L56,38 L56,34 L56,30 L60,28 L60,32 Z M48,110 L48,114 L44,116 L44,112 L44,108 L48,106 L48,110 Z M40,102 L40,106 L36,108 L36,104 L36,100 L40,98 L40,102 Z M48,86 L48,90 L44,92 L44,88 L44,84 L48,82 L48,86 Z M44,64 L44,60 L48,58 L48,62 L48,66 L44,68 L44,64 Z M40,78 L40,82 L36,84 L36,80 L36,76 L40,74 L40,78 Z M40,54 L40,58 L36,60 L36,56 L36,52 L40,50 L40,54 Z M48,38 L48,42 L44,44 L44,40 L44,36 L48,34 L48,38 Z M36,116 L36,120 L32,122 L32,118 L32,114 L36,112 L36,116 Z M28,108 L28,112 L24,114 L24,110 L24,106 L28,104 L28,108 Z M36,92 L36,96 L32,98 L32,94 L32,90 L36,88 L36,92 Z M32,70 L32,66 L36,64 L36,68 L36,72 L32,74 L32,70 Z M28,84 L28,88 L24,90 L24,86 L24,82 L28,80 L28,84 Z M28,60 L28,64 L24,66 L24,62 L24,58 L28,56 L28,60 Z M36,44 L36,48 L32,50 L32,46 L32,42 L36,40 L36,44 Z M24,122 L24,126 L20,128 L20,124 L20,120 L24,118 L24,122 Z M12,128 L12,132 L8,134 L8,130 L8,126 L12,124 L12,128 Z M16,114 L16,118 L12,120 L12,116 L12,112 L16,110 L16,114 Z M4,120 L4,124 L0,126 L0,122 L0,118 L4,116 L4,120 Z M24,98 L24,102 L20,104 L20,100 L20,96 L24,94 L24,98 Z M12,104 L12,108 L8,110 L8,106 L8,102 L12,100 L12,104 Z M20,76 L20,72 L24,70 L24,74 L24,78 L20,80 L20,76 Z M8,82 L8,78 L12,76 L12,80 L12,84 L8,86 L8,82 Z M16,90 L16,94 L12,96 L12,92 L12,88 L16,86 L16,90 Z M4,96 L4,100 L0,102 L0,98 L0,94 L4,92 L4,96 Z M16,66 L16,70 L12,72 L12,68 L12,64 L16,62 L16,66 Z M4,72 L4,76 L0,78 L0,74 L0,70 L4,68 L4,72 Z M24,50 L24,54 L20,56 L20,52 L20,48 L24,46 L24,50 Z M12,56 L12,60 L8,62 L8,58 L8,54 L12,52 L12,56 Z M0,54 L0,50 L4,48 L4,52 L0,54 Z M12,48 L12,44 L16,42 L16,46 L12,48 Z M4,56 L4,52 L8,50 L8,54 L4,56 Z M16,50 L16,46 L20,44 L20,48 L16,50 Z M4,68 L4,64 L8,62 L8,66 L4,68 Z M16,62 L16,58 L20,56 L20,60 L16,62 Z M4,92 L4,88 L8,86 L8,90 L4,92 Z M16,86 L16,82 L20,80 L20,84 L16,86 Z M4,80 L4,76 L8,74 L8,78 L4,80 Z M16,74 L16,70 L20,68 L20,72 L16,74 Z M4,104 L4,100 L8,98 L8,102 L4,104 Z M16,98 L16,94 L20,92 L20,96 L16,98 Z M4,116 L4,112 L8,110 L8,114 L4,116 Z M16,110 L16,106 L20,104 L20,108 L16,110 Z M4,128 L4,124 L8,122 L8,126 L4,128 Z M16,122 L16,118 L20,116 L20,120 L16,122 Z M4,140 L4,136 L8,134 L8,138 L4,140 Z M16,134 L16,130 L20,128 L20,132 L16,134 Z M0,146 L0,142 L4,140 L4,144 L0,146 Z M12,140 L12,136 L16,134 L16,138 L12,140 Z M24,42 L24,38 L28,36 L28,40 L24,42 Z M28,44 L28,40 L32,38 L32,42 L28,44 Z M28,56 L28,52 L32,50 L32,54 L28,56 Z M28,80 L28,76 L32,74 L32,78 L28,80 Z M28,68 L28,64 L32,62 L32,66 L28,68 Z M28,92 L28,88 L32,86 L32,90 L28,92 Z M28,104 L28,100 L32,98 L32,102 L28,104 Z M28,116 L28,112 L32,110 L32,114 L28,116 Z M28,128 L28,124 L32,122 L32,126 L28,128 Z M24,134 L24,130 L28,128 L28,132 L24,134 Z M36,36 L36,32 L40,30 L40,34 L36,36 Z M40,38 L40,34 L44,32 L44,36 L40,38 Z M40,50 L40,46 L44,44 L44,48 L40,50 Z M40,74 L40,70 L44,68 L44,72 L40,74 Z M40,62 L40,58 L44,56 L44,60 L40,62 Z M40,86 L40,82 L44,80 L44,84 L40,86 Z M40,98 L40,94 L44,92 L44,96 L40,98 Z M40,110 L40,106 L44,104 L44,108 L40,110 Z M40,122 L40,118 L44,116 L44,120 L40,122 Z M36,128 L36,124 L40,122 L40,126 L36,128 Z M48,30 L48,26 L52,24 L52,28 L48,30 Z M52,32 L52,28 L56,26 L56,30 L52,32 Z M52,44 L52,40 L56,38 L56,42 L52,44 Z M52,68 L52,64 L56,62 L56,66 L52,68 Z M52,56 L52,52 L56,50 L56,54 L52,56 Z M52,80 L52,76 L56,74 L56,78 L52,80 Z M52,92 L52,88 L56,86 L56,90 L52,92 Z M52,104 L52,100 L56,98 L56,102 L52,104 Z M52,116 L52,112 L56,110 L56,114 L52,116 Z M48,122 L48,118 L52,116 L52,120 L48,122 Z M60,24 L60,20 L64,18 L64,22 L60,24 Z M64,26 L64,22 L68,20 L68,24 L64,26 Z M64,38 L64,34 L68,32 L68,36 L64,38 Z M64,62 L64,58 L68,56 L68,60 L64,62 Z M64,50 L64,46 L68,44 L68,48 L64,50 Z M64,74 L64,70 L68,68 L68,72 L64,74 Z M64,86 L64,82 L68,80 L68,84 L64,86 Z M64,98 L64,94 L68,92 L68,96 L64,98 Z M64,110 L64,106 L68,104 L68,108 L64,110 Z M60,116 L60,112 L64,110 L64,114 L60,116 Z M72,18 L72,14 L76,12 L76,16 L72,18 Z M76,20 L76,16 L80,14 L80,18 L76,20 Z M76,32 L76,28 L80,26 L80,30 L76,32 Z M76,56 L76,52 L80,50 L80,54 L76,56 Z M76,44 L76,40 L80,38 L80,42 L76,44 Z M76,68 L76,64 L80,62 L80,66 L76,68 Z M76,80 L76,76 L80,74 L80,78 L76,80 Z M76,92 L76,88 L80,86 L80,90 L76,92 Z M76,104 L76,100 L80,98 L80,102 L76,104 Z M72,110 L72,106 L76,104 L76,108 L72,110 Z M84,12 L84,8 L88,6 L88,10 L84,12 Z M88,14 L88,10 L92,8 L92,12 L88,14 Z M88,26 L88,22 L92,20 L92,24 L88,26 Z M88,50 L88,46 L92,44 L92,48 L88,50 Z M88,38 L88,34 L92,32 L92,36 L88,38 Z M88,62 L88,58 L92,56 L92,60 L88,62 Z M88,74 L88,70 L92,68 L92,72 L88,74 Z M88,86 L88,82 L92,80 L92,84 L88,86 Z M88,98 L88,94 L92,92 L92,96 L88,98 Z M84,104 L84,100 L88,98 L88,102 L84,104 Z M96,6 L96,2 L100,0 L100,4 L96,6 Z M100,8 L100,4 L104,2 L104,6 L100,8 Z M100,20 L100,16 L104,14 L104,18 L100,20 Z M100,44 L100,40 L104,38 L104,42 L100,44 Z M100,32 L100,28 L104,26 L104,30 L100,32 Z M100,56 L100,52 L104,50 L104,54 L100,56 Z M100,68 L100,64 L104,62 L104,66 L100,68 Z M100,80 L100,76 L104,74 L104,78 L100,80 Z M100,92 L100,88 L104,86 L104,90 L100,92 Z M96,98 L96,94 L100,92 L100,96 L96,98 Z" id="Combined-Shape" fill="#F9B163"></path>
+                    <polygon id="Path-781" fill="#8CBBEC" points="68 76 68 78 70 77 70 79 72 78 72 80 76 78 76 82 64 88 64 78"></polygon>
+                    <polygon id="Path-780" fill="#8CBBEC" points="44 96 36 100 36 102 34 103 34 105 32 106 32 110 30 111 30 131 84 104 84 92 82 93 82 83 80 84 80 82 78 83 78 81 76 82 76 80"></polygon>
+                    <polygon id="Path-779" fill="#DCDCDC" points="50 91 50 95 52 94 52 98 54 97 54 99 56 98 56 96 60 94 60 90 64 88 64 80 50 87"></polygon>
+                    <path d="M44,60 L44,57 L44,54 L46,53 L46,51 L46,47 L48,46 L48,44 L60,38 L62,37 L62,39 L64,38 L64,40 L66,39 L66,43 L68,42 L68,44 L70,43 L70,45 L74,43 L74,45 L76,44 L76,46 L78,45 L78,51 L76,52 L76,56 L74,57 L74,59 L72,60 L72,62 L68,64 L60,68 L60,62 L38,73 L36,74 L36,72 L32,74 L32,72 L30,73 L30,71 L28,72 L28,68 L44,60 Z" id="Combined-Shape" fill="#F8E71C"></path>
+                    <polygon id="Path-773" fill="#CAD729" points="28 68 40 62 40 64 42 63 42 65 46 63 60 56 64 54 64 56 68 54 68 56 72 54 72 56 76 54 76 56 74 57 74 59 72 60 72 62 68 64 68 58 36 74 36 72 32 74 32 72 30 73 30 71 28 72"></polygon>
+                    <polygon id="Path-772" fill="#FFCD66" points="44 68 44 66 62 57 62 59 66 57 66 59 68 58 68 64 48 74 48 70 46 71 46 69 44 70"></polygon>
+                    <polygon id="Path-771" fill="#F6DC89" points="44 68 44 80 46 79 46 87 46 91 44 92 44 96 60 88 60 86 62 85 62 83 64 82 64 80 66 79 66 77 68 76 68 64 68 62 66 63 66 61 64 62 64 60 60 62 60 60"></polygon>
+                    <polygon id="Path-776" fill="#E6BE77" points="44 70 50 67 50 69 50 73 48 74 48 80 54 77 54 79 50 81 50 83 48 84 48 90 46 91 46 79 44 80"></polygon>
+                    <polygon id="Path-778" fill="#F2B95B" style="mix-blend-mode: multiply;" points="46 81 54 77 56 76 56 78 58 77 58 79 60 78 62 77 64 76 64 74 64 70 66 69 66 63 68 62 68 76 66 77 66 79 64 80 64 82 62 83 62 85 60 86 60 88 44 96 44 92 46 91"></polygon>
+                    <polygon id="Path-777" fill="#DA9850" points="44 70 44 72 46 71 46 69"></polygon>
+                    <polygon id="Path-777-Copy-10" fill="#DA9850" points="44 66 44 68 46 67 46 65"></polygon>
+                    <polygon id="Path-777-Copy-11" fill="#DA9850" points="48 64 48 66 50 65 50 63"></polygon>
+                    <polygon id="Path-777-Copy-12" fill="#DA9850" points="52 62 52 64 54 63 54 61"></polygon>
+                    <polygon id="Path-777-Copy-13" fill="#DA9850" points="56 60 56 62 58 61 58 59"></polygon>
+                    <polygon id="Path-777-Copy-14" fill="#DA9850" points="60 58 60 60 62 59 62 57"></polygon>
+                    <polygon id="Path-777-Copy-15" fill="#DA9850" points="62 59 62 61 64 60 64 58"></polygon>
+                    <polygon id="Path-777-Copy-16" fill="#DA9850" points="64 58 64 60 66 59 66 57"></polygon>
+                    <polygon id="Path-777-Copy-17" fill="#DA9850" points="66 59 66 61 68 60 68 58"></polygon>
+                    <polygon id="Path-777-Copy" fill="#DA9850" points="46 69 46 71 48 70 48 68"></polygon>
+                    <polygon id="Path-777-Copy-2" fill="#DA9850" points="48 68 48 70 50 69 50 67"></polygon>
+                    <polygon id="Path-777-Copy-3" fill="#D78A5F" points="48 72 48 74 50 73 50 71"></polygon>
+                    <polygon id="Path-777-Copy-4" fill="#D78A5F" points="46 75 46 77 48 76 48 74"></polygon>
+                    <polygon id="Path-777-Copy-8" fill="#D78A5F" points="46 77 46 79 48 78 48 76"></polygon>
+                    <polygon id="Path-777-Copy-9" fill="#D78A5F" points="46 79 46 81 48 80 48 78"></polygon>
+                    <polygon id="Path-777-Copy-5" fill="#DA9850" points="54 65 54 67 56 66 56 64"></polygon>
+                    <polygon id="Path-777-Copy-6" fill="#DA9850" points="56 64 56 66 58 65 58 63"></polygon>
+                    <polygon id="Path-777-Copy-7" fill="#DA9850" points="58 63 58 65 60 64 60 62"></polygon>
+                    <g id="Group-20" transform="translate(46.000000, 65.000000)">
+                        <polygon id="Path-774" fill="#FFFFFF" points="0 6 0 8 4 6 4 4"></polygon>
+                        <polygon id="Path-774-Copy" fill="#FFFFFF" points="8 2 8 4 12 2 12 0"></polygon>
+                        <polygon id="Path-775" fill="#4A4A4A" points="2 5 2 7 4 6 4 4"></polygon>
+                        <polygon id="Path-775-Copy" fill="#4A4A4A" points="10 1 10 3 12 2 12 0"></polygon>
+                    </g>
+                    <polygon id="Path-6" fill="#8CBBEC" points="30 131 30 111 32 110 32 106 34 105 34 104 34 103 36 102 36 100 48 94 48 102 50 101 50 105 52 104 52 108 54 107 54 119"></polygon>
+                    <polygon id="Path-7" fill="#F56A2E" opacity="0.342234142" points="34 65 34 69 36 68 36 70 38 69 38 71 42 69 42 67 64 56 64 58 68 56 68 58 70 57 70 61 72 60 72 62 66 65 66 61 62 63 62 61 58 63 58 61 44 68 44 70 36 74 36 72 32 74 32 72 30 73 30 71 28 72 28 68"></polygon>
+                </g>
+                <polygon id="Path-757" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round" points="4 87 44 67 68 55 108 35 108 131 4 183"></polygon>
+                <g id="Group-16" transform="translate(40.000000, 42.000000)" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round">
+                    <g id="Group-15">
+                        <polygon id="Path-748" fill="#9F846E" points="8 29 8 22 32 10 32 17"></polygon>
+                        <polygon id="Path-749" fill="#D8A67E" points="8 29 6 28 6 26 0 23 0 18 8 22"></polygon>
+                        <polygon id="Path-750" fill="#E9C4A5" points="0 18 24 6 32 10 8 22"></polygon>
+                        <polygon id="Path-751" fill="#D8A67E" points="4 16 8 18 8 10 4 8"></polygon>
+                        <polygon id="Path-752" fill="#9F846E" points="8 10 24 2 24 10 8 18"></polygon>
+                        <polygon id="Path-754" fill="#8F75AE" points="16 10 20 8 20 12 16 14"></polygon>
+                        <polygon id="Path-755" fill="#ECD68F" points="16 14 14 13 14 9 16 10"></polygon>
+                        <polygon id="Path-756" fill="#FFF5D6" points="14 9 18 7 20 8 16 10"></polygon>
+                        <polygon id="Path-753" fill="#E9C4A5" points="4 8 20 0 24 2 8 10"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

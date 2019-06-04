@@ -17,7 +17,7 @@
 some margin and padding
 ---------------------------------------- */
 
- @media screen and (max-width: 920px) {
+@media screen and (max-width: 920px) {
   .main {
     padding: 0 20px;
   }
@@ -44,6 +44,9 @@ some margin and padding
   .big-div {
     padding-top: 60px;
     padding-bottom: 60px;
+  }
+  .begin {
+    height: 64px;
   }
 }
 

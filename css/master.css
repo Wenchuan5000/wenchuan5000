@@ -179,6 +179,7 @@ divs
       padding-top: 100px;
       padding-bottom: 100px;
       border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+      background-color: #ffffff;
       /* box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08) */
     }
 
@@ -188,6 +189,10 @@ divs
 
     .no-border-bottom {
       border-bottom: none;
+    }
+
+    .greyBg {
+      background: #f9f9f9;
     }
 
 
@@ -478,7 +483,7 @@ sidenav
 ======================================== */
 .sidenav {
   height: 100%;
-  width: 250px;
+  width: 260px;
   position: fixed;
   float: left;
   z-index: 20;
