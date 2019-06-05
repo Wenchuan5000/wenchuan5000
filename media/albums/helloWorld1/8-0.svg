@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="459px" viewBox="0 0 800 459" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>8-0</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 72 144 144 288 72 144 0"></polygon>
+        <polygon id="path-3" points="66 0 0 117 100 167 134 34"></polygon>
+        <polygon id="path-5" points="34 0 0 133 100 83"></polygon>
+    </defs>
+    <g id="8-0" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#CDD7FF" x="-11" y="-10" width="822" height="481"></rect>
+        <g id="Nassauer-Haus-in-Nürnberg" transform="translate(224.000000, 2.000000)">
+            <polygon id="Path-9" stroke="#4A4A4A" fill="#4A4A4A" opacity="0.1" stroke-linecap="round" stroke-linejoin="round" points="176 455 352 367 176 279 0 367"></polygon>
+            <polygon id="Path-7" stroke="#4A4A4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="16 366 16 354 28 348 32 342 80 318 80 177.5 75 180 63 174 63 170 59 168 59 134 75 98 84 119 76 134 142 17 210 51 276 134 266 121 276 98 292 134 292 168 288 170 288 174 276 180 272 178 272 318 320 342 324 348 336 354 336 366 176 446"></polygon>
+            <g id="Group-7" transform="translate(16.000000, 270.000000)">
+                <polygon id="Path-39" stroke="#4A4A4A" fill="#ECB17E" stroke-linecap="round" stroke-linejoin="round" points="0 84 160 164 320 84 160 4"></polygon>
+                <polygon id="Path-40" stroke="#4A4A4A" fill="#C57B58" stroke-linecap="round" stroke-linejoin="round" points="0 84 0 96 160 176 160 164"></polygon>
+                <polygon id="Path-41" stroke="#4A4A4A" fill="#845741" stroke-linecap="round" stroke-linejoin="round" points="160 176 320 96 320 84 160 164"></polygon>
+                <g id="Combined-Shape" transform="translate(16.000000, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#C9BCA8" xlink:href="#path-1"></use>
+                    <path d="M288,64 L296,68 L280,76 L264,84 L248,92 L232,100 L216,108 L200,116 L184,124 L168,132 L152,140 L136,148 L128,144 L136,140 L128,136 L120,140 L112,136 L120,132 L112,128 L104,132 L96,128 L104,124 L96,120 L88,124 L80,120 L88,116 L80,112 L72,116 L64,112 L72,108 L64,104 L56,108 L48,104 L56,100 L48,96 L40,100 L32,96 L40,92 L32,88 L24,92 L16,88 L24,84 L16,80 L8,84 L0,80 L8,76 L0,72 L16,64 L32,56 L48,48 L64,40 L80,32 L96,24 L112,16 L128,8 L144,0 L160,-8 L168,-4 L160,0 L168,4 L176,0 L184,4 L176,8 L184,12 L192,8 L200,12 L192,16 L200,20 L208,16 L216,20 L208,24 L216,28 L224,24 L232,28 L224,32 L232,36 L240,32 L248,36 L240,40 L248,44 L256,40 L264,44 L256,48 L264,52 L272,48 L280,52 L272,56 L280,60 L288,56 L296,60 L288,64 Z" stroke="#4A4A4A" opacity="0.2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                    <polygon id="Path-36" stroke="#4A4A4A" fill="#4A4A4A" opacity="0.3" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" points="40 72 144 124 248 72 144 20"></polygon>
+                </g>
+                <polygon id="Path-36-Copy" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round" points="16 72 160 144 304 72 160 0"></polygon>
+                <polygon id="Path-37" stroke="#4A4A4A" fill="#D68B67" stroke-linecap="round" stroke-linejoin="round" points="16 72 8 84 160 160 160 144"></polygon>
+                <polygon id="Path-38" stroke="#4A4A4A" fill="#96644C" stroke-linecap="round" stroke-linejoin="round" points="160 160 312 84 304 72 160 144"></polygon>
+            </g>
+            <g id="nuremberg" transform="translate(59.000000, 0.000000)">
+                <g id="Group-8" transform="translate(21.000000, 166.000000)" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon id="Path-16" stroke="#4A4A4A" fill="#C49169" points="0 0 0 176 96 224 96 48"></polygon>
+                    <g id="Group-2" opacity="0.15">
+                        <path d="M0,8 L96,56" id="Path-409" stroke="#FFFFFF"></path>
+                        <path d="M0,24 L96,72" id="Path-409-Copy-2" stroke="#FFFFFF"></path>
+                        <path d="M0,16 L96,64" id="Path-409-Copy" stroke="#FFFFFF"></path>
+                        <path d="M0,32 L96,80" id="Path-409-Copy-3" stroke="#FFFFFF"></path>
+                        <path d="M8,4 L8,12" id="Path-410" stroke="#FFFFFF"></path>
+                        <path d="M8,20 L8,28" id="Path-410-Copy-6" stroke="#FFFFFF"></path>
+                        <path d="M24,12 L24,20" id="Path-410-Copy" stroke="#FFFFFF"></path>
+                        <path d="M24,28 L24,36" id="Path-410-Copy-7" stroke="#FFFFFF"></path>
+                        <path d="M40,20 L40,28" id="Path-410-Copy-2" stroke="#FFFFFF"></path>
+                        <path d="M40,36 L40,44" id="Path-410-Copy-8" stroke="#FFFFFF"></path>
+                        <path d="M56,28 L56,36" id="Path-410-Copy-3" stroke="#FFFFFF"></path>
+                        <path d="M56,44 L56,52" id="Path-410-Copy-9" stroke="#FFFFFF"></path>
+                        <path d="M72,36 L72,44" id="Path-410-Copy-4" stroke="#FFFFFF"></path>
+                        <path d="M72,52 L72,60" id="Path-410-Copy-10" stroke="#FFFFFF"></path>
+                        <path d="M88,44 L88,52" id="Path-410-Copy-5" stroke="#FFFFFF"></path>
+                        <path d="M88,60 L88,68" id="Path-410-Copy-11" stroke="#FFFFFF"></path>
+                        <path d="M16,16 L16,24" id="Path-411" stroke="#FFFFFF"></path>
+                        <path d="M16,32 L16,40" id="Path-411-Copy-6" stroke="#FFFFFF"></path>
+                        <path d="M32,24 L32,32" id="Path-411-Copy" stroke="#FFFFFF"></path>
+                        <path d="M32,40 L32,48" id="Path-411-Copy-7" stroke="#FFFFFF"></path>
+                        <path d="M48,32 L48,40" id="Path-411-Copy-2" stroke="#FFFFFF"></path>
+                        <path d="M48,48 L48,56" id="Path-411-Copy-8" stroke="#FFFFFF"></path>
+                        <path d="M64,40 L64,48" id="Path-411-Copy-3" stroke="#FFFFFF"></path>
+                        <path d="M64,56 L64,64" id="Path-411-Copy-9" stroke="#FFFFFF"></path>
+                        <path d="M80,48 L80,56" id="Path-411-Copy-4" stroke="#FFFFFF"></path>
+                        <path d="M80,64 L80,72" id="Path-411-Copy-10" stroke="#FFFFFF"></path>
+                        <path d="M96,56 L96,64" id="Path-411-Copy-5" stroke="#FFFFFF"></path>
+                        <path d="M96,72 L96,80" id="Path-411-Copy-11" stroke="#FFFFFF"></path>
+                        <path d="M0,40 L96,88" id="Path-409-Copy-5" stroke="#FFFFFF"></path>
+                        <path d="M0,48 L96,96" id="Path-409-Copy-4" stroke="#FFFFFF"></path>
+                        <path d="M8,36 L8,44" id="Path-410-Copy-17" stroke="#FFFFFF"></path>
+                        <path d="M24,44 L24,52" id="Path-410-Copy-16" stroke="#FFFFFF"></path>
+                        <path d="M40,52 L40,60" id="Path-410-Copy-15" stroke="#FFFFFF"></path>
+                        <path d="M56,60 L56,68" id="Path-410-Copy-14" stroke="#FFFFFF"></path>
+                        <path d="M72,68 L72,76" id="Path-410-Copy-13" stroke="#FFFFFF"></path>
+                        <path d="M88,76 L88,84" id="Path-410-Copy-12" stroke="#FFFFFF"></path>
+                        <path d="M16,48 L16,56" id="Path-411-Copy-17" stroke="#FFFFFF"></path>
+                        <path d="M32,56 L32,64" id="Path-411-Copy-16" stroke="#FFFFFF"></path>
+                        <path d="M48,64 L48,72" id="Path-411-Copy-15" stroke="#FFFFFF"></path>
+                        <path d="M64,72 L64,80" id="Path-411-Copy-14" stroke="#FFFFFF"></path>
+                        <path d="M80,80 L80,88" id="Path-411-Copy-13" stroke="#FFFFFF"></path>
+                        <path d="M96,88 L96,96" id="Path-411-Copy-12" stroke="#FFFFFF"></path>
+                        <path d="M0,56 L96,104" id="Path-409-Copy-7" stroke="#FFFFFF"></path>
+                        <path d="M0,64 L96,112" id="Path-409-Copy-6" stroke="#FFFFFF"></path>
+                        <path d="M8,52 L8,60" id="Path-410-Copy-23" stroke="#FFFFFF"></path>
+                        <path d="M24,60 L24,68" id="Path-410-Copy-22" stroke="#FFFFFF"></path>
+                        <path d="M40,68 L40,76" id="Path-410-Copy-21" stroke="#FFFFFF"></path>
+                        <path d="M56,76 L56,84" id="Path-410-Copy-20" stroke="#FFFFFF"></path>
+                        <path d="M72,84 L72,92" id="Path-410-Copy-19" stroke="#FFFFFF"></path>
+                        <path d="M88,92 L88,100" id="Path-410-Copy-18" stroke="#FFFFFF"></path>
+                        <path d="M16,64 L16,72" id="Path-411-Copy-23" stroke="#FFFFFF"></path>
+                        <path d="M32,72 L32,80" id="Path-411-Copy-22" stroke="#FFFFFF"></path>
+                        <path d="M48,80 L48,88" id="Path-411-Copy-21" stroke="#FFFFFF"></path>
+                        <path d="M64,88 L64,96" id="Path-411-Copy-20" stroke="#FFFFFF"></path>
+                        <path d="M80,96 L80,104" id="Path-411-Copy-19" stroke="#FFFFFF"></path>
+                        <path d="M96,104 L96,112" id="Path-411-Copy-18" stroke="#FFFFFF"></path>
+                        <path d="M0,72 L96,120" id="Path-409-Copy-9" stroke="#FFFFFF"></path>
+                        <path d="M0,80 L96,128" id="Path-409-Copy-8" stroke="#FFFFFF"></path>
+                        <path d="M8,68 L8,76" id="Path-410-Copy-29" stroke="#FFFFFF"></path>
+                        <path d="M24,76 L24,84" id="Path-410-Copy-28" stroke="#FFFFFF"></path>
+                        <path d="M40,84 L40,92" id="Path-410-Copy-27" stroke="#FFFFFF"></path>
+                        <path d="M56,92 L56,100" id="Path-410-Copy-26" stroke="#FFFFFF"></path>
+                        <path d="M72,100 L72,108" id="Path-410-Copy-25" stroke="#FFFFFF"></path>
+                        <path d="M88,108 L88,116" id="Path-410-Copy-24" stroke="#FFFFFF"></path>
+                        <path d="M16,80 L16,88" id="Path-411-Copy-29" stroke="#FFFFFF"></path>
+                        <path d="M32,88 L32,96" id="Path-411-Copy-28" stroke="#FFFFFF"></path>
+                        <path d="M48,96 L48,104" id="Path-411-Copy-27" stroke="#FFFFFF"></path>
+                        <path d="M64,104 L64,112" id="Path-411-Copy-26" stroke="#FFFFFF"></path>
+                        <path d="M80,112 L80,120" id="Path-411-Copy-25" stroke="#FFFFFF"></path>
+                        <path d="M96,120 L96,128" id="Path-411-Copy-24" stroke="#FFFFFF"></path>
+                        <path d="M0,88 L96,136" id="Path-409-Copy-11" stroke="#FFFFFF"></path>
+                        <path d="M0,96 L96,144" id="Path-409-Copy-10" stroke="#FFFFFF"></path>
+                        <path d="M8,84 L8,92" id="Path-410-Copy-35" stroke="#FFFFFF"></path>
+                        <path d="M24,92 L24,100" id="Path-410-Copy-34" stroke="#FFFFFF"></path>
+                        <path d="M40,100 L40,108" id="Path-410-Copy-33" stroke="#FFFFFF"></path>
+                        <path d="M56,108 L56,116" id="Path-410-Copy-32" stroke="#FFFFFF"></path>
+                        <path d="M72,116 L72,124" id="Path-410-Copy-31" stroke="#FFFFFF"></path>
+                        <path d="M88,124 L88,132" id="Path-410-Copy-30" stroke="#FFFFFF"></path>
+                        <path d="M16,96 L16,104" id="Path-411-Copy-35" stroke="#FFFFFF"></path>
+                        <path d="M32,104 L32,112" id="Path-411-Copy-34" stroke="#FFFFFF"></path>
+                        <path d="M48,112 L48,120" id="Path-411-Copy-33" stroke="#FFFFFF"></path>
+                        <path d="M64,120 L64,128" id="Path-411-Copy-32" stroke="#FFFFFF"></path>
+                        <path d="M80,128 L80,136" id="Path-411-Copy-31" stroke="#FFFFFF"></path>
+                        <path d="M96,136 L96,144" id="Path-411-Copy-30" stroke="#FFFFFF"></path>
+                        <path d="M0,104 L96,152" id="Path-409-Copy-13" stroke="#FFFFFF"></path>
+                        <path d="M0,112 L96,160" id="Path-409-Copy-12" stroke="#FFFFFF"></path>
+                        <path d="M8,100 L8,108" id="Path-410-Copy-41" stroke="#FFFFFF"></path>
+                        <path d="M24,108 L24,116" id="Path-410-Copy-40" stroke="#FFFFFF"></path>
+                        <path d="M40,116 L40,124" id="Path-410-Copy-39" stroke="#FFFFFF"></path>
+                        <path d="M56,124 L56,132" id="Path-410-Copy-38" stroke="#FFFFFF"></path>
+                        <path d="M72,132 L72,140" id="Path-410-Copy-37" stroke="#FFFFFF"></path>
+                        <path d="M88,140 L88,148" id="Path-410-Copy-36" stroke="#FFFFFF"></path>
+                        <path d="M16,112 L16,120" id="Path-411-Copy-41" stroke="#FFFFFF"></path>
+                        <path d="M32,120 L32,128" id="Path-411-Copy-40" stroke="#FFFFFF"></path>
+                        <path d="M48,128 L48,136" id="Path-411-Copy-39" stroke="#FFFFFF"></path>
+                        <path d="M64,136 L64,144" id="Path-411-Copy-38" stroke="#FFFFFF"></path>
+                        <path d="M80,144 L80,152" id="Path-411-Copy-37" stroke="#FFFFFF"></path>
+                        <path d="M96,152 L96,160" id="Path-411-Copy-36" stroke="#FFFFFF"></path>
+                        <path d="M0,120 L96,168" id="Path-409-Copy-15" stroke="#FFFFFF"></path>
+                        <path d="M0,128 L96,176" id="Path-409-Copy-14" stroke="#FFFFFF"></path>
+                        <path d="M8,116 L8,124" id="Path-410-Copy-47" stroke="#FFFFFF"></path>
+                        <path d="M24,124 L24,132" id="Path-410-Copy-46" stroke="#FFFFFF"></path>
+                        <path d="M40,132 L40,140" id="Path-410-Copy-45" stroke="#FFFFFF"></path>
+                        <path d="M56,140 L56,148" id="Path-410-Copy-44" stroke="#FFFFFF"></path>
+                        <path d="M72,148 L72,156" id="Path-410-Copy-43" stroke="#FFFFFF"></path>
+                        <path d="M88,156 L88,164" id="Path-410-Copy-42" stroke="#FFFFFF"></path>
+                        <path d="M16,128 L16,136" id="Path-411-Copy-47" stroke="#FFFFFF"></path>
+                        <path d="M32,136 L32,144" id="Path-411-Copy-46" stroke="#FFFFFF"></path>
+                        <path d="M48,144 L48,152" id="Path-411-Copy-45" stroke="#FFFFFF"></path>
+                        <path d="M64,152 L64,160" id="Path-411-Copy-44" stroke="#FFFFFF"></path>
+                        <path d="M80,160 L80,168" id="Path-411-Copy-43" stroke="#FFFFFF"></path>
+                        <path d="M96,168 L96,176" id="Path-411-Copy-42" stroke="#FFFFFF"></path>
+                        <path d="M0,136 L96,184" id="Path-409-Copy-17" stroke="#FFFFFF"></path>
+                        <path d="M0,144 L96,192" id="Path-409-Copy-16" stroke="#FFFFFF"></path>
+                        <path d="M8,132 L8,140" id="Path-410-Copy-53" stroke="#FFFFFF"></path>
+                        <path d="M24,140 L24,148" id="Path-410-Copy-52" stroke="#FFFFFF"></path>
+                        <path d="M40,148 L40,156" id="Path-410-Copy-51" stroke="#FFFFFF"></path>
+                        <path d="M56,156 L56,164" id="Path-410-Copy-50" stroke="#FFFFFF"></path>
+                        <path d="M72,164 L72,172" id="Path-410-Copy-49" stroke="#FFFFFF"></path>
+                        <path d="M88,172 L88,180" id="Path-410-Copy-48" stroke="#FFFFFF"></path>
+                        <path d="M16,144 L16,152" id="Path-411-Copy-53" stroke="#FFFFFF"></path>
+                        <path d="M32,152 L32,160" id="Path-411-Copy-52" stroke="#FFFFFF"></path>
+                        <path d="M48,160 L48,168" id="Path-411-Copy-51" stroke="#FFFFFF"></path>
+                        <path d="M64,168 L64,176" id="Path-411-Copy-50" stroke="#FFFFFF"></path>
+                        <path d="M80,176 L80,184" id="Path-411-Copy-49" stroke="#FFFFFF"></path>
+                        <path d="M96,184 L96,192" id="Path-411-Copy-48" stroke="#FFFFFF"></path>
+                        <path d="M0,152 L96,200" id="Path-409-Copy-19" stroke="#FFFFFF"></path>
+                        <path d="M0,160 L96,208" id="Path-409-Copy-18" stroke="#FFFFFF"></path>
+                        <path d="M8,148 L8,156" id="Path-410-Copy-59" stroke="#FFFFFF"></path>
+                        <path d="M24,156 L24,164" id="Path-410-Copy-58" stroke="#FFFFFF"></path>
+                        <path d="M40,164 L40,172" id="Path-410-Copy-57" stroke="#FFFFFF"></path>
+                        <path d="M56,172 L56,180" id="Path-410-Copy-56" stroke="#FFFFFF"></path>
+                        <path d="M72,180 L72,188" id="Path-410-Copy-55" stroke="#FFFFFF"></path>
+                        <path d="M88,188 L88,196" id="Path-410-Copy-54" stroke="#FFFFFF"></path>
+                        <path d="M16,160 L16,168" id="Path-411-Copy-59" stroke="#FFFFFF"></path>
+                        <path d="M32,168 L32,176" id="Path-411-Copy-58" stroke="#FFFFFF"></path>
+                        <path d="M48,176 L48,184" id="Path-411-Copy-57" stroke="#FFFFFF"></path>
+                        <path d="M64,184 L64,192" id="Path-411-Copy-56" stroke="#FFFFFF"></path>
+                        <path d="M80,192 L80,200" id="Path-411-Copy-55" stroke="#FFFFFF"></path>
+                        <path d="M96,200 L96,208" id="Path-411-Copy-54" stroke="#FFFFFF"></path>
+                        <path d="M0,168 L96,216" id="Path-409-Copy-21" stroke="#FFFFFF"></path>
+                        <path d="M0,176 L96,224" id="Path-409-Copy-20" stroke="#FFFFFF"></path>
+                        <path d="M8,164 L8,172" id="Path-410-Copy-65" stroke="#FFFFFF"></path>
+                        <path d="M24,172 L24,180" id="Path-410-Copy-64" stroke="#FFFFFF"></path>
+                        <path d="M40,180 L40,188" id="Path-410-Copy-63" stroke="#FFFFFF"></path>
+                        <path d="M56,188 L56,196" id="Path-410-Copy-62" stroke="#FFFFFF"></path>
+                        <path d="M72,196 L72,204" id="Path-410-Copy-61" stroke="#FFFFFF"></path>
+                        <path d="M88,204 L88,212" id="Path-410-Copy-60" stroke="#FFFFFF"></path>
+                        <path d="M16,176 L16,184" id="Path-411-Copy-65" stroke="#FFFFFF"></path>
+                        <path d="M32,184 L32,192" id="Path-411-Copy-64" stroke="#FFFFFF"></path>
+                        <path d="M48,192 L48,200" id="Path-411-Copy-63" stroke="#FFFFFF"></path>
+                        <path d="M64,200 L64,208" id="Path-411-Copy-62" stroke="#FFFFFF"></path>
+                        <path d="M80,208 L80,216" id="Path-411-Copy-61" stroke="#FFFFFF"></path>
+                        <path d="M96,216 L96,224" id="Path-411-Copy-60" stroke="#FFFFFF"></path>
+                        <polygon id="Path-16-Copy" stroke="#4A4A4A" points="0 0 0 176 96 224 96 48"></polygon>
+                    </g>
+                    <g id="Group" transform="translate(24.000000, 28.000000)" stroke="#4A4A4A">
+                        <polygon id="Path-28-Copy-2" fill="#F3EAD2" points="0 4 8 8 8 4 0 0"></polygon>
+                        <polygon id="Path-28-Copy-3" fill="#F3EAD2" points="0 20 8 24 8 20 0 16"></polygon>
+                        <polygon id="Path-404" fill="#4A4A4A" points="0 4 0 16 8 20 8 8"></polygon>
+                        <polygon id="Path-405" fill="#F7F4EA" points="0 16 4 14 8 16 8 20"></polygon>
+                        <polygon id="Path-406" fill="#C6A58A" points="4 14 4 6 0 4 0 16"></polygon>
+                        <polygon id="Path-407" fill-opacity="0.274881114" fill="#DDDDDD" points="2 15 2 5 8 8 8 18"></polygon>
+                        <path d="M6,17 L6,7" id="Path-408"></path>
+                        <path d="M4,16 L4,6" id="Path-408-Copy"></path>
+                    </g>
+                    <g id="Group-Copy-4" transform="translate(32.000000, 128.000000)" stroke="#4A4A4A">
+                        <polygon id="Path-28-Copy-2" fill="#F3EAD2" points="0 4 8 8 8 4 0 0"></polygon>
+                        <polygon id="Path-28-Copy-3" fill="#F3EAD2" points="0 20 8 24 8 20 0 16"></polygon>
+                        <polygon id="Path-404" fill="#4A4A4A" points="0 4 0 16 8 20 8 8"></polygon>
+                        <polygon id="Path-405" fill="#F7F4EA" points="0 16 4 14 8 16 8 20"></polygon>
+                        <polygon id="Path-406" fill="#C6A58A" points="4 14 4 6 0 4 0 16"></polygon>
+                        <polygon id="Path-407" fill-opacity="0.274881114" fill="#DDDDDD" points="2 15 2 5 8 8 8 18"></polygon>
+                        <path d="M6,17 L6,7" id="Path-408"></path>
+                        <path d="M4,16 L4,6" id="Path-408-Copy"></path>
+                    </g>
+                    <g id="Group-Copy-2" transform="translate(16.000000, 72.000000)" stroke="#4A4A4A">
+                        <polygon id="Path-28-Copy-2" fill="#F3EAD2" points="0 4 8 8 8 4 0 0"></polygon>
+                        <polygon id="Path-28-Copy-3" fill="#F3EAD2" points="0 20 8 24 8 20 0 16"></polygon>
+                        <polygon id="Path-404" fill="#4A4A4A" points="0 4 0 16 8 20 8 8"></polygon>
+                        <polygon id="Path-405" fill="#F7F4EA" points="0 16 4 14 8 16 8 20"></polygon>
+                        <polygon id="Path-406" fill="#C6A58A" points="4 14 4 6 0 4 0 16"></polygon>
+                        <polygon id="Path-407" fill-opacity="0.274881114" fill="#DDDDDD" points="2 15 2 5 8 8 8 18"></polygon>
+                        <path d="M6,17 L6,7" id="Path-408"></path>
+                        <path d="M4,16 L4,6" id="Path-408-Copy"></path>
+                    </g>
+                    <g id="Group-Copy" transform="translate(64.000000, 48.000000)" stroke="#4A4A4A">
+                        <polygon id="Path-28-Copy-2" fill="#F3EAD2" points="0 4 8 8 8 4 0 0"></polygon>
+                        <polygon id="Path-28-Copy-3" fill="#F3EAD2" points="0 20 8 24 8 20 0 16"></polygon>
+                        <polygon id="Path-404" fill="#4A4A4A" points="0 4 0 16 8 20 8 8"></polygon>
+                        <polygon id="Path-405" fill="#F7F4EA" points="0 16 4 14 8 16 8 20"></polygon>
+                        <polygon id="Path-406" fill="#C6A58A" points="4 14 4 6 0 4 0 16"></polygon>
+                        <polygon id="Path-407" fill-opacity="0.274881114" fill="#DDDDDD" points="2 15 2 5 8 8 8 18"></polygon>
+                        <path d="M6,17 L6,7" id="Path-408"></path>
+                        <path d="M4,16 L4,6" id="Path-408-Copy"></path>
+                    </g>
+                    <g id="Group-Copy-5" transform="translate(56.000000, 140.000000)" stroke="#4A4A4A">
+                        <polygon id="Path-28-Copy-2" fill="#F3EAD2" points="0 4 8 8 8 4 0 0"></polygon>
+                        <polygon id="Path-28-Copy-3" fill="#F3EAD2" points="0 20 8 24 8 20 0 16"></polygon>
+                        <polygon id="Path-404" fill="#4A4A4A" points="0 4 0 16 8 20 8 8"></polygon>
+                        <polygon id="Path-405" fill="#F7F4EA" points="0 16 4 14 8 16 8 20"></polygon>
+                        <polygon id="Path-406" fill="#C6A58A" points="4 14 4 6 0 4 0 16"></polygon>
+                        <polygon id="Path-407" fill-opacity="0.274881114" fill="#DDDDDD" points="2 15 2 5 8 8 8 18"></polygon>
+                        <path d="M6,17 L6,7" id="Path-408"></path>
+                        <path d="M4,16 L4,6" id="Path-408-Copy"></path>
+                    </g>
+                    <g id="Group-Copy-3" transform="translate(64.000000, 96.000000)" stroke="#4A4A4A">
+                        <polygon id="Path-28-Copy-2" fill="#F3EAD2" points="0 4 8 8 8 4 0 0"></polygon>
+                        <polygon id="Path-28-Copy-3" fill="#F3EAD2" points="0 20 8 24 8 20 0 16"></polygon>
+                        <polygon id="Path-404" fill="#4A4A4A" points="0 4 0 16 8 20 8 8"></polygon>
+                        <polygon id="Path-405" fill="#F7F4EA" points="0 16 4 14 8 16 8 20"></polygon>
+                        <polygon id="Path-406" fill="#C6A58A" points="4 14 4 6 0 4 0 16"></polygon>
+                        <polygon id="Path-407" fill-opacity="0.274881114" fill="#DDDDDD" points="2 15 2 5 8 8 8 18"></polygon>
+                        <path d="M6,17 L6,7" id="Path-408"></path>
+                        <path d="M4,16 L4,6" id="Path-408-Copy"></path>
+                    </g>
+                    <g id="Group-3" transform="translate(16.000000, 168.000000)" stroke="#4A4A4A">
+                        <path d="M0,16 L0,3.99620271 C0,1.78916089 1.59969199,0.799845994 3.57882023,1.78941011 L4.42117977,2.21058989 C6.39770761,3.1988538 8,5.78883037 8,7.99620271 L8,20 L0,16 Z" id="Path-412" fill="#6F5F51"></path>
+                        <path d="M4,2 L4,18" id="Path-413"></path>
+                        <path d="M0,6 L8,10" id="Path-414"></path>
+                    </g>
+                    <g id="Group-4" transform="translate(36.000000, 162.000000)" stroke="#4A4A4A">
+                        <path d="M0,16 L0,3.00947762 C0,1.34738902 1.19976899,0.599884495 2.68411517,1.34205759 L3.31588483,1.65794241 C4.7982807,2.39914035 6,4.33663106 6,6.00947762 L6,19 L0,16 Z" id="Path-412" fill="#C6A58A"></path>
+                        <path d="M2.13529587,1.13047916 C2.31242191,1.17785556 2.4959828,1.2479914 2.68411517,1.34205759 L3.31588483,1.65794241 C4.7982807,2.39914035 6,4.33663106 6,6.00947762 L6,17 L2,15 L2,2.00947762 C2,1.67875718 2.04750194,1.38424748 2.13529587,1.13047916 Z" id="Combined-Shape" fill="#666666"></path>
+                        <polygon id="Path-415" fill="#ECD1BC" points="0 16 2 15 6 17 6 19"></polygon>
+                    </g>
+                    <g id="Group-4-Copy" transform="translate(58.000000, 173.000000)" stroke="#4A4A4A">
+                        <path d="M0,16 L0,3.00947762 C0,1.34738902 1.19976899,0.599884495 2.68411517,1.34205759 L3.31588483,1.65794241 C4.7982807,2.39914035 6,4.33663106 6,6.00947762 L6,19 L0,16 Z" id="Path-412" fill="#C6A58A"></path>
+                        <path d="M2.13529587,1.13047916 C2.31242191,1.17785556 2.4959828,1.2479914 2.68411517,1.34205759 L3.31588483,1.65794241 C4.7982807,2.39914035 6,4.33663106 6,6.00947762 L6,17 L2,15 L2,2.00947762 C2,1.67875718 2.04750194,1.38424748 2.13529587,1.13047916 Z" id="Combined-Shape" fill="#666666"></path>
+                        <polygon id="Path-415" fill="#ECD1BC" points="0 16 2 15 6 17 6 19"></polygon>
+                    </g>
+                    <g id="Group-5" transform="translate(16.000000, 162.000000)">
+                        <polygon id="Path-416" stroke="#4A4A4A" fill="#4A4A4A" points="0 4 0 0 8 4 8 8"></polygon>
+                        <path d="M1,2 L2.01337891,2.50668945" id="Path-417" stroke="#FFFFFF"></path>
+                        <path d="M1,3 L2.84633789,3.92316895 M3.52280273,4.26140137 L4.40722656,4.70361328 M5.82836914,5.41418457 L7,6" id="Path-417-Copy" stroke="#FFFFFF"></path>
+                    </g>
+                </g>
+                <g id="Group-9" transform="translate(21.000000, 166.000000)" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon id="Path-16" stroke="#4A4A4A" fill="#A17755" transform="translate(144.000000, 112.000000) scale(-1, 1) translate(-144.000000, -112.000000) " points="96 0 96 176 192 224 192 48"></polygon>
+                    <g id="Group-2" opacity="0.15" transform="translate(143.500000, 112.000000) scale(-1, 1) translate(-143.500000, -112.000000) translate(95.000000, 0.000000)">
+                        <path d="M0,8 L96,56" id="Path-409" stroke="#FFFFFF"></path>
+                        <path d="M0,24 L96,72" id="Path-409-Copy-2" stroke="#FFFFFF"></path>
+                        <path d="M0,16 L96,64" id="Path-409-Copy" stroke="#FFFFFF"></path>
+                        <path d="M0,32 L96,80" id="Path-409-Copy-3" stroke="#FFFFFF"></path>
+                        <path d="M8,4 L8,12" id="Path-410" stroke="#FFFFFF"></path>
+                        <path d="M8,20 L8,28" id="Path-410-Copy-6" stroke="#FFFFFF"></path>
+                        <path d="M24,12 L24,20" id="Path-410-Copy" stroke="#FFFFFF"></path>
+                        <path d="M24,28 L24,36" id="Path-410-Copy-7" stroke="#FFFFFF"></path>
+                        <path d="M40,20 L40,28" id="Path-410-Copy-2" stroke="#FFFFFF"></path>
+                        <path d="M40,36 L40,44" id="Path-410-Copy-8" stroke="#FFFFFF"></path>
+                        <path d="M56,28 L56,36" id="Path-410-Copy-3" stroke="#FFFFFF"></path>
+                        <path d="M56,44 L56,52" id="Path-410-Copy-9" stroke="#FFFFFF"></path>
+                        <path d="M72,36 L72,44" id="Path-410-Copy-4" stroke="#FFFFFF"></path>
+                        <path d="M72,52 L72,60" id="Path-410-Copy-10" stroke="#FFFFFF"></path>
+                        <path d="M88,44 L88,52" id="Path-410-Copy-5" stroke="#FFFFFF"></path>
+                        <path d="M88,60 L88,68" id="Path-410-Copy-11" stroke="#FFFFFF"></path>
+                        <path d="M16,16 L16,24" id="Path-411" stroke="#FFFFFF"></path>
+                        <path d="M16,32 L16,40" id="Path-411-Copy-6" stroke="#FFFFFF"></path>
+                        <path d="M32,24 L32,32" id="Path-411-Copy" stroke="#FFFFFF"></path>
+                        <path d="M32,40 L32,48" id="Path-411-Copy-7" stroke="#FFFFFF"></path>
+                        <path d="M48,32 L48,40" id="Path-411-Copy-2" stroke="#FFFFFF"></path>
+                        <path d="M48,48 L48,56" id="Path-411-Copy-8" stroke="#FFFFFF"></path>
+                        <path d="M64,40 L64,48" id="Path-411-Copy-3" stroke="#FFFFFF"></path>
+                        <path d="M64,56 L64,64" id="Path-411-Copy-9" stroke="#FFFFFF"></path>
+                        <path d="M80,48 L80,56" id="Path-411-Copy-4" stroke="#FFFFFF"></path>
+                        <path d="M80,64 L80,72" id="Path-411-Copy-10" stroke="#FFFFFF"></path>
+                        <path d="M96,56 L96,64" id="Path-411-Copy-5" stroke="#FFFFFF"></path>
+                        <path d="M96,72 L96,80" id="Path-411-Copy-11" stroke="#FFFFFF"></path>
+                        <path d="M0,40 L96,88" id="Path-409-Copy-5" stroke="#FFFFFF"></path>
+                        <path d="M0,48 L96,96" id="Path-409-Copy-4" stroke="#FFFFFF"></path>
+                        <path d="M8,36 L8,44" id="Path-410-Copy-17" stroke="#FFFFFF"></path>
+                        <path d="M24,44 L24,52" id="Path-410-Copy-16" stroke="#FFFFFF"></path>
+                        <path d="M40,52 L40,60" id="Path-410-Copy-15" stroke="#FFFFFF"></path>
+                        <path d="M56,60 L56,68" id="Path-410-Copy-14" stroke="#FFFFFF"></path>
+                        <path d="M72,68 L72,76" id="Path-410-Copy-13" stroke="#FFFFFF"></path>
+                        <path d="M88,76 L88,84" id="Path-410-Copy-12" stroke="#FFFFFF"></path>
+                        <path d="M16,48 L16,56" id="Path-411-Copy-17" stroke="#FFFFFF"></path>
+                        <path d="M32,56 L32,64" id="Path-411-Copy-16" stroke="#FFFFFF"></path>
+                        <path d="M48,64 L48,72" id="Path-411-Copy-15" stroke="#FFFFFF"></path>
+                        <path d="M64,72 L64,80" id="Path-411-Copy-14" stroke="#FFFFFF"></path>
+                        <path d="M80,80 L80,88" id="Path-411-Copy-13" stroke="#FFFFFF"></path>
+                        <path d="M96,88 L96,96" id="Path-411-Copy-12" stroke="#FFFFFF"></path>
+                        <path d="M0,56 L96,104" id="Path-409-Copy-7" stroke="#FFFFFF"></path>
+                        <path d="M0,64 L96,112" id="Path-409-Copy-6" stroke="#FFFFFF"></path>
+                        <path d="M8,52 L8,60" id="Path-410-Copy-23" stroke="#FFFFFF"></path>
+                        <path d="M24,60 L24,68" id="Path-410-Copy-22" stroke="#FFFFFF"></path>
+                        <path d="M40,68 L40,76" id="Path-410-Copy-21" stroke="#FFFFFF"></path>
+                        <path d="M56,76 L56,84" id="Path-410-Copy-20" stroke="#FFFFFF"></path>
+                        <path d="M72,84 L72,92" id="Path-410-Copy-19" stroke="#FFFFFF"></path>
+                        <path d="M88,92 L88,100" id="Path-410-Copy-18" stroke="#FFFFFF"></path>
+                        <path d="M16,64 L16,72" id="Path-411-Copy-23" stroke="#FFFFFF"></path>
+                        <path d="M32,72 L32,80" id="Path-411-Copy-22" stroke="#FFFFFF"></path>
+                        <path d="M48,80 L48,88" id="Path-411-Copy-21" stroke="#FFFFFF"></path>
+                        <path d="M64,88 L64,96" id="Path-411-Copy-20" stroke="#FFFFFF"></path>
+                        <path d="M80,96 L80,104" id="Path-411-Copy-19" stroke="#FFFFFF"></path>
+                        <path d="M96,104 L96,112" id="Path-411-Copy-18" stroke="#FFFFFF"></path>
+                        <path d="M0,72 L96,120" id="Path-409-Copy-9" stroke="#FFFFFF"></path>
+                        <path d="M0,80 L96,128" id="Path-409-Copy-8" stroke="#FFFFFF"></path>
+                        <path d="M8,68 L8,76" id="Path-410-Copy-29" stroke="#FFFFFF"></path>
+                        <path d="M24,76 L24,84" id="Path-410-Copy-28" stroke="#FFFFFF"></path>
+                        <path d="M40,84 L40,92" id="Path-410-Copy-27" stroke="#FFFFFF"></path>
+                        <path d="M56,92 L56,100" id="Path-410-Copy-26" stroke="#FFFFFF"></path>
+                        <path d="M72,100 L72,108" id="Path-410-Copy-25" stroke="#FFFFFF"></path>
+                        <path d="M88,108 L88,116" id="Path-410-Copy-24" stroke="#FFFFFF"></path>
+                        <path d="M16,80 L16,88" id="Path-411-Copy-29" stroke="#FFFFFF"></path>
+                        <path d="M32,88 L32,96" id="Path-411-Copy-28" stroke="#FFFFFF"></path>
+                        <path d="M48,96 L48,104" id="Path-411-Copy-27" stroke="#FFFFFF"></path>
+                        <path d="M64,104 L64,112" id="Path-411-Copy-26" stroke="#FFFFFF"></path>
+                        <path d="M80,112 L80,120" id="Path-411-Copy-25" stroke="#FFFFFF"></path>
+                        <path d="M96,120 L96,128" id="Path-411-Copy-24" stroke="#FFFFFF"></path>
+                        <path d="M0,88 L96,136" id="Path-409-Copy-11" stroke="#FFFFFF"></path>
+                        <path d="M0,96 L96,144" id="Path-409-Copy-10" stroke="#FFFFFF"></path>
+                        <path d="M8,84 L8,92" id="Path-410-Copy-35" stroke="#FFFFFF"></path>
+                        <path d="M24,92 L24,100" id="Path-410-Copy-34" stroke="#FFFFFF"></path>
+                        <path d="M40,100 L40,108" id="Path-410-Copy-33" stroke="#FFFFFF"></path>
+                        <path d="M56,108 L56,116" id="Path-410-Copy-32" stroke="#FFFFFF"></path>
+                        <path d="M72,116 L72,124" id="Path-410-Copy-31" stroke="#FFFFFF"></path>
+                        <path d="M88,124 L88,132" id="Path-410-Copy-30" stroke="#FFFFFF"></path>
+                        <path d="M16,96 L16,104" id="Path-411-Copy-35" stroke="#FFFFFF"></path>
+                        <path d="M32,104 L32,112" id="Path-411-Copy-34" stroke="#FFFFFF"></path>
+                        <path d="M48,112 L48,120" id="Path-411-Copy-33" stroke="#FFFFFF"></path>
+                        <path d="M64,120 L64,128" id="Path-411-Copy-32" stroke="#FFFFFF"></path>
+                        <path d="M80,128 L80,136" id="Path-411-Copy-31" stroke="#FFFFFF"></path>
+                        <path d="M96,136 L96,144" id="Path-411-Copy-30" stroke="#FFFFFF"></path>
+                        <path d="M0,104 L96,152" id="Path-409-Copy-13" stroke="#FFFFFF"></path>
+                        <path d="M0,112 L96,160" id="Path-409-Copy-12" stroke="#FFFFFF"></path>
+                        <path d="M8,100 L8,108" id="Path-410-Copy-41" stroke="#FFFFFF"></path>
+                        <path d="M24,108 L24,116" id="Path-410-Copy-40" stroke="#FFFFFF"></path>
+                        <path d="M40,116 L40,124" id="Path-410-Copy-39" stroke="#FFFFFF"></path>
+                        <path d="M56,124 L56,132" id="Path-410-Copy-38" stroke="#FFFFFF"></path>
+                        <path d="M72,132 L72,140" id="Path-410-Copy-37" stroke="#FFFFFF"></path>
+                        <path d="M88,140 L88,148" id="Path-410-Copy-36" stroke="#FFFFFF"></path>
+                        <path d="M16,112 L16,120" id="Path-411-Copy-41" stroke="#FFFFFF"></path>
+                        <path d="M32,120 L32,128" id="Path-411-Copy-40" stroke="#FFFFFF"></path>
+                        <path d="M48,128 L48,136" id="Path-411-Copy-39" stroke="#FFFFFF"></path>
+                        <path d="M64,136 L64,144" id="Path-411-Copy-38" stroke="#FFFFFF"></path>
+                        <path d="M80,144 L80,152" id="Path-411-Copy-37" stroke="#FFFFFF"></path>
+                        <path d="M96,152 L96,160" id="Path-411-Copy-36" stroke="#FFFFFF"></path>
+                        <path d="M0,120 L96,168" id="Path-409-Copy-15" stroke="#FFFFFF"></path>
+                        <path d="M0,128 L96,176" id="Path-409-Copy-14" stroke="#FFFFFF"></path>
+                        <path d="M8,116 L8,124" id="Path-410-Copy-47" stroke="#FFFFFF"></path>
+                        <path d="M24,124 L24,132" id="Path-410-Copy-46" stroke="#FFFFFF"></path>
+                        <path d="M40,132 L40,140" id="Path-410-Copy-45" stroke="#FFFFFF"></path>
+                        <path d="M56,140 L56,148" id="Path-410-Copy-44" stroke="#FFFFFF"></path>
+                        <path d="M72,148 L72,156" id="Path-410-Copy-43" stroke="#FFFFFF"></path>
+                        <path d="M88,156 L88,164" id="Path-410-Copy-42" stroke="#FFFFFF"></path>
+                        <path d="M16,128 L16,136" id="Path-411-Copy-47" stroke="#FFFFFF"></path>
+                        <path d="M32,136 L32,144" id="Path-411-Copy-46" stroke="#FFFFFF"></path>
+                        <path d="M48,144 L48,152" id="Path-411-Copy-45" stroke="#FFFFFF"></path>
+                        <path d="M64,152 L64,160" id="Path-411-Copy-44" stroke="#FFFFFF"></path>
+                        <path d="M80,160 L80,168" id="Path-411-Copy-43" stroke="#FFFFFF"></path>
+                        <path d="M96,168 L96,176" id="Path-411-Copy-42" stroke="#FFFFFF"></path>
+                        <path d="M0,136 L96,184" id="Path-409-Copy-17" stroke="#FFFFFF"></path>
+                        <path d="M0,144 L96,192" id="Path-409-Copy-16" stroke="#FFFFFF"></path>
+                        <path d="M8,132 L8,140" id="Path-410-Copy-53" stroke="#FFFFFF"></path>
+                        <path d="M24,140 L24,148" id="Path-410-Copy-52" stroke="#FFFFFF"></path>
+                        <path d="M40,148 L40,156" id="Path-410-Copy-51" stroke="#FFFFFF"></path>
+                        <path d="M56,156 L56,164" id="Path-410-Copy-50" stroke="#FFFFFF"></path>
+                        <path d="M72,164 L72,172" id="Path-410-Copy-49" stroke="#FFFFFF"></path>
+                        <path d="M88,172 L88,180" id="Path-410-Copy-48" stroke="#FFFFFF"></path>
+                        <path d="M16,144 L16,152" id="Path-411-Copy-53" stroke="#FFFFFF"></path>
+                        <path d="M32,152 L32,160" id="Path-411-Copy-52" stroke="#FFFFFF"></path>
+                        <path d="M48,160 L48,168" id="Path-411-Copy-51" stroke="#FFFFFF"></path>
+                        <path d="M64,168 L64,176" id="Path-411-Copy-50" stroke="#FFFFFF"></path>
+                        <path d="M80,176 L80,184" id="Path-411-Copy-49" stroke="#FFFFFF"></path>
+                        <path d="M96,184 L96,192" id="Path-411-Copy-48" stroke="#FFFFFF"></path>
+                        <path d="M0,152 L96,200" id="Path-409-Copy-19" stroke="#FFFFFF"></path>
+                        <path d="M0,160 L96,208" id="Path-409-Copy-18" stroke="#FFFFFF"></path>
+                        <path d="M8,148 L8,156" id="Path-410-Copy-59" stroke="#FFFFFF"></path>
+                        <path d="M24,156 L24,164" id="Path-410-Copy-58" stroke="#FFFFFF"></path>
+                        <path d="M40,164 L40,172" id="Path-410-Copy-57" stroke="#FFFFFF"></path>
+                        <path d="M56,172 L56,180" id="Path-410-Copy-56" stroke="#FFFFFF"></path>
+                        <path d="M72,180 L72,188" id="Path-410-Copy-55" stroke="#FFFFFF"></path>
+                        <path d="M88,188 L88,196" id="Path-410-Copy-54" stroke="#FFFFFF"></path>
+                        <path d="M16,160 L16,168" id="Path-411-Copy-59" stroke="#FFFFFF"></path>
+                        <path d="M32,168 L32,176" id="Path-411-Copy-58" stroke="#FFFFFF"></path>
+                        <path d="M48,176 L48,184" id="Path-411-Copy-57" stroke="#FFFFFF"></path>
+                        <path d="M64,184 L64,192" id="Path-411-Copy-56" stroke="#FFFFFF"></path>
+                        <path d="M80,192 L80,200" id="Path-411-Copy-55" stroke="#FFFFFF"></path>
+                        <path d="M96,200 L96,208" id="Path-411-Copy-54" stroke="#FFFFFF"></path>
+                        <path d="M0,168 L96,216" id="Path-409-Copy-21" stroke="#FFFFFF"></path>
+                        <path d="M0,176 L96,224" id="Path-409-Copy-20" stroke="#FFFFFF"></path>
+                        <path d="M8,164 L8,172" id="Path-410-Copy-65" stroke="#FFFFFF"></path>
+                        <path d="M24,172 L24,180" id="Path-410-Copy-64" stroke="#FFFFFF"></path>
+                        <path d="M40,180 L40,188" id="Path-410-Copy-63" stroke="#FFFFFF"></path>
+                        <path d="M56,188 L56,196" id="Path-410-Copy-62" stroke="#FFFFFF"></path>
+                        <path d="M72,196 L72,204" id="Path-410-Copy-61" stroke="#FFFFFF"></path>
+                        <path d="M88,204 L88,212" id="Path-410-Copy-60" stroke="#FFFFFF"></path>
+                        <path d="M16,176 L16,184" id="Path-411-Copy-65" stroke="#FFFFFF"></path>
+                        <path d="M32,184 L32,192" id="Path-411-Copy-64" stroke="#FFFFFF"></path>
+                        <path d="M48,192 L48,200" id="Path-411-Copy-63" stroke="#FFFFFF"></path>
+                        <path d="M64,200 L64,208" id="Path-411-Copy-62" stroke="#FFFFFF"></path>
+                        <path d="M80,208 L80,216" id="Path-411-Copy-61" stroke="#FFFFFF"></path>
+                        <path d="M96,216 L96,224" id="Path-411-Copy-60" stroke="#FFFFFF"></path>
+                        <polygon id="Path-16-Copy" stroke="#4A4A4A" points="0 0 0 176 96 224 96 48"></polygon>
+                    </g>
+                    <g id="Group" transform="translate(164.000000, 40.000000) scale(-1, 1) translate(-164.000000, -40.000000) translate(160.000000, 28.000000)" stroke="#4A4A4A">
+                        <polygon id="Path-28-Copy-2" fill="#CAAE98" points="0 4 8 8 8 4 0 0"></polygon>
+                        <polygon id="Path-28-Copy-3" fill="#CAAE98" points="0 20 8 24 8 20 0 16"></polygon>
+                        <polygon id="Path-404" fill="#4A4A4A" points="0 4 0 16 8 20 8 8"></polygon>
+                        <polygon id="Path-405" fill="#F7F4EA" points="0 16 4 14 8 16 8 20"></polygon>
+                        <polygon id="Path-406" fill="#C6A58A" points="4 14 4 6 0 4 0 16"></polygon>
+                        <polygon id="Path-407" fill-opacity="0.274881114" fill="#DDDDDD" points="2 15 2 5 8 8 8 18"></polygon>
+                        <path d="M6,17 L6,7" id="Path-408"></path>
+                        <path d="M4,16 L4,6" id="Path-408-Copy"></path>
+                    </g>
+                    <g id="Group-Copy-4" transform="translate(156.000000, 140.000000) scale(-1, 1) translate(-156.000000, -140.000000) translate(152.000000, 128.000000)" stroke="#4A4A4A">
+                        <polygon id="Path-28-Copy-2" fill="#CAAE98" points="0 4 8 8 8 4 0 0"></polygon>
+                        <polygon id="Path-28-Copy-3" fill="#CAAE98" points="0 20 8 24 8 20 0 16"></polygon>
+                        <polygon id="Path-404" fill="#4A4A4A" points="0 4 0 16 8 20 8 8"></polygon>
+                        <polygon id="Path-405" fill="#F7F4EA" points="0 16 4 14 8 16 8 20"></polygon>
+                        <polygon id="Path-406" fill="#C6A58A" points="4 14 4 6 0 4 0 16"></polygon>
+                        <polygon id="Path-407" fill-opacity="0.274881114" fill="#DDDDDD" points="2 15 2 5 8 8 8 18"></polygon>
+                        <path d="M6,17 L6,7" id="Path-408"></path>
+                        <path d="M4,16 L4,6" id="Path-408-Copy"></path>
+                    </g>
+                    <g id="Group-Copy-2" transform="translate(172.000000, 84.000000) scale(-1, 1) translate(-172.000000, -84.000000) translate(168.000000, 72.000000)" stroke="#4A4A4A">
+                        <polygon id="Path-28-Copy-2" fill="#CAAE98" points="0 4 8 8 8 4 0 0"></polygon>
+                        <polygon id="Path-28-Copy-3" fill="#CAAE98" points="0 20 8 24 8 20 0 16"></polygon>
+                        <polygon id="Path-404" fill="#4A4A4A" points="0 4 0 16 8 20 8 8"></polygon>
+                        <polygon id="Path-405" fill="#F7F4EA" points="0 16 4 14 8 16 8 20"></polygon>
+                        <polygon id="Path-406" fill="#C6A58A" points="4 14 4 6 0 4 0 16"></polygon>
+                        <polygon id="Path-407" fill-opacity="0.274881114" fill="#DDDDDD" points="2 15 2 5 8 8 8 18"></polygon>
+                        <path d="M6,17 L6,7" id="Path-408"></path>
+                        <path d="M4,16 L4,6" id="Path-408-Copy"></path>
+                    </g>
+                    <g id="Group-Copy" transform="translate(124.000000, 60.000000) scale(-1, 1) translate(-124.000000, -60.000000) translate(120.000000, 48.000000)" stroke="#4A4A4A">
+                        <polygon id="Path-28-Copy-2" fill="#CAAE98" points="0 4 8 8 8 4 0 0"></polygon>
+                        <polygon id="Path-28-Copy-3" fill="#CAAE98" points="0 20 8 24 8 20 0 16"></polygon>
+                        <polygon id="Path-404" fill="#4A4A4A" points="0 4 0 16 8 20 8 8"></polygon>
+                        <polygon id="Path-405" fill="#F7F4EA" points="0 16 4 14 8 16 8 20"></polygon>
+                        <polygon id="Path-406" fill="#C6A58A" points="4 14 4 6 0 4 0 16"></polygon>
+                        <polygon id="Path-407" fill-opacity="0.274881114" fill="#DDDDDD" points="2 15 2 5 8 8 8 18"></polygon>
+                        <path d="M6,17 L6,7" id="Path-408"></path>
+                        <path d="M4,16 L4,6" id="Path-408-Copy"></path>
+                    </g>
+                    <g id="Group-Copy-5" transform="translate(124.000000, 156.000000) scale(-1, 1) translate(-124.000000, -156.000000) translate(120.000000, 144.000000)" stroke="#4A4A4A">
+                        <polygon id="Path-28-Copy-2" fill="#CAAE98" points="0 4 8 8 8 4 0 0"></polygon>
+                        <polygon id="Path-28-Copy-3" fill="#CAAE98" points="0 20 8 24 8 20 0 16"></polygon>
+                        <polygon id="Path-404" fill="#4A4A4A" points="0 4 0 16 8 20 8 8"></polygon>
+                        <polygon id="Path-405" fill="#F7F4EA" points="0 16 4 14 8 16 8 20"></polygon>
+                        <polygon id="Path-406" fill="#C6A58A" points="4 14 4 6 0 4 0 16"></polygon>
+                        <polygon id="Path-407" fill-opacity="0.274881114" fill="#DDDDDD" points="2 15 2 5 8 8 8 18"></polygon>
+                        <path d="M6,17 L6,7" id="Path-408"></path>
+                        <path d="M4,16 L4,6" id="Path-408-Copy"></path>
+                    </g>
+                    <g id="Group-Copy-3" transform="translate(124.000000, 108.000000) scale(-1, 1) translate(-124.000000, -108.000000) translate(120.000000, 96.000000)" stroke="#4A4A4A">
+                        <polygon id="Path-28-Copy-2" fill="#CAAE98" points="0 4 8 8 8 4 0 0"></polygon>
+                        <polygon id="Path-28-Copy-3" fill="#CAAE98" points="0 20 8 24 8 20 0 16"></polygon>
+                        <polygon id="Path-404" fill="#4A4A4A" points="0 4 0 16 8 20 8 8"></polygon>
+                        <polygon id="Path-405" fill="#F7F4EA" points="0 16 4 14 8 16 8 20"></polygon>
+                        <polygon id="Path-406" fill="#C6A58A" points="4 14 4 6 0 4 0 16"></polygon>
+                        <polygon id="Path-407" fill-opacity="0.274881114" fill="#DDDDDD" points="2 15 2 5 8 8 8 18"></polygon>
+                        <path d="M6,17 L6,7" id="Path-408"></path>
+                        <path d="M4,16 L4,6" id="Path-408-Copy"></path>
+                    </g>
+                    <g id="Group-3" transform="translate(130.000000, 199.000000) scale(-1, 1) translate(-130.000000, -199.000000) translate(126.000000, 189.000000)" stroke="#4A4A4A">
+                        <path d="M0,16 L0,3.99620271 C0,1.78916089 1.59969199,0.799845994 3.57882023,1.78941011 L4.42117977,2.21058989 C6.39770761,3.1988538 8,5.78883037 8,7.99620271 L8,20 L0,16 Z" id="Path-412" fill="#6F5F51"></path>
+                        <path d="M4,2 L4,18" id="Path-413"></path>
+                        <path d="M0,6 L8,10" id="Path-414"></path>
+                    </g>
+                    <g id="Group-4" transform="translate(153.000000, 171.500000) scale(-1, 1) translate(-153.000000, -171.500000) translate(150.000000, 162.000000)" stroke="#4A4A4A">
+                        <path d="M0,16 L0,3.00947762 C0,1.34738902 1.19976899,0.599884495 2.68411517,1.34205759 L3.31588483,1.65794241 C4.7982807,2.39914035 6,4.33663106 6,6.00947762 L6,19 L0,16 Z" id="Path-412" fill="#C6A58A"></path>
+                        <path d="M2.13529587,1.13047916 C2.31242191,1.17785556 2.4959828,1.2479914 2.68411517,1.34205759 L3.31588483,1.65794241 C4.7982807,2.39914035 6,4.33663106 6,6.00947762 L6,17 L2,15 L2,2.00947762 C2,1.67875718 2.04750194,1.38424748 2.13529587,1.13047916 Z" id="Combined-Shape" fill="#666666"></path>
+                        <polygon id="Path-415" fill="#ECD1BC" points="0 16 2 15 6 17 6 19"></polygon>
+                    </g>
+                    <polygon id="Path-420" stroke="#4A4A4A" fill="#FFF5D5" opacity="0.2" points="96 52 80 44 80 48 84 50 84 54 88 56 88 60 84 58 84 62 88 64 88 68 80 64 80 68 84 70 84 74 88 76 88 80 84 78 84 82 88 84 88 88 92 90 92 94 96 96 104 92 104 88 100 90 100 86 108 82 108 78 104 80 104 76 108 74 108 66 104 68 104 64 112 60 112 56 108 58 108 54 104 56 104 52 112 48 112 44"></polygon>
+                    <polygon id="Path-421" stroke="#4A4A4A" fill="#FFF5D5" opacity="0.2" points="120 148 116 150 116 146 120 144 120 140 116 142 116 138 124 134 124 130 136 124 136 128 132 130 132 134 144 128 144 132 140 134 140 138 132 142 132 146 128 148 128 144"></polygon>
+                    <polygon id="Path-422" stroke="#4A4A4A" fill="#FFF5D5" opacity="0.2" points="120 40 120 44 124 42 124 46 116 50 116 54 132 46 132 42 144 36 144 32 148 30 148 26"></polygon>
+                    <polygon id="Path-423" stroke="#4A4A4A" fill="#FFF5D5" opacity="0.2" points="24 28 20 26 20 22 24 24 24 20 28 22 28 18 40 24 40 28 48 32 48 36 52 38 52 42"></polygon>
+                    <polygon id="Path-424" stroke="#4A4A4A" fill="#FFF5D5" opacity="0.2" points="0 148 4 150 4 154 8 156 8 160 12 162 12 166 8 164 8 168 12 170 12 178 16 180 16 184 0 176"></polygon>
+                    <path d="M96,52 L96,104" id="Path-2" stroke="#4A4A4A"></path>
+                </g>
+                <g id="Group-11" transform="translate(17.000000, 106.000000)" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon id="Path-418" fill="#C49169" points="0 50 0 58 100 108 100 100"></polygon>
+                    <polygon id="Path-418" fill="#A17755" transform="translate(150.000000, 79.000000) scale(-1, 1) translate(-150.000000, -79.000000) " points="100 50 100 58 200 108 200 100"></polygon>
+                    <polygon id="Path-419" fill="#A17755" points="2 59 2 63 100 112 100 108"></polygon>
+                    <polygon id="Path-419" fill="#866346" transform="translate(149.000000, 85.500000) scale(-1, 1) translate(-149.000000, -85.500000) " points="100 59 100 63 198 112 198 108"></polygon>
+                    <polygon id="Path-426" fill="#D4AB8B" points="0 50 100 0 200 50 100 100"></polygon>
+                </g>
+                <g id="Group-10" transform="translate(25.000000, 142.000000)" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon id="Path-425" fill="#7D7168" points="0 16 0 8 8 12 8 20"></polygon>
+                    <polygon id="Path-425-Copy-2" fill="#7D7168" points="16 24 16 16 24 20 24 28"></polygon>
+                    <polygon id="Path-425-Copy" fill="#7D7168" points="8 20 8 12 16 16 16 24"></polygon>
+                    <polygon id="Path-425-Copy-3" fill="#7D7168" points="24 28 24 20 32 24 32 32"></polygon>
+                    <polygon id="Path-425-Copy-5" fill="#7D7168" points="32 32 32 24 40 28 40 36"></polygon>
+                    <polygon id="Path-425-Copy-4" fill="#7D7168" points="40 36 40 28 48 32 48 40"></polygon>
+                    <polygon id="Path-425-Copy-7" fill="#7D7168" points="48 40 48 32 56 36 56 44"></polygon>
+                    <polygon id="Path-425-Copy-6" fill="#7D7168" points="56 44 56 36 64 40 64 48"></polygon>
+                    <polygon id="Path-425-Copy-9" fill="#7D7168" points="64 48 64 40 72 44 72 52"></polygon>
+                    <polygon id="Path-425-Copy-8" fill="#7D7168" points="72 52 72 44 80 48 80 56"></polygon>
+                    <polygon id="Path-425-Copy-11" fill="#7D7168" points="80 56 80 48 88 52 88 60"></polygon>
+                    <polygon id="Path-425" fill="#4A4A4A" points="0 8 0 0 8 4 8 12"></polygon>
+                    <polygon id="Path-425-Copy-2" fill="#4A4A4A" points="16 16 16 8 24 12 24 20"></polygon>
+                    <polygon id="Path-425-Copy" fill="#7D7168" points="8 12 8 4 16 8 16 16"></polygon>
+                    <polygon id="Path-425-Copy-3" fill="#7D7168" points="24 20 24 12 32 16 32 24"></polygon>
+                    <polygon id="Path-425-Copy-5" fill="#4A4A4A" points="32 24 32 16 40 20 40 28"></polygon>
+                    <polygon id="Path-425-Copy-4" fill="#7D7168" points="40 28 40 20 48 24 48 32"></polygon>
+                    <polygon id="Path-425-Copy-7" fill="#4A4A4A" points="48 32 48 24 56 28 56 36"></polygon>
+                    <polygon id="Path-425-Copy-6" fill="#7D7168" points="56 36 56 28 64 32 64 40"></polygon>
+                    <polygon id="Path-425-Copy-9" fill="#4A4A4A" points="64 40 64 32 72 36 72 44"></polygon>
+                    <polygon id="Path-425-Copy-8" fill="#7D7168" points="72 44 72 36 80 40 80 48"></polygon>
+                    <polygon id="Path-425-Copy-11" fill="#4A4A4A" points="80 48 80 40 88 44 88 52"></polygon>
+                    <polygon id="Path-426-Copy" fill="#7D7168" points="0 8 2 7 2 1 0 0"></polygon>
+                    <polygon id="Path-426-Copy-2" fill="#7D7168" points="16 16 18 15 18 9 16 8"></polygon>
+                    <polygon id="Path-427" fill="#A69A91" points="0 8 2 7 8 10 8 12"></polygon>
+                    <polygon id="Path-427-Copy" fill="#A69A91" points="16 16 18 15 24 18 24 20"></polygon>
+                    <polygon id="Path-426-Copy-3" fill="#7D7168" points="32 24 34 23 34 17 32 16"></polygon>
+                    <polygon id="Path-427-Copy-2" fill="#A69A91" points="32 24 34 23 40 26 40 28"></polygon>
+                    <polygon id="Path-426-Copy-4" fill="#7D7168" points="48 32 50 31 50 25 48 24"></polygon>
+                    <polygon id="Path-427-Copy-3" fill="#A69A91" points="48 32 50 31 56 34 56 36"></polygon>
+                    <polygon id="Path-426-Copy-5" fill="#7D7168" points="64 40 66 39 66 33 64 32"></polygon>
+                    <polygon id="Path-427-Copy-4" fill="#A69A91" points="64 40 66 39 72 42 72 44"></polygon>
+                    <polygon id="Path-426-Copy-6" fill="#7D7168" points="80 48 82 47 82 41 80 40"></polygon>
+                    <polygon id="Path-427-Copy-5" fill="#A69A91" points="80 48 82 47 88 50 88 52"></polygon>
+                </g>
+                <g id="Group-10" transform="translate(165.000000, 172.000000) scale(-1, 1) translate(-165.000000, -172.000000) translate(121.000000, 142.000000)" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon id="Path-425" fill="#6A5F56" points="0 16 0 8 8 12 8 20"></polygon>
+                    <polygon id="Path-425-Copy-2" fill="#6A5F56" points="16 24 16 16 24 20 24 28"></polygon>
+                    <polygon id="Path-425-Copy" fill="#6A5F56" points="8 20 8 12 16 16 16 24"></polygon>
+                    <polygon id="Path-425-Copy-3" fill="#6A5F56" points="24 28 24 20 32 24 32 32"></polygon>
+                    <polygon id="Path-425-Copy-5" fill="#6A5F56" points="32 32 32 24 40 28 40 36"></polygon>
+                    <polygon id="Path-425-Copy-4" fill="#6A5F56" points="40 36 40 28 48 32 48 40"></polygon>
+                    <polygon id="Path-425-Copy-7" fill="#6A5F56" points="48 40 48 32 56 36 56 44"></polygon>
+                    <polygon id="Path-425-Copy-6" fill="#6A5F56" points="56 44 56 36 64 40 64 48"></polygon>
+                    <polygon id="Path-425-Copy-9" fill="#6A5F56" points="64 48 64 40 72 44 72 52"></polygon>
+                    <polygon id="Path-425-Copy-8" fill="#6A5F56" points="72 52 72 44 80 48 80 56"></polygon>
+                    <polygon id="Path-425-Copy-11" fill="#6A5F56" points="80 56 80 48 88 52 88 60"></polygon>
+                    <polygon id="Path-425" fill="#4A4A4A" points="0 8 0 0 8 4 8 12"></polygon>
+                    <polygon id="Path-425-Copy-2" fill="#4A4A4A" points="16 16 16 8 24 12 24 20"></polygon>
+                    <polygon id="Path-425-Copy" fill="#6A5F56" points="8 12 8 4 16 8 16 16"></polygon>
+                    <polygon id="Path-425-Copy-3" fill="#6A5F56" points="24 20 24 12 32 16 32 24"></polygon>
+                    <polygon id="Path-425-Copy-5" fill="#4A4A4A" points="32 24 32 16 40 20 40 28"></polygon>
+                    <polygon id="Path-425-Copy-4" fill="#6A5F56" points="40 28 40 20 48 24 48 32"></polygon>
+                    <polygon id="Path-425-Copy-7" fill="#4A4A4A" points="48 32 48 24 56 28 56 36"></polygon>
+                    <polygon id="Path-425-Copy-6" fill="#6A5F56" points="56 36 56 28 64 32 64 40"></polygon>
+                    <polygon id="Path-425-Copy-9" fill="#4A4A4A" points="64 40 64 32 72 36 72 44"></polygon>
+                    <polygon id="Path-425-Copy-8" fill="#6A5F56" points="72 44 72 36 80 40 80 48"></polygon>
+                    <polygon id="Path-425-Copy-11" fill="#4A4A4A" points="80 48 80 40 88 44 88 52"></polygon>
+                    <polygon id="Path-426-Copy" fill="#7D7168" points="0 8 2 7 2 1 0 0"></polygon>
+                    <polygon id="Path-426-Copy-2" fill="#7D7168" points="16 16 18 15 18 9 16 8"></polygon>
+                    <polygon id="Path-427" fill="#A69A91" points="0 8 2 7 8 10 8 12"></polygon>
+                    <polygon id="Path-427-Copy" fill="#A69A91" points="16 16 18 15 24 18 24 20"></polygon>
+                    <polygon id="Path-426-Copy-3" fill="#7D7168" points="32 24 34 23 34 17 32 16"></polygon>
+                    <polygon id="Path-427-Copy-2" fill="#A69A91" points="32 24 34 23 40 26 40 28"></polygon>
+                    <polygon id="Path-426-Copy-4" fill="#7D7168" points="48 32 50 31 50 25 48 24"></polygon>
+                    <polygon id="Path-427-Copy-3" fill="#A69A91" points="48 32 50 31 56 34 56 36"></polygon>
+                    <polygon id="Path-426-Copy-5" fill="#7D7168" points="64 40 66 39 66 33 64 32"></polygon>
+                    <polygon id="Path-427-Copy-4" fill="#A69A91" points="64 40 66 39 72 42 72 44"></polygon>
+                    <polygon id="Path-426-Copy-6" fill="#7D7168" points="80 48 82 47 82 41 80 40"></polygon>
+                    <polygon id="Path-427-Copy-5" fill="#A69A91" points="80 48 82 47 88 50 88 52"></polygon>
+                </g>
+                <g id="Group-13" transform="translate(17.000000, 17.000000)">
+                    <g id="Group-12">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Mask" fill="#7D7168" xlink:href="#path-3"></use>
+                        <g opacity="0.2" mask="url(#mask-4)" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round">
+                            <g transform="translate(4.000000, -33.000000)">
+                                <path d="M0,0 L232,116" id="Path-428"></path>
+                                <path d="M0,4 L232,120" id="Path-428-Copy"></path>
+                                <path d="M0,8 L232,124" id="Path-428-Copy-2"></path>
+                                <path d="M0,12 L232,128" id="Path-428-Copy-3"></path>
+                                <path d="M0,16 L232,132" id="Path-428-Copy-4"></path>
+                                <path d="M0,20 L232,136" id="Path-428-Copy-5"></path>
+                                <path d="M0,24 L232,140" id="Path-428-Copy-6"></path>
+                                <path d="M0,28 L232,144" id="Path-428-Copy-7"></path>
+                                <path d="M0,32 L232,148" id="Path-428-Copy-8"></path>
+                                <path d="M0,36 L232,152" id="Path-428-Copy-9"></path>
+                                <path d="M0,40 L232,156" id="Path-428-Copy-10"></path>
+                                <path d="M0,44 L232,160" id="Path-428-Copy-11"></path>
+                                <path d="M0,48 L232,164" id="Path-428-Copy-12"></path>
+                                <path d="M0,52 L232,168" id="Path-428-Copy-13"></path>
+                                <path d="M0,56 L232,172" id="Path-428-Copy-14"></path>
+                                <path d="M0,60 L232,176" id="Path-428-Copy-15"></path>
+                                <path d="M0,64 L232,180" id="Path-428-Copy-16"></path>
+                                <path d="M0,68 L232,184" id="Path-428-Copy-17"></path>
+                                <path d="M0,72 L232,188" id="Path-428-Copy-18"></path>
+                                <path d="M0,76 L232,192" id="Path-428-Copy-19"></path>
+                                <path d="M0,80 L232,196" id="Path-428-Copy-20"></path>
+                                <path d="M0,84 L232,200" id="Path-428-Copy-21"></path>
+                                <path d="M0,88 L232,204" id="Path-428-Copy-22"></path>
+                                <path d="M0,92 L232,208" id="Path-428-Copy-23"></path>
+                                <path d="M0,96 L232,212" id="Path-428-Copy-24"></path>
+                                <path d="M0,100 L232,216" id="Path-428-Copy-25"></path>
+                                <path d="M0,104 L232,220" id="Path-428-Copy-26"></path>
+                                <path d="M0,108 L232,224" id="Path-428-Copy-27"></path>
+                                <path d="M0,112 L232,228" id="Path-428-Copy-28"></path>
+                                <path d="M0,116 L232,232" id="Path-428-Copy-29"></path>
+                                <path d="M0,120 L232,236" id="Path-428-Copy-30"></path>
+                                <path d="M0,124 L232,240" id="Path-428-Copy-31"></path>
+                                <path d="M0,128 L232,244" id="Path-428-Copy-32"></path>
+                                <path d="M0,132 L232,248" id="Path-428-Copy-33"></path>
+                                <path d="M0,136 L232,252" id="Path-428-Copy-34"></path>
+                                <path d="M0,140 L232,256" id="Path-428-Copy-35"></path>
+                                <path d="M0,144 L232,260" id="Path-428-Copy-36"></path>
+                                <path d="M0,148 L232,264" id="Path-428-Copy-37"></path>
+                                <path d="M0,152 L232,268" id="Path-428-Copy-38"></path>
+                                <path d="M0,156 L232,272" id="Path-428-Copy-39"></path>
+                                <path d="M0,160 L232,276" id="Path-428-Copy-40"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-12" transform="translate(100.000000, 34.000000)">
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <use id="Mask" fill="#6A5F56" xlink:href="#path-5"></use>
+                        <g opacity="0.2" mask="url(#mask-6)" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round">
+                            <g transform="translate(20.000000, 71.000000) scale(-1, 1) translate(-20.000000, -71.000000) translate(-96.000000, -67.000000)">
+                                <path d="M0,0 L232,116" id="Path-428"></path>
+                                <path d="M0,4 L232,120" id="Path-428-Copy"></path>
+                                <path d="M0,8 L232,124" id="Path-428-Copy-2"></path>
+                                <path d="M0,12 L232,128" id="Path-428-Copy-3"></path>
+                                <path d="M0,16 L232,132" id="Path-428-Copy-4"></path>
+                                <path d="M0,20 L232,136" id="Path-428-Copy-5"></path>
+                                <path d="M0,24 L232,140" id="Path-428-Copy-6"></path>
+                                <path d="M0,28 L232,144" id="Path-428-Copy-7"></path>
+                                <path d="M0,32 L232,148" id="Path-428-Copy-8"></path>
+                                <path d="M0,36 L232,152" id="Path-428-Copy-9"></path>
+                                <path d="M0,40 L232,156" id="Path-428-Copy-10"></path>
+                                <path d="M0,44 L232,160" id="Path-428-Copy-11"></path>
+                                <path d="M0,48 L232,164" id="Path-428-Copy-12"></path>
+                                <path d="M0,52 L232,168" id="Path-428-Copy-13"></path>
+                                <path d="M0,56 L232,172" id="Path-428-Copy-14"></path>
+                                <path d="M0,60 L232,176" id="Path-428-Copy-15"></path>
+                                <path d="M0,64 L232,180" id="Path-428-Copy-16"></path>
+                                <path d="M0,68 L232,184" id="Path-428-Copy-17"></path>
+                                <path d="M0,72 L232,188" id="Path-428-Copy-18"></path>
+                                <path d="M0,76 L232,192" id="Path-428-Copy-19"></path>
+                                <path d="M0,80 L232,196" id="Path-428-Copy-20"></path>
+                                <path d="M0,84 L232,200" id="Path-428-Copy-21"></path>
+                                <path d="M0,88 L232,204" id="Path-428-Copy-22"></path>
+                                <path d="M0,92 L232,208" id="Path-428-Copy-23"></path>
+                                <path d="M0,96 L232,212" id="Path-428-Copy-24"></path>
+                                <path d="M0,100 L232,216" id="Path-428-Copy-25"></path>
+                                <path d="M0,104 L232,220" id="Path-428-Copy-26"></path>
+                                <path d="M0,108 L232,224" id="Path-428-Copy-27"></path>
+                                <path d="M0,112 L232,228" id="Path-428-Copy-28"></path>
+                                <path d="M0,116 L232,232" id="Path-428-Copy-29"></path>
+                                <path d="M0,120 L232,236" id="Path-428-Copy-30"></path>
+                                <path d="M0,124 L232,240" id="Path-428-Copy-31"></path>
+                                <path d="M0,128 L232,244" id="Path-428-Copy-32"></path>
+                                <path d="M0,132 L232,248" id="Path-428-Copy-33"></path>
+                                <path d="M0,136 L232,252" id="Path-428-Copy-34"></path>
+                                <path d="M0,140 L232,256" id="Path-428-Copy-35"></path>
+                                <path d="M0,144 L232,260" id="Path-428-Copy-36"></path>
+                                <path d="M0,148 L232,264" id="Path-428-Copy-37"></path>
+                                <path d="M0,152 L232,268" id="Path-428-Copy-38"></path>
+                                <path d="M0,156 L232,272" id="Path-428-Copy-39"></path>
+                                <path d="M0,160 L232,276" id="Path-428-Copy-40"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <polygon id="Path-435" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round" points="66 0 0 117 100 167 134 34"></polygon>
+                    <polygon id="Path-436" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round" points="134 34 100 167 200 117"></polygon>
+                    <polygon id="Path-429" stroke="#4A4A4A" fill="#A17755" stroke-linecap="round" stroke-linejoin="round" points="0 117 0 121 100 171 100 167"></polygon>
+                    <polygon id="Path-3" stroke="#4A4A4A" fill="#866346" stroke-linecap="round" stroke-linejoin="round" points="100 167 100 171 200 121 200 117"></polygon>
+                </g>
+                <g id="Group-17" transform="translate(101.000000, 148.000000)" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon id="Path-430" points="8 32 0 36 16 44 32 36 24 32 16 36"></polygon>
+                    <polygon id="Path-431" fill="#A17755" points="2.27373675e-13 36 0 40 16 48 16 44"></polygon>
+                    <polygon id="Path-431-Copy" fill="#A17755" points="2.27373675e-13 66 0 70 16 78 16 74"></polygon>
+                    <polygon id="Path-432" fill="#866346" points="16 44 32 36 32 40 16 48"></polygon>
+                    <polygon id="Path-432-Copy" fill="#866346" points="16 74 32 66 32 70 16 78"></polygon>
+                    <polygon id="Path-433" fill="#8C7F74" points="0 40 2.27373675e-13 66 16 74 16 48"></polygon>
+                    <polygon id="Path-434" fill="#645A51" points="16 48 16 74 32 66 32 40"></polygon>
+                    <g id="Group-15" transform="translate(2.000000, 44.000000)">
+                        <g id="Group-14">
+                            <polygon id="Path-437" fill="#4A4A4A" points="0 0 0 12 4 14 4 2"></polygon>
+                            <polygon id="Path-438" fill="#7D7168" points="0 12 2 11 2 1 0 0"></polygon>
+                            <polygon id="Path-439" fill="#A69A91" points="0 12 2 11 4 12 4 14"></polygon>
+                        </g>
+                        <g id="Group-14-Copy" transform="translate(8.000000, 4.000000)">
+                            <polygon id="Path-437" fill="#4A4A4A" points="0 0 0 12 4 14 4 2"></polygon>
+                            <polygon id="Path-438" fill="#7D7168" points="0 12 2 11 2 1 0 0"></polygon>
+                            <polygon id="Path-439" fill="#A69A91" points="0 12 2 11 4 12 4 14"></polygon>
+                        </g>
+                    </g>
+                    <g id="Group-16" transform="translate(18.000000, 44.000000)">
+                        <g id="Group-14" transform="translate(10.000000, 7.000000) scale(-1, 1) translate(-10.000000, -7.000000) translate(8.000000, 0.000000)">
+                            <polygon id="Path-437" fill="#4A4A4A" points="0 0 0 12 4 14 4 2"></polygon>
+                            <polygon id="Path-438" fill="#7D7168" points="0 12 2 11 2 1 0 0"></polygon>
+                            <polygon id="Path-439" fill="#A69A91" points="0 12 2 11 4 12 4 14"></polygon>
+                        </g>
+                        <g id="Group-14-Copy" transform="translate(2.000000, 11.000000) scale(-1, 1) translate(-2.000000, -11.000000) translate(0.000000, 4.000000)">
+                            <polygon id="Path-437" fill="#4A4A4A" points="0 0 0 12 4 14 4 2"></polygon>
+                            <polygon id="Path-438" fill="#7D7168" points="0 12 2 11 2 1 0 0"></polygon>
+                            <polygon id="Path-439" fill="#A69A91" points="0 12 2 11 4 12 4 14"></polygon>
+                        </g>
+                    </g>
+                    <polygon id="Path-440" fill="#A17755" points="4 72 4 76 16 82 16 78"></polygon>
+                    <polygon id="Path-441" fill="#866346" points="16 82 28 76 28 72 16 78"></polygon>
+                    <polygon id="Path-442" fill="#887466" points="16 44 16 0 0 36"></polygon>
+                    <polygon id="Path-443" fill="#64574E" points="16 44 32 36 16 0"></polygon>
+                </g>
+                <g id="Group-17-Copy-2" transform="translate(205.000000, 98.000000)" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon id="Path-431" fill="#A17755" points="4 40 4 44 12 48 12 44"></polygon>
+                    <polygon id="Path-431-Copy" fill="#A17755" points="4 70 4 74 12 78 12 74"></polygon>
+                    <polygon id="Path-432" fill="#866346" points="12 44 28 36 28 40 12 48"></polygon>
+                    <polygon id="Path-432-Copy" fill="#866346" points="12 74 28 66 28 70 12 78"></polygon>
+                    <polygon id="Path-433" fill="#8C7F74" points="4 44 4 70 12 74 12 48"></polygon>
+                    <polygon id="Path-434" fill="#645A51" points="12 48 12 74 28 66 28 40"></polygon>
+                    <g id="Group-15" transform="translate(6.000000, 48.000000)">
+                        <g id="Group-14-Copy">
+                            <polygon id="Path-437" fill="#4A4A4A" points="0 0 0 12 4 14 4 2"></polygon>
+                            <polygon id="Path-438" fill="#7D7168" points="0 12 2 11 2 1 0 0"></polygon>
+                            <polygon id="Path-439" fill="#A69A91" points="0 12 2 11 4 12 4 14"></polygon>
+                        </g>
+                    </g>
+                    <g id="Group-16" transform="translate(14.000000, 44.000000)">
+                        <g id="Group-14" transform="translate(10.000000, 7.000000) scale(-1, 1) translate(-10.000000, -7.000000) translate(8.000000, 0.000000)">
+                            <polygon id="Path-437" fill="#4A4A4A" points="0 0 0 12 4 14 4 2"></polygon>
+                            <polygon id="Path-438" fill="#7D7168" points="0 12 2 11 2 1 0 0"></polygon>
+                            <polygon id="Path-439" fill="#A69A91" points="0 12 2 11 4 12 4 14"></polygon>
+                        </g>
+                        <g id="Group-14-Copy" transform="translate(2.000000, 11.000000) scale(-1, 1) translate(-2.000000, -11.000000) translate(0.000000, 4.000000)">
+                            <polygon id="Path-437" fill="#4A4A4A" points="0 0 0 12 4 14 4 2"></polygon>
+                            <polygon id="Path-438" fill="#7D7168" points="0 12 2 11 2 1 0 0"></polygon>
+                            <polygon id="Path-439" fill="#A69A91" points="0 12 2 11 4 12 4 14"></polygon>
+                        </g>
+                    </g>
+                    <polygon id="Path-440" fill="#A17755" points="4 74 0 76 12 82 12 78"></polygon>
+                    <polygon id="Path-441" fill="#866346" points="12 82 24 76 24 72 12 78"></polygon>
+                    <polygon id="Path-442" fill="#887466" points="12 44 12 0 2 23 4 40"></polygon>
+                    <polygon id="Path-443" fill="#64574E" points="12 44 28 36 12 0"></polygon>
+                    <polygon id="Path-4" fill="#4A4A4A" points="4 62 2 61 2 45 4 44"></polygon>
+                </g>
+                <g id="Group-17-Copy-3" transform="translate(14.000000, 139.000000) scale(-1, 1) translate(-14.000000, -139.000000) translate(0.000000, 98.000000)" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon id="Path-431" fill="#866346" points="4 40 4 44 12 48 12 44"></polygon>
+                    <polygon id="Path-431-Copy" fill="#866346" points="4 70 4 74 12 78 12 74"></polygon>
+                    <polygon id="Path-432" fill="#A17755" points="12 44 28 36 28 40 12 48"></polygon>
+                    <polygon id="Path-432-Copy" fill="#A17755" points="12 74 28 66 28 70 12 78"></polygon>
+                    <polygon id="Path-433" fill="#645A51" points="4 44 4 70 12 74 12 48"></polygon>
+                    <polygon id="Path-434" fill="#8C7F74" points="12 48 12 74 28 66 28 40"></polygon>
+                    <g id="Group-15" transform="translate(6.000000, 48.000000)">
+                        <g id="Group-14-Copy">
+                            <polygon id="Path-437" fill="#4A4A4A" points="0 0 0 12 4 14 4 2"></polygon>
+                            <polygon id="Path-438" fill="#7D7168" points="0 12 2 11 2 1 0 0"></polygon>
+                            <polygon id="Path-439" fill="#A69A91" points="0 12 2 11 4 12 4 14"></polygon>
+                        </g>
+                    </g>
+                    <g id="Group-16" transform="translate(14.000000, 44.000000)">
+                        <g id="Group-14" transform="translate(10.000000, 7.000000) scale(-1, 1) translate(-10.000000, -7.000000) translate(8.000000, 0.000000)">
+                            <polygon id="Path-437" fill="#4A4A4A" points="0 0 0 12 4 14 4 2"></polygon>
+                            <polygon id="Path-438" fill="#7D7168" points="0 12 2 11 2 1 0 0"></polygon>
+                            <polygon id="Path-439" fill="#A69A91" points="0 12 2 11 4 12 4 14"></polygon>
+                        </g>
+                        <g id="Group-14-Copy" transform="translate(2.000000, 11.000000) scale(-1, 1) translate(-2.000000, -11.000000) translate(0.000000, 4.000000)">
+                            <polygon id="Path-437" fill="#4A4A4A" points="0 0 0 12 4 14 4 2"></polygon>
+                            <polygon id="Path-438" fill="#7D7168" points="0 12 2 11 2 1 0 0"></polygon>
+                            <polygon id="Path-439" fill="#A69A91" points="0 12 2 11 4 12 4 14"></polygon>
+                        </g>
+                    </g>
+                    <polygon id="Path-440" fill="#866346" points="4 74 0 76 12 82 12 78"></polygon>
+                    <polygon id="Path-441" fill="#A17755" points="12 82 24 76 24 72 12 78"></polygon>
+                    <polygon id="Path-442" fill="#64574E" points="12 44 12 0 3 21 4 40"></polygon>
+                    <polygon id="Path-443" fill="#887466" points="12 44 28 36 12 0"></polygon>
+                    <polygon id="Path-4" fill="#4A4A4A" points="4 62 2 61 2 45 4 44"></polygon>
+                </g>
+                <g id="Group-6" transform="translate(15.000000, 81.000000)" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M1,17 L1,0" id="Path-444"></path>
+                    <circle id="Oval" cx="1" cy="7" r="1"></circle>
+                </g>
+                <g id="Group-6-Copy" transform="translate(116.000000, 131.000000)" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M1,17 L1,0" id="Path-444"></path>
+                    <circle id="Oval" cx="1" cy="7" r="1"></circle>
+                </g>
+                <g id="Group-6-Copy-2" transform="translate(216.000000, 82.000000)" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M1,17 L1,0" id="Path-444"></path>
+                    <circle id="Oval" cx="1" cy="7" r="1"></circle>
+                </g>
+                <g id="Group-6-Copy-3" transform="translate(150.000000, 34.000000)" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M1,17 L1,0" id="Path-444"></path>
+                    <circle id="Oval" cx="1" cy="7" r="1"></circle>
+                </g>
+                <g id="Group-6-Copy-4" transform="translate(82.000000, 0.000000)" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M1,17 L1,0" id="Path-444"></path>
+                    <circle id="Oval" cx="1" cy="7" r="1"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
