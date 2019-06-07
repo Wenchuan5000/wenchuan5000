@@ -1,3 +1,5 @@
+
+
 // begin nav
 
 window.onload = function() {
@@ -76,8 +78,8 @@ function scrollSidenav0() {
   var beginDiv = 0;
   var nextDiv = document.getElementById("bigDiv1");
 
-  var current = 0;
-  var next = nextDiv.offsetTop;
+  var current = 0 - 72;
+  var next = nextDiv.offsetTop - 72;
 
   if (window.pageYOffset >= current & window.pageYOffset < next) {
 
@@ -93,12 +95,13 @@ function scrollSidenav0() {
   }
 }
 
+
 function scrollSidenav1() {
   var beginDiv = document.getElementById("bigDiv1");
   var nextDiv = document.getElementById("bigDiv2");
 
-  var current = beginDiv.offsetTop;
-  var next = nextDiv.offsetTop;
+  var current = beginDiv.offsetTop - 72;
+  var next = nextDiv.offsetTop - 72;
 
   if (window.pageYOffset >= current & window.pageYOffset < next) {
 
@@ -123,8 +126,8 @@ function scrollSidenav2() {
   var beginDiv = document.getElementById("bigDiv2");
   var nextDiv = document.getElementById("bigDiv3");
 
-  var current = beginDiv.offsetTop;
-  var next = nextDiv.offsetTop;
+  var current = beginDiv.offsetTop - 72;
+  var next = nextDiv.offsetTop - 72;
 
   if (window.pageYOffset >= current & window.pageYOffset < next) {
 
@@ -149,8 +152,8 @@ function scrollSidenav3() {
   var beginDiv = document.getElementById("bigDiv3");
   var nextDiv = document.getElementById("bigDiv4");
 
-  var current = beginDiv.offsetTop;
-  var next = nextDiv.offsetTop;
+  var current = beginDiv.offsetTop - 72;
+  var next = nextDiv.offsetTop - 72;
 
   if (window.pageYOffset >= current & window.pageYOffset < next) {
 
@@ -175,8 +178,8 @@ function scrollSidenav4() {
   var beginDiv = document.getElementById("bigDiv4");
   var nextDiv = document.getElementById("bigDiv5");
 
-  var current = beginDiv.offsetTop;
-  var next = nextDiv.offsetTop;
+  var current = beginDiv.offsetTop - 72;
+  var next = nextDiv.offsetTop - 72;
 
   if (window.pageYOffset >= current & window.pageYOffset < next) {
 
@@ -201,8 +204,8 @@ function scrollSidenav5() {
   var beginDiv = document.getElementById("bigDiv5");
   var nextDiv = document.getElementById("bigDiv6");
 
-  var current = beginDiv.offsetTop;
-  var next = nextDiv.offsetTop;
+  var current = beginDiv.offsetTop - 72;
+  var next = nextDiv.offsetTop - 72;
 
   if (window.pageYOffset >= current & window.pageYOffset < next) {
 
@@ -227,8 +230,8 @@ function scrollSidenav6() {
   var beginDiv = document.getElementById("bigDiv6");
   var nextDiv = document.getElementById("bigDiv7");
 
-  var current = beginDiv.offsetTop;
-  var next = nextDiv.offsetTop;
+  var current = beginDiv.offsetTop - 72;
+  var next = nextDiv.offsetTop - 72;
 
   if (window.pageYOffset >= current & window.pageYOffset < next) {
 
@@ -253,8 +256,8 @@ function scrollSidenav7() {
   var beginDiv = document.getElementById("bigDiv7");
   var nextDiv = document.getElementById("bigDiv8");
 
-  var current = beginDiv.offsetTop;
-  var next = nextDiv.offsetTop;
+  var current = beginDiv.offsetTop - 72;
+  var next = nextDiv.offsetTop - 72;
 
   if (window.pageYOffset >= current & window.pageYOffset < next) {
 
@@ -279,8 +282,8 @@ function scrollSidenav8() {
   var beginDiv = document.getElementById("bigDiv8");
   var nextDiv = document.getElementById("bigDiv9");
 
-  var current = beginDiv.offsetTop;
-  var next = nextDiv.offsetTop;
+  var current = beginDiv.offsetTop - 72;
+  var next = nextDiv.offsetTop - 72;
 
   if (window.pageYOffset >= current & window.pageYOffset < next) {
 
@@ -305,8 +308,8 @@ function scrollSidenav9() {
   var beginDiv = document.getElementById("bigDiv9");
   var nextDiv = document.getElementById("bigDiv10");
 
-  var current = beginDiv.offsetTop;
-  var next = nextDiv.offsetTop;
+  var current = beginDiv.offsetTop - 72;
+  var next = nextDiv.offsetTop - 72;
 
   if (window.pageYOffset >= current & window.pageYOffset < next) {
 
@@ -331,8 +334,8 @@ function scrollSidenav10() {
   var beginDiv = document.getElementById("bigDiv10");
   var nextDiv = document.getElementById("bigDiv11");
 
-  var current = beginDiv.offsetTop;
-  var next = nextDiv.offsetTop;
+  var current = beginDiv.offsetTop - 72;
+  var next = nextDiv.offsetTop - 72;
 
   if (window.pageYOffset >= current & window.pageYOffset < next) {
 

@@ -334,7 +334,7 @@ divs
         position: absolute;
         padding-top: 72px;
         margin-top: -72px;
-        /* visibility: hidden; */
+        visibility: hidden;
       }
 
       .md code {
