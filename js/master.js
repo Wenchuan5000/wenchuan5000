@@ -95,7 +95,6 @@ function scrollSidenav0() {
   }
 }
 
-
 function scrollSidenav1() {
   var beginDiv = document.getElementById("bigDiv1");
   var nextDiv = document.getElementById("bigDiv2");
@@ -141,7 +140,7 @@ function scrollSidenav2() {
     var h = currentLi.offsetHeight + "px";
     document.getElementById("selector").style.height = h;
 
-    document.getElementById("sub-group-li-2").style.color = "#333333";
+    document.getElementById("sub-group-li-"+2).style.color = "#333333";
 
   } else {
     document.getElementById("sub-group-li-2").style.color = "#858585";
