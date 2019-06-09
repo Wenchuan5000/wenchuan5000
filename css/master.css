@@ -12,7 +12,10 @@ general settings
       box-sizing: border-box;
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
-      transition: 0.3s;
+      /* transition: 0.3s; */
+
+      transition: transform 300ms linear;
+
       /* -webkit-transition: 0.3s; */
       margin: 0;
       padding: 0;
