@@ -14,7 +14,7 @@ general settings
       -webkit-box-sizing: border-box;
       /* transition: 0.3s; */
 
-      transition: transform 300ms linear;
+      transition: 300ms;
 
       /* -webkit-transition: 0.3s; */
       margin: 0;
@@ -39,6 +39,10 @@ general settings
 
     li {
       list-style: none;
+    }
+
+    img {
+      width: 100%;
     }
 
     ::selection {
