@@ -1,0 +1,10 @@
+{
+  "name" : "Blog",
+  "fileExtension" : ".md",
+  "autoUploadInsertedImageKey" : "wenchuanthesharpchin-https:\/\/wenchuanthesharpchin.imgur.com\/",
+  "autoUploadInsertedImage" : false,
+  "folderType" : 10,
+  "mediaFloder" : "media",
+  "orderBy" : 0,
+  "newlinesToBR" : 0
+}
